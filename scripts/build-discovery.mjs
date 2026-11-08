@@ -105,4 +105,8 @@ await mkdir(`${base}/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/artifacts/v1/search-index.json`, json)
 await mkdir(`${base}/deploy/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/deploy/artifacts/v1/search-index.json`, json)
-console.log(`built search index: ${items.length} items (${discovery.length} with discovery metadata) -> artifacts/v1/search-index.json + deploy/ copy`)
+// The deploy/ folder must be self-contained: ship the runtime-neutral search
+// core next to the index so the Deno and Cloudflare workers import it locally.
+const core = await readFile(`${base}/lib/search-core.mjs`, 'utf8')
+await writeFile(`${base}/deploy/search-core.mjs`, core)
+console.log(`built search index: ${items.length} items (${discovery.length} with discovery metadata) -> artifacts/v1/search-index.json + deploy/ copy (+ search-core.mjs)`)
