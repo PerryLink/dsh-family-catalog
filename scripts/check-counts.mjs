@@ -32,6 +32,9 @@ const readJson = async (relative) => JSON.parse(await readText(relative))
 const failures = []
 const packages = await readJson('data/packages.json')
 const count = packages.length
+// The manifest and the Chinese README state the family/third-party split in
+// prose too; derive it from the same source instead of typing it.
+const familyRows = packages.filter((/** @type {{ repo?: unknown }} */ row) => typeof row.repo === 'string' && row.repo.startsWith('PerryLink/')).length
 
 // 1. The shipped payload (deploy/ mirrors) must carry exactly the source count.
 const page = await readJson('deploy/artifacts/v1/plugins.json')
@@ -79,7 +82,8 @@ if (!new RegExp(`\\b${count}-package\\b`).test(manifest.description ?? '')) {
  * @typedef {object} CountSite
  * @property {string} name
  * @property {RegExp} pattern
- * @property {(match: string, before: string, stale: string, after: string) => string} replace
+ * @property {(match: string, ...groups: string[]) => string} replace
+ * @property {(match: RegExpMatchArray) => string | undefined} [stale]
  */
 
 /** @type {CountSite[]} */
@@ -89,7 +93,15 @@ const readmeSites = [
     pattern: /(complete bounded page \()(\d+)( items)/,
     replace: (match, before, _stale, after) => `${before}${count}${after}`,
   },
-
+  {
+    name: 'README.md Chinese source note (ZH)',
+    pattern: /(：)(\d+)( 个 npm 包（)(\d+)( 个 PerryLink 仓)/,
+    replace: (match, before, _stale, middle, _staleFamily, after) => `${before}${count}${middle}${familyRows}${after}`,
+    stale: (match) => {
+      if (match[2] === String(count) && match[4] === String(familyRows)) return undefined
+      return `states ${match[2]} packages / ${match[4]} family repos`
+    },
+  },
 ]
 
 let readme = await readText('README.md')
@@ -102,12 +114,13 @@ for (const site of readmeSites) {
     )
     continue
   }
-  if (match[2] === String(count)) continue
+  const stale = site.stale ? site.stale(match) : (match[2] === String(count) ? undefined : `states ${match[2]}`)
+  if (stale === undefined) continue
   if (write) {
     readme = readme.replace(site.pattern, site.replace)
     rewritten = true
   } else {
-    failures.push(`${site.name}: states ${match[2]}, derived count is ${count}`)
+    failures.push(`${site.name}: ${stale}, derived count is ${count}`)
   }
 }
 
