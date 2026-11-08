@@ -6609,6 +6609,72 @@
   },
   {
     "schemaVersion": 1,
+    "name": "dsh-param-repair",
+    "displayNameZh": "厂商参数映射与报文修复",
+    "displayNameEn": "Vendor parameter mapping & JSON repair",
+    "aliases": [
+      "厂商参数映射",
+      "参数映射",
+      "JSON修复",
+      "报文修复",
+      "坏掉的JSON",
+      "schema校验",
+      "parameter mapping",
+      "vendor params",
+      "json repair",
+      "schema validation",
+      "tool output",
+      "开发者",
+      "插件作者"
+    ],
+    "searchPhrases": [
+      "厂商参数映射",
+      "坏掉的JSON工具输出怎么修",
+      "参数映射怎么用",
+      "JSON修复会编造值吗"
+    ],
+    "audience": [
+      "开发者",
+      "插件作者"
+    ],
+    "facets": {
+      "domains": [
+        "dev"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [
+        "json"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-translate",
+      "dsh-mcp-panel",
+      "dsh-fast"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只按固定规则修复 JSON，不判断业务语义；不替代人工复核。"
+      ]
+    },
+    "demoPrompt": "用样例跑一次厂商参数映射与报文修复。",
+    "notFor": [
+      "不编造缺失值",
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
     "name": "dsh-warranty-calc",
     "displayNameZh": "质保期与索赔核对",
     "displayNameEn": "Warranty Period Check",

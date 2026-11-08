@@ -7,8 +7,8 @@
     "roster": "dsh-kit/data/repos.json"
   },
   "counts": {
-    "plugins": 145,
-    "active": 126,
+    "plugins": 146,
+    "active": 127,
     "frozen": 15,
     "retired": 3,
     "unknown": 1
@@ -4990,6 +4990,7 @@
         ],
         "standards": [],
         "legacyCategories": [
+          "interface",
           "tools"
         ]
       },
@@ -5017,6 +5018,52 @@
         "roster": "active"
       },
       "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-param-repair",
+      "maintenance": "active",
+      "maturity": "stable",
+      "facets": {
+        "domains": [
+          "dev"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "json"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "developer-tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "task.tool",
+        "artifact.json",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只按固定规则修复 JSON，不判断业务语义；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
     },
     {
       "name": "dsh-warranty-calc",

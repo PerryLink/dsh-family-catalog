@@ -1082,6 +1082,7 @@
       "name": "dsh-param-repair",
       "displayNameZh": "厂商参数映射与报文修复",
       "summaryZh": "在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。",
+      "status": "active",
       "group": "集成",
       "requires": {
         "dsh": ">=0.2.1-0 <0.3.0",
