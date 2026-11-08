@@ -1,6 +1,6 @@
 # External sync payload (dshfind / awesome-dsh)
 
-Status: **prepared, not submitted**. The catalog side (`PLUGINS.md`, `data/hubs.json`,
+Status: **prepared, not submitted**. (2026-11-08 check: awesome-dsh-plugin already lists **77** PerryLink entries; 13 of the top-20 discovery targets are missing.) The catalog side (`PLUGINS.md`, `data/hubs.json`,
 `data/discovery.json`, `data/facets.json`) is the source of truth; this file lists
 what an external submission should say so the three listings do not drift.
 
@@ -50,3 +50,35 @@ command pointing at the npm names, not the GitHub suite:
    single package; use the `dsh-check-pack` npm name for the suite.
 4. Link the catalog search docs (`dsh-catalog/docs/search-api.md`) only if the
    target repo allows links to the author's own repos.
+
+## awesome-dsh-plugin: what is actually missing (2026-11-08)
+
+`awesome-dsh-plugin/awesome-dsh-plugin` stores one YAML per plugin in
+`data/plugins/<owner>__<repo>.yml`; the READMEs are generated. A GitHub code
+search for `PerryLink` returns **77** entries, including the old repo names
+(`PerryLink__dsh-plugin-kit.yml`, `__dsh-plugin-doctor`, `__dsh-ticktick`,
+`__dsh-github`, `__dsh-skill-pack-security`). Of the top-20 discovery targets,
+these 13 are **not** listed:
+
+```
+dsh-hs-classify  dsh-nsfc-form-check  dsh-spc-gbt-adapter  dsh-lc-doc-check
+dsh-ppap-check   dsh-eia-guide-check  dsh-hazplan-check    dsh-lawcite-adapter
+dsh-ota-review-check  dsh-repair-order-qc  dsh-pipeline-check
+dsh-ifc-qto      dsh-qms-capa
+```
+
+One entry, for reference (`data/plugins/PerryLink__dsh-einvoice.yml` shape):
+
+```yaml
+url: https://github.com/PerryLink/dsh-hs-classify
+name: PerryLink/dsh-hs-classify
+category: tools
+description:
+  en: 'HS code classification consistency check: chapter, heading, subheading and code hierarchy.'
+  zh: 'HS 编码归类层级一致性核对：章、品目、子目与商品编号层级。'
+```
+
+Category must be one of the repo's list; do not invent one. Their contributing
+guide asks for **one file per PR** and says the README is generated, so submit
+individually or ask the maintainers before sending a 13-file PR. This repo's
+`data/discovery.json` is the source for the descriptions.
