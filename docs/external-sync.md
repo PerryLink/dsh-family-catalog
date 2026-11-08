@@ -1,6 +1,6 @@
 # External sync payload (dshfind / awesome-dsh)
 
-Status: **prepared, not submitted**. (2026-11-08 check: awesome-dsh-plugin already lists **77** PerryLink entries; 13 of the top-20 discovery targets are missing.) The catalog side (`PLUGINS.md`, `data/hubs.json`,
+Status: **submitted 2026-11-08** — 13 awesome-dsh-plugin PRs #13249–#13261 (one YAML file each, per `contributing.md`). The list already had **77** PerryLink entries; the PRs add the 13 top-20 discovery targets that were missing. The catalog side (`PLUGINS.md`, `data/hubs.json`,
 `data/discovery.json`, `data/facets.json`) is the source of truth; this file lists
 what an external submission should say so the three listings do not drift.
 
@@ -51,7 +51,7 @@ command pointing at the npm names, not the GitHub suite:
 4. Link the catalog search docs (`dsh-catalog/docs/search-api.md`) only if the
    target repo allows links to the author's own repos.
 
-## awesome-dsh-plugin: what is actually missing (2026-11-08)
+## awesome-dsh-plugin: the 13 submitted entries (2026-11-08)
 
 `awesome-dsh-plugin/awesome-dsh-plugin` stores one YAML per plugin in
 `data/plugins/<owner>__<repo>.yml`; the READMEs are generated. A GitHub code
@@ -82,3 +82,25 @@ Category must be one of the repo's list; do not invent one. Their contributing
 guide asks for **one file per PR** and says the README is generated, so submit
 individually or ask the maintainers before sending a 13-file PR. This repo's
 `data/discovery.json` is the source for the descriptions.
+
+## Submission record
+
+| PR | Plugin |
+|---|---|
+| [#13249](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/13249) | dsh-hs-classify |
+| #13250 | dsh-nsfc-form-check |
+| #13251 | dsh-spc-gbt-adapter |
+| #13252 | dsh-lc-doc-check |
+| #13253 | dsh-ppap-check |
+| #13254 | dsh-eia-guide-check |
+| #13255 | dsh-hazplan-check |
+| #13256 | dsh-lawcite-adapter |
+| #13257 | dsh-ota-review-check |
+| #13258 | dsh-repair-order-qc |
+| #13259 | dsh-pipeline-check |
+| #13260 | dsh-ifc-qto |
+| #13261 | dsh-qms-capa |
+
+dshfind: no submission endpoint; it crawls GitHub descriptions/topics, which
+were synced for the top 20 in P1. Re-run `node scripts/worker-smoke.mjs` and the
+bench after any future description/topic change.
