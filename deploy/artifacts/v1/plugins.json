@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-03T15:07:39.979Z",
-  "revision": "perrylink-dsh-catalog-2026-11-03",
+  "generatedAt": "2026-11-08T09:05:35.260Z",
+  "revision": "perrylink-dsh-catalog-2026-11-08",
   "items": [
     {
       "id": "dsh-github-bot",
@@ -11,7 +11,7 @@
       "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
       "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。",
       "homepage": "https://github.com/PerryLink/dsh-github-bot#readme",
-      "latestVersion": "0.8.0",
+      "latestVersion": "0.8.2",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -39,7 +39,7 @@
           "alt": "GitHub"
         }
       },
-      "updatedAt": "2026-11-02T12:38:37.769Z"
+      "updatedAt": "2026-11-04T15:33:46.317Z"
     },
     {
       "id": "dsh-clinic",
@@ -87,7 +87,7 @@
       "summary": "Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.",
       "summaryZh": "PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册表接缝、失效即拒的审批门与自适应会话事件门、机械校验脚本、共享的脱敏/计价/裁决模块，以及新插件骨架。",
       "homepage": "https://github.com/PerryLink/dsh-scaffold#readme",
-      "latestVersion": "0.2.1",
+      "latestVersion": "0.2.3",
       "license": "Apache-2.0",
       "group": "基建",
       "requires": {
@@ -115,7 +115,7 @@
           "alt": "Plugin Kit"
         }
       },
-      "updatedAt": "2026-11-03T11:43:31.669Z"
+      "updatedAt": "2026-11-06T19:27:50.838Z"
     },
     {
       "id": "dsh-security-pack",
@@ -127,6 +127,7 @@
       "homepage": "https://github.com/PerryLink/dsh-security-pack#readme",
       "latestVersion": "3.0.1",
       "license": "Apache-2.0",
+      "group": "安全",
       "difficulty": "advanced",
       "categories": [
         "agent"
@@ -196,7 +197,7 @@
       "summary": "水产养殖投入品记录核对（按投入品用量、休药期与起捕间隔核对记录自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "水产养殖投入品记录核对（按投入品用量、休药期与起捕间隔核对记录自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-aqua-input-check#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.13",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -224,7 +225,7 @@
           "alt": "Aquaculture Input Check"
         }
       },
-      "updatedAt": "2026-10-30T15:59:06.064Z"
+      "updatedAt": "2026-11-04T06:33:04.618Z"
     },
     {
       "id": "dsh-archive-check",
@@ -234,7 +235,7 @@
       "summary": "档案归档完整性与保管期限核对（依据《档案法》及配套规定，仅提示差异，不作出定性结论）",
       "summaryZh": "档案归档完整性与保管期限核对（依据《档案法》及配套规定，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-archive-check#readme",
-      "latestVersion": "0.2.10",
+      "latestVersion": "0.2.11",
       "license": "Apache-2.0",
       "group": "公文",
       "requires": {
@@ -262,7 +263,7 @@
           "alt": "Archive Register Check"
         }
       },
-      "updatedAt": "2026-10-30T16:00:21.574Z"
+      "updatedAt": "2026-11-04T06:31:51.366Z"
     },
     {
       "id": "dsh-auto-review",
@@ -310,7 +311,7 @@
       "summary": "Automatic strong/cheap model-tier routing for DeepSeek Harness: intent-gated tier landing on the agent/request waterfall, plan-mode handoff (strong plans, cheap implements), deterministic high-risk guards on tools/pre-execute, and failure escalation with TTL fallback.",
       "summaryZh": "强/廉价模型档位的自动路由：在 agent/request 瀑布上按意图落档，plan 模式交棒（强模型规划、廉价模型实现），在 tools/pre-execute 上做确定性高风险守卫，失败升级并带 TTL 回退。",
       "homepage": "https://github.com/PerryLink/dsh-autotier#readme",
-      "latestVersion": "0.2.20",
+      "latestVersion": "0.2.21",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -339,7 +340,7 @@
           "alt": "Autotier"
         }
       },
-      "updatedAt": "2026-10-31T16:55:56.757Z"
+      "updatedAt": "2026-11-05T05:26:04.950Z"
     },
     {
       "id": "dsh-background-agents",
@@ -391,7 +392,7 @@
       "summary": "投标文件符合性预检（按招标文件逐条核对响应情况，仅提示差异，不作出定性结论）",
       "summaryZh": "投标文件符合性预检（按招标文件逐条核对响应情况，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-bid-ca-precheck#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.13",
       "license": "Apache-2.0",
       "group": "招投标",
       "requires": {
@@ -419,7 +420,7 @@
           "alt": "Bid Responsiveness Precheck"
         }
       },
-      "updatedAt": "2026-10-30T16:00:31.317Z"
+      "updatedAt": "2026-11-04T06:32:24.161Z"
     },
     {
       "id": "dsh-bid-qual-check",
@@ -429,7 +430,7 @@
       "summary": "投标人资格条件核对（按资格条件与证明材料核对逐条响应，仅提示差异，不作出定性结论）",
       "summaryZh": "投标人资格条件核对（按资格条件与证明材料核对逐条响应，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-bid-qual-check#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "招投标",
       "requires": {
@@ -457,7 +458,7 @@
           "alt": "Bidder Qualification Check"
         }
       },
-      "updatedAt": "2026-10-30T15:59:52.318Z"
+      "updatedAt": "2026-11-04T06:32:11.177Z"
     },
     {
       "id": "dsh-budget",
@@ -467,7 +468,7 @@
       "summary": "Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.",
       "summaryZh": "成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。",
       "homepage": "https://github.com/PerryLink/dsh-budget#readme",
-      "latestVersion": "0.4.21",
+      "latestVersion": "0.4.22",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "观测",
@@ -496,7 +497,7 @@
           "alt": "Budget"
         }
       },
-      "updatedAt": "2026-10-31T14:45:22.237Z"
+      "updatedAt": "2026-11-05T05:26:58.313Z"
     },
     {
       "id": "dsh-cert-mcp",
@@ -506,7 +507,7 @@
       "summary": "Read-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.",
       "summaryZh": "只读 MCP 服务器，对外提供 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照与五维证据。",
       "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.13",
       "license": "Apache-2.0",
       "group": "生态",
       "requires": {
@@ -534,7 +535,7 @@
           "alt": "Certification MCP"
         }
       },
-      "updatedAt": "2026-11-01T08:22:06.221Z"
+      "updatedAt": "2026-11-05T05:36:13.120Z"
     },
     {
       "id": "dsh-checkpoint-rewind",
@@ -582,7 +583,7 @@
       "summary": "Claude Code to DeepSeek Harness migration: import CLAUDE.md/AGENTS.md, slash commands, and session history — approval-gated and idempotent.",
       "summaryZh": "从 Claude Code 迁到 DeepSeek Harness：导入 CLAUDE.md/AGENTS.md、斜杠命令与会话历史，全程审批门控且可重复执行。",
       "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
-      "latestVersion": "0.4.18",
+      "latestVersion": "0.4.19",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "集成",
@@ -611,7 +612,7 @@
           "alt": "Claude Move"
         }
       },
-      "updatedAt": "2026-10-18T10:06:18.337Z"
+      "updatedAt": "2026-11-05T05:54:34.076Z"
     },
     {
       "id": "dsh-click",
@@ -621,7 +622,7 @@
       "summary": "Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.",
       "summaryZh": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。",
       "homepage": "https://github.com/PerryLink/dsh-click#readme",
-      "latestVersion": "0.3.26",
+      "latestVersion": "0.3.27",
       "license": "Apache-2.0",
       "group": "桌面",
       "requires": {
@@ -649,7 +650,7 @@
           "alt": "Click"
         }
       },
-      "updatedAt": "2026-10-27T11:59:31.446Z"
+      "updatedAt": "2026-11-05T05:08:22.245Z"
     },
     {
       "id": "dsh-community-bench",
@@ -661,6 +662,7 @@
       "homepage": "https://github.com/PerryLink/dsh-community-bench#readme",
       "latestVersion": "0.2.6",
       "license": "Apache-2.0",
+      "group": "校验工具",
       "difficulty": "advanced",
       "categories": [
         "interface",
@@ -693,7 +695,7 @@
       "summary": "Terminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall, and sliding-context awareness.",
       "summaryZh": "Web 输入框的终端式历史：边缘优先的方向键与草稿/光标精确还原、浏览器本地持久化、Ctrl+R 反向搜索、工作区召回与滑动上下文感知。",
       "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
-      "latestVersion": "0.8.15",
+      "latestVersion": "0.8.16",
       "license": "Apache-2.0",
       "group": "会话",
       "requires": {
@@ -721,7 +723,7 @@
           "alt": "Composer History"
         }
       },
-      "updatedAt": "2026-10-18T12:31:33.771Z"
+      "updatedAt": "2026-11-05T05:27:02.372Z"
     },
     {
       "id": "dsh-contract-stance",
@@ -731,7 +733,7 @@
       "summary": "合同条款立场台账核对（按立场、风险等级与退让底线核对台账自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "合同条款立场台账核对（按立场、风险等级与退让底线核对台账自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-contract-stance#readme",
-      "latestVersion": "0.2.10",
+      "latestVersion": "0.2.11",
       "license": "Apache-2.0",
       "group": "招投标",
       "requires": {
@@ -759,7 +761,7 @@
           "alt": "Contract Stance Reader"
         }
       },
-      "updatedAt": "2026-10-30T16:00:26.216Z"
+      "updatedAt": "2026-11-04T06:31:12.487Z"
     },
     {
       "id": "dsh-customs-doc-check",
@@ -769,7 +771,7 @@
       "summary": "报关单证一致性核对（按公开的报关单填制规范核对单证间字段一致性，仅提示差异，不作出定性结论）",
       "summaryZh": "报关单证一致性核对（按公开的报关单填制规范核对单证间字段一致性，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-customs-doc-check#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "外贸",
       "requires": {
@@ -797,7 +799,7 @@
           "alt": "Customs Document Check"
         }
       },
-      "updatedAt": "2026-10-30T16:00:30.071Z"
+      "updatedAt": "2026-11-04T06:32:48.911Z"
     },
     {
       "id": "dsh-data-quality",
@@ -807,7 +809,7 @@
       "summary": "Deterministic data profiling, cleaning, and verification for DeepSeek Harness: DAMA scorecard, content-hash dedupe, metric expectations, and drift checks.",
       "summaryZh": "确定性的数据画像、清洗与校验：DAMA 记分卡、内容哈希去重、指标期望与漂移检查。",
       "homepage": "https://github.com/PerryLink/dsh-data-quality#readme",
-      "latestVersion": "0.3.24",
+      "latestVersion": "0.3.26",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -835,7 +837,7 @@
           "alt": "Data Quality"
         }
       },
-      "updatedAt": "2026-10-24T15:10:32.590Z"
+      "updatedAt": "2026-11-05T04:53:47.572Z"
     },
     {
       "id": "dsh-defend",
@@ -845,7 +847,7 @@
       "summary": "Prompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception, sanitized audit events, and a recursive-delete pre-execution gate.",
       "summaryZh": "面向 DeepSeek Harness 的提示注入、越狱与密钥泄漏防御：Aho-Corasick 检测配允许/询问/阻断拦截、脱敏审计事件，以及递归删除的执行前闸门。",
       "homepage": "https://github.com/PerryLink/dsh-defend#readme",
-      "latestVersion": "0.3.26",
+      "latestVersion": "0.3.27",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "安全",
@@ -874,7 +876,7 @@
           "alt": "Defend"
         }
       },
-      "updatedAt": "2026-10-31T14:54:09.314Z"
+      "updatedAt": "2026-11-05T05:30:23.250Z"
     },
     {
       "id": "dsh-demurrage-ledger",
@@ -884,7 +886,7 @@
       "summary": "滞箱费台账核对（按免箱期与费率核对超期天数与金额的自洽性，仅提示差异，不作出定性结论）",
       "summaryZh": "滞箱费台账核对（按免箱期与费率核对超期天数与金额的自洽性，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-demurrage-ledger#readme",
-      "latestVersion": "0.2.10",
+      "latestVersion": "0.2.11",
       "license": "Apache-2.0",
       "group": "外贸",
       "requires": {
@@ -912,7 +914,7 @@
           "alt": "Demurrage Ledger Check"
         }
       },
-      "updatedAt": "2026-10-30T16:05:14.506Z"
+      "updatedAt": "2026-11-04T06:31:39.848Z"
     },
     {
       "id": "dsh-doublecheck",
@@ -922,7 +924,7 @@
       "summary": "Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
       "summaryZh": "交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。",
       "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
-      "latestVersion": "0.9.29",
+      "latestVersion": "0.9.30",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -950,7 +952,7 @@
           "alt": "DoubleCheck"
         }
       },
-      "updatedAt": "2026-10-19T10:16:11.350Z"
+      "updatedAt": "2026-11-05T05:24:30.272Z"
     },
     {
       "id": "dsh-draw",
@@ -960,7 +962,7 @@
       "summary": "Unified static-image generation router for DeepSeek Harness: one image_generate tool with standard parameters, config-driven engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint), health-aware fallback, durable workspace attachments, and per-session quota accounting.",
       "summaryZh": "统一的静态图像生成路由：一个 image_generate 工具配标准参数，按配置路由引擎（OpenAI Images、智谱 CogView 及任何兼容端点），带健康感知回退、工作区持久附件与按会话配额记账。",
       "homepage": "https://github.com/PerryLink/dsh-draw#readme",
-      "latestVersion": "0.2.25",
+      "latestVersion": "0.2.26",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "桌面",
@@ -989,7 +991,7 @@
           "alt": "Draw"
         }
       },
-      "updatedAt": "2026-10-31T14:56:47.874Z"
+      "updatedAt": "2026-11-05T05:31:07.743Z"
     },
     {
       "id": "dsh-drill-script-check",
@@ -999,7 +1001,7 @@
       "summary": "应急演练脚本核对（按阶段、响应分级、指挥与资源要素核对脚本齐备，仅提示差异，不作出定性结论）",
       "summaryZh": "应急演练脚本核对（按阶段、响应分级、指挥与资源要素核对脚本齐备，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-drill-script-check#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -1027,7 +1029,7 @@
           "alt": "Drill Script Check"
         }
       },
-      "updatedAt": "2026-10-30T16:01:15.287Z"
+      "updatedAt": "2026-11-04T06:35:02.835Z"
     },
     {
       "id": "dsh-eia-guide-check",
@@ -1037,7 +1039,7 @@
       "summary": "环评导则适用性核对（按要素、导则名称与执行标准核对台账自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "环评导则适用性核对（按要素、导则名称与执行标准核对台账自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-eia-guide-check#readme",
-      "latestVersion": "0.2.10",
+      "latestVersion": "0.2.11",
       "license": "Apache-2.0",
       "group": "工程建设",
       "requires": {
@@ -1065,7 +1067,7 @@
           "alt": "EIA Guideline Check"
         }
       },
-      "updatedAt": "2026-10-30T16:01:25.875Z"
+      "updatedAt": "2026-11-04T06:31:23.285Z"
     },
     {
       "id": "dsh-emergency-plan",
@@ -1075,7 +1077,7 @@
       "summary": "应急预案要素齐备性与条款级页码定位（依据 GB/T 29639-2020 等公开文件，仅提示差异，不作出定性结论）",
       "summaryZh": "应急预案要素齐备性与条款级页码定位（依据 GB/T 29639-2020 等公开文件，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-emergency-plan#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -1103,7 +1105,7 @@
           "alt": "Emergency Plan Check"
         }
       },
-      "updatedAt": "2026-10-30T16:07:55.994Z"
+      "updatedAt": "2026-11-04T06:33:09.853Z"
     },
     {
       "id": "dsh-essay-rubric-check",
@@ -1113,7 +1115,7 @@
       "summary": "作文量表评分核对（按评分项、原文定位与分值算术核对评分自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "作文量表评分核对（按评分项、原文定位与分值算术核对评分自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-essay-rubric-check#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1141,7 +1143,7 @@
           "alt": "Rubric Marking Check"
         }
       },
-      "updatedAt": "2026-10-30T16:09:18.583Z"
+      "updatedAt": "2026-11-04T06:31:31.933Z"
     },
     {
       "id": "dsh-evidence-check",
@@ -1151,7 +1153,7 @@
       "summary": "证据清单齐备性核对（按待证事实与证据要素核对清单自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "证据清单齐备性核对（按待证事实与证据要素核对清单自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-evidence-check#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.13",
       "license": "Apache-2.0",
       "group": "法律",
       "requires": {
@@ -1179,7 +1181,7 @@
           "alt": "Evidence List Check"
         }
       },
-      "updatedAt": "2026-10-30T16:08:18.675Z"
+      "updatedAt": "2026-11-04T06:32:19.289Z"
     },
     {
       "id": "dsh-export-ctl-check",
@@ -1189,7 +1191,7 @@
       "summary": "出口管制物项核对（按管制清单、最终用途与许可证核对台账齐备，仅提示差异，不作出定性结论）",
       "summaryZh": "出口管制物项核对（按管制清单、最终用途与许可证核对台账齐备，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-export-ctl-check#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.13",
       "license": "Apache-2.0",
       "group": "外贸",
       "requires": {
@@ -1217,7 +1219,7 @@
           "alt": "Export Control Check"
         }
       },
-      "updatedAt": "2026-10-30T16:22:37.480Z"
+      "updatedAt": "2026-11-04T06:35:07.256Z"
     },
     {
       "id": "dsh-fast",
@@ -1227,7 +1229,7 @@
       "summary": "Read-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast.",
       "summaryZh": "只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。",
       "homepage": "https://github.com/PerryLink/dsh-fast#readme",
-      "latestVersion": "0.2.27",
+      "latestVersion": "0.2.28",
       "license": "Apache-2.0",
       "group": "观测",
       "requires": {
@@ -1255,7 +1257,7 @@
           "alt": "Fast"
         }
       },
-      "updatedAt": "2026-10-24T15:06:55.731Z"
+      "updatedAt": "2026-11-04T15:21:48.580Z"
     },
     {
       "id": "dsh-fmea-table-check",
@@ -1265,7 +1267,7 @@
       "summary": "FMEA 分析表要素齐备性与风险顺序数一致性核对（按公开的 FMEA 方法标准核对表内自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "FMEA 分析表要素齐备性与风险顺序数一致性核对（按公开的 FMEA 方法标准核对表内自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-fmea-table-check#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -1293,7 +1295,7 @@
           "alt": "FMEA Table Check"
         }
       },
-      "updatedAt": "2026-10-30T16:11:55.402Z"
+      "updatedAt": "2026-11-04T06:32:41.907Z"
     },
     {
       "id": "dsh-forecast-penalty",
@@ -1303,7 +1305,7 @@
       "summary": "预测准确率考核核对（按准确率、门槛与考核单价核对考核费用的算术自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "预测准确率考核核对（按准确率、门槛与考核单价核对考核费用的算术自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-forecast-penalty#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "外贸",
       "requires": {
@@ -1331,7 +1333,7 @@
           "alt": "Forecast Penalty Check"
         }
       },
-      "updatedAt": "2026-10-30T16:10:58.514Z"
+      "updatedAt": "2026-11-04T06:33:50.243Z"
     },
     {
       "id": "dsh-fund-research",
@@ -1341,7 +1343,7 @@
       "summary": "Fund research: analyze funds with returns, holdings, and performance decomposition.",
       "summaryZh": "基金研究：分析基金的收益、持仓与业绩归因。",
       "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
-      "latestVersion": "0.5.1",
+      "latestVersion": "0.5.3",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1369,7 +1371,7 @@
           "alt": "Fund Research"
         }
       },
-      "updatedAt": "2026-10-24T14:08:28.984Z"
+      "updatedAt": "2026-11-05T04:54:39.190Z"
     },
     {
       "id": "dsh-gongwen-flow-check",
@@ -1379,7 +1381,7 @@
       "summary": "公文流转与办理时限核对（按公开的公文处理规范核对环节完整性与时限，仅提示差异，不作出定性结论）",
       "summaryZh": "公文流转与办理时限核对（按公开的公文处理规范核对环节完整性与时限，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-gongwen-flow-check#readme",
-      "latestVersion": "0.2.10",
+      "latestVersion": "0.2.11",
       "license": "Apache-2.0",
       "group": "公文",
       "requires": {
@@ -1407,7 +1409,7 @@
           "alt": "Document Flow Check"
         }
       },
-      "updatedAt": "2026-10-30T16:09:24.204Z"
+      "updatedAt": "2026-11-04T06:32:33.780Z"
     },
     {
       "id": "dsh-gongwen-word-check",
@@ -1417,7 +1419,7 @@
       "summary": "公文格式要素核对（按公开的党政机关公文格式标准核对版头与主体要素，仅提示差异，不作出定性结论）",
       "summaryZh": "公文格式要素核对（按公开的党政机关公文格式标准核对版头与主体要素，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-gongwen-word-check#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "公文",
       "requires": {
@@ -1445,7 +1447,7 @@
           "alt": "Document Type & Number Check"
         }
       },
-      "updatedAt": "2026-10-30T16:28:50.237Z"
+      "updatedAt": "2026-11-04T06:31:27.837Z"
     },
     {
       "id": "dsh-guard-plan-qc",
@@ -1455,7 +1457,7 @@
       "summary": "劳动保护与安全防护用品配置表核对（按公开的配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论）",
       "summaryZh": "劳动保护与安全防护用品配置表核对（按公开的配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-guard-plan-qc#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "工程建设",
       "requires": {
@@ -1483,7 +1485,7 @@
           "alt": "Guard Plan QC"
         }
       },
-      "updatedAt": "2026-10-30T16:10:28.625Z"
+      "updatedAt": "2026-11-04T06:32:27.395Z"
     },
     {
       "id": "dsh-hazchem-check",
@@ -1493,7 +1495,7 @@
       "summary": "危险化学品临界量与重大危险源辨识核对（按储存量与临界量核对台账自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "危险化学品临界量与重大危险源辨识核对（按储存量与临界量核对台账自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-hazchem-check#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.13",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -1521,7 +1523,7 @@
           "alt": "Hazardous Chemical Register Check"
         }
       },
-      "updatedAt": "2026-10-30T16:10:34.541Z"
+      "updatedAt": "2026-11-04T06:33:20.753Z"
     },
     {
       "id": "dsh-hazplan-check",
@@ -1531,7 +1533,7 @@
       "summary": "HAZOP 分析表要素齐备性与偏差推导一致性核对（依据公开的危险与可操作性分析标准，仅提示差异，不作出定性结论）",
       "summaryZh": "HAZOP 分析表要素齐备性与偏差推导一致性核对（依据公开的危险与可操作性分析标准，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-hazplan-check#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "工程建设",
       "requires": {
@@ -1559,7 +1561,7 @@
           "alt": "HAZOP Worksheet Check"
         }
       },
-      "updatedAt": "2026-10-30T16:14:50.065Z"
+      "updatedAt": "2026-11-04T06:35:05.854Z"
     },
     {
       "id": "dsh-hidden-risk-map",
@@ -1569,7 +1571,7 @@
       "summary": "安全隐患台账→《工贸企业重大事故隐患判定标准》（应急管理部令第10号）条款映射提示（仅提示差异，不作出定性结论）",
       "summaryZh": "安全隐患台账→《工贸企业重大事故隐患判定标准》（应急管理部令第10号）条款映射提示（仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-hidden-risk-map#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -1597,7 +1599,7 @@
           "alt": "Hidden Risk Map Check"
         }
       },
-      "updatedAt": "2026-10-30T16:11:41.904Z"
+      "updatedAt": "2026-11-04T06:34:43.891Z"
     },
     {
       "id": "dsh-hs-classify",
@@ -1607,7 +1609,7 @@
       "summary": "商品归类层级一致性核对（按章、品目、子目与商品编号的层级关系核对自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "商品归类层级一致性核对（按章、品目、子目与商品编号的层级关系核对自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-hs-classify#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "外贸",
       "requires": {
@@ -1635,7 +1637,7 @@
           "alt": "HS Classification Check"
         }
       },
-      "updatedAt": "2026-10-30T16:12:00.864Z"
+      "updatedAt": "2026-11-04T06:35:45.295Z"
     },
     {
       "id": "dsh-icd-rule-check",
@@ -1645,7 +1647,7 @@
       "summary": "ICD 合并编码与星剑号配对提示（依据 GB/T 14396-2016 与公开的 ICD 使用说明，仅提示差异，不作出定性结论）",
       "summaryZh": "ICD 合并编码与星剑号配对提示（依据 GB/T 14396-2016 与公开的 ICD 使用说明，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-icd-rule-check#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "医疗",
       "requires": {
@@ -1673,7 +1675,7 @@
           "alt": "ICD Coding Check"
         }
       },
-      "updatedAt": "2026-10-30T16:11:57.325Z"
+      "updatedAt": "2026-11-04T06:34:03.038Z"
     },
     {
       "id": "dsh-industry-research",
@@ -1683,7 +1685,7 @@
       "summary": "Industry research toolkit: structured company/industry dives with source capture and auditable research trails.",
       "summaryZh": "行业研究工具箱：结构化的公司与行业专题，附来源留档与可审计的研究轨迹。",
       "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
-      "latestVersion": "0.3.23",
+      "latestVersion": "0.3.25",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1711,7 +1713,7 @@
           "alt": "Industry Research"
         }
       },
-      "updatedAt": "2026-10-18T18:22:47.617Z"
+      "updatedAt": "2026-11-05T05:10:36.052Z"
     },
     {
       "id": "dsh-lawcite-adapter",
@@ -1721,7 +1723,7 @@
       "summary": "法条引用与文书要素核对（按名称、条号、原文与效力状态核对引用可核验性，仅提示差异，不作出定性结论）",
       "summaryZh": "法条引用与文书要素核对（按名称、条号、原文与效力状态核对引用可核验性，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-lawcite-adapter#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "法律",
       "requires": {
@@ -1749,7 +1751,7 @@
           "alt": "Legal Citation Check"
         }
       },
-      "updatedAt": "2026-10-30T16:13:07.395Z"
+      "updatedAt": "2026-11-04T06:34:54.427Z"
     },
     {
       "id": "dsh-laya",
@@ -1759,7 +1761,7 @@
       "summary": "Laya typed decisions — noul (yes/no), choice and score — as a first-class Cordis service and model-visible tools for DeepSeek Harness, backed by a locally hosted Laya decision sidecar.",
       "summaryZh": "把 Laya 的定型决策（noul 是/否、choice 选择、score 打分）做成 DeepSeek Harness 的一等 Cordis 服务与模型可见工具，背后是本地运行的 Laya 决策 sidecar。",
       "homepage": "https://github.com/PerryLink/dsh-laya#readme",
-      "latestVersion": "0.1.4",
+      "latestVersion": "0.1.5",
       "license": "Apache-2.0",
       "group": "集成",
       "difficulty": "intermediate",
@@ -1784,7 +1786,7 @@
           "alt": "Laya"
         }
       },
-      "updatedAt": "2026-09-22T10:34:30.572Z"
+      "updatedAt": "2026-11-03T15:09:14.667Z"
     },
     {
       "id": "dsh-lc-doc-check",
@@ -1794,7 +1796,7 @@
       "summary": "信用证单据条款核对（按单据种类、份数、期限与不符点核对交单自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "信用证单据条款核对（按单据种类、份数、期限与不符点核对交单自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-lc-doc-check#readme",
-      "latestVersion": "0.2.10",
+      "latestVersion": "0.2.11",
       "license": "Apache-2.0",
       "group": "外贸",
       "requires": {
@@ -1822,7 +1824,7 @@
           "alt": "Letter of Credit Check"
         }
       },
-      "updatedAt": "2026-10-30T16:12:42.378Z"
+      "updatedAt": "2026-11-04T06:35:08.761Z"
     },
     {
       "id": "dsh-learning-gap-check",
@@ -1832,7 +1834,7 @@
       "summary": "能力差距与培养计划核对（按能力等级差、培养措施与完成期限核对台账闭环，仅提示差异，不作出定性结论）",
       "summaryZh": "能力差距与培养计划核对（按能力等级差、培养措施与完成期限核对台账闭环，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-learning-gap-check#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1860,7 +1862,7 @@
           "alt": "Learning Gap Check"
         }
       },
-      "updatedAt": "2026-10-30T16:12:38.167Z"
+      "updatedAt": "2026-11-04T06:35:23.398Z"
     },
     {
       "id": "dsh-library",
@@ -1870,7 +1872,7 @@
       "summary": "Local document knowledge base for DeepSeek Harness: library_add/remove/list, hybrid semantic+keyword library_search with diversity re-ranking and lost-in-the-middle avoidance, citation-aware injection, library_cite_check and library_diagnose — SQLite-backed index, local embedding, zero model downloads.",
       "summaryZh": "本地文档知识库：library_add/remove/list，语义加关键词的混合检索 library_search（带多样性重排与防\"中间遗忘\"）、引用感知注入、library_cite_check 与 library_diagnose，SQLite 索引与本地嵌入，不下载模型。",
       "homepage": "https://github.com/PerryLink/dsh-library#readme",
-      "latestVersion": "0.2.25",
+      "latestVersion": "0.2.26",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -1898,7 +1900,7 @@
           "alt": "Library"
         }
       },
-      "updatedAt": "2026-10-24T14:49:57.142Z"
+      "updatedAt": "2026-11-05T05:33:09.905Z"
     },
     {
       "id": "dsh-local-ai",
@@ -1908,7 +1910,7 @@
       "summary": "Run local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.",
       "summaryZh": "在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。",
       "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
-      "latestVersion": "0.2.23",
+      "latestVersion": "0.2.25",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -1936,7 +1938,7 @@
           "alt": "Local AI"
         }
       },
-      "updatedAt": "2026-10-18T14:24:12.524Z"
+      "updatedAt": "2026-11-05T05:35:01.357Z"
     },
     {
       "id": "dsh-lsp-actions",
@@ -1946,7 +1948,7 @@
       "summary": "LSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.",
       "summaryZh": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。",
       "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
-      "latestVersion": "0.5.17",
+      "latestVersion": "0.5.19",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -1974,7 +1976,7 @@
           "alt": "LSP Actions"
         }
       },
-      "updatedAt": "2026-10-23T14:35:33.138Z"
+      "updatedAt": "2026-11-05T05:21:00.857Z"
     },
     {
       "id": "dsh-mask",
@@ -1984,7 +1986,7 @@
       "summary": "PII masking middleware for DeepSeek Harness: phones, emails, ID cards, bank cards and keys become placeholders before they reach the model, and a host-side restore table keeps them reversible. The plaintext never enters the session log.",
       "summaryZh": "PII 脱敏中间件：手机号、邮箱、身份证、银行卡与密钥在到达模型前变成占位符，宿主侧还原表保证可逆，明文不进会话日志。",
       "homepage": "https://github.com/PerryLink/dsh-mask#readme",
-      "latestVersion": "0.2.23",
+      "latestVersion": "0.2.24",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -2012,7 +2014,7 @@
           "alt": "Mask"
         }
       },
-      "updatedAt": "2026-10-24T15:02:08.566Z"
+      "updatedAt": "2026-11-05T05:21:53.467Z"
     },
     {
       "id": "dsh-mcp-panel",
@@ -2022,7 +2024,7 @@
       "summary": "Read-only MCP console for DeepSeek Harness: a /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automatic backups) and a tool trial console over the official tool pipeline.",
       "summaryZh": "只读 MCP 控制台：/mcp 命令带健康诊断与管道试调，设置页 MCP 标签管理服务器（写入需审批、自动备份），并可在官方工具管道上试调工具。",
       "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
-      "latestVersion": "0.6.29",
+      "latestVersion": "0.6.31",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -2050,7 +2052,7 @@
           "alt": "MCP Panel"
         }
       },
-      "updatedAt": "2026-10-18T17:10:31.529Z"
+      "updatedAt": "2026-11-05T05:55:33.834Z"
     },
     {
       "id": "dsh-medrec-qc",
@@ -2060,7 +2062,7 @@
       "summary": "病案首页形式质控与逻辑矛盾提示（依据国卫办医发〔2016〕24号等公开文件，仅提示差异，不作出定性结论）",
       "summaryZh": "病案首页形式质控与逻辑矛盾提示（依据国卫办医发〔2016〕24号等公开文件，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-medrec-qc#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.13",
       "license": "Apache-2.0",
       "group": "医疗",
       "requires": {
@@ -2088,7 +2090,7 @@
           "alt": "Medical Record QC"
         }
       },
-      "updatedAt": "2026-10-30T16:12:55.183Z"
+      "updatedAt": "2026-11-04T06:33:35.873Z"
     },
     {
       "id": "dsh-memento",
@@ -2098,7 +2100,7 @@
       "summary": "Bounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse.",
       "summaryZh": "有界、分层、审批门控、可审计的跨会话记忆：一条能力接缝（ctx.memory 服务 + 本地 SQLite provider + memory 工具 + 冻结快照注入），不是又一个记忆仓库。",
       "homepage": "https://github.com/PerryLink/dsh-memento#readme",
-      "latestVersion": "0.5.29",
+      "latestVersion": "0.5.30",
       "license": "Apache-2.0",
       "group": "会话",
       "requires": {
@@ -2126,7 +2128,7 @@
           "alt": "Memento"
         }
       },
-      "updatedAt": "2026-10-31T17:03:46.945Z"
+      "updatedAt": "2026-11-05T05:23:59.845Z"
     },
     {
       "id": "dsh-nsfc-form-check",
@@ -2136,7 +2138,7 @@
       "summary": "国家自然科学基金申请书形式审查与匿名化提示（依据《国家自然科学基金条例》与申请人导入的当年指南，仅提示差异，不作出定性结论）",
       "summaryZh": "国家自然科学基金申请书形式审查与匿名化提示（依据《国家自然科学基金条例》与申请人导入的当年指南，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-nsfc-form-check#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -2164,7 +2166,7 @@
           "alt": "Grant Form Check"
         }
       },
-      "updatedAt": "2026-10-30T16:13:39.200Z"
+      "updatedAt": "2026-11-04T06:36:10.551Z"
     },
     {
       "id": "dsh-nurse-record-check",
@@ -2174,7 +2176,7 @@
       "summary": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）",
       "summaryZh": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-nurse-record-check#readme",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.2.13",
       "license": "Apache-2.0",
       "group": "医疗",
       "requires": {
@@ -2202,7 +2204,7 @@
           "alt": "Nursing Record Check"
         }
       },
-      "updatedAt": "2026-10-30T16:15:01.082Z"
+      "updatedAt": "2026-11-04T06:35:27.781Z"
     },
     {
       "id": "dsh-observe",
@@ -2212,7 +2214,7 @@
       "summary": "Observability for DeepSeek Harness: request tracing, telemetry, log buffering, and retry visibility.",
       "summaryZh": "可观测性：请求追踪、遥测上报、日志缓冲与重试可见性。",
       "homepage": "https://github.com/PerryLink/dsh-observe#readme",
-      "latestVersion": "0.2.26",
+      "latestVersion": "0.2.27",
       "license": "Apache-2.0",
       "group": "观测",
       "requires": {
@@ -2240,7 +2242,7 @@
           "alt": "Observe"
         }
       },
-      "updatedAt": "2026-10-24T14:01:53.051Z"
+      "updatedAt": "2026-11-05T05:22:18.937Z"
     },
     {
       "id": "dsh-origin-rvc-check",
@@ -2250,7 +2252,7 @@
       "summary": "原产地区域价值成分核对（按 RVC 定义式与门槛核对原产地判定自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "原产地区域价值成分核对（按 RVC 定义式与门槛核对原产地判定自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-origin-rvc-check#readme",
-      "latestVersion": "0.2.10",
+      "latestVersion": "0.2.11",
       "license": "Apache-2.0",
       "group": "外贸",
       "requires": {
@@ -2278,7 +2280,7 @@
           "alt": "Rules of Origin RVC Check"
         }
       },
-      "updatedAt": "2026-10-30T16:15:19.722Z"
+      "updatedAt": "2026-11-04T06:35:18.598Z"
     },
     {
       "id": "dsh-ota-review-check",
@@ -2288,7 +2290,7 @@
       "summary": "在线点评回复台账核对（按回复时限、问题分类与整改状态核对台账闭环，仅提示差异，不作出定性结论）",
       "summaryZh": "在线点评回复台账核对（按回复时限、问题分类与整改状态核对台账闭环，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-ota-review-check#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -2316,7 +2318,7 @@
           "alt": "OTA Review Check"
         }
       },
-      "updatedAt": "2026-10-30T16:16:10.734Z"
+      "updatedAt": "2026-11-04T06:34:20.588Z"
     },
     {
       "id": "dsh-output-styles",
@@ -2326,7 +2328,7 @@
       "summary": "Runtime-switchable model output styles for DeepSeek Harness: a Markdown style library (six built-ins, Claude Code-parity proactive/learning), /style command, session-scoped persistence, system-prompt injection, a plugin renderer registry, per-session/per-tool rules, and /export rendering.",
       "summaryZh": "运行时可切换的模型输出风格：Markdown 风格库（六个内置，含 Claude Code 对等的 proactive/learning）、/style 命令、按会话持久化、系统提示注入、插件渲染器注册表、按会话与按工具的规则，以及 /export 渲染。",
       "homepage": "https://github.com/PerryLink/dsh-output-styles#readme",
-      "latestVersion": "0.8.2",
+      "latestVersion": "0.8.3",
       "license": "Apache-2.0",
       "group": "UX",
       "requires": {
@@ -2354,7 +2356,7 @@
           "alt": "Output Styles"
         }
       },
-      "updatedAt": "2026-10-24T11:27:40.967Z"
+      "updatedAt": "2026-11-05T05:35:45.748Z"
     },
     {
       "id": "dsh-paper-doc-adapter",
@@ -2364,7 +2366,7 @@
       "summary": "试卷解析结构核对（按题型、答案、分值与 yotta 标识核对试卷结构自洽，仅提示差异，不作出定性结论）",
       "summaryZh": "试卷解析结构核对（按题型、答案、分值与 yotta 标识核对试卷结构自洽，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-paper-doc-adapter#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -2392,7 +2394,7 @@
           "alt": "Manuscript Format Check"
         }
       },
-      "updatedAt": "2026-10-30T16:14:01.021Z"
+      "updatedAt": "2026-11-04T06:34:54.609Z"
     },
     {
       "id": "dsh-permission-rules",
@@ -2402,7 +2404,7 @@
       "summary": "Declarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.",
       "summaryZh": "声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。",
       "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
-      "latestVersion": "0.7.20",
+      "latestVersion": "0.7.21",
       "license": "Apache-2.0",
       "group": "安全",
       "requires": {
@@ -2430,7 +2432,7 @@
           "alt": "Permission Rules"
         }
       },
-      "updatedAt": "2026-10-18T14:29:21.767Z"
+      "updatedAt": "2026-11-05T05:55:25.212Z"
     },
     {
       "id": "dsh-permit-report-check",
@@ -2440,7 +2442,7 @@
       "summary": "行政许可办理核对（按申请材料、法定时限与决定记录核对台账闭环，仅提示差异，不作出定性结论）",
       "summaryZh": "行政许可办理核对（按申请材料、法定时限与决定记录核对台账闭环，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-permit-report-check#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "group": "工程建设",
       "requires": {
@@ -2468,7 +2470,7 @@
           "alt": "Permit Report Check"
         }
       },
-      "updatedAt": "2026-10-30T16:17:41.620Z"
+      "updatedAt": "2026-11-04T06:33:57.265Z"
     },
     {
       "id": "dsh-personal-directive",
@@ -2478,8 +2480,9 @@
       "summary": "Repository prompt plugin with a live top-bar enable/disable switch; the framework edition ships a neutral placeholder directive.",
       "summaryZh": "仓库提示词插件，带顶栏实时开关；框架版附带中性占位指令。",
       "homepage": "https://github.com/PerryLink/dsh-personal-directive#readme",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
+      "group": "会话",
       "requires": {
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
@@ -2505,7 +2508,7 @@
           "alt": "Personal Directive"
         }
       },
-      "updatedAt": "2026-10-19T04:28:22.316Z"
+      "updatedAt": "2026-11-05T05:54:21.930Z"
     },
     {
       "id": "dsh-phocinae",
@@ -2517,6 +2520,7 @@
       "homepage": "https://github.com/Phocinae/dsh-phocinae#readme",
       "latestVersion": "0.2.5",
       "license": "Apache-2.0",
+      "group": "集成",
       "difficulty": "intermediate",
       "categories": [
         "integration"
@@ -2548,8 +2552,9 @@
       "summary": "The session's inbound phone (WeChat bridge) attachment inbox: list the attachments this conversation actually received and adopt one into the workspace on demand.",
       "summaryZh": "会话的手机（微信桥）入站附件收件箱：列出本会话实际收到的附件，并按需采纳到工作区。",
       "homepage": "https://github.com/PerryLink/dsh-phone-inbox#readme",
-      "latestVersion": "0.1.4",
+      "latestVersion": "0.1.6",
       "license": "Apache-2.0",
+      "group": "集成",
       "requires": {
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
@@ -2576,7 +2581,7 @@
           "alt": "Phone Inbox"
         }
       },
-      "updatedAt": "2026-10-31T17:02:04.586Z"
+      "updatedAt": "2026-11-04T06:35:16.703Z"
     },
     {
       "id": "dsh-pipeline-check",
@@ -2662,7 +2667,7 @@
       "summary": "The DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.",
       "summaryZh": "把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。",
       "homepage": "https://github.com/PerryLink/dsh-primer#readme",
-      "latestVersion": "0.4.3",
+      "latestVersion": "0.4.4",
       "license": "Apache-2.0",
       "group": "生态",
       "requires": {
@@ -2690,7 +2695,7 @@
           "alt": "Plugin Guide"
         }
       },
-      "updatedAt": "2026-11-03T14:52:00.302Z"
+      "updatedAt": "2026-11-05T01:56:50.479Z"
     },
     {
       "id": "dsh-codemod",
@@ -2853,7 +2858,7 @@
       "summary": "PPAP 提交要素齐备性核对（按公开的 PPAP 手册与提交等级核对要素齐备与版本填写，仅提示差异，不作出定性结论）",
       "summaryZh": "PPAP 提交要素齐备性核对（按公开的 PPAP 手册与提交等级核对要素齐备与版本填写，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-ppap-check#readme",
-      "latestVersion": "0.2.9",
+      "latestVersion": "0.2.10",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -2881,7 +2886,7 @@
           "alt": "PPAP Submission Check"
         }
       },
-      "updatedAt": "2026-10-30T16:20:20.251Z"
+      "updatedAt": "2026-11-04T06:35:01.352Z"
     },
     {
       "id": "dsh-protest-deadline",
@@ -3044,7 +3049,7 @@
       "summary": "Research reports with integrity: evidence-linked reports whose content hash seals the directory of sources.",
       "summaryZh": "带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。",
       "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
-      "latestVersion": "0.3.30",
+      "latestVersion": "0.3.32",
       "license": "Apache-2.0",
       "group": "研究",
       "requires": {
@@ -3072,7 +3077,7 @@
           "alt": "Research Report"
         }
       },
-      "updatedAt": "2026-10-22T13:55:45.613Z"
+      "updatedAt": "2026-11-05T05:10:20.066Z"
     },
     {
       "id": "dsh-review-reply-check",
@@ -3196,7 +3201,7 @@
       "summary": "Plugin quality scoring for the DSH ecosystem: evaluate plugins against checks and produce evidence-backed compliance reports.",
       "summaryZh": "DSH 生态的插件质量评分：按检查项评估插件并产出有证据支撑的合规报告。",
       "homepage": "https://github.com/PerryLink/dsh-score#readme",
-      "latestVersion": "0.2.27",
+      "latestVersion": "0.2.28",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -3224,7 +3229,7 @@
           "alt": "Score"
         }
       },
-      "updatedAt": "2026-10-31T17:04:40.183Z"
+      "updatedAt": "2026-11-05T05:32:09.589Z"
     },
     {
       "id": "dsh-session-pin",
@@ -3273,7 +3278,7 @@
       "summary": "Session synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.",
       "summaryZh": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。",
       "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
-      "latestVersion": "0.2.31",
+      "latestVersion": "0.2.32",
       "license": "Apache-2.0",
       "group": "会话",
       "requires": {
@@ -3301,7 +3306,7 @@
           "alt": "Session Sync"
         }
       },
-      "updatedAt": "2026-10-24T12:38:49.636Z"
+      "updatedAt": "2026-11-05T05:33:49.560Z"
     },
     {
       "id": "dsh-site-log-check",
@@ -3501,7 +3506,7 @@
       "summary": "Voice for DeepSeek Harness: text-to-speech and speech-to-text with mute and speak-to-chat controls.",
       "summaryZh": "给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。",
       "homepage": "https://github.com/PerryLink/dsh-talk#readme",
-      "latestVersion": "0.3.26",
+      "latestVersion": "0.3.29",
       "license": "Apache-2.0",
       "group": "桌面",
       "requires": {
@@ -3529,7 +3534,7 @@
           "alt": "Talk"
         }
       },
-      "updatedAt": "2026-10-24T14:52:58.297Z"
+      "updatedAt": "2026-11-05T05:06:31.749Z"
     },
     {
       "id": "dsh-team-rooms",
@@ -3657,7 +3662,7 @@
       "summary": "Test Drive: run plugins in a disposable sandbox environment (temporary DSH_HOME) and score the results as JSON/Markdown.",
       "summaryZh": "在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。",
       "homepage": "https://github.com/PerryLink/dsh-test-drive#readme",
-      "latestVersion": "0.3.24",
+      "latestVersion": "0.3.25",
       "license": "Apache-2.0",
       "group": "质量",
       "requires": {
@@ -3685,7 +3690,7 @@
           "alt": "Test Drive"
         }
       },
-      "updatedAt": "2026-10-24T14:54:21.633Z"
+      "updatedAt": "2026-11-05T05:30:48.530Z"
     },
     {
       "id": "dsh-translate",
@@ -3695,7 +3700,7 @@
       "summary": "Translate text and files inside DeepSeek Harness with quality checks; also fixes broken JSON output from models.",
       "summaryZh": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。",
       "homepage": "https://github.com/PerryLink/dsh-translate#readme",
-      "latestVersion": "0.2.24",
+      "latestVersion": "0.2.25",
       "license": "Apache-2.0",
       "group": "集成",
       "requires": {
@@ -3723,7 +3728,7 @@
           "alt": "Translate"
         }
       },
-      "updatedAt": "2026-10-18T09:46:34.812Z"
+      "updatedAt": "2026-11-05T05:06:59.038Z"
     },
     {
       "id": "dsh-warranty-calc",
@@ -3771,7 +3776,7 @@
       "summary": "文件级中国电子发票（OFD/XML）入库、解析、去重与本地归档。",
       "summaryZh": "文件级中国电子发票（OFD/XML）入库、解析、去重与本地归档。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-einvoice.html",
-      "latestVersion": "0.2.0",
+      "latestVersion": "0.2.1",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -3800,7 +3805,7 @@
           "alt": "China e-invoice (file-level)"
         }
       },
-      "updatedAt": "2026-11-02T15:54:43.259Z"
+      "updatedAt": "2026-11-04T12:16:36.387Z"
     },
     {
       "id": "dsh-bankrec",
@@ -3810,7 +3815,7 @@
       "summary": "银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。",
       "summaryZh": "银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-bankrec.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -3839,7 +3844,7 @@
           "alt": "Bank statement reconciliation"
         }
       },
-      "updatedAt": "2026-11-02T15:56:50.586Z"
+      "updatedAt": "2026-11-04T12:09:16.117Z"
     },
     {
       "id": "dsh-ap-three-way",
@@ -3849,7 +3854,7 @@
       "summary": "发票/PO/GRN 三单匹配、容差与例外底稿。",
       "summaryZh": "发票/PO/GRN 三单匹配、容差与例外底稿。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ap-three-way.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -3878,7 +3883,7 @@
           "alt": "AP three-way match"
         }
       },
-      "updatedAt": "2026-11-02T16:26:35.406Z"
+      "updatedAt": "2026-11-04T12:09:04.439Z"
     },
     {
       "id": "dsh-travel-recon",
@@ -3888,7 +3893,7 @@
       "summary": "差旅订单/发票/卡流水对账、去重与只读政策检查。",
       "summaryZh": "差旅订单/发票/卡流水对账、去重与只读政策检查。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-travel-recon.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -3917,7 +3922,7 @@
           "alt": "Travel reconciliation & policy check"
         }
       },
-      "updatedAt": "2026-11-03T04:25:21.004Z"
+      "updatedAt": "2026-11-04T12:09:19.170Z"
     },
     {
       "id": "dsh-legal-intake",
@@ -3927,7 +3932,7 @@
       "summary": "法务需求 EML 收件、线程去重与台账导出。",
       "summaryZh": "法务需求 EML 收件、线程去重与台账导出。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-intake.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "active",
       "group": "法务运营",
@@ -3956,7 +3961,7 @@
           "alt": "Legal request intake"
         }
       },
-      "updatedAt": "2026-11-03T05:14:41.929Z"
+      "updatedAt": "2026-11-04T12:08:31.343Z"
     },
     {
       "id": "dsh-legal-clause",
@@ -3966,7 +3971,7 @@
       "summary": "合同条款树、playbook 映射与未解决报告。",
       "summaryZh": "合同条款树、playbook 映射与未解决报告。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-clause.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "active",
       "group": "法务运营",
@@ -3995,7 +4000,7 @@
           "alt": "Contract clause & playbook review"
         }
       },
-      "updatedAt": "2026-11-02T16:24:09.734Z"
+      "updatedAt": "2026-11-04T12:11:17.175Z"
     },
     {
       "id": "dsh-ghg",
@@ -4005,7 +4010,7 @@
       "summary": "用电活动入库、GHG 计算、逐行复算、底稿与部分 ESRS 包。",
       "summaryZh": "用电活动入库、GHG 计算、逐行复算、底稿与部分 ESRS 包。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ghg.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "可持续与质量",
@@ -4034,7 +4039,7 @@
           "alt": "Electricity GHG (Scope 2)"
         }
       },
-      "updatedAt": "2026-11-03T04:26:40.283Z"
+      "updatedAt": "2026-11-04T12:10:29.847Z"
     },
     {
       "id": "dsh-qms-capa",
@@ -4044,7 +4049,7 @@
       "summary": "QMS NCR 入库、批次别名、影响评估、CAPA 与 8D。",
       "summaryZh": "QMS NCR 入库、批次别名、影响评估、CAPA 与 8D。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-qms-capa.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "可持续与质量",
@@ -4073,7 +4078,7 @@
           "alt": "QMS NCR, CAPA & 8D"
         }
       },
-      "updatedAt": "2026-11-02T16:23:49.442Z"
+      "updatedAt": "2026-11-04T12:15:57.111Z"
     },
     {
       "id": "dsh-hs-candidate",
@@ -4083,7 +4088,7 @@
       "summary": "HS Top3 候选、12 要素完整性、RVC 与税则版本门。",
       "summaryZh": "HS Top3 候选、12 要素完整性、RVC 与税则版本门。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-hs-candidate.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "关务与物流",
@@ -4112,7 +4117,7 @@
           "alt": "HS candidate precheck"
         }
       },
-      "updatedAt": "2026-11-03T05:11:42.045Z"
+      "updatedAt": "2026-11-04T12:09:40.240Z"
     },
     {
       "id": "dsh-freight-audit",
@@ -4122,7 +4127,7 @@
       "summary": "运费 ratecard 版本、账单审计、recovery 汇总与差异导出。",
       "summaryZh": "运费 ratecard 版本、账单审计、recovery 汇总与差异导出。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-freight-audit.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "关务与物流",
@@ -4151,7 +4156,7 @@
           "alt": "Freight bill audit"
         }
       },
-      "updatedAt": "2026-11-03T04:26:01.528Z"
+      "updatedAt": "2026-11-04T12:10:29.655Z"
     },
     {
       "id": "dsh-docx-redline",
@@ -4161,7 +4166,7 @@
       "summary": "DOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。",
       "summaryZh": "DOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-docx-redline.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "文档与模型",
@@ -4190,7 +4195,7 @@
           "alt": "DOCX inspect & text diff"
         }
       },
-      "updatedAt": "2026-11-02T15:55:22.554Z"
+      "updatedAt": "2026-11-04T12:17:57.891Z"
     },
     {
       "id": "dsh-ifc-qto",
@@ -4200,7 +4205,7 @@
       "summary": "IFC 构件/工程量清单与 CSV 导出。",
       "summaryZh": "IFC 构件/工程量清单与 CSV 导出。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ifc-qto.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "文档与模型",
@@ -4229,7 +4234,7 @@
           "alt": "IFC quantity takeoff"
         }
       },
-      "updatedAt": "2026-11-03T05:13:35.065Z"
+      "updatedAt": "2026-11-04T12:09:08.753Z"
     },
     {
       "id": "dsh-policy-ledger",
@@ -4239,7 +4244,7 @@
       "summary": "只读安装诊断：能力快照、tarball 断言与安装日志分类。",
       "summaryZh": "只读安装诊断：能力快照、tarball 断言与安装日志分类。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-policy-ledger.html",
-      "latestVersion": "0.2.0",
+      "latestVersion": "0.2.1",
       "license": "Apache-2.0",
       "status": "active",
       "group": "校验工具",
@@ -4268,7 +4273,7 @@
           "alt": "Install doctor"
         }
       },
-      "updatedAt": "2026-11-03T05:12:41.647Z"
+      "updatedAt": "2026-11-04T12:16:31.028Z"
     },
     {
       "id": "dsh-pim-lint",
@@ -4278,7 +4283,7 @@
       "summary": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。",
       "summaryZh": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-pim-lint.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "frozen",
       "group": "校验工具",
@@ -4307,7 +4312,7 @@
           "alt": "PIM catalog lint"
         }
       },
-      "updatedAt": "2026-11-03T05:13:10.015Z"
+      "updatedAt": "2026-11-04T12:08:35.216Z"
     },
     {
       "id": "dsh-eval-pack",
@@ -4317,7 +4322,7 @@
       "summary": "公开/合成 eval-pack lint 与确定性 JSON 评分。",
       "summaryZh": "公开/合成 eval-pack lint 与确定性 JSON 评分。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-eval-pack.html",
-      "latestVersion": "0.1.0",
+      "latestVersion": "0.1.1",
       "license": "Apache-2.0",
       "status": "active",
       "group": "校验工具",
@@ -4346,7 +4351,7 @@
           "alt": "Eval pack lint & grader"
         }
       },
-      "updatedAt": "2026-11-03T05:13:12.389Z"
+      "updatedAt": "2026-11-04T12:09:29.693Z"
     },
     {
       "id": "dsh-finops-suite",
@@ -4356,7 +4361,7 @@
       "summary": "One-command install for dsh-einvoice, dsh-bankrec, dsh-ap-three-way and dsh-travel-recon.",
       "summaryZh": "一键安装 dsh-einvoice、dsh-bankrec、dsh-ap-three-way 与 dsh-travel-recon 的财务运营套件。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-finops-suite.html",
-      "latestVersion": "0.1.0-alpha.10",
+      "latestVersion": "0.1.0-alpha.11",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -4385,7 +4390,7 @@
           "alt": "Finance ops suite"
         }
       },
-      "updatedAt": "2026-11-02T15:34:19.821Z"
+      "updatedAt": "2026-11-04T12:23:15.187Z"
     },
     {
       "id": "dsh-contract-suite",
@@ -4395,7 +4400,7 @@
       "summary": "One-command install for dsh-legal-intake and dsh-legal-clause.",
       "summaryZh": "一键安装 dsh-legal-intake 与 dsh-legal-clause 的合同法务套件。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-contract-suite.html",
-      "latestVersion": "0.1.0-alpha.9",
+      "latestVersion": "0.1.0-alpha.10",
       "license": "Apache-2.0",
       "status": "active",
       "group": "法务运营",
@@ -4424,7 +4429,7 @@
           "alt": "Contract ops suite"
         }
       },
-      "updatedAt": "2026-11-02T15:38:44.098Z"
+      "updatedAt": "2026-11-04T12:23:34.926Z"
     },
     {
       "id": "dsh-bid-health-check",
@@ -4434,7 +4439,7 @@
       "summary": "Reports which tender requirements appear answered, unanswered, or unlocatable; no completeness verdict.",
       "summaryZh": "读 RequirementsPack 与投标文件，报告哪些要求看起来有响应、哪些没有、哪些根本定位不到。",
       "homepage": "https://github.com/PerryLink/dsh-bid-health-check#readme",
-      "latestVersion": "0.1.2",
+      "latestVersion": "0.1.3",
       "license": "Apache-2.0",
       "status": "active",
       "group": "招投标",
@@ -4463,7 +4468,7 @@
           "alt": "Bid Health Check"
         }
       },
-      "updatedAt": "2026-10-30T16:08:18.923Z"
+      "updatedAt": "2026-11-04T06:32:30.999Z"
     },
     {
       "id": "dsh-canteen-retention-check",
@@ -4473,7 +4478,7 @@
       "summary": "Checks canteen retention ledgers: four required fields, 125 g sample, 48 h cold storage and template placeholders.",
       "summaryZh": "核对食堂留样台账：四要素是否齐全、留样量是否达 125 克、是否冷藏满 48 小时、是否残留模板占位符。",
       "homepage": "https://github.com/PerryLink/dsh-canteen-retention-check#readme",
-      "latestVersion": "0.2.1",
+      "latestVersion": "0.2.2",
       "license": "Apache-2.0",
       "status": "active",
       "group": "安全",
@@ -4502,7 +4507,7 @@
           "alt": "Canteen Retention Check"
         }
       },
-      "updatedAt": "2026-10-30T16:00:07.421Z"
+      "updatedAt": "2026-11-04T06:33:44.959Z"
     },
     {
       "id": "dsh-construction-doc-check",
@@ -4512,7 +4517,7 @@
       "summary": "Scans a construction document directory and reports missing, likely stale or empty files.",
       "summaryZh": "扫描施工项目资料目录，报告缺哪些规定资料、哪些像是过期版本、哪些文件是空的。",
       "homepage": "https://github.com/PerryLink/dsh-construction-doc-check#readme",
-      "latestVersion": "0.1.2",
+      "latestVersion": "0.1.3",
       "license": "Apache-2.0",
       "status": "active",
       "group": "工程建设",
@@ -4541,7 +4546,7 @@
           "alt": "Construction Document Check"
         }
       },
-      "updatedAt": "2026-10-30T16:05:07.108Z"
+      "updatedAt": "2026-11-04T06:34:51.238Z"
     },
     {
       "id": "dsh-excel-reconcile",
@@ -4551,7 +4556,7 @@
       "summary": "Aligns two Excel/CSV tables by key and tolerance, and writes Markdown, JSON and a variance workbook.",
       "summaryZh": "按主键对齐两份 Excel/CSV 表，按容差逐字段比较，输出 Markdown 报告、JSON 结果与差异工作簿。",
       "homepage": "https://github.com/PerryLink/dsh-excel-reconcile#readme",
-      "latestVersion": "0.1.3",
+      "latestVersion": "0.1.4",
       "license": "Apache-2.0",
       "status": "active",
       "group": "数据",
@@ -4580,7 +4585,7 @@
           "alt": "Excel Reconcile"
         }
       },
-      "updatedAt": "2026-10-30T16:11:35.912Z"
+      "updatedAt": "2026-11-04T06:32:05.229Z"
     },
     {
       "id": "dsh-invoice-ledger",
@@ -4590,7 +4595,7 @@
       "summary": "Checks an invoice ledger for duplicates, tax arithmetic, payer, dates and template placeholders.",
       "summaryZh": "核对发票台账：重复报销、价税勾稽、抬头、日期、模板占位符，输出异常清单与规范化台账。",
       "homepage": "https://github.com/PerryLink/dsh-invoice-ledger#readme",
-      "latestVersion": "0.1.4",
+      "latestVersion": "0.1.5",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -4619,7 +4624,7 @@
           "alt": "Invoice Ledger"
         }
       },
-      "updatedAt": "2026-10-31T04:08:16.778Z"
+      "updatedAt": "2026-11-04T06:34:11.619Z"
     },
     {
       "id": "dsh-payroll-audit",
@@ -4629,7 +4634,7 @@
       "summary": "Audits payroll against verified social-insurance, housing-fund and tax parameters; never files a return.",
       "summaryZh": "按已核实的社保/公积金/个税参数核对工资表，逐条给出差异与依据，不代申报。",
       "homepage": "https://github.com/PerryLink/dsh-payroll-audit#readme",
-      "latestVersion": "0.1.2",
+      "latestVersion": "0.1.3",
       "license": "Apache-2.0",
       "status": "active",
       "group": "财务运营",
@@ -4658,7 +4663,7 @@
           "alt": "Payroll Audit"
         }
       },
-      "updatedAt": "2026-10-30T16:15:14.289Z"
+      "updatedAt": "2026-11-04T06:35:55.212Z"
     },
     {
       "id": "dsh-safety-ledger-check",
@@ -4668,7 +4673,7 @@
       "summary": "Checks construction safety qualification ledgers: three-level education, training records, special-operation certificates, validity, trade match and six-month internship.",
       "summaryZh": "核对施工安全资格台账：三级教育与学时、培训档案四要素、特种作业证书、有效期、工种匹配、六个月实习期。",
       "homepage": "https://github.com/PerryLink/dsh-safety-ledger-check#readme",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.1.2",
       "license": "Apache-2.0",
       "status": "active",
       "group": "工程建设",
@@ -4697,7 +4702,7 @@
           "alt": "Safety Ledger Check"
         }
       },
-      "updatedAt": "2026-10-30T16:17:38.151Z"
+      "updatedAt": "2026-11-04T06:34:33.187Z"
     },
     {
       "id": "dsh-table-ingest",
@@ -4707,7 +4712,7 @@
       "summary": "Converts DOCX/XLSX/CSV into table JSON for rule checkers, with candidates, header detection, preview and confidence.",
       "summaryZh": "把 docx/xlsx/csv 转成规则检查器能吃的表格 JSON，带候选表、表头识别、预览与置信度。",
       "homepage": "https://github.com/PerryLink/dsh-table-ingest#readme",
-      "latestVersion": "0.2.2",
+      "latestVersion": "0.2.3",
       "license": "Apache-2.0",
       "status": "active",
       "group": "数据",
@@ -4736,7 +4741,7 @@
           "alt": "Table Ingest"
         }
       },
-      "updatedAt": "2026-10-30T16:23:54.804Z"
+      "updatedAt": "2026-11-04T06:33:12.326Z"
     },
     {
       "id": "dsh-tender-requirements",
@@ -4746,7 +4751,7 @@
       "summary": "Extracts tender schedule, bid-security and document-composition facts and reports whether each was retrieved.",
       "summaryZh": "从招标文件抽取关键信息：前附表的时间与保证金、投标文件组成与份数，并逐项报告是否检索到。",
       "homepage": "https://github.com/PerryLink/dsh-tender-requirements#readme",
-      "latestVersion": "0.2.3",
+      "latestVersion": "0.2.4",
       "license": "Apache-2.0",
       "status": "active",
       "group": "招投标",
@@ -4775,7 +4780,7 @@
           "alt": "Tender Requirements"
         }
       },
-      "updatedAt": "2026-10-30T16:29:52.163Z"
+      "updatedAt": "2026-11-04T12:09:06.429Z"
     }
   ],
   "page": {
