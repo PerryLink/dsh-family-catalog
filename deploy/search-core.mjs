@@ -190,8 +190,14 @@ export function search(index, query, options = {}) {
     check('displayNameZh', 5, 'displayNameZh')
     check('keywords', 4, 'keyword')
     check('summary', 2, 'summary')
-    check('audience', 2, 'audience')
     check('standards', 2, 'standard')
+    // Role words are a strong signal and the audience entry is usually shorter
+    // than the query ("报关员要核对什么" contains "报关员"), so test containment
+    // in the other direction than the generic field check.
+    if ((row.audience ?? []).some((/** @type {string} */ entry) => entry.length >= 2 && (compacted.includes(entry) || entry.includes(compacted)))) {
+      score += 6
+      matched.push('audience')
+    }
 
     // Partial credit for unseen sentences: IDF-weighted 2/3-char CJK grams.
     let overlap = 0

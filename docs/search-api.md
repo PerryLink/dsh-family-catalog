@@ -112,7 +112,7 @@ node scripts/mcp-smoke.mjs                # 9/9 MCP calls
 ```
 
 Current bench (2026-11-08): 50 queries, top3 50/50 (100%), zero-result 0/50,
-MRR@5 0.987. Desktop's whole-string `includes` replay over the same 50 queries:
+MRR@5 0.99. Desktop's whole-string `includes` replay over the same 50 queries:
 top3 35/50 (70%), zero-result 15/50.
 
 ## Known limits
