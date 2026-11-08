@@ -63,6 +63,10 @@ curl -s 'https://perrylink-dsh-catalog.perrylink.workers.dev/v1/search?q=HS%E7%B
 
 Returns the full index record for one plugin, or HTTP 404.
 
+### `GET /v1/hubs`
+
+Returns the 10 domain hubs (id, Chinese name, audience, example queries, ordered workflow, standards). Source: `data/hubs.json`.
+
 ### Existing routes
 
 `GET /catalog-source.json`, `GET /v1/plugins`, `GET /icons/*.png` are unchanged.
@@ -103,7 +107,7 @@ node scripts/build-discovery.mjs          # index + deploy/search-core.mjs
 node scripts/build-facets.mjs             # P2 facet/status sidecar
 node scripts/check-facets.mjs             # 126/126 coverage, hubs, status counts
 node scripts/discovery-bench.mjs --source=index --fail-under=85
-node scripts/worker-smoke.mjs             # 10/10 routes
+node scripts/worker-smoke.mjs             # 11/11 routes
 node scripts/mcp-smoke.mjs                # 9/9 MCP calls
 ```
 

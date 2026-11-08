@@ -12,6 +12,7 @@
 import manifest from './catalog-source.json' with { type: 'json' }
 import page from './artifacts/v1/plugins.json' with { type: 'json' }
 import searchIndex from './artifacts/v1/search-index.json' with { type: 'json' }
+import hubs from './artifacts/v1/hubs.json' with { type: 'json' }
 import { search } from './search-core.mjs'
 
 /** `Deno` is a Deno Deploy global and is not declared by @types/node, so it is
@@ -56,5 +57,6 @@ denoRuntime.Deno.serve((request) => {
   if (pathname === '/v1/plugins') return text(page)
   if (pathname === '/v1/search') return searchResult(url)
   if (pathname === '/v1/plugin') return pluginResult(url)
+  if (pathname === '/v1/hubs') return text(hubs)
   return new Response('not found', { status: 404 })
 })

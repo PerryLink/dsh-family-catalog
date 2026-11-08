@@ -39,6 +39,10 @@ const plugin = await get('/v1/plugin?name=dsh-hs-classify')
 if (plugin.status === 200 && plugin.body.name === 'dsh-hs-classify') passed += 1
 console.log(`${plugin.status === 200 ? 'PASS' : 'FAIL'} /v1/plugin dsh-hs-classify`)
 total += 1
+const hubResult = await get('/v1/hubs')
+if (hubResult.status === 200 && (hubResult.body.hubs ?? []).length === 10) passed += 1
+console.log(`${(hubResult.body.hubs ?? []).length === 10 ? 'PASS' : 'FAIL'} /v1/hubs -> ${(hubResult.body.hubs ?? []).length} hubs`)
+total += 1
 const missing = await get('/v1/search')
 if (missing.status === 400) passed += 1
 console.log(`${missing.status === 400 ? 'PASS' : 'FAIL'} /v1/search without q -> 400`)

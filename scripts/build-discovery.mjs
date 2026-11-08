@@ -109,4 +109,8 @@ await writeFile(`${base}/deploy/artifacts/v1/search-index.json`, json)
 // core next to the index so the Deno and Cloudflare workers import it locally.
 const core = await readFile(`${base}/lib/search-core.mjs`, 'utf8')
 await writeFile(`${base}/deploy/search-core.mjs`, core)
-console.log(`built search index: ${items.length} items (${discovery.length} with discovery metadata) -> artifacts/v1/search-index.json + deploy/ copy (+ search-core.mjs)`)
+// Hubs are served by /v1/hubs so the browsing entry points do not depend on
+// the repo checkout either.
+const hubs = await readFile(`${base}/data/hubs.json`, 'utf8')
+await writeFile(`${base}/deploy/artifacts/v1/hubs.json`, hubs)
+console.log(`built search index: ${items.length} items (${discovery.length} with discovery metadata) -> artifacts/v1/search-index.json + deploy/ copy (+ search-core.mjs, hubs.json)`)

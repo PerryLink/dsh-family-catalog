@@ -10,6 +10,7 @@
 import manifest from './catalog-source.json' with { type: 'json' }
 import page from './artifacts/v1/plugins.json' with { type: 'json' }
 import searchIndex from './artifacts/v1/search-index.json' with { type: 'json' }
+import hubs from './artifacts/v1/hubs.json' with { type: 'json' }
 import { search } from './search-core.mjs'
 import { icons } from './icons-data.mjs'
 
@@ -53,6 +54,7 @@ export default {
     if (pathname === '/v1/plugins') return text(page)
     if (pathname === '/v1/search') return searchResult(url)
     if (pathname === '/v1/plugin') return pluginResult(url)
+    if (pathname === '/v1/hubs') return text(hubs)
     const b64 = iconMap[pathname]
     if (b64) {
       const bytes = Uint8Array.from(atob(b64), (c) => c.charCodeAt(0))
