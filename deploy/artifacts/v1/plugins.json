@@ -1,12 +1,12 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-08T09:44:34.638Z",
+  "generatedAt": "2026-11-08T09:45:25.184Z",
   "revision": "perrylink-dsh-catalog-2026-11-08",
   "items": [
     {
       "id": "dsh-github-bot",
       "name": "dsh-github-bot",
-      "displayName": "GitHub",
+      "displayName": "GitHub Bot",
       "displayNameZh": "GitHub 集成",
       "summary": "GitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.",
       "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。",
@@ -48,7 +48,7 @@
       "media": {
         "icon": {
           "url": "https://replace-with-deploy-origin.invalid/icons/dsh-github-bot.png",
-          "alt": "GitHub"
+          "alt": "GitHub Bot"
         }
       },
       "updatedAt": "2026-11-02T12:38:37.769Z"
@@ -56,7 +56,7 @@
     {
       "id": "dsh-clinic",
       "name": "dsh-clinic",
-      "displayName": "Plugin Doctor",
+      "displayName": "Clinic",
       "displayNameZh": "插件医生",
       "summary": "Zero-dependency static + sandbox smoke detector for DeepSeek Harness plugins: package-structure gates (R), cordis contract scans (K), keyless-headless sandbox smoke (D), and ecosystem-listing checks (CC).",
       "summaryZh": "DeepSeek Harness 插件零依赖检测器：包结构静态检查（R）、cordis 契约扫描（K）、无键无头沙箱冒烟（D）与生态清单校验（CC）四层。",
@@ -99,7 +99,7 @@
       "media": {
         "icon": {
           "url": "https://replace-with-deploy-origin.invalid/icons/dsh-clinic.png",
-          "alt": "Plugin Doctor"
+          "alt": "Clinic"
         }
       },
       "updatedAt": "2026-11-03T11:42:56.694Z"
@@ -107,7 +107,7 @@
     {
       "id": "dsh-scaffold",
       "name": "dsh-scaffold",
-      "displayName": "Plugin Kit",
+      "displayName": "Scaffold",
       "displayNameZh": "插件工具包",
       "summary": "Shared zero-runtime-dependency toolkit for PerryLink DSH plugins: a pluggable Provider registry seam, fail-closed approval and adaptive session-event gates, mechanical verify scripts, shared sanitize/pricing/judge modules, and a new-plugin skeleton.",
       "summaryZh": "PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册表接缝、失效即拒的审批门与自适应会话事件门、机械校验脚本、共享的脱敏/计价/裁决模块，以及新插件骨架。",
@@ -149,7 +149,7 @@
       "media": {
         "icon": {
           "url": "https://replace-with-deploy-origin.invalid/icons/dsh-scaffold.png",
-          "alt": "Plugin Kit"
+          "alt": "Scaffold"
         }
       },
       "updatedAt": "2026-11-03T11:43:31.669Z"
@@ -157,7 +157,7 @@
     {
       "id": "dsh-security-pack",
       "name": "dsh-security-pack",
-      "displayName": "Skill Pack Security Provider",
+      "displayName": "Security Pack",
       "displayNameZh": "安全技能包",
       "summary": "Security skill-pack provider: pre-packaged security review skills with a risk card; ships both host and client faces.",
       "summaryZh": "安全技能包 provider：预置带风险卡的安全评审技能，同时提供宿主侧与客户端侧两个面。",
@@ -194,7 +194,7 @@
       "media": {
         "icon": {
           "url": "https://replace-with-deploy-origin.invalid/icons/dsh-security-pack.png",
-          "alt": "Skill Pack Security Provider"
+          "alt": "Security Pack"
         }
       },
       "updatedAt": "2026-11-02T14:43:14.691Z"
@@ -202,7 +202,7 @@
     {
       "id": "dsh-dida",
       "name": "dsh-dida",
-      "displayName": "TickTick",
+      "displayName": "Dida",
       "displayNameZh": "滴答清单桥",
       "summary": "TickTick (Dida365) task bridge for DeepSeek Harness: a session-header task panel (list filter, quick add, complete, delete, due dates, drag reorder), eleven curated ticktick_* tools, and a plugin settings card over the official TickTick MCP endpoint.",
       "summaryZh": "TickTick（滴答清单）任务桥：会话顶部任务面板（列表筛选、快速添加、完成、删除、截止日期、拖动排序）、十一个 ticktick_* 工具，以及基于官方 TickTick MCP 端点的插件设置卡。",
@@ -244,7 +244,7 @@
       "media": {
         "icon": {
           "url": "https://replace-with-deploy-origin.invalid/icons/dsh-dida.png",
-          "alt": "TickTick"
+          "alt": "Dida"
         }
       },
       "updatedAt": "2026-11-02T12:32:40.622Z"
@@ -3142,7 +3142,7 @@
     {
       "id": "dsh-primer",
       "name": "dsh-primer",
-      "displayName": "Plugin Guide",
+      "displayName": "Primer",
       "displayNameZh": "插件开发指南",
       "summary": "The DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.",
       "summaryZh": "把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。",
@@ -3184,7 +3184,7 @@
       "media": {
         "icon": {
           "url": "https://replace-with-deploy-origin.invalid/icons/dsh-primer.png",
-          "alt": "Plugin Guide"
+          "alt": "Primer"
         }
       },
       "updatedAt": "2026-11-03T14:52:00.302Z"
@@ -3192,7 +3192,7 @@
     {
       "id": "dsh-codemod",
       "name": "dsh-codemod",
-      "displayName": "Plugin Upgrade",
+      "displayName": "Codemod",
       "displayNameZh": "插件升级技能",
       "summary": "Plugin-author upgrade skill for DeepSeek Harness, new-generation single package: one corridor index reads the caller peer band and routes it to the matching closed corridor card (dsh 0.1.3-alpha.1 -> 0.1.5-rc.1 and 0.1.5-rc.2 -> 0.1.6-alpha.2), with a zero-dependency seam scanner shipped as a bundle skill and an npx CLI.",
       "summaryZh": "面向 DeepSeek Harness 插件作者的新一代单包升级技能：一份走廊索引读取调用方 peer 区间并路由到对应已封版升级卡片（dsh 0.1.3-alpha.1 → 0.1.5-rc.1 与 0.1.5-rc.2 → 0.1.6-alpha.2），零依赖接缝扫描器以 bundle 技能与 npx CLI 两种形态提供。",
@@ -3235,7 +3235,7 @@
       "media": {
         "icon": {
           "url": "https://replace-with-deploy-origin.invalid/icons/dsh-codemod.png",
-          "alt": "Plugin Upgrade"
+          "alt": "Codemod"
         }
       },
       "updatedAt": "2026-11-01T09:34:18.281Z"

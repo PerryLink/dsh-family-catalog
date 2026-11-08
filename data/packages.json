@@ -2,7 +2,7 @@
   {
     "npm": "dsh-github-bot",
     "repo": "PerryLink/dsh-github-bot",
-    "displayName": "GitHub",
+    "displayName": "GitHub Bot",
     "displayNameZh": "GitHub 集成",
     "categories": [
       "integration"
@@ -31,7 +31,7 @@
   {
     "npm": "dsh-clinic",
     "repo": "PerryLink/dsh-clinic",
-    "displayName": "Plugin Doctor",
+    "displayName": "Clinic",
     "displayNameZh": "插件医生",
     "categories": [
       "dev"
@@ -61,7 +61,7 @@
   {
     "npm": "dsh-scaffold",
     "repo": "PerryLink/dsh-scaffold",
-    "displayName": "Plugin Kit",
+    "displayName": "Scaffold",
     "displayNameZh": "插件工具包",
     "categories": [
       "dev"
@@ -90,7 +90,7 @@
   {
     "npm": "dsh-security-pack",
     "repo": "PerryLink/dsh-security-pack",
-    "displayName": "Skill Pack Security Provider",
+    "displayName": "Security Pack",
     "displayNameZh": "安全技能包",
     "categories": [
       "agent"
@@ -115,7 +115,7 @@
   {
     "npm": "dsh-dida",
     "repo": "PerryLink/dsh-dida",
-    "displayName": "TickTick",
+    "displayName": "Dida",
     "displayNameZh": "滴答清单桥",
     "categories": [
       "integration"
@@ -1908,7 +1908,7 @@
   {
     "npm": "dsh-primer",
     "repo": "PerryLink/dsh-primer",
-    "displayName": "Plugin Guide",
+    "displayName": "Primer",
     "displayNameZh": "插件开发指南",
     "categories": [
       "knowledge"
@@ -1937,7 +1937,7 @@
   {
     "npm": "dsh-codemod",
     "repo": "PerryLink/dsh-codemod",
-    "displayName": "Plugin Upgrade",
+    "displayName": "Codemod",
     "displayNameZh": "插件升级技能",
     "categories": [
       "dev",
