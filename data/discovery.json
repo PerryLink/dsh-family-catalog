@@ -1,0 +1,3225 @@
+[
+  {
+    "schemaVersion": 1,
+    "name": "dsh-hs-classify",
+    "displayNameZh": "商品归类层级核对",
+    "displayNameEn": "HS Classification Check",
+    "aliases": [
+      "HS编码",
+      "HS Code",
+      "商品编码",
+      "海关编码",
+      "税则号列",
+      "商品归类",
+      "归类",
+      "进出口税则",
+      "协调制度",
+      "hs-code",
+      "tariff-classification",
+      "报关单"
+    ],
+    "searchPhrases": [
+      "HS编码章品目对不上",
+      "报关单HS编码层级核对",
+      "HS编码和商品编号有什么区别",
+      "商品编码归类查什么",
+      "HS编码和商品编号有什么区别？",
+      "报关单HS编码层级不一致怎么办？"
+    ],
+    "audience": [
+      "报关员",
+      "关务",
+      "外贸单证员"
+    ],
+    "facets": {
+      "domains": [
+        "customs",
+        "trade"
+      ],
+      "subdomains": [
+        "hs-classification"
+      ],
+      "tasks": [
+        "checker",
+        "classifier"
+      ],
+      "artifacts": [
+        "docx",
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《中华人民共和国进出口税则》",
+        "《商品名称及编码协调制度》",
+        "《中华人民共和国进出口关税条例》",
+        "国务院令第392号"
+      ]
+    },
+    "related": [
+      "dsh-customs-doc-check",
+      "dsh-origin-rvc-check",
+      "dsh-lc-doc-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《中华人民共和国进出口税则》",
+        "《商品名称及编码协调制度》",
+        "《中华人民共和国进出口关税条例》",
+        "国务院令第392号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不判断商品归类的最终税号是否正确",
+        "不替代海关归类决定"
+      ]
+    },
+    "demoPrompt": "帮我核对这份报关单的 HS 编码：章、品目、子目和商品编号的层级是否一致。",
+    "notFor": [
+      "不判断商品归类的最终税号是否正确",
+      "不替代海关归类决定"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-nsfc-form-check",
+    "displayNameZh": "基金申请书形式审查",
+    "displayNameEn": "Grant Form Check",
+    "aliases": [
+      "国自然",
+      "国家自然科学基金",
+      "NSFC",
+      "基金申请书",
+      "形式审查",
+      "匿名化",
+      "依托单位",
+      "申请书",
+      "项目指南",
+      "2026年度",
+      "nsfc",
+      "grant-application"
+    ],
+    "searchPhrases": [
+      "国自然形式审查匿名化",
+      "国自然申请书要不要匿名",
+      "国自然申请书形式审查查什么",
+      "依托单位信息填错怎么办",
+      "国自然申请书要不要匿名？",
+      "形式审查主要查哪些要件？"
+    ],
+    "audience": [
+      "申请人",
+      "科研秘书",
+      "依托单位科研管理"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [
+        "grant-application"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《国家自然科学基金条例》",
+        "《2026 年度国家自然科学基金项目指南·申请规定》",
+        "国务院令第796号",
+        "2026 年度"
+      ]
+    },
+    "related": [
+      "dsh-library",
+      "dsh-paper-doc-adapter"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《国家自然科学基金条例》",
+        "《2026 年度国家自然科学基金项目指南·申请规定》",
+        "国务院令第796号",
+        "2026 年度"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不评价申请书学术质量",
+        "不替代依托单位科研管理部门审核"
+      ]
+    },
+    "demoPrompt": "按 2026 年项目指南检查这份国自然申请书的匿名化和形式要件。",
+    "notFor": [
+      "不评价申请书学术质量",
+      "不替代依托单位科研管理部门审核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-hazchem-check",
+    "displayNameZh": "危化品临界量核对",
+    "displayNameEn": "Hazardous Chemical Register Check",
+    "aliases": [
+      "危险化学品",
+      "危化品",
+      "临界量",
+      "重大危险源",
+      "储存量",
+      "GB 18218",
+      "GB 18218—2018",
+      "hazchem",
+      "major-hazard",
+      "仓库管理",
+      "危险化学品安全管理条例",
+      "国务院令第591号"
+    ],
+    "searchPhrases": [
+      "危化品临界量",
+      "危化品临界量怎么算",
+      "重大危险源辨识和临界量对不上",
+      "储存量超过临界量怎么办",
+      "危化品临界量怎么算？",
+      "储存量和临界量的口径不一致怎么办？"
+    ],
+    "audience": [
+      "安全员",
+      "EHS",
+      "危化品仓库管理"
+    ],
+    "facets": {
+      "domains": [
+        "ehs"
+      ],
+      "subdomains": [
+        "hazmat"
+      ],
+      "tasks": [
+        "checker",
+        "calculator"
+      ],
+      "artifacts": [
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《危险化学品安全管理条例》",
+        "《危险化学品重大危险源辨识》",
+        "国务院令第591号",
+        "GB 18218—2018"
+      ]
+    },
+    "related": [
+      "dsh-hazplan-check",
+      "dsh-emergency-plan",
+      "dsh-eia-guide-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《危险化学品安全管理条例》",
+        "《危险化学品重大危险源辨识》",
+        "国务院令第591号",
+        "GB 18218—2018"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代安全评价机构出具的重大危险源评估",
+        "不判断现场实际储存状态"
+      ]
+    },
+    "demoPrompt": "核对这份危化品台账的储存量和临界量，指出重大危险源辨识差异。",
+    "notFor": [
+      "不替代安全评价机构出具的重大危险源评估",
+      "不判断现场实际储存状态"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-spc-gbt-adapter",
+    "displayNameZh": "控制图常数核对",
+    "displayNameEn": "SPC Control Chart Check",
+    "aliases": [
+      "SPC",
+      "控制图",
+      "过程能力",
+      "CPK",
+      "CP",
+      "GB/T 4091",
+      "控制限",
+      "常规控制图",
+      "统计过程控制",
+      "spc",
+      "cpk",
+      "过程能力指数"
+    ],
+    "searchPhrases": [
+      "控制图控制限对不对",
+      "SPC控制图控制限核对",
+      "CPK和CP怎么换算",
+      "控制图常数表用错了吗",
+      "控制图控制限对不对？",
+      "CPK 和 CP 有什么区别？"
+    ],
+    "audience": [
+      "质量工程师",
+      "工艺工程师",
+      "SPC 推进"
+    ],
+    "facets": {
+      "domains": [
+        "quality",
+        "manufacturing"
+      ],
+      "subdomains": [
+        "spc"
+      ],
+      "tasks": [
+        "checker",
+        "calculator"
+      ],
+      "artifacts": [
+        "xlsx",
+        "csv"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《常规控制图》"
+      ]
+    },
+    "related": [
+      "dsh-fmea-table-check",
+      "dsh-ppap-check",
+      "dsh-qms-capa"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《常规控制图》"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代过程能力研究的抽样设计",
+        "不判断过程是否受控的最终结论"
+      ]
+    },
+    "demoPrompt": "按 GB/T 4091 核对这张控制图的控制限和 CPK。",
+    "notFor": [
+      "不替代过程能力研究的抽样设计",
+      "不判断过程是否受控的最终结论"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-einvoice",
+    "displayNameZh": "中国电子发票（文件级）",
+    "displayNameEn": "China e-invoice (file-level)",
+    "aliases": [
+      "电子发票",
+      "数电票",
+      "OFD",
+      "XML",
+      "发票查重",
+      "发票归档",
+      "发票验真",
+      "发票",
+      "e-invoice",
+      "invoice",
+      "发票台账",
+      "重复报销"
+    ],
+    "searchPhrases": [
+      "电子发票OFD",
+      "OFD发票怎么入库",
+      "数电票重复报销怎么查",
+      "电子发票XML和OFD有什么区别",
+      "OFD 发票怎么入库？",
+      "电子发票和数电票是一回事吗？"
+    ],
+    "audience": [
+      "会计",
+      "出纳",
+      "财务共享"
+    ],
+    "facets": {
+      "domains": [
+        "finance"
+      ],
+      "subdomains": [
+        "e-invoice"
+      ],
+      "tasks": [
+        "parser",
+        "dedupe",
+        "archive"
+      ],
+      "artifacts": [
+        "ofd",
+        "xml"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-invoice-ledger",
+      "dsh-ap-three-way",
+      "dsh-travel-recon"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代税务发票查验平台",
+        "不做进项抵扣的最终判定"
+      ]
+    },
+    "demoPrompt": "把这批 OFD 电子发票入库、去重，并列出重复报销线索。",
+    "notFor": [
+      "不替代税务发票查验平台",
+      "不做进项抵扣的最终判定"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-tender-matrix",
+    "displayNameZh": "评标评分矩阵核对",
+    "displayNameEn": "Tender Scoring Matrix Check",
+    "aliases": [
+      "评标",
+      "评分矩阵",
+      "评标办法",
+      "分值",
+      "权重",
+      "合计",
+      "tender",
+      "bid-evaluation",
+      "scoring-matrix",
+      "综合评分法",
+      "价格分",
+      "技术分"
+    ],
+    "searchPhrases": [
+      "评标评分矩阵分值合计",
+      "评标评分矩阵合计对不对",
+      "评分因素权重超过100%怎么办",
+      "价格分计算公式核对",
+      "评标评分矩阵合计对不对？",
+      "权重合计不是 100% 怎么办？"
+    ],
+    "audience": [
+      "评标专家",
+      "招标代理",
+      "投标项目经理"
+    ],
+    "facets": {
+      "domains": [
+        "tender"
+      ],
+      "subdomains": [
+        "evaluation"
+      ],
+      "tasks": [
+        "checker",
+        "calculator"
+      ],
+      "artifacts": [
+        "xlsx",
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《中华人民共和国招标投标法》",
+        "1999年8月30日通过，2017年12月27日修正"
+      ]
+    },
+    "related": [
+      "dsh-bid-ca-precheck",
+      "dsh-bid-qual-check",
+      "dsh-protest-deadline"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《中华人民共和国招标投标法》",
+        "1999年8月30日通过，2017年12月27日修正"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代评标委员会评审",
+        "不判断评分因素设置是否合法"
+      ]
+    },
+    "demoPrompt": "核对这份评标评分矩阵的分值、权重和合计是否自洽。",
+    "notFor": [
+      "不替代评标委员会评审",
+      "不判断评分因素设置是否合法"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-lc-doc-check",
+    "displayNameZh": "信用证单据条款核对",
+    "displayNameEn": "Letter of Credit Check",
+    "aliases": [
+      "信用证",
+      "LC",
+      "Letter of Credit",
+      "单据",
+      "不符点",
+      "交单",
+      "UCP600",
+      "信用证审单",
+      "议付",
+      "提单",
+      "商业发票",
+      "保险单"
+    ],
+    "searchPhrases": [
+      "信用证单据不符点",
+      "信用证单据不符点怎么处理",
+      "UCP600交单期限怎么算",
+      "提单和信用证条款对不上",
+      "信用证单据不符点怎么处理？",
+      "UCP600 的交单期限怎么算？"
+    ],
+    "audience": [
+      "外贸单证员",
+      "银行国际业务",
+      "关务"
+    ],
+    "facets": {
+      "domains": [
+        "customs",
+        "trade",
+        "finance"
+      ],
+      "subdomains": [
+        "letter-of-credit"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "pdf"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《跟单信用证统一惯例》（UCP600）",
+        "《表示货币的代码》"
+      ]
+    },
+    "related": [
+      "dsh-customs-doc-check",
+      "dsh-origin-rvc-check",
+      "dsh-export-ctl-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《跟单信用证统一惯例》（UCP600）",
+        "《表示货币的代码》"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代银行审单",
+        "不判断单据真实性"
+      ]
+    },
+    "demoPrompt": "按 UCP600 核对这套信用证单据的份数、期限和不符点。",
+    "notFor": [
+      "不替代银行审单",
+      "不判断单据真实性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-ppap-check",
+    "displayNameZh": "PPAP 提交要素核对",
+    "displayNameEn": "PPAP Submission Check",
+    "aliases": [
+      "PPAP",
+      "生产件批准",
+      "提交等级",
+      "PPAP手册",
+      "IATF 16949",
+      "生产件批准程序",
+      "PSW",
+      "控制计划",
+      "MSA",
+      "FMEA",
+      "APQP",
+      "ppap"
+    ],
+    "searchPhrases": [
+      "PPAP提交等级核对",
+      "PPAP提交等级怎么定",
+      "PPAP资料缺项怎么办",
+      "PSW签署日期早于验证完成",
+      "PPAP 提交等级怎么定？",
+      "PPAP 资料缺项怎么办？"
+    ],
+    "audience": [
+      "供应商质量",
+      "质量工程师",
+      "IATF 16949 推进"
+    ],
+    "facets": {
+      "domains": [
+        "quality",
+        "manufacturing"
+      ],
+      "subdomains": [
+        "ppap"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx",
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《生产件批准程序（PPAP）手册》"
+      ]
+    },
+    "related": [
+      "dsh-fmea-table-check",
+      "dsh-spc-gbt-adapter",
+      "dsh-qms-capa"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《生产件批准程序（PPAP）手册》"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代顾客批准",
+        "不判断提交等级选择是否合理"
+      ]
+    },
+    "demoPrompt": "按 PPAP 手册核对这份提交资料的等级和要素齐备性。",
+    "notFor": [
+      "不替代顾客批准",
+      "不判断提交等级选择是否合理"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-eia-guide-check",
+    "displayNameZh": "环评导则适用性核对",
+    "displayNameEn": "EIA Guideline Check",
+    "aliases": [
+      "环评",
+      "环境影响评价",
+      "EIA",
+      "导则",
+      "执行标准",
+      "环境影响评价技术导则",
+      "分类管理名录",
+      "eia",
+      "environmental-impact-assessment",
+      "排污许可",
+      "报告书",
+      "报告表"
+    ],
+    "searchPhrases": [
+      "环评导则适用性",
+      "环评导则选对了吗",
+      "环评执行标准选错怎么办",
+      "报告书和报告表怎么定",
+      "环评导则选对了吗？",
+      "执行标准选错怎么办？"
+    ],
+    "audience": [
+      "环评工程师",
+      "EHS",
+      "建设单位"
+    ],
+    "facets": {
+      "domains": [
+        "ehs",
+        "construction"
+      ],
+      "subdomains": [
+        "eia"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《环境影响评价技术导则》系列",
+        "本机构环评质量管理口径（本机构配置）",
+        "《环境影响评价技术导则 总纲》",
+        "《建设项目环境影响评价分类管理名录》",
+        "各导则现行版本号本次未逐一核实",
+        "无统一标准"
+      ]
+    },
+    "related": [
+      "dsh-hazplan-check",
+      "dsh-soilwater-check",
+      "dsh-emergency-plan"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《环境影响评价技术导则》系列",
+        "本机构环评质量管理口径（本机构配置）",
+        "《环境影响评价技术导则 总纲》",
+        "《建设项目环境影响评价分类管理名录》",
+        "各导则现行版本号本次未逐一核实",
+        "无统一标准"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代环评审批",
+        "不判断环评结论的科学性"
+      ]
+    },
+    "demoPrompt": "核对这份环评报告的导则适用性和执行标准。",
+    "notFor": [
+      "不替代环评审批",
+      "不判断环评结论的科学性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-hazplan-check",
+    "displayNameZh": "HAZOP 分析表核对",
+    "displayNameEn": "HAZOP Worksheet Check",
+    "aliases": [
+      "HAZOP",
+      "危险与可操作性",
+      "偏差",
+      "节点",
+      "建议措施",
+      "HAZOP主席",
+      "GB/T 35320",
+      "GB/T 27921",
+      "hazop",
+      "process-safety",
+      "分析表",
+      "安全仪表"
+    ],
+    "searchPhrases": [
+      "HAZOP分析表",
+      "HAZOP分析表核对",
+      "HAZOP偏差和原因对不上",
+      "HAZOP建议措施没有责任人",
+      "HAZOP 分析表核对什么？",
+      "偏差和原因对不上怎么办？"
+    ],
+    "audience": [
+      "工艺安全",
+      "HAZOP 主席",
+      "EHS"
+    ],
+    "facets": {
+      "domains": [
+        "ehs"
+      ],
+      "subdomains": [
+        "hazop"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《危险与可操作性分析（HAZOP分析）应用指南》",
+        "GB/T 35320-2017",
+        "GB/T 27921-2023"
+      ]
+    },
+    "related": [
+      "dsh-hazchem-check",
+      "dsh-eia-guide-check",
+      "dsh-emergency-plan"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《危险与可操作性分析（HAZOP分析）应用指南》",
+        "GB/T 35320-2017",
+        "GB/T 27921-2023"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代 HAZOP 分析会议",
+        "不判断偏差设置是否完整"
+      ]
+    },
+    "demoPrompt": "核对这份 HAZOP 分析表的节点、偏差、原因和建议措施。",
+    "notFor": [
+      "不替代 HAZOP 分析会议",
+      "不判断偏差设置是否完整"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-medrec-qc",
+    "displayNameZh": "病案首页质控",
+    "displayNameEn": "Medical Record QC",
+    "aliases": [
+      "病案首页",
+      "住院病案首页",
+      "病历质控",
+      "ICD",
+      "主要诊断",
+      "逻辑校验",
+      "病案编码",
+      "medical-record",
+      "front-page",
+      "DRG",
+      "国卫办医发〔2016〕24号",
+      "病案质量"
+    ],
+    "searchPhrases": [
+      "病案首页质控",
+      "病案首页逻辑矛盾",
+      "病案首页主要诊断选错",
+      "病案首页和医保结算清单不一致",
+      "病案首页逻辑矛盾怎么查？",
+      "主要诊断选择错误会影响 DRG 吗？"
+    ],
+    "audience": [
+      "病案室",
+      "质控科",
+      "医保办"
+    ],
+    "facets": {
+      "domains": [
+        "medical"
+      ],
+      "subdomains": [
+        "medical-record",
+        "drg"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx",
+        "csv"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《住院病案首页数据质量管理与控制指标（2016版）》",
+        "《住院病案首页数据填写质量规范（暂行）》",
+        "《卫生部关于修订住院病案首页的通知》",
+        "国家医疗保障局\"两库\"知识点（诊断与患者性别不符）",
+        "国卫办医发〔2016〕24号",
+        "卫医政发〔2011〕84号",
+        "国家医疗保障局公告"
+      ]
+    },
+    "related": [
+      "dsh-icd-rule-check",
+      "dsh-nurse-record-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《住院病案首页数据质量管理与控制指标（2016版）》",
+        "《住院病案首页数据填写质量规范（暂行）》",
+        "《卫生部关于修订住院病案首页的通知》",
+        "国家医疗保障局\"两库\"知识点（诊断与患者性别不符）",
+        "国卫办医发〔2016〕24号",
+        "卫医政发〔2011〕84号",
+        "国家医疗保障局公告"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代病案质控委员会",
+        "不判断诊疗行为的合理性"
+      ]
+    },
+    "demoPrompt": "检查这批病案首页的形式要件和逻辑矛盾。",
+    "notFor": [
+      "不替代病案质控委员会",
+      "不判断诊疗行为的合理性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-icd-rule-check",
+    "displayNameZh": "ICD 编码配对核对",
+    "displayNameEn": "ICD Coding Check",
+    "aliases": [
+      "ICD",
+      "ICD-10",
+      "编码",
+      "合并编码",
+      "星剑号",
+      "主要诊断",
+      "GB/T 14396",
+      "WHO ICD-10",
+      "icd-10",
+      "dagger-asterisk",
+      "编码配对",
+      "病案首页"
+    ],
+    "searchPhrases": [
+      "ICD编码星剑号",
+      "ICD编码对不对",
+      "星剑号配对怎么核",
+      "合并编码什么时候用",
+      "ICD 编码对不对怎么核？",
+      "星剑号配对错误会有什么影响？"
+    ],
+    "audience": [
+      "病案编码员",
+      "质控科",
+      "医保办"
+    ],
+    "facets": {
+      "domains": [
+        "medical"
+      ],
+      "subdomains": [
+        "icd-coding"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx",
+        "csv"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《住院病案首页数据填写质量规范（暂行）》",
+        "《疾病和有关健康问题的国际统计分类》第十次修订本 第二卷 指导手册",
+        "《医疗保障基金结算清单填写规范（试行）》",
+        "国卫办医发〔2016〕24号",
+        "WHO ICD-10 Volume 2",
+        "GB/T 14396-2016",
+        "国卫办医函〔2019〕371号 附件1",
+        "医保办发〔2020〕20号"
+      ]
+    },
+    "related": [
+      "dsh-medrec-qc",
+      "dsh-nurse-record-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《住院病案首页数据填写质量规范（暂行）》",
+        "《疾病和有关健康问题的国际统计分类》第十次修订本 第二卷 指导手册",
+        "《医疗保障基金结算清单填写规范（试行）》",
+        "国卫办医发〔2016〕24号",
+        "WHO ICD-10 Volume 2",
+        "GB/T 14396-2016",
+        "国卫办医函〔2019〕371号 附件1",
+        "医保办发〔2020〕20号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代编码员判断",
+        "不判断临床诊断是否正确"
+      ]
+    },
+    "demoPrompt": "核对这批 ICD-10 编码的星剑号配对和主要诊断。",
+    "notFor": [
+      "不替代编码员判断",
+      "不判断临床诊断是否正确"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-nurse-record-check",
+    "displayNameZh": "护理记录完整性核对",
+    "displayNameEn": "Nursing Record Check",
+    "aliases": [
+      "护理记录",
+      "护理文书",
+      "护理记录单",
+      "体温单",
+      "医嘱单",
+      "签名",
+      "时限",
+      "nursing-record",
+      "护理分级",
+      "电子病历",
+      "国卫办医发〔2017〕8号",
+      "护理评估"
+    ],
+    "searchPhrases": [
+      "护理记录时限签名",
+      "护理记录时限和签名",
+      "护理记录漏签名怎么办",
+      "体温单和护理记录对不上",
+      "护理记录时限和签名怎么核？",
+      "护理记录漏签名怎么办？"
+    ],
+    "audience": [
+      "护理部",
+      "护士长",
+      "质控科"
+    ],
+    "facets": {
+      "domains": [
+        "medical"
+      ],
+      "subdomains": [
+        "nursing"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《电子病历应用管理规范（试行）》",
+        "《病历书写基本规范》",
+        "《护理分级标准》",
+        "《进一步改善护理服务行动计划（2023—2025年）》",
+        "《综合医院分级护理指导原则（试行）》",
+        "国卫办医发〔2017〕8号",
+        "卫医政发〔2010〕11号",
+        "国卫医发〔2018〕8号"
+      ]
+    },
+    "related": [
+      "dsh-medrec-qc",
+      "dsh-icd-rule-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《电子病历应用管理规范（试行）》",
+        "《病历书写基本规范》",
+        "《护理分级标准》",
+        "《进一步改善护理服务行动计划（2023—2025年）》",
+        "《综合医院分级护理指导原则（试行）》",
+        "国卫办医发〔2017〕8号",
+        "卫医政发〔2010〕11号",
+        "国卫医发〔2018〕8号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代护理质控",
+        "不判断护理措施是否恰当"
+      ]
+    },
+    "demoPrompt": "核对这批护理记录的时限、签名和评估表完整性。",
+    "notFor": [
+      "不替代护理质控",
+      "不判断护理措施是否恰当"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-lawcite-adapter",
+    "displayNameZh": "法条引用核对",
+    "displayNameEn": "Legal Citation Check",
+    "aliases": [
+      "法条",
+      "法律条文",
+      "条号",
+      "引用",
+      "效力状态",
+      "起诉状",
+      "legal-citation",
+      "statute",
+      "法条引用",
+      "代理词",
+      "法律文书",
+      "现行有效"
+    ],
+    "searchPhrases": [
+      "法条引用条号原文",
+      "法条引用格式核对",
+      "引用已废止的法条怎么办",
+      "条号和原文对不上",
+      "法条引用格式怎么核对？",
+      "引用已废止的法条怎么办？"
+    ],
+    "audience": [
+      "律师",
+      "法务",
+      "法官助理"
+    ],
+    "facets": {
+      "domains": [
+        "legal"
+      ],
+      "subdomains": [
+        "citation"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "本机构法律文书审查口径（本机构配置）—— 原挂《中华人民共和国立法法》，已核实其第六十五条为立法技术条款",
+        "本机构法律文书审查口径（本机构配置）—— 原挂《党政机关公文格式》GB/T 9704—2012，已核实为版式标准",
+        "本机构法律文书审查办法（本机构配置）",
+        "无统一标准"
+      ]
+    },
+    "related": [
+      "dsh-evidence-check",
+      "dsh-pleading-draft",
+      "dsh-contract-stance"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "本机构法律文书审查口径（本机构配置）—— 原挂《中华人民共和国立法法》，已核实其第六十五条为立法技术条款",
+        "本机构法律文书审查口径（本机构配置）—— 原挂《党政机关公文格式》GB/T 9704—2012，已核实为版式标准",
+        "本机构法律文书审查办法（本机构配置）",
+        "无统一标准"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不提供法律意见",
+        "不替代律师对案件的法律判断"
+      ]
+    },
+    "demoPrompt": "核对这份起诉状里的法条引用：名称、条号、原文和效力状态。",
+    "notFor": [
+      "不提供法律意见",
+      "不替代律师对案件的法律判断"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-gongwen-word-check",
+    "displayNameZh": "公文格式要素核对",
+    "displayNameEn": "Document Type & Number Check",
+    "aliases": [
+      "公文",
+      "公文格式",
+      "党政机关公文",
+      "GB/T 9704",
+      "版头",
+      "主体",
+      "发文字号",
+      "official-document",
+      "gongwen",
+      "版记",
+      "主送机关",
+      "成文日期"
+    ],
+    "searchPhrases": [
+      "公文格式版头",
+      "公文格式对不对",
+      "版头要素缺项怎么办",
+      "发文字号格式核对",
+      "公文格式对不对怎么核？",
+      "版头要素缺项怎么办？"
+    ],
+    "audience": [
+      "办公室文秘",
+      "公文写作",
+      "党政机关"
+    ],
+    "facets": {
+      "domains": [
+        "government"
+      ],
+      "subdomains": [
+        "official-document"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《党政机关公文格式》",
+        "《党政机关公文处理工作条例》",
+        "中办发〔2012〕14号"
+      ]
+    },
+    "related": [
+      "dsh-gongwen-flow-check",
+      "dsh-policy-brief-draft",
+      "dsh-archive-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《党政机关公文格式》",
+        "《党政机关公文处理工作条例》",
+        "中办发〔2012〕14号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代发文机关审核",
+        "不判断公文内容的政策正确性"
+      ]
+    },
+    "demoPrompt": "按 GB/T 9704 核对这份公文的版头、主体和发文字号。",
+    "notFor": [
+      "不替代发文机关审核",
+      "不判断公文内容的政策正确性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-ota-review-check",
+    "displayNameZh": "在线点评回复台账核对",
+    "displayNameEn": "OTA Review Check",
+    "aliases": [
+      "OTA",
+      "在线点评",
+      "酒店点评",
+      "回复时限",
+      "整改",
+      "点评回复",
+      "hospitality",
+      "review-reply",
+      "携程",
+      "美团",
+      "差评",
+      "闭环"
+    ],
+    "searchPhrases": [
+      "酒店点评回复超时",
+      "OTA点评回复时限",
+      "差评回复模板算整改吗",
+      "点评问题分类和整改对不上",
+      "酒店点评回复超时怎么算？",
+      "差评回复模板算整改吗？"
+    ],
+    "audience": [
+      "酒店运营",
+      "OTA 运营",
+      "客服主管"
+    ],
+    "facets": {
+      "domains": [
+        "hospitality"
+      ],
+      "subdomains": [
+        "review"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《中华人民共和国电子商务法》与平台服务规则",
+        "《中华人民共和国电子商务法》",
+        "各在线旅游平台服务规则（本机构配置）",
+        "本机构点评管理办法（本机构配置）",
+        "无统一标准"
+      ]
+    },
+    "related": [
+      "dsh-review-reply-check",
+      "dsh-data-quality"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《中华人民共和国电子商务法》与平台服务规则",
+        "《中华人民共和国电子商务法》",
+        "各在线旅游平台服务规则（本机构配置）",
+        "本机构点评管理办法（本机构配置）",
+        "无统一标准"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代平台规则判定",
+        "不判断回复内容是否让客人满意"
+      ]
+    },
+    "demoPrompt": "核对这份 OTA 点评回复台账的时限、分类和整改闭环。",
+    "notFor": [
+      "不替代平台规则判定",
+      "不判断回复内容是否让客人满意"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-repair-order-qc",
+    "displayNameZh": "维修工单结算核对",
+    "displayNameEn": "Repair Order QC",
+    "aliases": [
+      "维修工单",
+      "结算",
+      "工时",
+      "配件",
+      "金额",
+      "定损",
+      "auto-aftermarket",
+      "repair-order",
+      "机动车维修",
+      "工时费",
+      "配件费",
+      "结算单"
+    ],
+    "searchPhrases": [
+      "维修工单结算对不对",
+      "维修工单金额对不上",
+      "工时费和配件费重复计费",
+      "结算总额和明细不符",
+      "维修工单结算对不对？",
+      "工时费和配件费重复计费怎么发现？"
+    ],
+    "audience": [
+      "汽修厂",
+      "售后顾问",
+      "保险公司定损"
+    ],
+    "facets": {
+      "domains": [
+        "auto_aftermarket"
+      ],
+      "subdomains": [
+        "repair-order"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《机动车维修管理规定》",
+        "交通运输部令2021年第18号"
+      ]
+    },
+    "related": [
+      "dsh-warranty-calc",
+      "dsh-invoice-ledger"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《机动车维修管理规定》",
+        "交通运输部令2021年第18号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不判断维修质量",
+        "不替代保险公司定损"
+      ]
+    },
+    "demoPrompt": "核对这张维修工单的项目金额、工时和结算总额。",
+    "notFor": [
+      "不判断维修质量",
+      "不替代保险公司定损"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-pipeline-check",
+    "displayNameZh": "项目文件链条核对",
+    "displayNameEn": "Pipeline Inspection Check",
+    "aliases": [
+      "项目全流程",
+      "文件链条",
+      "环节",
+      "金额",
+      "审批",
+      "project-pipeline",
+      "investment-project",
+      "立项",
+      "可研",
+      "初设",
+      "验收",
+      "闭环"
+    ],
+    "searchPhrases": [
+      "项目文件链条完整吗",
+      "项目文件链条完整吗怎么办",
+      "环节先后顺序错了",
+      "金额口径前后不一致",
+      "项目文件链条完整吗？",
+      "环节先后顺序错了怎么办？"
+    ],
+    "audience": [
+      "项目经理",
+      "投资管理",
+      "内审"
+    ],
+    "facets": {
+      "domains": [
+        "investment_project",
+        "construction"
+      ],
+      "subdomains": [
+        "project-documents"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "本机构项目管理办法与投资管理制度（无国家标准）",
+        "无统一标准"
+      ]
+    },
+    "related": [
+      "dsh-site-log-check",
+      "dsh-tender-matrix",
+      "dsh-archive-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "本机构项目管理办法与投资管理制度（无国家标准）",
+        "无统一标准"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不判断项目投资决策",
+        "不替代审计机关的审计结论"
+      ]
+    },
+    "demoPrompt": "核对这个项目全流程的文件链条、环节先后和金额口径。",
+    "notFor": [
+      "不判断项目投资决策",
+      "不替代审计机关的审计结论"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-ifc-qto",
+    "displayNameZh": "IFC 工程量清单",
+    "displayNameEn": "IFC quantity takeoff",
+    "aliases": [
+      "IFC",
+      "BIM",
+      "工程量",
+      "QTO",
+      "构件",
+      "BIM工程师",
+      "ifc",
+      "quantity-takeoff",
+      "模型",
+      "构件清单",
+      "CSV",
+      "Revit"
+    ],
+    "searchPhrases": [
+      "IFC工程量核对",
+      "IFC工程量怎么提取",
+      "构件量和图纸对不上",
+      "IFC导出CSV缺构件",
+      "IFC 工程量怎么提取？",
+      "构件量和图纸对不上怎么办？"
+    ],
+    "audience": [
+      "BIM 工程师",
+      "造价员",
+      "算量"
+    ],
+    "facets": {
+      "domains": [
+        "construction"
+      ],
+      "subdomains": [
+        "bim"
+      ],
+      "tasks": [
+        "extractor",
+        "calculator"
+      ],
+      "artifacts": [
+        "ifc",
+        "csv"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-pipeline-check",
+      "dsh-site-log-check"
+    ],
+    "maturity": "preview",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代造价咨询成果",
+        "不保证模型本身的建模质量"
+      ]
+    },
+    "demoPrompt": "从这个 IFC 模型提取构件工程量并导出 CSV 核对。",
+    "notFor": [
+      "不替代造价咨询成果",
+      "不保证模型本身的建模质量"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-qms-capa",
+    "displayNameZh": "QMS NCR、CAPA 与 8D",
+    "displayNameEn": "QMS NCR, CAPA & 8D",
+    "aliases": [
+      "QMS",
+      "CAPA",
+      "纠正措施",
+      "预防措施",
+      "8D",
+      "不合格",
+      "NCR",
+      "不合格品",
+      "质量体系",
+      "闭环",
+      "根本原因",
+      "纠正预防措施"
+    ],
+    "searchPhrases": [
+      "CAPA闭环",
+      "CAPA闭环怎么审",
+      "8D根本原因分析不到位",
+      "NCR和CAPA编号对不上",
+      "CAPA 闭环怎么审？",
+      "8D 根本原因分析不到位怎么办？"
+    ],
+    "audience": [
+      "质量经理",
+      "体系工程师",
+      "SQE"
+    ],
+    "facets": {
+      "domains": [
+        "quality",
+        "manufacturing"
+      ],
+      "subdomains": [
+        "qms",
+        "capa"
+      ],
+      "tasks": [
+        "ledger",
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fmea-table-check",
+      "dsh-ppap-check",
+      "dsh-spc-gbt-adapter"
+    ],
+    "maturity": "preview",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代质量体系审核",
+        "不判断纠正措施是否有效"
+      ]
+    },
+    "demoPrompt": "登记这批 NCR，跟踪 CAPA/8D 的闭环状态。",
+    "notFor": [
+      "不替代质量体系审核",
+      "不判断纠正措施是否有效"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-ghg",
+    "displayNameZh": "用电碳排放（范围二）",
+    "displayNameEn": "Electricity GHG (Scope 2)",
+    "aliases": [
+      "碳排放",
+      "范围二",
+      "温室气体",
+      "用电排放",
+      "碳核算",
+      "排放因子",
+      "GHG",
+      "Scope 2",
+      "ghg",
+      "scope-2",
+      "emission-factor",
+      "用电量"
+    ],
+    "searchPhrases": [
+      "范围二用电排放核算",
+      "范围二用电排放怎么算",
+      "排放因子选错版本",
+      "用电量和账单对不上",
+      "范围二用电排放怎么算？",
+      "排放因子选错版本怎么办？"
+    ],
+    "audience": [
+      "碳管理",
+      "ESG",
+      "能源管理"
+    ],
+    "facets": {
+      "domains": [
+        "energy",
+        "esg"
+      ],
+      "subdomains": [
+        "ghg-accounting"
+      ],
+      "tasks": [
+        "calculator",
+        "ledger"
+      ],
+      "artifacts": [
+        "xlsx",
+        "csv"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-power-loss-split",
+      "dsh-data-quality"
+    ],
+    "maturity": "preview",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代第三方核查",
+        "不判断排放因子版本的适用性"
+      ]
+    },
+    "demoPrompt": "按用电数据核算范围二排放，逐行复算并留底稿。",
+    "notFor": [
+      "不替代第三方核查",
+      "不判断排放因子版本的适用性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-bankrec",
+    "displayNameZh": "银行流水对账",
+    "displayNameEn": "Bank statement reconciliation",
+    "aliases": [
+      "银行对账",
+      "未达账项",
+      "余额调节表",
+      "流水",
+      "bank-reconciliation",
+      "CAMT.053",
+      "MT940",
+      "GL",
+      "对账",
+      "银行流水",
+      "差异",
+      "银行存款"
+    ],
+    "searchPhrases": [
+      "银行流水对账",
+      "银行对账差异",
+      "未达账项怎么找",
+      "余额调节表对不平",
+      "银行对账差异怎么找？",
+      "未达账项怎么核？"
+    ],
+    "audience": [
+      "会计",
+      "出纳",
+      "审计"
+    ],
+    "facets": {
+      "domains": [
+        "finance"
+      ],
+      "subdomains": [
+        "bank-reconciliation"
+      ],
+      "tasks": [
+        "reconciliation"
+      ],
+      "artifacts": [
+        "csv",
+        "xml",
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-ap-three-way",
+      "dsh-invoice-ledger",
+      "dsh-travel-recon"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代审计程序",
+        "不判断未达账项的业务实质"
+      ]
+    },
+    "demoPrompt": "用银行流水和 GL 做对账，列出未达账项和余额调节表。",
+    "notFor": [
+      "不替代审计程序",
+      "不判断未达账项的业务实质"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-ap-three-way",
+    "displayNameZh": "AP 三单匹配",
+    "displayNameEn": "AP three-way match",
+    "aliases": [
+      "应付",
+      "三单匹配",
+      "采购订单",
+      "入库单",
+      "发票",
+      "ap",
+      "three-way-match",
+      "PO",
+      "GRN",
+      "容差",
+      "例外",
+      "三单匹配差异"
+    ],
+    "searchPhrases": [
+      "三单匹配",
+      "三单匹配对不上",
+      "发票数量超过入库数量",
+      "容差范围内还要不要审批",
+      "三单匹配对不上怎么办？",
+      "发票数量超过入库数量怎么处理？"
+    ],
+    "audience": [
+      "应付会计",
+      "采购",
+      "内审"
+    ],
+    "facets": {
+      "domains": [
+        "finance",
+        "procurement"
+      ],
+      "subdomains": [
+        "three-way-match"
+      ],
+      "tasks": [
+        "reconciliation"
+      ],
+      "artifacts": [
+        "csv",
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-invoice-ledger",
+      "dsh-bankrec",
+      "dsh-freight-audit"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代付款审批",
+        "不判断供应商履约质量"
+      ]
+    },
+    "demoPrompt": "对这批发票、PO 和 GRN 做三单匹配，按容差列出例外。",
+    "notFor": [
+      "不替代付款审批",
+      "不判断供应商履约质量"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-freight-audit",
+    "displayNameZh": "运费账单审计",
+    "displayNameEn": "Freight bill audit",
+    "aliases": [
+      "运费",
+      "审计",
+      "计费",
+      "账单",
+      "物流",
+      "freight-audit",
+      "ratecard",
+      "计费重",
+      "附加费",
+      "recovery",
+      "运费账单",
+      "运费差异"
+    ],
+    "searchPhrases": [
+      "运费账单核对",
+      "运费账单多收了",
+      "计费重和实际重量不符",
+      "ratecard版本用错",
+      "运费账单多收了怎么查？",
+      "计费重和实际重量不符怎么办？"
+    ],
+    "audience": [
+      "物流结算",
+      "财务",
+      "供应链"
+    ],
+    "facets": {
+      "domains": [
+        "logistics",
+        "finance"
+      ],
+      "subdomains": [
+        "freight-audit"
+      ],
+      "tasks": [
+        "audit"
+      ],
+      "artifacts": [
+        "xlsx",
+        "csv"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-demurrage-ledger",
+      "dsh-ap-three-way",
+      "dsh-customs-doc-check"
+    ],
+    "maturity": "preview",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代承运人合同解释",
+        "不保证 ratecard 的真实性"
+      ]
+    },
+    "demoPrompt": "按 ratecard 审计这份运费账单，列出计费重和附加费差异。",
+    "notFor": [
+      "不替代承运人合同解释",
+      "不保证 ratecard 的真实性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-warranty-calc",
+    "displayNameZh": "质保期与索赔核对",
+    "displayNameEn": "Warranty Period Check",
+    "aliases": [
+      "质保",
+      "保修",
+      "质保期",
+      "里程",
+      "索赔专员",
+      "warranty",
+      "三包",
+      "家用汽车",
+      "市场监管总局令第43号",
+      "质保政策",
+      "索赔金额",
+      "三包期限"
+    ],
+    "searchPhrases": [
+      "质保期怎么算",
+      "质保期和索赔金额",
+      "里程超了还算质保期内吗",
+      "三包退换车条件",
+      "质保期怎么算？",
+      "里程超了还算质保期内吗？"
+    ],
+    "audience": [
+      "售后",
+      "索赔",
+      "法务"
+    ],
+    "facets": {
+      "domains": [
+        "auto_aftermarket"
+      ],
+      "subdomains": [
+        "warranty"
+      ],
+      "tasks": [
+        "calculator",
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《家用汽车产品修理更换退货责任规定》",
+        "各厂商质保政策与三包规定（本机构配置）",
+        "各厂商质保政策（本机构配置）",
+        "市场监管总局令第43号",
+        "无统一标准"
+      ]
+    },
+    "related": [
+      "dsh-repair-order-qc",
+      "dsh-invoice-ledger"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《家用汽车产品修理更换退货责任规定》",
+        "各厂商质保政策与三包规定（本机构配置）",
+        "各厂商质保政策（本机构配置）",
+        "市场监管总局令第43号",
+        "无统一标准"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代三包争议处理",
+        "不判断故障是否属于质保范围"
+      ]
+    },
+    "demoPrompt": "按质保期和里程核对这台车的索赔金额。",
+    "notFor": [
+      "不替代三包争议处理",
+      "不判断故障是否属于质保范围"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-export-ctl-check",
+    "displayNameZh": "出口管制物项核对",
+    "displayNameEn": "Export Control Check",
+    "aliases": [
+      "出口管制",
+      "物项",
+      "许可证",
+      "最终用途",
+      "管制清单",
+      "export-control",
+      "两用物项",
+      "出口管制法",
+      "最终用户",
+      "管制编码",
+      "管制物项",
+      "出口许可"
+    ],
+    "searchPhrases": [
+      "出口管制物项许可证",
+      "出口管制物项怎么判定",
+      "最终用途和许可证不一致",
+      "管制清单更新了吗",
+      "出口管制物项怎么判定？",
+      "最终用途和许可证不一致怎么办？"
+    ],
+    "audience": [
+      "关务",
+      "合规",
+      "外贸"
+    ],
+    "facets": {
+      "domains": [
+        "customs",
+        "trade"
+      ],
+      "subdomains": [
+        "export-control"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《中华人民共和国出口管制法》",
+        "2020 年 10 月 17 日第十三届全国人大常委会第二十二次会议通过，主席令第五十八号公布，自 2020 年 12 月 1 日起施行"
+      ]
+    },
+    "related": [
+      "dsh-hs-classify",
+      "dsh-origin-rvc-check",
+      "dsh-customs-doc-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《中华人民共和国出口管制法》",
+        "2020 年 10 月 17 日第十三届全国人大常委会第二十二次会议通过，主席令第五十八号公布，自 2020 年 12 月 1 日起施行"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代商务主管部门许可审查",
+        "不判断物项是否受控的最终结论"
+      ]
+    },
+    "demoPrompt": "核对这批出口管制物项的最终用途和许可证。",
+    "notFor": [
+      "不替代商务主管部门许可审查",
+      "不判断物项是否受控的最终结论"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-origin-rvc-check",
+    "displayNameZh": "原产地 RVC 核对",
+    "displayNameEn": "Rules of Origin RVC Check",
+    "aliases": [
+      "原产地",
+      "RVC",
+      "区域价值成分",
+      "原产地规则",
+      "origin",
+      "rvc",
+      "FTA",
+      "自贸协定",
+      "原产地标准",
+      "原产地判定",
+      "价值成分计算",
+      "自贸协定原产地规则"
+    ],
+    "searchPhrases": [
+      "原产地RVC怎么算",
+      "RVC怎么算",
+      "RVC公式和协定文本不一致",
+      "区域价值成分没到门槛",
+      "RVC 怎么算？",
+      "RVC 公式和协定文本不一致怎么办？"
+    ],
+    "audience": [
+      "关务",
+      "外贸单证",
+      "原产地证"
+    ],
+    "facets": {
+      "domains": [
+        "customs",
+        "trade"
+      ],
+      "subdomains": [
+        "origin"
+      ],
+      "tasks": [
+        "calculator",
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx",
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "各自由贸易协定原产地规则（协定文本，本次未取得）"
+      ]
+    },
+    "related": [
+      "dsh-hs-classify",
+      "dsh-export-ctl-check",
+      "dsh-lc-doc-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "各自由贸易协定原产地规则（协定文本，本次未取得）"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代原产地证书签发",
+        "不保证协定文本的最新版本"
+      ]
+    },
+    "demoPrompt": "按协定原产地规则核对这批货物的 RVC。",
+    "notFor": [
+      "不替代原产地证书签发",
+      "不保证协定文本的最新版本"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-demurrage-ledger",
+    "displayNameZh": "滞箱费台账核对",
+    "displayNameEn": "Demurrage Ledger Check",
+    "aliases": [
+      "滞箱费",
+      "免箱期",
+      "滞期费",
+      "集装箱",
+      "demurrage",
+      "detention",
+      "free-time",
+      "超期",
+      "费率",
+      "滞箱费台账",
+      "免箱期计算",
+      "滞期费台账"
+    ],
+    "searchPhrases": [
+      "滞箱费免箱期",
+      "滞箱费算对了吗",
+      "免箱期从哪天开始算",
+      "滞箱费和滞期费有什么区别",
+      "滞箱费算对了吗？",
+      "免箱期从哪天开始算？"
+    ],
+    "audience": [
+      "物流",
+      "关务",
+      "船务"
+    ],
+    "facets": {
+      "domains": [
+        "logistics"
+      ],
+      "subdomains": [
+        "demurrage"
+      ],
+      "tasks": [
+        "ledger",
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "承运人运价本与运输合同（无国家标准）",
+        "《表示货币的代码》",
+        "无统一标准"
+      ]
+    },
+    "related": [
+      "dsh-freight-audit",
+      "dsh-customs-doc-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "承运人运价本与运输合同（无国家标准）",
+        "《表示货币的代码》",
+        "无统一标准"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代承运人账单确认",
+        "不判断免箱期条款的法律效力"
+      ]
+    },
+    "demoPrompt": "核对这份滞箱费台账的免箱期、超期天数和金额。",
+    "notFor": [
+      "不替代承运人账单确认",
+      "不判断免箱期条款的法律效力"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-customs-doc-check",
+    "displayNameZh": "报关单证一致性核对",
+    "displayNameEn": "Customs Document Check",
+    "aliases": [
+      "报关单",
+      "报关单证",
+      "进出口报关单",
+      "单证一致",
+      "品名",
+      "数量",
+      "金额",
+      "customs-declaration",
+      "报关单填制规范",
+      "币制",
+      "成交方式",
+      "报关单一致性"
+    ],
+    "searchPhrases": [
+      "报关单品名金额对不上",
+      "报关单品名金额不一致怎么办",
+      "报关单和发票数量对不上",
+      "报关单币制和合同不一致",
+      "报关单品名金额不一致怎么办？",
+      "报关单和发票数量对不上怎么处理？"
+    ],
+    "audience": [
+      "报关员",
+      "关务",
+      "外贸单证"
+    ],
+    "facets": {
+      "domains": [
+        "customs",
+        "trade"
+      ],
+      "subdomains": [
+        "customs-declaration"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《中华人民共和国海关进出口货物报关单填制规范》",
+        "《表示货币的代码》",
+        "《中华人民共和国海关进出口货物申报管理规定》"
+      ]
+    },
+    "related": [
+      "dsh-hs-classify",
+      "dsh-lc-doc-check",
+      "dsh-origin-rvc-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《中华人民共和国海关进出口货物报关单填制规范》",
+        "《表示货币的代码》",
+        "《中华人民共和国海关进出口货物申报管理规定》"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代海关审单",
+        "不判断申报内容的真实性"
+      ]
+    },
+    "demoPrompt": "核对这份报关单的品名、数量、金额和币制在单证间是否一致。",
+    "notFor": [
+      "不替代海关审单",
+      "不判断申报内容的真实性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-bid-qual-check",
+    "displayNameZh": "投标人资格核对",
+    "displayNameEn": "Bidder Qualification Check",
+    "aliases": [
+      "投标人资格",
+      "资格条件",
+      "招标文件",
+      "营业执照",
+      "资质",
+      "业绩",
+      "bid-qualification",
+      "资格响应",
+      "证明材料",
+      "废标",
+      "资格证明",
+      "投标资格"
+    ],
+    "searchPhrases": [
+      "投标资格条件逐条响应",
+      "投标资格逐条响应",
+      "资格条件漏响应怎么办",
+      "营业执照和资质证书过期",
+      "投标资格逐条响应怎么核？",
+      "资格条件漏响应会废标吗？"
+    ],
+    "audience": [
+      "投标项目经理",
+      "招标代理",
+      "资格审查"
+    ],
+    "facets": {
+      "domains": [
+        "tender"
+      ],
+      "subdomains": [
+        "qualification"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "pdf"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《中华人民共和国招标投标法》",
+        "《中华人民共和国招标投标法实施条例》",
+        "1999年8月30日通过，2017年12月27日修正",
+        "国务院令第613号"
+      ]
+    },
+    "related": [
+      "dsh-bid-ca-precheck",
+      "dsh-tender-matrix",
+      "dsh-protest-deadline"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《中华人民共和国招标投标法》",
+        "《中华人民共和国招标投标法实施条例》",
+        "1999年8月30日通过，2017年12月27日修正",
+        "国务院令第613号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代资格审查委员会",
+        "不判断资质证书的真实性"
+      ]
+    },
+    "demoPrompt": "按招标文件逐条核对投标人资格和证明材料。",
+    "notFor": [
+      "不替代资格审查委员会",
+      "不判断资质证书的真实性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-library",
+    "displayNameZh": "本地知识库",
+    "displayNameEn": "Library",
+    "aliases": [
+      "论文引用",
+      "引文核验",
+      "参考文献",
+      "文献检索",
+      "citation check",
+      "library",
+      "文献库",
+      "引文",
+      "本地知识库",
+      "semantic-search",
+      "citation",
+      "文献管理"
+    ],
+    "searchPhrases": [
+      "论文引文和原文对不上",
+      "论文引用和原文对不上怎么办",
+      "参考文献格式核对",
+      "本地文献库怎么检索",
+      "论文引文和原文对不上怎么办？",
+      "参考文献格式怎么核？"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生",
+      "编辑"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [
+        "literature",
+        "citation"
+      ],
+      "tasks": [
+        "search",
+        "checker"
+      ],
+      "artifacts": [
+        "pdf",
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-nsfc-form-check",
+      "dsh-paper-doc-adapter"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代文献数据库的完整检索",
+        "不判断论文的学术贡献"
+      ]
+    },
+    "demoPrompt": "检索本地文献库，并核对这条论文引文和原文是否一致。",
+    "notFor": [
+      "不替代文献数据库的完整检索",
+      "不判断论文的学术贡献"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-fmea-table-check",
+    "displayNameZh": "FMEA 分析表核对",
+    "displayNameEn": "FMEA Table Check",
+    "aliases": [
+      "FMEA",
+      "失效模式",
+      "RPN",
+      "风险顺序数",
+      "严重度",
+      "频度",
+      "探测度",
+      "工艺工程师",
+      "fmea",
+      "DFMEA",
+      "PFMEA",
+      "风险分析"
+    ],
+    "searchPhrases": [
+      "FMEA RPN",
+      "FMEA RPN对不上",
+      "RPN和SOD乘积累加不一致",
+      "FMEA失效模式漏项",
+      "FMEA RPN 对不上怎么办？",
+      "RPN 和 S/O/D 乘积不一致怎么核？"
+    ],
+    "audience": [
+      "质量工程师",
+      "工艺",
+      "设计质量"
+    ],
+    "facets": {
+      "domains": [
+        "quality",
+        "manufacturing"
+      ],
+      "subdomains": [
+        "fmea"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《系统可靠性分析技术 失效模式和影响分析（FMEA）程序》"
+      ]
+    },
+    "related": [
+      "dsh-ppap-check",
+      "dsh-spc-gbt-adapter",
+      "dsh-qms-capa"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《系统可靠性分析技术 失效模式和影响分析（FMEA）程序》"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代跨职能 FMEA 评审",
+        "不判断失效模式是否穷尽"
+      ]
+    },
+    "demoPrompt": "核对这份 FMEA 的失效模式、S/O/D 和 RPN。",
+    "notFor": [
+      "不替代跨职能 FMEA 评审",
+      "不判断失效模式是否穷尽"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-evidence-check",
+    "displayNameZh": "证据清单核对",
+    "displayNameEn": "Evidence List Check",
+    "aliases": [
+      "证据清单",
+      "待证事实",
+      "举证",
+      "证据目录",
+      "证明目的",
+      "evidence",
+      "举证期限",
+      "证据要素",
+      "质证",
+      "民事诉讼",
+      "证据链",
+      "举证责任"
+    ],
+    "searchPhrases": [
+      "证据清单待证事实",
+      "证据清单和待证事实对不上",
+      "证据目录缺证明目的",
+      "举证期限过了还能提交吗",
+      "证据清单和待证事实对不上怎么办？",
+      "证据目录缺证明目的怎么补？"
+    ],
+    "audience": [
+      "律师",
+      "法务",
+      "当事人"
+    ],
+    "facets": {
+      "domains": [
+        "legal"
+      ],
+      "subdomains": [
+        "evidence"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "pdf"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《最高人民法院关于民事诉讼证据的若干规定》",
+        "法释〔2019〕19号"
+      ]
+    },
+    "related": [
+      "dsh-lawcite-adapter",
+      "dsh-pleading-draft"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《最高人民法院关于民事诉讼证据的若干规定》",
+        "法释〔2019〕19号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不提供法律意见",
+        "不判断证据的证明力"
+      ]
+    },
+    "demoPrompt": "按待证事实核对这份证据清单的证明目的和要素。",
+    "notFor": [
+      "不提供法律意见",
+      "不判断证据的证明力"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-travel-recon",
+    "displayNameZh": "差旅对账与政策检查",
+    "displayNameEn": "Travel reconciliation & policy check",
+    "aliases": [
+      "差旅对账",
+      "报销",
+      "卡流水",
+      "差旅政策",
+      "travel-recon",
+      "差旅订单",
+      "发票",
+      "去重",
+      "超标",
+      "行程单",
+      "差旅发票",
+      "行程对账"
+    ],
+    "searchPhrases": [
+      "差旅订单发票卡流水对不上",
+      "差旅订单发票卡流水对不上怎么办",
+      "差旅报销超标怎么查",
+      "同一行程重复报销",
+      "差旅订单、发票、卡流水对不上怎么办？",
+      "差旅报销超标怎么查？"
+    ],
+    "audience": [
+      "差旅报销",
+      "财务",
+      "行政"
+    ],
+    "facets": {
+      "domains": [
+        "finance"
+      ],
+      "subdomains": [
+        "travel-expense"
+      ],
+      "tasks": [
+        "reconciliation"
+      ],
+      "artifacts": [
+        "xlsx",
+        "pdf"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-invoice-ledger",
+      "dsh-ap-three-way",
+      "dsh-bankrec"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代报销审批",
+        "不判断差旅事项的业务必要性"
+      ]
+    },
+    "demoPrompt": "把差旅订单、发票和卡流水对账，列出超标和重复。",
+    "notFor": [
+      "不替代报销审批",
+      "不判断差旅事项的业务必要性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-invoice-ledger",
+    "displayNameZh": "发票台账核对",
+    "displayNameEn": "Invoice Ledger",
+    "aliases": [
+      "发票",
+      "发票台账",
+      "重复报销",
+      "价税",
+      "抬头",
+      "报销",
+      "invoice-ledger",
+      "价税合计",
+      "发票查验",
+      "台账",
+      "发票查重",
+      "报销台账"
+    ],
+    "searchPhrases": [
+      "发票重复报销",
+      "发票重复报销怎么查",
+      "价税合计和明细不符",
+      "发票抬头开错了",
+      "发票重复报销怎么查？",
+      "价税合计和明细不符怎么办？"
+    ],
+    "audience": [
+      "会计",
+      "报销审核",
+      "内审"
+    ],
+    "facets": {
+      "domains": [
+        "finance"
+      ],
+      "subdomains": [
+        "invoice"
+      ],
+      "tasks": [
+        "checker",
+        "ledger"
+      ],
+      "artifacts": [
+        "xlsx",
+        "ofd",
+        "xml"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-einvoice",
+      "dsh-ap-three-way",
+      "dsh-travel-recon"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代税务查验",
+        "不判断发票业务真实性"
+      ]
+    },
+    "demoPrompt": "核对发票台账的重复报销、价税合计和抬头。",
+    "notFor": [
+      "不替代税务查验",
+      "不判断发票业务真实性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-bid-ca-precheck",
+    "displayNameZh": "投标符合性预检",
+    "displayNameEn": "Bid Responsiveness Precheck",
+    "aliases": [
+      "投标文件",
+      "符合性预检",
+      "招标文件",
+      "逐条响应",
+      "偏离",
+      "bid-compliance",
+      "符合性审查",
+      "废标",
+      "实质性响应",
+      "投标文件预检",
+      "符合性检查",
+      "投标响应"
+    ],
+    "searchPhrases": [
+      "招标文件符合性预检",
+      "招标文件符合性预检怎么做",
+      "投标文件漏项会废标吗",
+      "实质性响应和一般偏离怎么区分",
+      "招标文件符合性预检怎么做？",
+      "投标文件漏项会废标吗？"
+    ],
+    "audience": [
+      "招标代理",
+      "投标项目经理",
+      "评标专家"
+    ],
+    "facets": {
+      "domains": [
+        "tender"
+      ],
+      "subdomains": [
+        "compliance"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "pdf"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《中华人民共和国招标投标法》",
+        "《中华人民共和国招标投标法实施条例》",
+        "1999年8月30日通过，2017年12月27日修正",
+        "国务院令第613号",
+        "1999年8月30日通过，2017年12月27日修正，自2000年1月1日起施行"
+      ]
+    },
+    "related": [
+      "dsh-bid-qual-check",
+      "dsh-tender-matrix",
+      "dsh-protest-deadline"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《中华人民共和国招标投标法》",
+        "《中华人民共和国招标投标法实施条例》",
+        "1999年8月30日通过，2017年12月27日修正",
+        "国务院令第613号",
+        "1999年8月30日通过，2017年12月27日修正，自2000年1月1日起施行"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代评标委员会",
+        "不判断偏离是否构成废标"
+      ]
+    },
+    "demoPrompt": "按招标文件逐条核对投标文件的符合性响应。",
+    "notFor": [
+      "不替代评标委员会",
+      "不判断偏离是否构成废标"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-protest-deadline",
+    "displayNameZh": "质疑投诉期限核对",
+    "displayNameEn": "Protest Deadline Check",
+    "aliases": [
+      "质疑",
+      "投诉",
+      "期限",
+      "政府采购",
+      "质疑投诉期限",
+      "protest",
+      "deadline",
+      "财政部令第94号",
+      "质疑函",
+      "投诉书",
+      "质疑期限",
+      "投诉期限"
+    ],
+    "searchPhrases": [
+      "质疑投诉期限",
+      "质疑投诉期限怎么算",
+      "质疑函超过7个工作日",
+      "投诉前必须先质疑吗",
+      "质疑投诉期限怎么算？",
+      "质疑函超过 7 个工作日怎么办？"
+    ],
+    "audience": [
+      "招标代理",
+      "投标人",
+      "法务"
+    ],
+    "facets": {
+      "domains": [
+        "tender",
+        "government"
+      ],
+      "subdomains": [
+        "procurement"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《政府采购质疑和投诉办法》",
+        "财政部令第94号"
+      ]
+    },
+    "related": [
+      "dsh-bid-ca-precheck",
+      "dsh-bid-qual-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《政府采购质疑和投诉办法》",
+        "财政部令第94号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代财政部门投诉处理",
+        "不判断质疑事项是否成立"
+      ]
+    },
+    "demoPrompt": "核对这份质疑/投诉的期限、主体和台账。",
+    "notFor": [
+      "不替代财政部门投诉处理",
+      "不判断质疑事项是否成立"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-emergency-plan",
+    "displayNameZh": "应急预案要素核对",
+    "displayNameEn": "Emergency Plan Check",
+    "aliases": [
+      "应急预案",
+      "GB/T 29639",
+      "GB/T 29639-2020",
+      "要素",
+      "生产安全事故",
+      "emergency-plan",
+      "预案编制",
+      "应急演练",
+      "风险评估",
+      "应急资源调查",
+      "应急预案编制",
+      "预案评审"
+    ],
+    "searchPhrases": [
+      "应急预案要素",
+      "应急预案要素缺项怎么办",
+      "预案编制和GB/T 29639对不上",
+      "应急预案多久修订一次",
+      "应急预案要素缺项怎么办？",
+      "预案编制和 GB/T 29639 对不上怎么办？"
+    ],
+    "audience": [
+      "安全员",
+      "EHS",
+      "应急管理"
+    ],
+    "facets": {
+      "domains": [
+        "ehs"
+      ],
+      "subdomains": [
+        "emergency-planning"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《生产经营单位生产安全事故应急预案编制导则》",
+        "《生产安全事故应急预案管理办法》",
+        "GB/T 29639-2020",
+        "国家安全生产监督管理总局令第88号"
+      ]
+    },
+    "related": [
+      "dsh-hazchem-check",
+      "dsh-hazplan-check",
+      "dsh-eia-guide-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《生产经营单位生产安全事故应急预案编制导则》",
+        "《生产安全事故应急预案管理办法》",
+        "GB/T 29639-2020",
+        "国家安全生产监督管理总局令第88号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代预案评审",
+        "不判断应急资源的实际可用性"
+      ]
+    },
+    "demoPrompt": "按 GB/T 29639 核对这份应急预案的要素齐备性。",
+    "notFor": [
+      "不替代预案评审",
+      "不判断应急资源的实际可用性"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-site-log-check",
+    "displayNameZh": "监理日志连续性核对",
+    "displayNameEn": "Supervision Log Check",
+    "aliases": [
+      "监理日志",
+      "旁站",
+      "site-log",
+      "GB/T 50319",
+      "连续性",
+      "旁站记录",
+      "监理规范",
+      "签字",
+      "施工日志",
+      "旁站监理",
+      "监理日志检查",
+      "日志连续性"
+    ],
+    "searchPhrases": [
+      "监理日志旁站",
+      "监理日志旁站记录缺失",
+      "监理日志日期断档",
+      "旁站记录和监理日志对不上",
+      "监理日志旁站记录缺失怎么办？",
+      "监理日志日期断档怎么处理？"
+    ],
+    "audience": [
+      "监理工程师",
+      "总监",
+      "建设单位"
+    ],
+    "facets": {
+      "domains": [
+        "construction"
+      ],
+      "subdomains": [
+        "supervision"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "docx",
+        "xlsx"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《建设工程监理规范》",
+        "《房屋建筑工程施工旁站监理管理办法（试行）》",
+        "GB/T 50319-2013",
+        "DBJT 13-144-2019",
+        "国务院令第279号",
+        "建市〔2002〕189号"
+      ]
+    },
+    "related": [
+      "dsh-pipeline-check",
+      "dsh-soilwater-check",
+      "dsh-ifc-qto"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《建设工程监理规范》",
+        "《房屋建筑工程施工旁站监理管理办法（试行）》",
+        "GB/T 50319-2013",
+        "DBJT 13-144-2019",
+        "国务院令第279号",
+        "建市〔2002〕189号"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代监理单位内部检查",
+        "不判断旁站是否实际发生"
+      ]
+    },
+    "demoPrompt": "核对这套监理日志的跨日连续性、旁站记录和签字。",
+    "notFor": [
+      "不替代监理单位内部检查",
+      "不判断旁站是否实际发生"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-soilwater-check",
+    "displayNameZh": "土壤地下水监测核对",
+    "displayNameEn": "Soil & Groundwater Check",
+    "aliases": [
+      "土壤",
+      "地下水",
+      "监测",
+      "超标",
+      "点位",
+      "soil",
+      "groundwater",
+      "建设用地",
+      "风险管控",
+      "监测井",
+      "限值",
+      "土壤监测"
+    ],
+    "searchPhrases": [
+      "土壤地下水监测超标",
+      "土壤地下水监测超标怎么办",
+      "点位和监测项目缺项",
+      "限值选错标准",
+      "土壤地下水监测超标怎么办？",
+      "点位和监测项目缺项怎么处理？"
+    ],
+    "audience": [
+      "环保工程师",
+      "场地调查",
+      "EHS"
+    ],
+    "facets": {
+      "domains": [
+        "construction",
+        "ehs"
+      ],
+      "subdomains": [
+        "soil-groundwater"
+      ],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [
+        "xlsx",
+        "csv"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "standards": [
+        "《建设用地土壤污染状况调查技术导则》",
+        "《地下水环境监测技术规范》",
+        "《土壤环境质量 建设用地土壤污染风险管控标准（试行）》"
+      ]
+    },
+    "related": [
+      "dsh-eia-guide-check",
+      "dsh-site-log-check",
+      "dsh-hazchem-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "standards": [
+        "《建设用地土壤污染状况调查技术导则》",
+        "《地下水环境监测技术规范》",
+        "《土壤环境质量 建设用地土壤污染风险管控标准（试行）》"
+      ],
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "不替代环境监测机构",
+        "不判断污染责任的归属"
+      ]
+    },
+    "demoPrompt": "核对这份土壤地下水监测的点位、项目、限值和超标判定。",
+    "notFor": [
+      "不替代环境监测机构",
+      "不判断污染责任的归属"
+    ]
+  }
+]
