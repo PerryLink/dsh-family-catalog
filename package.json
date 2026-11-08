@@ -11,7 +11,11 @@
     "check:counts": "node scripts/check-counts.mjs",
     "build:check": "node scripts/check-counts.mjs && node scripts/build-catalog.mjs && node scripts/validate.mjs",
     "check": "tsc -p tsconfig.check.json",
-    "typecheck:ci": "tsc -p tsconfig.check.ci.json"
+    "typecheck:ci": "tsc -p tsconfig.check.ci.json",
+    "build:discovery": "node scripts/build-discovery.mjs",
+    "build:facets": "node scripts/build-facets.mjs",
+    "check:facets": "node scripts/check-facets.mjs",
+    "bench": "node scripts/discovery-bench.mjs --source=index --fail-under=85"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",

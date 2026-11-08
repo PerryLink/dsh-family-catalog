@@ -1,0 +1,6242 @@
+{
+  "schemaVersion": 1,
+  "lastReviewed": "2026-11-08",
+  "sources": {
+    "packages": "data/packages.json",
+    "discovery": "data/discovery.json",
+    "roster": "dsh-kit/data/repos.json"
+  },
+  "counts": {
+    "plugins": 126,
+    "active": 107,
+    "frozen": 15,
+    "retired": 3,
+    "unknown": 1
+  },
+  "plugins": [
+    {
+      "name": "dsh-github-bot",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev_connectors"
+        ],
+        "subdomains": [
+          "dev-connectors"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "integration"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev_connectors",
+        "subdomain.dev-connectors",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-clinic",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "dev"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-scaffold",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "dev"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-security-pack",
+      "maintenance": "active",
+      "maturity": "stable",
+      "facets": {
+        "domains": [
+          "security"
+        ],
+        "subdomains": [
+          "ai-security"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "agent"
+        ]
+      },
+      "facetCategories": [
+        "domain.security",
+        "subdomain.ai-security",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-dida",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "remote_comms"
+        ],
+        "subdomains": [
+          "remote-comms"
+        ],
+        "tasks": [
+          "bridge"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "integration"
+        ]
+      },
+      "facetCategories": [
+        "domain.remote_comms",
+        "subdomain.remote-comms",
+        "task.bridge",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-aqua-input-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "food_safety"
+        ],
+        "subdomains": [
+          "food-safety"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《水产养殖质量安全管理规定》",
+          "《绿色食品 渔药使用准则》",
+          "本机构养殖生产管理口径（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "safety"
+        ]
+      },
+      "facetCategories": [
+        "domain.food_safety",
+        "subdomain.food-safety",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《水产养殖质量安全管理规定》",
+          "《绿色食品 渔药使用准则》",
+          "本机构养殖生产管理口径（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-archive-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "government"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《归档文件整理规则》",
+          "《机关文件材料归档范围和文书档案保管期限规定》",
+          "《中华人民共和国档案法实施条例》",
+          "DA/T 22—2015",
+          "国务院令第772号",
+          "国家档案局令第8号",
+          "国家档案局令第10号",
+          "2020年修订"
+        ],
+        "legacyCategories": [
+          "gongwen"
+        ]
+      },
+      "facetCategories": [
+        "domain.government",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《归档文件整理规则》",
+          "《机关文件材料归档范围和文书档案保管期限规定》",
+          "《中华人民共和国档案法实施条例》",
+          "DA/T 22—2015",
+          "国务院令第772号",
+          "国家档案局令第8号",
+          "国家档案局令第10号",
+          "2020年修订"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-auto-review",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "security"
+        ],
+        "subdomains": [
+          "ai-security"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "workflow"
+        ]
+      },
+      "facetCategories": [
+        "domain.security",
+        "subdomain.ai-security",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-autotier",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "model_routing"
+        ],
+        "subdomains": [
+          "model-routing"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "model",
+          "agent"
+        ]
+      },
+      "facetCategories": [
+        "domain.model_routing",
+        "subdomain.model-routing",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "frozen"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-background-agents",
+      "maintenance": "retired",
+      "maturity": "retired",
+      "facets": {
+        "domains": [
+          "agent"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "agent"
+        ]
+      },
+      "facetCategories": [
+        "domain.agent",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": "dsh-base (official native continuable sub-agents)",
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "retired",
+        "roster": "retired"
+      },
+      "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-bid-ca-precheck",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tender"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国招标投标法》",
+          "《中华人民共和国招标投标法实施条例》",
+          "1999年8月30日通过，2017年12月27日修正",
+          "国务院令第613号",
+          "1999年8月30日通过，2017年12月27日修正，自2000年1月1日起施行"
+        ],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.tender",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国招标投标法》",
+          "《中华人民共和国招标投标法实施条例》",
+          "1999年8月30日通过，2017年12月27日修正",
+          "国务院令第613号",
+          "1999年8月30日通过，2017年12月27日修正，自2000年1月1日起施行"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代评标委员会",
+          "不判断偏离是否构成废标"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-bid-qual-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tender"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国招标投标法》",
+          "《中华人民共和国招标投标法实施条例》",
+          "1999年8月30日通过，2017年12月27日修正",
+          "国务院令第613号"
+        ],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.tender",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国招标投标法》",
+          "《中华人民共和国招标投标法实施条例》",
+          "1999年8月30日通过，2017年12月27日修正",
+          "国务院令第613号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代资格审查委员会",
+          "不判断资质证书的真实性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-budget",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "calculator"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.calculator",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": "frozen"
+      },
+      "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-cert-mcp",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "dev_connectors"
+        ],
+        "subdomains": [
+          "dev-connectors"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "integration"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev_connectors",
+        "subdomain.dev-connectors",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "frozen"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-checkpoint-rewind",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "session"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "session"
+        ]
+      },
+      "facetCategories": [
+        "domain.session",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-claude-move",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "dev_connectors"
+        ],
+        "subdomains": [
+          "dev-connectors"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "integration"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev_connectors",
+        "subdomain.dev-connectors",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": "frozen"
+      },
+      "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-click",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "desktop"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.desktop",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-community-bench",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "ux",
+          "workflow"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "interface",
+          "workflow"
+        ]
+      },
+      "facetCategories": [
+        "domain.ux",
+        "domain.workflow",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "frozen"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-composer-history",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ux",
+          "session"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "session"
+        ]
+      },
+      "facetCategories": [
+        "domain.ux",
+        "domain.session",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-contract-stance",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tender"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国民法典》"
+        ],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.tender",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国民法典》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-customs-doc-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "customs",
+          "trade"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国海关进出口货物报关单填制规范》",
+          "《表示货币的代码》",
+          "《中华人民共和国海关进出口货物申报管理规定》"
+        ],
+        "legacyCategories": [
+          "customs"
+        ]
+      },
+      "facetCategories": [
+        "domain.customs",
+        "domain.trade",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国海关进出口货物报关单填制规范》",
+          "《表示货币的代码》",
+          "《中华人民共和国海关进出口货物申报管理规定》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代海关审单",
+          "不判断申报内容的真实性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-data-quality",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "data",
+          "quality"
+        ],
+        "subdomains": [
+          "data-quality"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.data",
+        "domain.quality",
+        "subdomain.data-quality",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-defend",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "security"
+        ],
+        "subdomains": [
+          "ai-security"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "dev"
+        ]
+      },
+      "facetCategories": [
+        "domain.security",
+        "subdomain.ai-security",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": "frozen"
+      },
+      "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-demurrage-ledger",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "customs",
+          "trade"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "reconciliation",
+          "ledger"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "承运人运价本与运输合同（无国家标准）",
+          "《表示货币的代码》",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "customs"
+        ]
+      },
+      "facetCategories": [
+        "domain.customs",
+        "domain.trade",
+        "task.reconciliation",
+        "task.ledger",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "承运人运价本与运输合同（无国家标准）",
+          "《表示货币的代码》",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代承运人账单确认",
+          "不判断免箱期条款的法律效力"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-doublecheck",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tools"
+        ],
+        "subdomains": [
+          "dev-quality"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.tools",
+        "subdomain.dev-quality",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-draw",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "design"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "image"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.design",
+        "task.tool",
+        "artifact.image",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": "frozen"
+      },
+      "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-drill-script-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ehs"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《生产安全事故应急演练基本规范》",
+          "本单位应急预案体系（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "safety"
+        ]
+      },
+      "facetCategories": [
+        "domain.ehs",
+        "subdomain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《生产安全事故应急演练基本规范》",
+          "本单位应急预案体系（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-eia-guide-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "construction"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《环境影响评价技术导则》系列",
+          "本机构环评质量管理口径（本机构配置）",
+          "《环境影响评价技术导则 总纲》",
+          "《建设项目环境影响评价分类管理名录》",
+          "各导则现行版本号本次未逐一核实",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.construction",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《环境影响评价技术导则》系列",
+          "本机构环评质量管理口径（本机构配置）",
+          "《环境影响评价技术导则 总纲》",
+          "《建设项目环境影响评价分类管理名录》",
+          "各导则现行版本号本次未逐一核实",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代环评审批",
+          "不判断环评结论的科学性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-emergency-plan",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ehs"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《生产经营单位生产安全事故应急预案编制导则》",
+          "《生产安全事故应急预案管理办法》",
+          "GB/T 29639-2020",
+          "国家安全生产监督管理总局令第88号"
+        ],
+        "legacyCategories": [
+          "safety"
+        ]
+      },
+      "facetCategories": [
+        "domain.ehs",
+        "subdomain.ehs",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《生产经营单位生产安全事故应急预案编制导则》",
+          "《生产安全事故应急预案管理办法》",
+          "GB/T 29639-2020",
+          "国家安全生产监督管理总局令第88号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代预案评审",
+          "不判断应急资源的实际可用性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-essay-rubric-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "education"
+        ],
+        "subdomains": [
+          "education"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《普通高中语文课程标准》",
+          "《普通高等学校招生全国统一考试评卷工作规定》"
+        ],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.education",
+        "subdomain.education",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《普通高中语文课程标准》",
+          "《普通高等学校招生全国统一考试评卷工作规定》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-evidence-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "legal"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《最高人民法院关于民事诉讼证据的若干规定》",
+          "法释〔2019〕19号"
+        ],
+        "legacyCategories": [
+          "legal"
+        ]
+      },
+      "facetCategories": [
+        "domain.legal",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《最高人民法院关于民事诉讼证据的若干规定》",
+          "法释〔2019〕19号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不提供法律意见",
+          "不判断证据的证明力"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-export-ctl-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "customs",
+          "trade"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国出口管制法》",
+          "2020 年 10 月 17 日第十三届全国人大常委会第二十二次会议通过，主席令第五十八号公布，自 2020 年 12 月 1 日起施行"
+        ],
+        "legacyCategories": [
+          "customs"
+        ]
+      },
+      "facetCategories": [
+        "domain.customs",
+        "domain.trade",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国出口管制法》",
+          "2020 年 10 月 17 日第十三届全国人大常委会第二十二次会议通过，主席令第五十八号公布，自 2020 年 12 月 1 日起施行"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代商务主管部门许可审查",
+          "不判断物项是否受控的最终结论"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-fast",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "observability"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.observability",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-fmea-table-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "quality"
+        ],
+        "subdomains": [
+          "manufacturing-quality"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《系统可靠性分析技术 失效模式和影响分析（FMEA）程序》"
+        ],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.quality",
+        "subdomain.manufacturing-quality",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《系统可靠性分析技术 失效模式和影响分析（FMEA）程序》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代跨职能 FMEA 评审",
+          "不判断失效模式是否穷尽"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-forecast-penalty",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "energy"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "电力市场考核办法与并网调度协议（无国家标准）",
+          "《表示货币的代码》",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "customs"
+        ]
+      },
+      "facetCategories": [
+        "domain.energy",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "电力市场考核办法与并网调度协议（无国家标准）",
+          "《表示货币的代码》",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-fund-research",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [
+          "research"
+        ],
+        "tasks": [
+          "search"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "knowledge"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "subdomain.research",
+        "task.search",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-gongwen-flow-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "government"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《党政机关公文处理工作条例》",
+          "中办发〔2012〕14号"
+        ],
+        "legacyCategories": [
+          "gongwen"
+        ]
+      },
+      "facetCategories": [
+        "domain.government",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《党政机关公文处理工作条例》",
+          "中办发〔2012〕14号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-gongwen-word-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "government"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《党政机关公文格式》",
+          "《党政机关公文处理工作条例》",
+          "中办发〔2012〕14号"
+        ],
+        "legacyCategories": [
+          "gongwen"
+        ]
+      },
+      "facetCategories": [
+        "domain.government",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《党政机关公文格式》",
+          "《党政机关公文处理工作条例》",
+          "中办发〔2012〕14号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代发文机关审核",
+          "不判断公文内容的政策正确性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-guard-plan-qc",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ehs"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《个体防护装备配备规范》"
+        ],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.ehs",
+        "subdomain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《个体防护装备配备规范》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-hazchem-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ehs"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《危险化学品安全管理条例》",
+          "《危险化学品重大危险源辨识》",
+          "国务院令第591号",
+          "GB 18218—2018"
+        ],
+        "legacyCategories": [
+          "safety"
+        ]
+      },
+      "facetCategories": [
+        "domain.ehs",
+        "subdomain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《危险化学品安全管理条例》",
+          "《危险化学品重大危险源辨识》",
+          "国务院令第591号",
+          "GB 18218—2018"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代安全评价机构出具的重大危险源评估",
+          "不判断现场实际储存状态"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-hazplan-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ehs"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《危险与可操作性分析（HAZOP分析）应用指南》",
+          "GB/T 35320-2017",
+          "GB/T 27921-2023"
+        ],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.ehs",
+        "subdomain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《危险与可操作性分析（HAZOP分析）应用指南》",
+          "GB/T 35320-2017",
+          "GB/T 27921-2023"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代 HAZOP 分析会议",
+          "不判断偏差设置是否完整"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-hidden-risk-map",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ehs"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《工贸企业重大事故隐患判定标准》",
+          "应急管理部令第10号"
+        ],
+        "legacyCategories": [
+          "safety"
+        ]
+      },
+      "facetCategories": [
+        "domain.ehs",
+        "subdomain.ehs",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《工贸企业重大事故隐患判定标准》",
+          "应急管理部令第10号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-hs-classify",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "customs",
+          "trade"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国进出口税则》",
+          "《商品名称及编码协调制度》",
+          "《中华人民共和国进出口关税条例》",
+          "国务院令第392号"
+        ],
+        "legacyCategories": [
+          "customs"
+        ]
+      },
+      "facetCategories": [
+        "domain.customs",
+        "domain.trade",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国进出口税则》",
+          "《商品名称及编码协调制度》",
+          "《中华人民共和国进出口关税条例》",
+          "国务院令第392号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不判断商品归类的最终税号是否正确",
+          "不替代海关归类决定"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-icd-rule-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "medical"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《住院病案首页数据填写质量规范（暂行）》",
+          "《疾病和有关健康问题的国际统计分类》第十次修订本 第二卷 指导手册",
+          "《医疗保障基金结算清单填写规范（试行）》",
+          "国卫办医发〔2016〕24号",
+          "WHO ICD-10 Volume 2",
+          "GB/T 14396-2016",
+          "国卫办医函〔2019〕371号 附件1",
+          "医保办发〔2020〕20号"
+        ],
+        "legacyCategories": [
+          "medical"
+        ]
+      },
+      "facetCategories": [
+        "domain.medical",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《住院病案首页数据填写质量规范（暂行）》",
+          "《疾病和有关健康问题的国际统计分类》第十次修订本 第二卷 指导手册",
+          "《医疗保障基金结算清单填写规范（试行）》",
+          "国卫办医发〔2016〕24号",
+          "WHO ICD-10 Volume 2",
+          "GB/T 14396-2016",
+          "国卫办医函〔2019〕371号 附件1",
+          "医保办发〔2020〕20号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代编码员判断",
+          "不判断临床诊断是否正确"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-industry-research",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [
+          "research"
+        ],
+        "tasks": [
+          "search"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "knowledge"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "subdomain.research",
+        "task.search",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-lawcite-adapter",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "legal"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "adapter",
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "本机构法律文书审查口径（本机构配置）—— 原挂《中华人民共和国立法法》，已核实其第六十五条为立法技术条款",
+          "本机构法律文书审查口径（本机构配置）—— 原挂《党政机关公文格式》GB/T 9704—2012，已核实为版式标准",
+          "本机构法律文书审查办法（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "legal"
+        ]
+      },
+      "facetCategories": [
+        "domain.legal",
+        "task.adapter",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "本机构法律文书审查口径（本机构配置）—— 原挂《中华人民共和国立法法》，已核实其第六十五条为立法技术条款",
+          "本机构法律文书审查口径（本机构配置）—— 原挂《党政机关公文格式》GB/T 9704—2012，已核实为版式标准",
+          "本机构法律文书审查办法（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不提供法律意见",
+          "不替代律师对案件的法律判断"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-laya",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "model_routing",
+          "agent"
+        ],
+        "subdomains": [
+          "model-routing"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "model",
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.model_routing",
+        "domain.agent",
+        "subdomain.model-routing",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-lc-doc-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "customs",
+          "trade"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《跟单信用证统一惯例》（UCP600）",
+          "《表示货币的代码》"
+        ],
+        "legacyCategories": [
+          "customs"
+        ]
+      },
+      "facetCategories": [
+        "domain.customs",
+        "domain.trade",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《跟单信用证统一惯例》（UCP600）",
+          "《表示货币的代码》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代银行审单",
+          "不判断单据真实性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-learning-gap-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "education"
+        ],
+        "subdomains": [
+          "education"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《质量管理 能力管理和人员发展指南》",
+          "本机构培训与发展管理口径（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.education",
+        "subdomain.education",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《质量管理 能力管理和人员发展指南》",
+          "本机构培训与发展管理口径（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-library",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [
+          "research"
+        ],
+        "tasks": [
+          "search"
+        ],
+        "artifacts": [
+          "docx"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "knowledge"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "subdomain.research",
+        "task.search",
+        "artifact.docx",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代文献数据库的完整检索",
+          "不判断论文的学术贡献"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-local-ai",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "model_routing"
+        ],
+        "subdomains": [
+          "model-routing"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "model"
+        ]
+      },
+      "facetCategories": [
+        "domain.model_routing",
+        "subdomain.model-routing",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-lsp-actions",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev_connectors"
+        ],
+        "subdomains": [
+          "dev-connectors"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev_connectors",
+        "subdomain.dev-connectors",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-mask",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "security"
+        ],
+        "subdomains": [
+          "ai-security"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.security",
+        "subdomain.ai-security",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-mcp-panel",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev_connectors"
+        ],
+        "subdomains": [
+          "dev-connectors"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "integration"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev_connectors",
+        "subdomain.dev-connectors",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-medrec-qc",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "medical"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《住院病案首页数据质量管理与控制指标（2016版）》",
+          "《住院病案首页数据填写质量规范（暂行）》",
+          "《卫生部关于修订住院病案首页的通知》",
+          "国家医疗保障局\"两库\"知识点（诊断与患者性别不符）",
+          "国卫办医发〔2016〕24号",
+          "卫医政发〔2011〕84号",
+          "国家医疗保障局公告"
+        ],
+        "legacyCategories": [
+          "medical"
+        ]
+      },
+      "facetCategories": [
+        "domain.medical",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《住院病案首页数据质量管理与控制指标（2016版）》",
+          "《住院病案首页数据填写质量规范（暂行）》",
+          "《卫生部关于修订住院病案首页的通知》",
+          "国家医疗保障局\"两库\"知识点（诊断与患者性别不符）",
+          "国卫办医发〔2016〕24号",
+          "卫医政发〔2011〕84号",
+          "国家医疗保障局公告"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代病案质控委员会",
+          "不判断诊疗行为的合理性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-memento",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "memory"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "memory"
+        ]
+      },
+      "facetCategories": [
+        "domain.memory",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-nsfc-form-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [
+          "research"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《国家自然科学基金条例》",
+          "《2026 年度国家自然科学基金项目指南·申请规定》",
+          "国务院令第796号",
+          "2026 年度"
+        ],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "subdomain.research",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《国家自然科学基金条例》",
+          "《2026 年度国家自然科学基金项目指南·申请规定》",
+          "国务院令第796号",
+          "2026 年度"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不评价申请书学术质量",
+          "不替代依托单位科研管理部门审核"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-nurse-record-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "medical"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《电子病历应用管理规范（试行）》",
+          "《病历书写基本规范》",
+          "《护理分级标准》",
+          "《进一步改善护理服务行动计划（2023—2025年）》",
+          "《综合医院分级护理指导原则（试行）》",
+          "国卫办医发〔2017〕8号",
+          "卫医政发〔2010〕11号",
+          "国卫医发〔2018〕8号"
+        ],
+        "legacyCategories": [
+          "medical"
+        ]
+      },
+      "facetCategories": [
+        "domain.medical",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《电子病历应用管理规范（试行）》",
+          "《病历书写基本规范》",
+          "《护理分级标准》",
+          "《进一步改善护理服务行动计划（2023—2025年）》",
+          "《综合医院分级护理指导原则（试行）》",
+          "国卫办医发〔2017〕8号",
+          "卫医政发〔2010〕11号",
+          "国卫医发〔2018〕8号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代护理质控",
+          "不判断护理措施是否恰当"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-observe",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "observability"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "dev"
+        ]
+      },
+      "facetCategories": [
+        "domain.observability",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-origin-rvc-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "customs",
+          "trade"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "各自由贸易协定原产地规则（协定文本，本次未取得）"
+        ],
+        "legacyCategories": [
+          "customs"
+        ]
+      },
+      "facetCategories": [
+        "domain.customs",
+        "domain.trade",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "各自由贸易协定原产地规则（协定文本，本次未取得）"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代原产地证书签发",
+          "不保证协定文本的最新版本"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-ota-review-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "hospitality"
+        ],
+        "subdomains": [
+          "operations-quality"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国电子商务法》与平台服务规则",
+          "《中华人民共和国电子商务法》",
+          "各在线旅游平台服务规则（本机构配置）",
+          "本机构点评管理办法（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.hospitality",
+        "subdomain.operations-quality",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国电子商务法》与平台服务规则",
+          "《中华人民共和国电子商务法》",
+          "各在线旅游平台服务规则（本机构配置）",
+          "本机构点评管理办法（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代平台规则判定",
+          "不判断回复内容是否让客人满意"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-output-styles",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ux"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "interface"
+        ]
+      },
+      "facetCategories": [
+        "domain.ux",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-paper-doc-adapter",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "education"
+        ],
+        "subdomains": [
+          "education"
+        ],
+        "tasks": [
+          "adapter",
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《试题元数据规范》",
+          "本机构题库与命题口径（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.education",
+        "subdomain.education",
+        "task.adapter",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《试题元数据规范》",
+          "本机构题库与命题口径（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-permission-rules",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "security"
+        ],
+        "subdomains": [
+          "ai-security"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "workflow"
+        ]
+      },
+      "facetCategories": [
+        "domain.security",
+        "subdomain.ai-security",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-permit-report-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "government",
+          "construction"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国行政许可法》",
+          "各事项办事指南与承诺时限（本机构配置）",
+          "本机构许可办理管理口径（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.government",
+        "domain.construction",
+        "subdomain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国行政许可法》",
+          "各事项办事指南与承诺时限（本机构配置）",
+          "本机构许可办理管理口径（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-personal-directive",
+      "maintenance": "unknown",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "workflow"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "workflow"
+        ]
+      },
+      "facetCategories": [
+        "domain.workflow",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": null
+      },
+      "statusAgreement": "none"
+    },
+    {
+      "name": "dsh-phocinae",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev_connectors"
+        ],
+        "subdomains": [
+          "decision"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "integration"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev_connectors",
+        "subdomain.decision",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-phone-inbox",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "remote_comms"
+        ],
+        "subdomains": [
+          "remote-comms"
+        ],
+        "tasks": [
+          "bridge"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "interface",
+          "integration"
+        ]
+      },
+      "facetCategories": [
+        "domain.remote_comms",
+        "subdomain.remote-comms",
+        "task.bridge",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-pipeline-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "investment_project"
+        ],
+        "subdomains": [
+          "operations-quality"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "本机构项目管理办法与投资管理制度（无国家标准）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.investment_project",
+        "subdomain.operations-quality",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "本机构项目管理办法与投资管理制度（无国家标准）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不判断项目投资决策",
+          "不替代审计机关的审计结论"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-pleading-draft",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "legal"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "drafting"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国民事诉讼法》",
+          "1991年通过，经 2007、2012、2017、2021、2023 年五次修正"
+        ],
+        "legacyCategories": [
+          "legal"
+        ]
+      },
+      "facetCategories": [
+        "domain.legal",
+        "task.drafting",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国民事诉讼法》",
+          "1991年通过，经 2007、2012、2017、2021、2023 年五次修正"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-primer",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "knowledge"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-codemod",
+      "maintenance": "active",
+      "maturity": "stable",
+      "facets": {
+        "domains": [
+          "dev",
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "dev",
+          "knowledge"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-policy-brief-draft",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "government"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "drafting"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《党政机关公文处理工作条例》"
+        ],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.government",
+        "task.drafting",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《党政机关公文处理工作条例》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-power-loss-split",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ehs"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《电力网电能损耗计算导则》",
+          "DL/T 686-2018",
+          "GB/T 8170-2008"
+        ],
+        "legacyCategories": [
+          "safety"
+        ]
+      },
+      "facetCategories": [
+        "domain.ehs",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《电力网电能损耗计算导则》",
+          "DL/T 686-2018",
+          "GB/T 8170-2008"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-power-ticket-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "ehs"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《电力安全工作规程 发电厂和变电站电气部分》",
+          "GB 26860—2011"
+        ],
+        "legacyCategories": [
+          "safety"
+        ]
+      },
+      "facetCategories": [
+        "domain.ehs",
+        "subdomain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《电力安全工作规程 发电厂和变电站电气部分》",
+          "GB 26860—2011"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-ppap-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "quality"
+        ],
+        "subdomains": [
+          "manufacturing-quality"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《生产件批准程序（PPAP）手册》"
+        ],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.quality",
+        "subdomain.manufacturing-quality",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《生产件批准程序（PPAP）手册》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代顾客批准",
+          "不判断提交等级选择是否合理"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-protest-deadline",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tender"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《政府采购质疑和投诉办法》",
+          "财政部令第94号"
+        ],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.tender",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《政府采购质疑和投诉办法》",
+          "财政部令第94号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代财政部门投诉处理",
+          "不判断质疑事项是否成立"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-railway-window",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "railway"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《铁路营业线施工安全管理办法》",
+          "各铁路局集团公司施工天窗管理办法（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "customs"
+        ]
+      },
+      "facetCategories": [
+        "domain.railway",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《铁路营业线施工安全管理办法》",
+          "各铁路局集团公司施工天窗管理办法（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-reach",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "remote_comms"
+        ],
+        "subdomains": [
+          "remote-comms"
+        ],
+        "tasks": [
+          "bridge"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "integration"
+        ]
+      },
+      "facetCategories": [
+        "domain.remote_comms",
+        "subdomain.remote-comms",
+        "task.bridge",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": "frozen"
+      },
+      "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-repair-order-qc",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "auto_aftermarket"
+        ],
+        "subdomains": [
+          "operations-quality"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《机动车维修管理规定》",
+          "交通运输部令2021年第18号"
+        ],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.auto_aftermarket",
+        "subdomain.operations-quality",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《机动车维修管理规定》",
+          "交通运输部令2021年第18号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不判断维修质量",
+          "不替代保险公司定损"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-research-report",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [
+          "research"
+        ],
+        "tasks": [
+          "drafting"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "knowledge"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "subdomain.research",
+        "task.drafting",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-review-reply-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [
+          "operations-quality"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中国高校科技期刊编排规范》",
+          "本期刊同行评议与返修规定（本机构配置）",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "subdomain.operations-quality",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中国高校科技期刊编排规范》",
+          "本期刊同行评议与返修规定（本机构配置）",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-rulefile-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "本插件家族的条款引用纪律（自定纪律，非国家标准）",
+          "本插件家族的检查引擎契约（自定纪律，非国家标准）",
+          "本插件家族的规则库契约（自定纪律，非国家标准）",
+          "无编号"
+        ],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "本插件家族的条款引用纪律（自定纪律，非国家标准）",
+          "本插件家族的检查引擎契约（自定纪律，非国家标准）",
+          "本插件家族的规则库契约（自定纪律，非国家标准）",
+          "无编号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-safety-brief-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "construction",
+          "ehs"
+        ],
+        "subdomains": [
+          "ehs"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《建筑施工安全技术统一规范》",
+          "《建设工程安全生产管理条例》",
+          "《建筑施工安全检查标准》",
+          "GB 50870-2013",
+          "JGJ 59-2011",
+          "国务院令第393号"
+        ],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.construction",
+        "domain.ehs",
+        "subdomain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《建筑施工安全技术统一规范》",
+          "《建设工程安全生产管理条例》",
+          "《建筑施工安全检查标准》",
+          "GB 50870-2013",
+          "JGJ 59-2011",
+          "国务院令第393号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-score",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev"
+        ],
+        "subdomains": [
+          "dev-quality"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "dev"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "subdomain.dev-quality",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-session-pin",
+      "maintenance": "retired",
+      "maturity": "retired",
+      "facets": {
+        "domains": [
+          "session"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "session"
+        ]
+      },
+      "facetCategories": [
+        "domain.session",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": "dsh-client-ui-workspace (official native workspace/session pinning)",
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "retired",
+        "roster": "retired"
+      },
+      "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-session-sync",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "session"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "session"
+        ]
+      },
+      "facetCategories": [
+        "domain.session",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-site-log-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "construction"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《建设工程监理规范》",
+          "《房屋建筑工程施工旁站监理管理办法（试行）》",
+          "GB/T 50319-2013",
+          "DBJT 13-144-2019",
+          "国务院令第279号",
+          "建市〔2002〕189号"
+        ],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.construction",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《建设工程监理规范》",
+          "《房屋建筑工程施工旁站监理管理办法（试行）》",
+          "GB/T 50319-2013",
+          "DBJT 13-144-2019",
+          "国务院令第279号",
+          "建市〔2002〕189号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代监理单位内部检查",
+          "不判断旁站是否实际发生"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-soe-decision-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "governance"
+        ],
+        "subdomains": [
+          "decision"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《关于进一步推进国有企业贯彻落实\"三重一大\"决策制度的意见》",
+          "中办发〔2010〕17号"
+        ],
+        "legacyCategories": [
+          "governance"
+        ]
+      },
+      "facetCategories": [
+        "domain.governance",
+        "subdomain.decision",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《关于进一步推进国有企业贯彻落实\"三重一大\"决策制度的意见》",
+          "中办发〔2010〕17号"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-soilwater-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "construction",
+          "ehs"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《建设用地土壤污染状况调查技术导则》",
+          "《地下水环境监测技术规范》",
+          "《土壤环境质量 建设用地土壤污染风险管控标准（试行）》"
+        ],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.construction",
+        "domain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《建设用地土壤污染状况调查技术导则》",
+          "《地下水环境监测技术规范》",
+          "《土壤环境质量 建设用地土壤污染风险管控标准（试行）》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代环境监测机构",
+          "不判断污染责任的归属"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-sop-sync-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "quality",
+          "manufacturing"
+        ],
+        "subdomains": [
+          "manufacturing-quality"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "IATF 16949／汽车行业核心工具手册"
+        ],
+        "legacyCategories": [
+          "governance"
+        ]
+      },
+      "facetCategories": [
+        "domain.quality",
+        "domain.manufacturing",
+        "subdomain.manufacturing-quality",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "IATF 16949／汽车行业核心工具手册"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-spc-gbt-adapter",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "quality"
+        ],
+        "subdomains": [
+          "manufacturing-quality"
+        ],
+        "tasks": [
+          "adapter",
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《常规控制图》"
+        ],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.quality",
+        "subdomain.manufacturing-quality",
+        "task.adapter",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《常规控制图》"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代过程能力研究的抽样设计",
+          "不判断过程是否受控的最终结论"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-talk",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "voice"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "bridge"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.voice",
+        "task.bridge",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-team-rooms",
+      "maintenance": "retired",
+      "maturity": "retired",
+      "facets": {
+        "domains": [
+          "agent"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "agent"
+        ]
+      },
+      "facetCategories": [
+        "domain.agent",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": "dsh-experimental-agent-team (official native agent team)",
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "retired",
+        "roster": "retired"
+      },
+      "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-tender-extract",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tender"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "extractor"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国招标投标法》",
+          "1999年8月30日通过，2017年12月27日修正"
+        ],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.tender",
+        "task.extractor",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国招标投标法》",
+          "1999年8月30日通过，2017年12月27日修正"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-tender-matrix",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tender"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《中华人民共和国招标投标法》",
+          "1999年8月30日通过，2017年12月27日修正"
+        ],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.tender",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《中华人民共和国招标投标法》",
+          "1999年8月30日通过，2017年12月27日修正"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代评标委员会评审",
+          "不判断评分因素设置是否合法"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-test-drive",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev"
+        ],
+        "subdomains": [
+          "dev-quality"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "json"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "dev"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "subdomain.dev-quality",
+        "task.tool",
+        "artifact.json",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-translate",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "model_routing"
+        ],
+        "subdomains": [
+          "model-routing"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "json"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.model_routing",
+        "subdomain.model-routing",
+        "task.tool",
+        "artifact.json",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-warranty-calc",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "auto_aftermarket"
+        ],
+        "subdomains": [
+          "operations-quality"
+        ],
+        "tasks": [
+          "calculator"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [
+          "《家用汽车产品修理更换退货责任规定》",
+          "各厂商质保政策与三包规定（本机构配置）",
+          "各厂商质保政策（本机构配置）",
+          "市场监管总局令第43号",
+          "无统一标准"
+        ],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.auto_aftermarket",
+        "subdomain.operations-quality",
+        "task.calculator",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "standards": [
+          "《家用汽车产品修理更换退货责任规定》",
+          "各厂商质保政策与三包规定（本机构配置）",
+          "各厂商质保政策（本机构配置）",
+          "市场监管总局令第43号",
+          "无统一标准"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代三包争议处理",
+          "不判断故障是否属于质保范围"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": null,
+        "roster": "active"
+      },
+      "statusAgreement": "roster-only"
+    },
+    {
+      "name": "dsh-einvoice",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "ofd",
+          "xml"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "finance"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.tool",
+        "artifact.ofd",
+        "artifact.xml",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代税务发票查验平台",
+          "不做进项抵扣的最终判定"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-bankrec",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "reconciliation",
+          "ledger"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "finance"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.reconciliation",
+        "task.ledger",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代审计程序",
+          "不判断未达账项的业务实质"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-ap-three-way",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "reconciliation",
+          "ledger"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "finance"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.reconciliation",
+        "task.ledger",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代付款审批",
+          "不判断供应商履约质量"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-travel-recon",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "reconciliation",
+          "ledger"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "finance"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.reconciliation",
+        "task.ledger",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代报销审批",
+          "不判断差旅事项的业务必要性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-legal-intake",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "legal"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "legal"
+        ]
+      },
+      "facetCategories": [
+        "domain.legal",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-legal-clause",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "legal"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "legal"
+        ]
+      },
+      "facetCategories": [
+        "domain.legal",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-ghg",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "energy",
+          "esg"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "esg"
+        ]
+      },
+      "facetCategories": [
+        "domain.energy",
+        "domain.esg",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代第三方核查",
+          "不判断排放因子版本的适用性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": true,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-qms-capa",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "quality",
+          "manufacturing"
+        ],
+        "subdomains": [
+          "manufacturing-quality"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "quality"
+        ]
+      },
+      "facetCategories": [
+        "domain.quality",
+        "domain.manufacturing",
+        "subdomain.manufacturing-quality",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代质量体系审核",
+          "不判断纠正措施是否有效"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": true,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-hs-candidate",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "customs",
+          "trade"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "trade"
+        ]
+      },
+      "facetCategories": [
+        "domain.customs",
+        "domain.trade",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": true,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-freight-audit",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "logistics"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "logistics"
+        ]
+      },
+      "facetCategories": [
+        "domain.logistics",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代承运人合同解释",
+          "不保证 ratecard 的真实性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": true,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-docx-redline",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "documents"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "docx"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "documents"
+        ]
+      },
+      "facetCategories": [
+        "domain.documents",
+        "task.tool",
+        "artifact.docx",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": true,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-ifc-qto",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "construction"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "ifc",
+          "csv"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.construction",
+        "task.tool",
+        "artifact.ifc",
+        "artifact.csv",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代造价咨询成果",
+          "不保证模型本身的建模质量"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": true,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-policy-ledger",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "reconciliation",
+          "ledger"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "developer-tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "task.reconciliation",
+        "task.ledger",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-pim-lint",
+      "maintenance": "frozen",
+      "maturity": "preview",
+      "facets": {
+        "domains": [
+          "data"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "data"
+        ]
+      },
+      "facetCategories": [
+        "domain.data",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": true,
+      "statusSources": {
+        "catalog": "frozen",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-eval-pack",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "dev"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "json"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "developer-tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.dev",
+        "task.tool",
+        "artifact.json",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-finops-suite",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "workflow"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "finance"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.workflow",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-contract-suite",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "legal"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "workflow"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "legal"
+        ]
+      },
+      "facetCategories": [
+        "domain.legal",
+        "task.workflow",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-bid-health-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tender"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.tender",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-canteen-retention-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "food_safety"
+        ],
+        "subdomains": [
+          "food-safety"
+        ],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "safety"
+        ]
+      },
+      "facetCategories": [
+        "domain.food_safety",
+        "subdomain.food-safety",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-construction-doc-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "construction"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.construction",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-excel-reconcile",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "xlsx",
+          "csv",
+          "json"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "data"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.tool",
+        "artifact.xlsx",
+        "artifact.csv",
+        "artifact.json",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-invoice-ledger",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "reconciliation",
+          "ledger"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "finance"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.reconciliation",
+        "task.ledger",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "不替代税务查验",
+          "不判断发票业务真实性"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-payroll-audit",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "finance"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "finance"
+        ]
+      },
+      "facetCategories": [
+        "domain.finance",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-safety-ledger-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "construction",
+          "ehs"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "construction"
+        ]
+      },
+      "facetCategories": [
+        "domain.construction",
+        "domain.ehs",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-table-ingest",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "data"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "parser",
+          "ingest"
+        ],
+        "artifacts": [
+          "xlsx",
+          "docx",
+          "csv",
+          "json"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "data"
+        ]
+      },
+      "facetCategories": [
+        "domain.data",
+        "task.parser",
+        "task.ingest",
+        "artifact.xlsx",
+        "artifact.docx",
+        "artifact.csv",
+        "artifact.json",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-tender-requirements",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "tender"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tender"
+        ]
+      },
+      "facetCategories": [
+        "domain.tender",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-check-pack",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "quality"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "installer"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "tools"
+        ]
+      },
+      "facetCategories": [
+        "domain.quality",
+        "task.installer",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": "active"
+      },
+      "statusAgreement": "both"
+    }
+  ]
+}
