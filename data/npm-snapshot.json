@@ -1123,5 +1123,14 @@
     "repository": "git+https://github.com/PerryLink/dsh-tender-requirements.git",
     "latest": "0.2.3",
     "updatedAt": "2026-10-30T16:29:52.163Z"
+  },
+  {
+    "name": "dsh-check-pack",
+    "description": "One-command installer for the 53-checker PerryLink compliance suite: installs every checker and inserts all 53 Cordis rows in one bundle layer.",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-check-pack#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-check-pack.git",
+    "latest": "0.2.0",
+    "updatedAt": "2026-11-02T12:39:46.215Z"
   }
 ]
