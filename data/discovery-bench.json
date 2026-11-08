@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "description": "26-query discovery bench for DSH catalog / Desktop-like includes baseline. Expected plugin is the primary match; top3 hit is acceptable.",
+  "queries": [
+    { "id": "customs-01", "domain": "customs", "query": "报关单品名金额对不上", "expected": ["dsh-customs-doc-check"] },
+    { "id": "customs-02", "domain": "customs", "query": "HS编码章品目对不上", "expected": ["dsh-hs-classify"] },
+    { "id": "customs-03", "domain": "customs", "query": "信用证单据不符点", "expected": ["dsh-lc-doc-check"] },
+    { "id": "customs-04", "domain": "customs", "query": "原产地RVC怎么算", "expected": ["dsh-origin-rvc-check"] },
+    { "id": "customs-05", "domain": "customs", "query": "出口管制物项许可证", "expected": ["dsh-export-ctl-check"] },
+    { "id": "tender-01", "domain": "tender", "query": "投标资格条件逐条响应", "expected": ["dsh-bid-qual-check"] },
+    { "id": "tender-02", "domain": "tender", "query": "招标文件符合性预检", "expected": ["dsh-bid-ca-precheck"] },
+    { "id": "tender-03", "domain": "tender", "query": "评标评分矩阵分值合计", "expected": ["dsh-tender-matrix"] },
+    { "id": "tender-04", "domain": "tender", "query": "质疑投诉期限", "expected": ["dsh-protest-deadline"] },
+    { "id": "ehs-01", "domain": "ehs", "query": "应急预案要素", "expected": ["dsh-emergency-plan"] },
+    { "id": "ehs-02", "domain": "ehs", "query": "危化品临界量", "expected": ["dsh-hazchem-check"] },
+    { "id": "ehs-03", "domain": "ehs", "query": "HAZOP分析表", "expected": ["dsh-hazplan-check"] },
+    { "id": "ehs-04", "domain": "ehs", "query": "环评导则适用性", "expected": ["dsh-eia-guide-check"] },
+    { "id": "construction-01", "domain": "construction", "query": "监理日志旁站", "expected": ["dsh-site-log-check"] },
+    { "id": "construction-02", "domain": "construction", "query": "土壤地下水监测超标", "expected": ["dsh-soilwater-check"] },
+    { "id": "medical-01", "domain": "medical", "query": "病案首页质控", "expected": ["dsh-medrec-qc"] },
+    { "id": "medical-02", "domain": "medical", "query": "护理记录时限签名", "expected": ["dsh-nurse-record-check"] },
+    { "id": "medical-03", "domain": "medical", "query": "ICD编码星剑号", "expected": ["dsh-icd-rule-check"] },
+    { "id": "legal-01", "domain": "legal", "query": "证据清单待证事实", "expected": ["dsh-evidence-check"] },
+    { "id": "legal-02", "domain": "legal", "query": "法条引用条号原文", "expected": ["dsh-lawcite-adapter"] },
+    { "id": "gov-01", "domain": "government", "query": "公文格式版头", "expected": ["dsh-gongwen-word-check"] },
+    { "id": "finance-01", "domain": "finance", "query": "电子发票OFD", "expected": ["dsh-einvoice"] },
+    { "id": "finance-02", "domain": "finance", "query": "银行流水对账", "expected": ["dsh-bankrec"] },
+    { "id": "research-01", "domain": "research", "query": "国自然形式审查匿名化", "expected": ["dsh-nsfc-form-check"] },
+    { "id": "quality-01", "domain": "quality", "query": "FMEA RPN", "expected": ["dsh-fmea-table-check"] },
+    { "id": "logistics-01", "domain": "logistics", "query": "滞箱费免箱期", "expected": ["dsh-demurrage-ledger"] }
+  ]
+}

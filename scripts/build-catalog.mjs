@@ -11,6 +11,14 @@
 // generator read them; until 2026-10-13 it dropped them, which is why the live
 // endpoint served 0 Chinese names for 96 items. `scripts/check-counts.mjs` now
 // holds the ratio, so the drop cannot come back silently.
+//
+// 2026-11-08 (discoverability P0): the item also carries the two contract fields
+// Desktop actually indexes for search — `keywords` and `description` (the 1.0.0
+// item schema allows both; `displayNameZh`/`summaryZh` are display-only and are
+// NOT searched). They are read from data/packages.json, so a row that has not
+// been written yet emits no empty array/string. Desktop's `normalizedSearchText`
+// joins id/name/displayName/summary/description/publisher/keywords, so a Chinese
+// domain word reaches search only through these three text fields.
 
 import { readFile, writeFile, mkdir } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
@@ -36,6 +44,34 @@ const clean = (value) => {
   return value.replace(/[\u0000-\u001F\u007F-\u009F\u202A-\u202E\u2066-\u2069]/g, ' ')
 }
 
+// 1.0.0 item schema: keywords is an array of ≤64 unique strings, each 1..64 chars.
+// Data rows are hand-written, so normalize here rather than trusting every row:
+// drop non-strings/empties, clean, trim, cap each item, de-duplicate, cap the list.
+/** @param {unknown} value @returns {string[]|undefined} */
+const keywordsOf = (value) => {
+  if (!Array.isArray(value)) return undefined
+  const seen = new Set()
+  const out = []
+  for (const entry of value) {
+    if (typeof entry !== 'string') continue
+    const keyword = clean(entry).trim().slice(0, 64)
+    if (keyword.length === 0 || seen.has(keyword)) continue
+    seen.add(keyword)
+    out.push(keyword)
+    if (out.length === 64) break
+  }
+  return out.length > 0 ? out : undefined
+}
+
+// description is optional on the wire (no minLength); drop an empty string so a
+// blank row does not put an empty field on the page.
+/** @param {unknown} value @returns {string|undefined} */
+const descriptionOf = (value) => {
+  if (typeof value !== 'string') return undefined
+  const description = clean(value).slice(0, 5000)
+  return description.length > 0 ? description : undefined
+}
+
 const items = []
 for (const pkg of packages) {
   const npm = byName.get(pkg.npm)
@@ -49,6 +85,8 @@ for (const pkg of packages) {
   // control characters and bidi controls.
   const displayNameZh = typeof pkg.displayNameZh === 'string' && pkg.displayNameZh.length > 0 ? clean(pkg.displayNameZh) : undefined
   const summaryZh = typeof pkg.summaryZh === 'string' && pkg.summaryZh.length > 0 ? clean(pkg.summaryZh).slice(0, 1000) : undefined
+  const keywords = keywordsOf(pkg.keywords)
+  const description = descriptionOf(pkg.description)
   const item = {
     id: pkg.npm.startsWith('@') ? pkg.npm.slice(1) : pkg.npm,
     name: pkg.npm,
@@ -56,6 +94,8 @@ for (const pkg of packages) {
     ...(displayNameZh === undefined ? {} : { displayNameZh }),
     summary: clean(pkg.summary ?? npm.description ?? `${pkg.displayName}: DeepSeek Harness (dsh) plugin.`).slice(0, 1000),
     ...(summaryZh === undefined ? {} : { summaryZh }),
+    ...(description === undefined ? {} : { description }),
+    ...(keywords === undefined ? {} : { keywords }),
     homepage: npm.homepage && /^https:/.test(npm.homepage) ? npm.homepage : repositoryUrl,
     latestVersion: npm.latest,
     license: typeof npm.license === 'string' && npm.license.length <= 80 ? npm.license : undefined,
