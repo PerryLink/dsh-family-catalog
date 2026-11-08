@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-08T10:42:38.076Z",
+  "generatedAt": "2026-11-08T11:21:16.563Z",
   "revision": "perrylink-dsh-catalog-2026-11-08",
   "items": [
     {
@@ -64,7 +64,7 @@
         "静态检查"
       ],
       "homepage": "https://github.com/PerryLink/dsh-clinic",
-      "latestVersion": "0.8.1",
+      "latestVersion": "0.8.2",
       "license": "Apache-2.0",
       "categories": [
         "dev"
@@ -86,7 +86,7 @@
           "alt": "插件医生"
         }
       },
-      "updatedAt": "2026-11-03T11:42:56.694Z"
+      "updatedAt": "2026-11-08T11:20:53.579Z"
     },
     {
       "id": "dsh-scaffold",
@@ -2652,7 +2652,7 @@
         "peer 区间"
       ],
       "homepage": "https://github.com/PerryLink/dsh-codemod",
-      "latestVersion": "3.0.2",
+      "latestVersion": "3.0.3",
       "license": "Apache-2.0",
       "categories": [
         "dev",
@@ -2675,7 +2675,7 @@
           "alt": "插件升级技能"
         }
       },
-      "updatedAt": "2026-11-01T09:34:18.281Z"
+      "updatedAt": "2026-11-08T11:20:10.892Z"
     },
     {
       "id": "dsh-policy-brief-draft",

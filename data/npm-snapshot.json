@@ -14,8 +14,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-clinic#readme",
     "repository": "git+https://github.com/PerryLink/dsh-clinic.git",
-    "latest": "0.8.1",
-    "updatedAt": "2026-11-03T11:42:56.694Z"
+    "latest": "0.8.2",
+    "updatedAt": "2026-11-08T11:20:53.579Z"
   },
   {
     "name": "dsh-scaffold",
@@ -644,8 +644,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-codemod#readme",
     "repository": "git+https://github.com/PerryLink/dsh-codemod.git",
-    "latest": "3.0.2",
-    "updatedAt": "2026-11-01T09:34:18.281Z"
+    "latest": "3.0.3",
+    "updatedAt": "2026-11-08T11:20:10.892Z"
   },
   {
     "name": "dsh-policy-brief-draft",

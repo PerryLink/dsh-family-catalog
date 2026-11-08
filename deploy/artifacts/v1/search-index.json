@@ -174,7 +174,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-03T11:42:56.694Z",
+      "updatedAt": "2026-11-08T11:20:53.579Z",
       "source": "discovery",
       "searchText": "dsh-clinic\nClinic\n插件医生\nZero-dependency static + sandbox smoke detector for DeepSeek Harness plugins: package-structure gates (R), cordis contract scans (K), keyless-headless sandbox smoke (D), and ecosystem-listing checks (CC).\nDeepSeek Harness 插件零依赖检测器：包结构静态检查（R）、cordis 契约扫描（K）、无键无头沙箱冒烟（D）与生态清单校验（CC）四层。\n插件医生\nClinic\ndsh-clinic\ndsh-plugin-doctor\nplugin-doctor\n插件诊断\nclinic\ndoctor\n包结构检查\ncordis 契约\n沙箱冒烟\n静态检查\ndsh-clinic\ndsh-plugin-doctor\nplugin-doctor\n插件医生\n插件诊断\nclinic\ndoctor\n包结构检查\ncordis 契约\n沙箱冒烟\n静态检查\n插件医生\n插件医生 怎么用\n插件医生 插件\ndsh 插件医生\n开发者\n插件作者\ndev\ntool"
     },
@@ -5954,7 +5954,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-01T09:34:18.281Z",
+      "updatedAt": "2026-11-08T11:20:10.892Z",
       "source": "discovery",
       "searchText": "dsh-codemod\nCodemod\n插件升级技能\nPlugin-author upgrade skill for DeepSeek Harness, new-generation single package: one corridor index reads the caller peer band and routes it to the matching closed corridor card (dsh 0.1.3-alpha.1 -> 0.1.5-rc.1 and 0.1.5-rc.2 -> 0.1.6-alpha.2), with a zero-dependency seam scanner shipped as a bundle skill and an npx CLI.\n面向 DeepSeek Harness 插件作者的新一代单包升级技能：一份走廊索引读取调用方 peer 区间并路由到对应已封版升级卡片（dsh 0.1.3-alpha.1 → 0.1.5-rc.1 与 0.1.5-rc.2 → 0.1.6-alpha.2），零依赖接缝扫描器以 bundle 技能与 npx CLI 两种形态提供。\n插件升级技能\nCodemod\ndsh-codemod\ndsh-plugin-upgrade\nplugin-upgrade\n插件升级\n升级技能\ncodemod\nupgrade\n版本走廊\n迁移\npeer 区间\ndsh-codemod\ndsh-plugin-upgrade\nplugin-upgrade\n插件升级\n升级技能\ncodemod\nupgrade\n版本走廊\n迁移\npeer 区间\n插件升级技能\n插件升级技能 怎么用\n插件升级技能 插件\ndsh 插件升级技能\n开发者\n插件作者\n研究人员\ndev\nresearch\ntool"
     },
