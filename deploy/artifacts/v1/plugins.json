@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-08T09:45:25.184Z",
+  "generatedAt": "2026-11-08T10:23:05.002Z",
   "revision": "perrylink-dsh-catalog-2026-11-08",
   "items": [
     {
@@ -176,6 +176,7 @@
       "homepage": "https://github.com/PerryLink/dsh-security-pack#readme",
       "latestVersion": "3.0.1",
       "license": "Apache-2.0",
+      "group": "安全",
       "difficulty": "advanced",
       "categories": [
         "agent"
@@ -758,6 +759,7 @@
       "homepage": "https://github.com/PerryLink/dsh-community-bench#readme",
       "latestVersion": "0.2.6",
       "license": "Apache-2.0",
+      "group": "校验工具",
       "difficulty": "advanced",
       "categories": [
         "interface",
@@ -2947,6 +2949,7 @@
       "homepage": "https://github.com/PerryLink/dsh-personal-directive#readme",
       "latestVersion": "0.2.11",
       "license": "Apache-2.0",
+      "group": "会话",
       "requires": {
         "dsh": ">=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
@@ -2984,6 +2987,7 @@
       "homepage": "https://github.com/Phocinae/dsh-phocinae#readme",
       "latestVersion": "0.2.5",
       "license": "Apache-2.0",
+      "group": "集成",
       "difficulty": "intermediate",
       "categories": [
         "integration"
@@ -3017,6 +3021,7 @@
       "homepage": "https://github.com/PerryLink/dsh-phone-inbox#readme",
       "latestVersion": "0.1.4",
       "license": "Apache-2.0",
+      "group": "集成",
       "requires": {
         "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
         "node": "^22.19.0 || >=24.0.0"
