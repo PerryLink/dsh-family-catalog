@@ -31,10 +31,11 @@ const sync = JSON.parse((await readFile(`${base}/data/top20-repo-sync.json`, 'ut
 /** @param {string} dir */
 const dirty = (dir) => {
   try {
-    return execSync('git status --porcelain', { cwd: dir, encoding: 'utf8' }).trim().length > 0
+    execSync('git rev-parse --is-inside-work-tree', { cwd: dir, stdio: 'ignore' })
   } catch {
-    return true
+    return false // not a git checkout (e.g. a throwaway copy): nothing to protect
   }
+  return execSync('git status --porcelain', { cwd: dir, encoding: 'utf8' }).trim().length > 0
 }
 
 let planned = 0
