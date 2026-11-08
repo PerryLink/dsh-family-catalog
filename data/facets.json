@@ -7,8 +7,8 @@
     "roster": "dsh-kit/data/repos.json"
   },
   "counts": {
-    "plugins": 126,
-    "active": 107,
+    "plugins": 145,
+    "active": 126,
     "frozen": 15,
     "retired": 3,
     "unknown": 1
@@ -6323,6 +6323,838 @@
         "roster": "active"
       },
       "statusAgreement": "both"
+    },
+    {
+      "name": "dsh-cite-verify",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "@perrylink/dsh-claim-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-dataset-card",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "data"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "csv",
+          "json"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "data"
+        ]
+      },
+      "facetCategories": [
+        "domain.data",
+        "task.tool",
+        "artifact.csv",
+        "artifact.json",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-doc-anchor",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "documents"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "docx",
+          "pdf"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "documents"
+        ]
+      },
+      "facetCategories": [
+        "domain.documents",
+        "task.tool",
+        "artifact.docx",
+        "artifact.pdf",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-dmp",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-image-integrity",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "image"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "artifact.image",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-irb",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-lit-watch",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-grant-cn",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-manuscript-check",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "documents"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "documents"
+        ]
+      },
+      "facetCategories": [
+        "domain.documents",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-notebook-capture",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "data"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "data"
+        ]
+      },
+      "facetCategories": [
+        "domain.data",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-meta-analysis",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-response-letter",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "documents"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "documents"
+        ]
+      },
+      "facetCategories": [
+        "domain.documents",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-retraction-watch",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-repro-audit",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-source-cnki",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-sr-ledger",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "reconciliation",
+          "ledger"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.reconciliation",
+        "task.ledger",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-statcheck",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "checker"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.checker",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "@perrylink/dsh-research-core",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "research"
+        ],
+        "subdomains": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "research"
+        ]
+      },
+      "facetCategories": [
+        "domain.research",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只处理用户导入的数据；不替代人工复核。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": null
+      },
+      "statusAgreement": "catalog-only"
     }
   ]
 }

@@ -1,7 +1,40 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "name": "perrylink-dsh-catalog",
+  "functions": {
+    "api/plugins.js": {
+      "includeFiles": "artifacts/v1/plugins.json"
+    },
+    "api/search.js": {
+      "includeFiles": "artifacts/v1/search-index.json"
+    },
+    "api/plugin.js": {
+      "includeFiles": "artifacts/v1/search-index.json"
+    },
+    "api/hubs.js": {
+      "includeFiles": "artifacts/v1/hubs.json"
+    }
+  },
   "rewrites": [
-    { "source": "/v1/plugins", "destination": "/artifacts/v1/plugins.json" }
+    {
+      "source": "/v1/plugins",
+      "destination": "/api/plugins"
+    },
+    {
+      "source": "/v1/search",
+      "destination": "/api/search"
+    },
+    {
+      "source": "/v1/plugin",
+      "destination": "/api/plugin"
+    },
+    {
+      "source": "/v1/hubs",
+      "destination": "/api/hubs"
+    },
+    {
+      "source": "/icons/:path*",
+      "destination": "/deploy/icons/:path*"
+    }
   ]
 }

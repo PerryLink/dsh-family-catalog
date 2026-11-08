@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-08T12:18:11.243Z",
+  "generatedAt": "2026-11-08T13:02:00.261Z",
   "revision": "perrylink-dsh-catalog-2026-11-08",
   "items": [
     {
@@ -4630,9 +4630,837 @@
         }
       },
       "updatedAt": "2026-11-02T12:39:46.215Z"
+    },
+    {
+      "id": "dsh-cite-verify",
+      "name": "dsh-cite-verify",
+      "displayName": "Citation Verify — 引用核验",
+      "summary": "给研究人员/编辑：核验 DOI/PMID/arXiv/BibTeX 引用是否存在、元数据是否逐字段正确。 Citation existence and metadata verification against DOI/PMID/arXiv/BibTeX.",
+      "description": "核验一条引用确实存在——并核验它的元数据是否正确。DOI / PMID / arXiv / BibTeX → 数据源自己的回答、逐字段核对、内容寻址的快照与 REP 证据记录。  常见问法： - DOI 查不到就算引用造假吗？ - 元数据和原文对不上怎么办？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "引用核验",
+        "引文",
+        "DOI",
+        "PMID",
+        "arXiv",
+        "BibTeX",
+        "参考文献",
+        "元数据",
+        "citation",
+        "doi",
+        "bibtex",
+        "研究人员",
+        "编辑",
+        "科研诚信"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-cite-verify",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-cite-verify"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-cite-verify"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-cite-verify.png",
+          "alt": "引用核验"
+        }
+      },
+      "updatedAt": "2026-11-08T11:38:34.947Z"
+    },
+    {
+      "id": "perrylink/dsh-claim-check",
+      "name": "@perrylink/dsh-claim-check",
+      "displayName": "Claim Check — 断言支撑核对",
+      "summary": "给研究人员/审稿人：核对来源原文是否逐字、按数字和否定限定支持这条断言。 Deterministic claim-support check over source spans, numbers and negation.",
+      "description": "来源原文是否真的支持这条断言？逐字节、确定性、可复算：逐字片段、数字、带标签的数值、否定与限定。转述按 insufficient 处理，绝不报“支持”。  常见问法： - 转述算支持吗？ - 数字和单位不一致怎么报？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "断言",
+        "claim",
+        "来源支撑",
+        "逐字引用",
+        "数字核对",
+        "否定",
+        "限定词",
+        "证据",
+        "claim-check",
+        "quote-span",
+        "研究人员",
+        "审稿人"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-claim-check",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-claim-check"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "@perrylink/dsh-claim-check"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-claim-check.png",
+          "alt": "断言支撑核对"
+        }
+      },
+      "updatedAt": "2026-11-08T11:52:54.020Z"
+    },
+    {
+      "id": "dsh-dataset-card",
+      "name": "dsh-dataset-card",
+      "displayName": "Dataset Card — 数据集 Datasheet",
+      "summary": "给数据发布者：对 CSV/TSV/JSON/JSONL 做画像、标记疑似 PII，并生成 Datasheet 卡片。 Dataset profiling, PII hints and a Datasheet-style card.",
+      "description": "发布数据集时附上一份 Datasheet——并在发布前搞清楚个人数据在哪里。对 CSV/TSV/JSON/JSONL 做画像，按列名与脱敏值模式标记疑似 PII，拒绝把原始行存为证据。  常见问法： - 怎样判断一列是 PII？ - Datasheet 缺章节怎么办？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "数据集",
+        "Datasheet",
+        "数据画像",
+        "PII",
+        "个人数据",
+        "CSV",
+        "TSV",
+        "JSONL",
+        "dataset-card",
+        "data-profile",
+        "数据分析",
+        "数据发布"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-dataset-card",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "data"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-dataset-card"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-dataset-card"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-dataset-card.png",
+          "alt": "数据集 Datasheet"
+        }
+      },
+      "updatedAt": "2026-11-08T11:53:28.097Z"
+    },
+    {
+      "id": "dsh-doc-anchor",
+      "name": "dsh-doc-anchor",
+      "displayName": "Doc Anchor — 文档证据锚点",
+      "summary": "给研究人员/编辑：把 PDF/HTML/LaTeX/Markdown 转成可定位的证据坐标与不可变快照。 Locatable evidence anchors for PDF/HTML/LaTeX/Markdown.",
+      "description": "把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据。它不做阅读器、渲染或翻译——只提供坐标、不可变快照，以及一份任何人都能复核的证据记录。  常见问法： - 扫描版 PDF 能定位吗？ - 证据快照怎么复核？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "文档定位",
+        "PDF",
+        "HTML",
+        "LaTeX",
+        "Markdown",
+        "证据坐标",
+        "快照",
+        "doc-anchor",
+        "evidence",
+        "研究人员",
+        "编辑"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-doc-anchor",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "documents"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-doc-anchor"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-doc-anchor"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-doc-anchor.png",
+          "alt": "文档证据锚点"
+        }
+      },
+      "updatedAt": "2026-11-08T11:40:03.230Z"
+    },
+    {
+      "id": "dsh-dmp",
+      "name": "dsh-dmp",
+      "displayName": "DMP — 数据管理计划",
+      "summary": "给申请人/科研管理：用十节脚手架写数据管理计划，并检查个人数据、保存期、备份与仓库许可。 Ten-section data-management-plan scaffold and consistency check.",
+      "description": "一份说得清数据放在哪里、谁能动、资助结束后如何处置的数据管理计划。十节脚手架，每节带提示语；检查个人数据与开放共享、最短保存期、备份、仓库/许可证/DOI。  常见问法： - 个人数据和开放共享冲突怎么办？ - 保存期写多长？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "数据管理计划",
+        "DMP",
+        "数据共享",
+        "保存期",
+        "备份",
+        "仓库",
+        "许可证",
+        "DOI",
+        "data-management",
+        "FAIR",
+        "科研管理",
+        "申请人"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-dmp",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-dmp"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-dmp"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-dmp.png",
+          "alt": "数据管理计划"
+        }
+      },
+      "updatedAt": "2026-11-08T11:53:53.610Z"
+    },
+    {
+      "id": "dsh-image-integrity",
+      "name": "dsh-image-integrity",
+      "displayName": "Image Integrity — 图像完整性核对",
+      "summary": "给期刊编辑/科研诚信：用零依赖 PNG 指纹找重复或镜像复用的子图。 Duplicate or mirrored figure-panel detection with zero-dependency PNG fingerprints.",
+      "description": "这张子图是不是被复用了——原地重复，还是从另一张图镜像粘贴过来？零依赖 PNG 解码、带 NCC 确认的均值阈值块指纹、重复/镜像区域报告与 SARIF。  常见问法： - 镜像粘贴能查出来吗？ - 查重结果能当造假证据吗？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "图像完整性",
+        "子图复用",
+        "图片查重",
+        "镜像粘贴",
+        "PNG",
+        "NCC",
+        "SARIF",
+        "image-integrity",
+        "figure",
+        "期刊编辑",
+        "科研诚信"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-image-integrity",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-image-integrity"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-image-integrity"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-image-integrity.png",
+          "alt": "图像完整性核对"
+        }
+      },
+      "updatedAt": "2026-11-08T11:41:43.569Z"
+    },
+    {
+      "id": "dsh-irb",
+      "name": "dsh-irb",
+      "displayName": "IRB Checklist — 伦理申请清单",
+      "summary": "给申请人/伦理秘书：按 18 项清单检查伦理申请材料，给出建议风险等级与保障措施。 Ethics-application checklist with a suggested risk level and safeguards.",
+      "description": "赶在伦理委员会之前把申请材料准备好——并知道哪些核心陈述还缺着。18 项关键词清单、建议性风险等级与对应保障措施，可导出 Markdown + SARIF。  常见问法： - 风险等级是伦理委员会结论吗？ - 知情同意书缺项怎么办？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "伦理申请",
+        "IRB",
+        "伦理委员会",
+        "知情同意",
+        "风险等级",
+        "保障措施",
+        "irb",
+        "ethics",
+        "申请人",
+        "伦理秘书"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-irb",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-irb"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-irb"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-irb.png",
+          "alt": "伦理申请清单"
+        }
+      },
+      "updatedAt": "2026-11-08T11:54:19.935Z"
+    },
+    {
+      "id": "dsh-lit-watch",
+      "name": "dsh-lit-watch",
+      "displayName": "Literature Watch — 文献监测",
+      "summary": "给研究人员：保存 Crossref 检索式，只报告自上次以来真正新增的文献。 Saved Crossref queries that report only genuinely new literature since the last run.",
+      "description": "这次检索相比上次新增了什么——而且只报新增。保存带时间窗口的 Crossref 检索；用已见 DOI 库保证重复运行只返回真正新增的条目。  常见问法： - 重复运行会不会报旧文献？ - Crossref 查不到怎么办？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "文献监测",
+        "Crossref",
+        "新增文献",
+        "DOI",
+        "检索式",
+        "lit-watch",
+        "literature-watch",
+        "研究人员",
+        "文献综述"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-lit-watch",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-lit-watch"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-lit-watch"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-lit-watch.png",
+          "alt": "文献监测"
+        }
+      },
+      "updatedAt": "2026-11-08T11:44:11.453Z"
+    },
+    {
+      "id": "dsh-grant-cn",
+      "name": "dsh-grant-cn",
+      "displayName": "CN Grant Check — 中文基金申请书检查",
+      "summary": "给申请人/科研秘书：检查中文基金申请书的 19 项结构、预算算术与材料包。 Chinese grant application checklist: structure, budget arithmetic and submission package.",
+      "description": "投稿/申报前：本子的检查清单是否齐、预算算术是否对、材料包是否真的打包了？面向中文基金申请书的 19 项结构/属性/声明检查、预算算术与材料包扫描。  常见问法： - 预算算术怎么核？ - 19 项清单是评审结论吗？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "基金申请书",
+        "国自然",
+        "中文基金",
+        "预算",
+        "算术",
+        "材料包",
+        "形式审查",
+        "grant",
+        "nsfc",
+        "申请人",
+        "科研秘书"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-grant-cn",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-grant-cn"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-grant-cn"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-grant-cn.png",
+          "alt": "中文基金申请书检查"
+        }
+      },
+      "updatedAt": "2026-11-08T11:41:41.137Z"
+    },
+    {
+      "id": "dsh-manuscript-check",
+      "name": "dsh-manuscript-check",
+      "displayName": "Manuscript Check — 投稿前稿件检查",
+      "summary": "给作者/编辑：投稿前检查稿件结构、声明与 CONSORT/STROBE/PRISMA 条目覆盖。 Pre-submission manuscript structure, declarations and reporting-checklist coverage.",
+      "description": "投稿前：稿件是否完整、指南要求报告的内容是否都报告了、投稿包是否真的打齐了？关键词检查清单 + CONSORT/STROBE/PRISMA 起步条目覆盖 + 投稿目录扫描。  常见问法： - CONSORT 条目必须全有吗？ - 投稿包缺文件怎么报？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "投稿",
+        "稿件检查",
+        "CONSORT",
+        "STROBE",
+        "PRISMA",
+        "声明",
+        "投稿包",
+        "manuscript",
+        "作者",
+        "编辑"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-manuscript-check",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "documents"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-manuscript-check"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-manuscript-check"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-manuscript-check.png",
+          "alt": "投稿前稿件检查"
+        }
+      },
+      "updatedAt": "2026-11-08T11:40:31.274Z"
+    },
+    {
+      "id": "dsh-notebook-capture",
+      "name": "dsh-notebook-capture",
+      "displayName": "Notebook Capture — Notebook 复现采集",
+      "summary": "给研究人员：不执行 notebook，只读取 .ipynb，记录内核、顺序、种子、路径与哈希。 Notebook reproducibility capture from .ipynb without executing it.",
+      "description": "能在你机器上跑通的 notebook，还不等于可复现。不执行、只读取 .ipynb：内核、执行顺序、import、运行时安装、随机种子、绝对路径、输出状态与哈希。  常见问法： - 会执行 notebook 吗？ - 没有 lockfile 怎么记录？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "Notebook",
+        "ipynb",
+        "可复现",
+        "随机种子",
+        "内核",
+        "环境",
+        "哈希",
+        "notebook-capture",
+        "reproducibility",
+        "研究人员"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-notebook-capture",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "data"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-notebook-capture"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-notebook-capture"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-notebook-capture.png",
+          "alt": "Notebook 复现采集"
+        }
+      },
+      "updatedAt": "2026-11-08T11:53:50.219Z"
+    },
+    {
+      "id": "dsh-meta-analysis",
+      "name": "dsh-meta-analysis",
+      "displayName": "Meta-analysis — 元分析算术",
+      "summary": "给研究人员：做效应量换算、固定/随机效应合并、Q/I²/τ² 与森林图数据，每步可复算。 Meta-analysis arithmetic: effect sizes, fixed/random pooling, Q/I²/τ² and forest-plot data.",
+      "description": "把效应量合并起来——每一步算术都能逐行核对。效应量换算、固定效应与 DerSimonian–Laird 随机效应合并、Q / I² / τ²、森林图数据与轻量 Egger 检验。  常见问法： - 少于十项研究为什么拒绝 Egger？ - OR 和 RR 怎么换算？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "元分析",
+        "meta-analysis",
+        "效应量",
+        "OR",
+        "RR",
+        "SMD",
+        "I2",
+        "Egger",
+        "森林图",
+        "固定效应",
+        "随机效应",
+        "研究人员"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-meta-analysis",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-meta-analysis"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-meta-analysis"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-meta-analysis.png",
+          "alt": "元分析算术"
+        }
+      },
+      "updatedAt": "2026-11-08T11:42:26.069Z"
+    },
+    {
+      "id": "dsh-response-letter",
+      "name": "dsh-response-letter",
+      "displayName": "Response Letter — 审稿回复信",
+      "summary": "给作者/编辑：解析审稿意见，逐条核对回复信是否覆盖、缺失、重复或过短。 Reviewer-comment parsing and clause-by-clause response-letter coverage check.",
+      "description": "每一条审稿意见都有回复——而且可以按编号核实。解析审稿意见（Reviewer/Referee/审稿人 标题行），检查回复信的缺失、过短、多余、重复，并导出覆盖表。  常见问法： - 审稿意见编号不连续怎么办？ - 回复太短怎么判？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "审稿意见",
+        "回复信",
+        "response-letter",
+        "审稿人",
+        "逐条回复",
+        "覆盖表",
+        "作者",
+        "编辑",
+        "同行评议"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-response-letter",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "documents"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-response-letter"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-response-letter"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-response-letter.png",
+          "alt": "审稿回复信"
+        }
+      },
+      "updatedAt": "2026-11-08T11:42:09.941Z"
+    },
+    {
+      "id": "dsh-retraction-watch",
+      "name": "dsh-retraction-watch",
+      "displayName": "Retraction Watch — 撤稿与更正监测",
+      "summary": "给研究人员/编辑：按 DOI 检查论文是否被撤稿或更正，并保留可复读的时间线。 Retraction and correction monitoring per DOI with an append-only timeline.",
+      "description": "你引用的论文，后来有没有被撤稿或更正？Crossref 工作记录 + 已实测的 filter=updates:<doi> 查询、逐 DOI 状态、追加式时间线与 REP 证据。  常见问法： - clear 是不是等于没问题？ - 更正和撤稿怎么区分？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "撤稿",
+        "更正",
+        "retraction",
+        "Crossref",
+        "DOI",
+        "科研诚信",
+        "文献",
+        "retraction-watch",
+        "研究人员",
+        "编辑"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-retraction-watch",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-retraction-watch"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-retraction-watch"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-retraction-watch.png",
+          "alt": "撤稿与更正监测"
+        }
+      },
+      "updatedAt": "2026-11-08T11:40:36.391Z"
+    },
+    {
+      "id": "dsh-repro-audit",
+      "name": "dsh-repro-audit",
+      "displayName": "Repro Audit — 复现审计",
+      "summary": "给研究人员/评审：记录 commit、lockfile、环境、数据哈希、seed 与运行命令，并做漂移检查。 Reproducibility evidence capture and drift check for a recorded analysis.",
+      "description": "别人能复现这项分析吗——以及从你记录至今，有没有东西发生漂移？有界只读扫描记录 commit、lockfile、环境、数据哈希、图表、seed 与运行命令。  常见问法： - 扫描会改仓库吗？ - 数据哈希对不上说明什么？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "复现",
+        "reproducibility",
+        "lockfile",
+        "数据哈希",
+        "seed",
+        "环境",
+        "漂移",
+        "repro-audit",
+        "研究人员",
+        "评审"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-repro-audit",
+      "latestVersion": "0.1.1",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-repro-audit"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-repro-audit"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-repro-audit.png",
+          "alt": "复现审计"
+        }
+      },
+      "updatedAt": "2026-11-08T12:35:55.930Z"
+    },
+    {
+      "id": "dsh-source-cnki",
+      "name": "dsh-source-cnki",
+      "displayName": "CNKI Source — 中文文献来源",
+      "summary": "给研究人员：导入 RIS/EndNote 导出，按 GB/T 7714-2015 或 APA 7 排版并校验元数据。 Chinese-literature import, GB/T 7714 / APA 7 formatting and metadata validation without scraping.",
+      "description": "中文文献记录：导入你自己的导出文件，按 GB/T 7714 引用，检查元数据——全程不抓取 CNKI。读取 RIS/EndNote 风格或带标签的文本导出，分配稳定记录 id。  常见问法： - 会抓取 CNKI 吗？ - GB/T 7714 和 APA 能同时输出吗？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "中文文献",
+        "CNKI",
+        "RIS",
+        "EndNote",
+        "GB/T 7714",
+        "APA",
+        "参考文献",
+        "source-cnki",
+        "研究人员",
+        "文献管理"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-source-cnki",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-source-cnki"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-source-cnki"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-source-cnki.png",
+          "alt": "中文文献来源"
+        }
+      },
+      "updatedAt": "2026-11-08T11:42:34.455Z"
+    },
+    {
+      "id": "dsh-sr-ledger",
+      "name": "dsh-sr-ledger",
+      "displayName": "SR Ledger — 系统综述账本",
+      "summary": "给系统综述团队：记录方案、双人筛选、冲突裁决与 RoB/GRADE，并推导 PRISMA 2020 流程。 Systematic-review ledger: protocol, dual screening, adjudication, RoB/GRADE and PRISMA 2020.",
+      "description": "经得起复核的系统综述账本：只追加、双人筛选、PRISMA 2020、审计可验。记录方案、每条筛选决策、冲突裁决与 RoB/GRADE 评估，再推导 PRISMA 流程。  常见问法： - 双人筛选冲突怎么记？ - PRISMA 流程是自动推导的吗？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "系统综述",
+        "PRISMA",
+        "双人筛选",
+        "RoB",
+        "GRADE",
+        "sr-ledger",
+        "systematic-review",
+        "Meta分析",
+        "研究人员",
+        "循证医学"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-sr-ledger",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-sr-ledger"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-sr-ledger"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-sr-ledger.png",
+          "alt": "系统综述账本"
+        }
+      },
+      "updatedAt": "2026-11-08T11:40:30.547Z"
+    },
+    {
+      "id": "dsh-statcheck",
+      "name": "dsh-statcheck",
+      "displayName": "Stat Check — 统计复算",
+      "summary": "给作者/审稿人：重算稿件报告的统计量，标出 p 值与统计量对不上的位置。 Recompute reported statistics and flag self-inconsistent p values with exact locations.",
+      "description": "重算稿件报告的统计数据——并把对不上的那些标出来。这是算术，不是指控：每条 finding 都给出报告的统计量、它实际蕴含的 p 值，以及精确字符位置。  常见问法： - p 值对不上就是学术不端吗？ - 只支持 APA 格式吗？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "统计复算",
+        "p值",
+        "statcheck",
+        "APA",
+        "统计量",
+        "一致性",
+        "作者",
+        "审稿人",
+        "科研诚信"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-statcheck",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-statcheck"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-statcheck"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-statcheck.png",
+          "alt": "统计复算"
+        }
+      },
+      "updatedAt": "2026-11-08T11:40:21.224Z"
+    },
+    {
+      "id": "perrylink/dsh-research-core",
+      "name": "@perrylink/dsh-research-core",
+      "displayName": "Research Core (REP v1) — 科研证据协议（REP v1）",
+      "summary": "给科研插件作者：REP v1 共享证据协议、存储与校验器，让每个插件说同一种证据语言。 REP v1 shared evidence protocol, store and validator for the research plugin family.",
+      "description": "REP v1——DSH 科研插件家族的共享证据协议。一套协议、一个存储、一个校验器：每个科研插件说同一种证据语言，任何人 30 秒内可复算它声称的结论。  常见问法： - REP 是标准吗？ - 其他插件必须用吗？  说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+      "keywords": [
+        "REP",
+        "证据协议",
+        "research-core",
+        "科研插件",
+        "证据存储",
+        "校验器",
+        "evidence-protocol",
+        "科研基础设施",
+        "插件作者"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-research-core",
+      "latestVersion": "0.1.0",
+      "license": "Apache-2.0",
+      "categories": [
+        "research"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-research-core"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "@perrylink/dsh-research-core"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/perrylink-dsh-research-core.png",
+          "alt": "科研证据协议（REP v1）"
+        }
+      },
+      "updatedAt": "2026-11-08T11:39:09.480Z"
     }
   ],
   "page": {
-    "total": 126
+    "total": 145
   }
 }

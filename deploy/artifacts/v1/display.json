@@ -1412,6 +1412,158 @@
         "node": "^22.19.0 || >=24.0.0"
       },
       "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-cite-verify",
+      "displayNameZh": "引用核验",
+      "summaryZh": "核验一条引用确实存在——并核验它的元数据是否正确。DOI / PMID / arXiv / BibTeX → 数据源自己的回答、逐字段核对、内容寻址的快照与 REP 证据记录。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "@perrylink/dsh-claim-check",
+      "displayNameZh": "断言支撑核对",
+      "summaryZh": "来源原文是否真的支持这条断言？逐字节、确定性、可复算：逐字片段、数字、带标签的数值、否定与限定。转述按 insufficient 处理，绝不报“支持”。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-dataset-card",
+      "displayNameZh": "数据集 Datasheet",
+      "summaryZh": "发布数据集时附上一份 Datasheet——并在发布前搞清楚个人数据在哪里。对 CSV/TSV/JSON/JSONL 做画像，按列名与脱敏值模式标记疑似 PII，拒绝把原始行存为证据。",
+      "status": "active",
+      "group": "数据",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-doc-anchor",
+      "displayNameZh": "文档证据锚点",
+      "summaryZh": "把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据。它不做阅读器、渲染或翻译——只提供坐标、不可变快照，以及一份任何人都能复核的证据记录。",
+      "status": "active",
+      "group": "文档与模型",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-dmp",
+      "displayNameZh": "数据管理计划",
+      "summaryZh": "一份说得清数据放在哪里、谁能动、资助结束后如何处置的数据管理计划。十节脚手架，每节带提示语；检查个人数据与开放共享、最短保存期、备份、仓库/许可证/DOI。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-image-integrity",
+      "displayNameZh": "图像完整性核对",
+      "summaryZh": "这张子图是不是被复用了——原地重复，还是从另一张图镜像粘贴过来？零依赖 PNG 解码、带 NCC 确认的均值阈值块指纹、重复/镜像区域报告与 SARIF。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-irb",
+      "displayNameZh": "伦理申请清单",
+      "summaryZh": "赶在伦理委员会之前把申请材料准备好——并知道哪些核心陈述还缺着。18 项关键词清单、建议性风险等级与对应保障措施，可导出 Markdown + SARIF。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-lit-watch",
+      "displayNameZh": "文献监测",
+      "summaryZh": "这次检索相比上次新增了什么——而且只报新增。保存带时间窗口的 Crossref 检索；用已见 DOI 库保证重复运行只返回真正新增的条目。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-grant-cn",
+      "displayNameZh": "中文基金申请书检查",
+      "summaryZh": "投稿/申报前：本子的检查清单是否齐、预算算术是否对、材料包是否真的打包了？面向中文基金申请书的 19 项结构/属性/声明检查、预算算术与材料包扫描。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-manuscript-check",
+      "displayNameZh": "投稿前稿件检查",
+      "summaryZh": "投稿前：稿件是否完整、指南要求报告的内容是否都报告了、投稿包是否真的打齐了？关键词检查清单 + CONSORT/STROBE/PRISMA 起步条目覆盖 + 投稿目录扫描。",
+      "status": "active",
+      "group": "文档与模型",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-notebook-capture",
+      "displayNameZh": "Notebook 复现采集",
+      "summaryZh": "能在你机器上跑通的 notebook，还不等于可复现。不执行、只读取 .ipynb：内核、执行顺序、import、运行时安装、随机种子、绝对路径、输出状态与哈希。",
+      "status": "active",
+      "group": "数据",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-meta-analysis",
+      "displayNameZh": "元分析算术",
+      "summaryZh": "把效应量合并起来——每一步算术都能逐行核对。效应量换算、固定效应与 DerSimonian–Laird 随机效应合并、Q / I² / τ²、森林图数据与轻量 Egger 检验。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-response-letter",
+      "displayNameZh": "审稿回复信",
+      "summaryZh": "每一条审稿意见都有回复——而且可以按编号核实。解析审稿意见（Reviewer/Referee/审稿人 标题行），检查回复信的缺失、过短、多余、重复，并导出覆盖表。",
+      "status": "active",
+      "group": "文档与模型",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-retraction-watch",
+      "displayNameZh": "撤稿与更正监测",
+      "summaryZh": "你引用的论文，后来有没有被撤稿或更正？Crossref 工作记录 + 已实测的 filter=updates:<doi> 查询、逐 DOI 状态、追加式时间线与 REP 证据。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-repro-audit",
+      "displayNameZh": "复现审计",
+      "summaryZh": "别人能复现这项分析吗——以及从你记录至今，有没有东西发生漂移？有界只读扫描记录 commit、lockfile、环境、数据哈希、图表、seed 与运行命令。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-source-cnki",
+      "displayNameZh": "中文文献来源",
+      "summaryZh": "中文文献记录：导入你自己的导出文件，按 GB/T 7714 引用，检查元数据——全程不抓取 CNKI。读取 RIS/EndNote 风格或带标签的文本导出，分配稳定记录 id。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-sr-ledger",
+      "displayNameZh": "系统综述账本",
+      "summaryZh": "经得起复核的系统综述账本：只追加、双人筛选、PRISMA 2020、审计可验。记录方案、每条筛选决策、冲突裁决与 RoB/GRADE 评估，再推导 PRISMA 流程。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-statcheck",
+      "displayNameZh": "统计复算",
+      "summaryZh": "重算稿件报告的统计数据——并把对不上的那些标出来。这是算术，不是指控：每条 finding 都给出报告的统计量、它实际蕴含的 p 值，以及精确字符位置。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "@perrylink/dsh-research-core",
+      "displayNameZh": "科研证据协议（REP v1）",
+      "summaryZh": "REP v1——DSH 科研插件家族的共享证据协议。一套协议、一个存储、一个校验器：每个科研插件说同一种证据语言，任何人 30 秒内可复算它声称的结论。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "advanced"
     }
   ]
 }

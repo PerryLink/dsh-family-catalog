@@ -3585,5 +3585,529 @@
     },
     "difficulty": "beginner",
     "status": "active"
+  },
+  {
+    "npm": "dsh-cite-verify",
+    "repo": "PerryLink/dsh-cite-verify",
+    "displayName": "Citation Verify",
+    "displayNameZh": "引用核验",
+    "categories": [
+      "research"
+    ],
+    "summary": "给研究人员/编辑：核验 DOI/PMID/arXiv/BibTeX 引用是否存在、元数据是否逐字段正确。 Citation existence and metadata verification against DOI/PMID/arXiv/BibTeX.",
+    "summaryZh": "核验一条引用确实存在——并核验它的元数据是否正确。DOI / PMID / arXiv / BibTeX → 数据源自己的回答、逐字段核对、内容寻址的快照与 REP 证据记录。",
+    "description": "核验一条引用确实存在——并核验它的元数据是否正确。DOI / PMID / arXiv / BibTeX → 数据源自己的回答、逐字段核对、内容寻址的快照与 REP 证据记录。\n\n常见问法：\n- DOI 查不到就算引用造假吗？\n- 元数据和原文对不上怎么办？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "引用核验",
+      "引文",
+      "DOI",
+      "PMID",
+      "arXiv",
+      "BibTeX",
+      "参考文献",
+      "元数据",
+      "citation",
+      "doi",
+      "bibtex",
+      "研究人员",
+      "编辑",
+      "科研诚信"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "@perrylink/dsh-claim-check",
+    "repo": "PerryLink/dsh-claim-check",
+    "displayName": "Claim Check",
+    "displayNameZh": "断言支撑核对",
+    "categories": [
+      "research"
+    ],
+    "summary": "给研究人员/审稿人：核对来源原文是否逐字、按数字和否定限定支持这条断言。 Deterministic claim-support check over source spans, numbers and negation.",
+    "summaryZh": "来源原文是否真的支持这条断言？逐字节、确定性、可复算：逐字片段、数字、带标签的数值、否定与限定。转述按 insufficient 处理，绝不报“支持”。",
+    "description": "来源原文是否真的支持这条断言？逐字节、确定性、可复算：逐字片段、数字、带标签的数值、否定与限定。转述按 insufficient 处理，绝不报“支持”。\n\n常见问法：\n- 转述算支持吗？\n- 数字和单位不一致怎么报？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "断言",
+      "claim",
+      "来源支撑",
+      "逐字引用",
+      "数字核对",
+      "否定",
+      "限定词",
+      "证据",
+      "claim-check",
+      "quote-span",
+      "研究人员",
+      "审稿人"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-dataset-card",
+    "repo": "PerryLink/dsh-dataset-card",
+    "displayName": "Dataset Card",
+    "displayNameZh": "数据集 Datasheet",
+    "categories": [
+      "data"
+    ],
+    "summary": "给数据发布者：对 CSV/TSV/JSON/JSONL 做画像、标记疑似 PII，并生成 Datasheet 卡片。 Dataset profiling, PII hints and a Datasheet-style card.",
+    "summaryZh": "发布数据集时附上一份 Datasheet——并在发布前搞清楚个人数据在哪里。对 CSV/TSV/JSON/JSONL 做画像，按列名与脱敏值模式标记疑似 PII，拒绝把原始行存为证据。",
+    "description": "发布数据集时附上一份 Datasheet——并在发布前搞清楚个人数据在哪里。对 CSV/TSV/JSON/JSONL 做画像，按列名与脱敏值模式标记疑似 PII，拒绝把原始行存为证据。\n\n常见问法：\n- 怎样判断一列是 PII？\n- Datasheet 缺章节怎么办？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "数据集",
+      "Datasheet",
+      "数据画像",
+      "PII",
+      "个人数据",
+      "CSV",
+      "TSV",
+      "JSONL",
+      "dataset-card",
+      "data-profile",
+      "数据分析",
+      "数据发布"
+    ],
+    "group": "数据",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-doc-anchor",
+    "repo": "PerryLink/dsh-doc-anchor",
+    "displayName": "Doc Anchor",
+    "displayNameZh": "文档证据锚点",
+    "categories": [
+      "documents"
+    ],
+    "summary": "给研究人员/编辑：把 PDF/HTML/LaTeX/Markdown 转成可定位的证据坐标与不可变快照。 Locatable evidence anchors for PDF/HTML/LaTeX/Markdown.",
+    "summaryZh": "把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据。它不做阅读器、渲染或翻译——只提供坐标、不可变快照，以及一份任何人都能复核的证据记录。",
+    "description": "把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据。它不做阅读器、渲染或翻译——只提供坐标、不可变快照，以及一份任何人都能复核的证据记录。\n\n常见问法：\n- 扫描版 PDF 能定位吗？\n- 证据快照怎么复核？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "文档定位",
+      "PDF",
+      "HTML",
+      "LaTeX",
+      "Markdown",
+      "证据坐标",
+      "快照",
+      "doc-anchor",
+      "evidence",
+      "研究人员",
+      "编辑"
+    ],
+    "group": "文档与模型",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-dmp",
+    "repo": "PerryLink/dsh-dmp",
+    "displayName": "DMP",
+    "displayNameZh": "数据管理计划",
+    "categories": [
+      "research"
+    ],
+    "summary": "给申请人/科研管理：用十节脚手架写数据管理计划，并检查个人数据、保存期、备份与仓库许可。 Ten-section data-management-plan scaffold and consistency check.",
+    "summaryZh": "一份说得清数据放在哪里、谁能动、资助结束后如何处置的数据管理计划。十节脚手架，每节带提示语；检查个人数据与开放共享、最短保存期、备份、仓库/许可证/DOI。",
+    "description": "一份说得清数据放在哪里、谁能动、资助结束后如何处置的数据管理计划。十节脚手架，每节带提示语；检查个人数据与开放共享、最短保存期、备份、仓库/许可证/DOI。\n\n常见问法：\n- 个人数据和开放共享冲突怎么办？\n- 保存期写多长？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "数据管理计划",
+      "DMP",
+      "数据共享",
+      "保存期",
+      "备份",
+      "仓库",
+      "许可证",
+      "DOI",
+      "data-management",
+      "FAIR",
+      "科研管理",
+      "申请人"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-image-integrity",
+    "repo": "PerryLink/dsh-image-integrity",
+    "displayName": "Image Integrity",
+    "displayNameZh": "图像完整性核对",
+    "categories": [
+      "research"
+    ],
+    "summary": "给期刊编辑/科研诚信：用零依赖 PNG 指纹找重复或镜像复用的子图。 Duplicate or mirrored figure-panel detection with zero-dependency PNG fingerprints.",
+    "summaryZh": "这张子图是不是被复用了——原地重复，还是从另一张图镜像粘贴过来？零依赖 PNG 解码、带 NCC 确认的均值阈值块指纹、重复/镜像区域报告与 SARIF。",
+    "description": "这张子图是不是被复用了——原地重复，还是从另一张图镜像粘贴过来？零依赖 PNG 解码、带 NCC 确认的均值阈值块指纹、重复/镜像区域报告与 SARIF。\n\n常见问法：\n- 镜像粘贴能查出来吗？\n- 查重结果能当造假证据吗？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "图像完整性",
+      "子图复用",
+      "图片查重",
+      "镜像粘贴",
+      "PNG",
+      "NCC",
+      "SARIF",
+      "image-integrity",
+      "figure",
+      "期刊编辑",
+      "科研诚信"
+    ],
+    "group": "研究",
+    "difficulty": "advanced",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-irb",
+    "repo": "PerryLink/dsh-irb",
+    "displayName": "IRB Checklist",
+    "displayNameZh": "伦理申请清单",
+    "categories": [
+      "research"
+    ],
+    "summary": "给申请人/伦理秘书：按 18 项清单检查伦理申请材料，给出建议风险等级与保障措施。 Ethics-application checklist with a suggested risk level and safeguards.",
+    "summaryZh": "赶在伦理委员会之前把申请材料准备好——并知道哪些核心陈述还缺着。18 项关键词清单、建议性风险等级与对应保障措施，可导出 Markdown + SARIF。",
+    "description": "赶在伦理委员会之前把申请材料准备好——并知道哪些核心陈述还缺着。18 项关键词清单、建议性风险等级与对应保障措施，可导出 Markdown + SARIF。\n\n常见问法：\n- 风险等级是伦理委员会结论吗？\n- 知情同意书缺项怎么办？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "伦理申请",
+      "IRB",
+      "伦理委员会",
+      "知情同意",
+      "风险等级",
+      "保障措施",
+      "irb",
+      "ethics",
+      "申请人",
+      "伦理秘书"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-lit-watch",
+    "repo": "PerryLink/dsh-lit-watch",
+    "displayName": "Literature Watch",
+    "displayNameZh": "文献监测",
+    "categories": [
+      "research"
+    ],
+    "summary": "给研究人员：保存 Crossref 检索式，只报告自上次以来真正新增的文献。 Saved Crossref queries that report only genuinely new literature since the last run.",
+    "summaryZh": "这次检索相比上次新增了什么——而且只报新增。保存带时间窗口的 Crossref 检索；用已见 DOI 库保证重复运行只返回真正新增的条目。",
+    "description": "这次检索相比上次新增了什么——而且只报新增。保存带时间窗口的 Crossref 检索；用已见 DOI 库保证重复运行只返回真正新增的条目。\n\n常见问法：\n- 重复运行会不会报旧文献？\n- Crossref 查不到怎么办？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "文献监测",
+      "Crossref",
+      "新增文献",
+      "DOI",
+      "检索式",
+      "lit-watch",
+      "literature-watch",
+      "研究人员",
+      "文献综述"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-grant-cn",
+    "repo": "PerryLink/dsh-grant-cn",
+    "displayName": "CN Grant Check",
+    "displayNameZh": "中文基金申请书检查",
+    "categories": [
+      "research"
+    ],
+    "summary": "给申请人/科研秘书：检查中文基金申请书的 19 项结构、预算算术与材料包。 Chinese grant application checklist: structure, budget arithmetic and submission package.",
+    "summaryZh": "投稿/申报前：本子的检查清单是否齐、预算算术是否对、材料包是否真的打包了？面向中文基金申请书的 19 项结构/属性/声明检查、预算算术与材料包扫描。",
+    "description": "投稿/申报前：本子的检查清单是否齐、预算算术是否对、材料包是否真的打包了？面向中文基金申请书的 19 项结构/属性/声明检查、预算算术与材料包扫描。\n\n常见问法：\n- 预算算术怎么核？\n- 19 项清单是评审结论吗？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "基金申请书",
+      "国自然",
+      "中文基金",
+      "预算",
+      "算术",
+      "材料包",
+      "形式审查",
+      "grant",
+      "nsfc",
+      "申请人",
+      "科研秘书"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-manuscript-check",
+    "repo": "PerryLink/dsh-manuscript-check",
+    "displayName": "Manuscript Check",
+    "displayNameZh": "投稿前稿件检查",
+    "categories": [
+      "documents"
+    ],
+    "summary": "给作者/编辑：投稿前检查稿件结构、声明与 CONSORT/STROBE/PRISMA 条目覆盖。 Pre-submission manuscript structure, declarations and reporting-checklist coverage.",
+    "summaryZh": "投稿前：稿件是否完整、指南要求报告的内容是否都报告了、投稿包是否真的打齐了？关键词检查清单 + CONSORT/STROBE/PRISMA 起步条目覆盖 + 投稿目录扫描。",
+    "description": "投稿前：稿件是否完整、指南要求报告的内容是否都报告了、投稿包是否真的打齐了？关键词检查清单 + CONSORT/STROBE/PRISMA 起步条目覆盖 + 投稿目录扫描。\n\n常见问法：\n- CONSORT 条目必须全有吗？\n- 投稿包缺文件怎么报？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "投稿",
+      "稿件检查",
+      "CONSORT",
+      "STROBE",
+      "PRISMA",
+      "声明",
+      "投稿包",
+      "manuscript",
+      "作者",
+      "编辑"
+    ],
+    "group": "文档与模型",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-notebook-capture",
+    "repo": "PerryLink/dsh-notebook-capture",
+    "displayName": "Notebook Capture",
+    "displayNameZh": "Notebook 复现采集",
+    "categories": [
+      "data"
+    ],
+    "summary": "给研究人员：不执行 notebook，只读取 .ipynb，记录内核、顺序、种子、路径与哈希。 Notebook reproducibility capture from .ipynb without executing it.",
+    "summaryZh": "能在你机器上跑通的 notebook，还不等于可复现。不执行、只读取 .ipynb：内核、执行顺序、import、运行时安装、随机种子、绝对路径、输出状态与哈希。",
+    "description": "能在你机器上跑通的 notebook，还不等于可复现。不执行、只读取 .ipynb：内核、执行顺序、import、运行时安装、随机种子、绝对路径、输出状态与哈希。\n\n常见问法：\n- 会执行 notebook 吗？\n- 没有 lockfile 怎么记录？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "Notebook",
+      "ipynb",
+      "可复现",
+      "随机种子",
+      "内核",
+      "环境",
+      "哈希",
+      "notebook-capture",
+      "reproducibility",
+      "研究人员"
+    ],
+    "group": "数据",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-meta-analysis",
+    "repo": "PerryLink/dsh-meta-analysis",
+    "displayName": "Meta-analysis",
+    "displayNameZh": "元分析算术",
+    "categories": [
+      "research"
+    ],
+    "summary": "给研究人员：做效应量换算、固定/随机效应合并、Q/I²/τ² 与森林图数据，每步可复算。 Meta-analysis arithmetic: effect sizes, fixed/random pooling, Q/I²/τ² and forest-plot data.",
+    "summaryZh": "把效应量合并起来——每一步算术都能逐行核对。效应量换算、固定效应与 DerSimonian–Laird 随机效应合并、Q / I² / τ²、森林图数据与轻量 Egger 检验。",
+    "description": "把效应量合并起来——每一步算术都能逐行核对。效应量换算、固定效应与 DerSimonian–Laird 随机效应合并、Q / I² / τ²、森林图数据与轻量 Egger 检验。\n\n常见问法：\n- 少于十项研究为什么拒绝 Egger？\n- OR 和 RR 怎么换算？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "元分析",
+      "meta-analysis",
+      "效应量",
+      "OR",
+      "RR",
+      "SMD",
+      "I2",
+      "Egger",
+      "森林图",
+      "固定效应",
+      "随机效应",
+      "研究人员"
+    ],
+    "group": "研究",
+    "difficulty": "advanced",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-response-letter",
+    "repo": "PerryLink/dsh-response-letter",
+    "displayName": "Response Letter",
+    "displayNameZh": "审稿回复信",
+    "categories": [
+      "documents"
+    ],
+    "summary": "给作者/编辑：解析审稿意见，逐条核对回复信是否覆盖、缺失、重复或过短。 Reviewer-comment parsing and clause-by-clause response-letter coverage check.",
+    "summaryZh": "每一条审稿意见都有回复——而且可以按编号核实。解析审稿意见（Reviewer/Referee/审稿人 标题行），检查回复信的缺失、过短、多余、重复，并导出覆盖表。",
+    "description": "每一条审稿意见都有回复——而且可以按编号核实。解析审稿意见（Reviewer/Referee/审稿人 标题行），检查回复信的缺失、过短、多余、重复，并导出覆盖表。\n\n常见问法：\n- 审稿意见编号不连续怎么办？\n- 回复太短怎么判？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "审稿意见",
+      "回复信",
+      "response-letter",
+      "审稿人",
+      "逐条回复",
+      "覆盖表",
+      "作者",
+      "编辑",
+      "同行评议"
+    ],
+    "group": "文档与模型",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-retraction-watch",
+    "repo": "PerryLink/dsh-retraction-watch",
+    "displayName": "Retraction Watch",
+    "displayNameZh": "撤稿与更正监测",
+    "categories": [
+      "research"
+    ],
+    "summary": "给研究人员/编辑：按 DOI 检查论文是否被撤稿或更正，并保留可复读的时间线。 Retraction and correction monitoring per DOI with an append-only timeline.",
+    "summaryZh": "你引用的论文，后来有没有被撤稿或更正？Crossref 工作记录 + 已实测的 filter=updates:<doi> 查询、逐 DOI 状态、追加式时间线与 REP 证据。",
+    "description": "你引用的论文，后来有没有被撤稿或更正？Crossref 工作记录 + 已实测的 filter=updates:<doi> 查询、逐 DOI 状态、追加式时间线与 REP 证据。\n\n常见问法：\n- clear 是不是等于没问题？\n- 更正和撤稿怎么区分？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "撤稿",
+      "更正",
+      "retraction",
+      "Crossref",
+      "DOI",
+      "科研诚信",
+      "文献",
+      "retraction-watch",
+      "研究人员",
+      "编辑"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-repro-audit",
+    "repo": "PerryLink/dsh-repro-audit",
+    "displayName": "Repro Audit",
+    "displayNameZh": "复现审计",
+    "categories": [
+      "research"
+    ],
+    "summary": "给研究人员/评审：记录 commit、lockfile、环境、数据哈希、seed 与运行命令，并做漂移检查。 Reproducibility evidence capture and drift check for a recorded analysis.",
+    "summaryZh": "别人能复现这项分析吗——以及从你记录至今，有没有东西发生漂移？有界只读扫描记录 commit、lockfile、环境、数据哈希、图表、seed 与运行命令。",
+    "description": "别人能复现这项分析吗——以及从你记录至今，有没有东西发生漂移？有界只读扫描记录 commit、lockfile、环境、数据哈希、图表、seed 与运行命令。\n\n常见问法：\n- 扫描会改仓库吗？\n- 数据哈希对不上说明什么？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "复现",
+      "reproducibility",
+      "lockfile",
+      "数据哈希",
+      "seed",
+      "环境",
+      "漂移",
+      "repro-audit",
+      "研究人员",
+      "评审"
+    ],
+    "group": "研究",
+    "difficulty": "advanced",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-source-cnki",
+    "repo": "PerryLink/dsh-source-cnki",
+    "displayName": "CNKI Source",
+    "displayNameZh": "中文文献来源",
+    "categories": [
+      "research"
+    ],
+    "summary": "给研究人员：导入 RIS/EndNote 导出，按 GB/T 7714-2015 或 APA 7 排版并校验元数据。 Chinese-literature import, GB/T 7714 / APA 7 formatting and metadata validation without scraping.",
+    "summaryZh": "中文文献记录：导入你自己的导出文件，按 GB/T 7714 引用，检查元数据——全程不抓取 CNKI。读取 RIS/EndNote 风格或带标签的文本导出，分配稳定记录 id。",
+    "description": "中文文献记录：导入你自己的导出文件，按 GB/T 7714 引用，检查元数据——全程不抓取 CNKI。读取 RIS/EndNote 风格或带标签的文本导出，分配稳定记录 id。\n\n常见问法：\n- 会抓取 CNKI 吗？\n- GB/T 7714 和 APA 能同时输出吗？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "中文文献",
+      "CNKI",
+      "RIS",
+      "EndNote",
+      "GB/T 7714",
+      "APA",
+      "参考文献",
+      "source-cnki",
+      "研究人员",
+      "文献管理"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-sr-ledger",
+    "repo": "PerryLink/dsh-sr-ledger",
+    "displayName": "SR Ledger",
+    "displayNameZh": "系统综述账本",
+    "categories": [
+      "research"
+    ],
+    "summary": "给系统综述团队：记录方案、双人筛选、冲突裁决与 RoB/GRADE，并推导 PRISMA 2020 流程。 Systematic-review ledger: protocol, dual screening, adjudication, RoB/GRADE and PRISMA 2020.",
+    "summaryZh": "经得起复核的系统综述账本：只追加、双人筛选、PRISMA 2020、审计可验。记录方案、每条筛选决策、冲突裁决与 RoB/GRADE 评估，再推导 PRISMA 流程。",
+    "description": "经得起复核的系统综述账本：只追加、双人筛选、PRISMA 2020、审计可验。记录方案、每条筛选决策、冲突裁决与 RoB/GRADE 评估，再推导 PRISMA 流程。\n\n常见问法：\n- 双人筛选冲突怎么记？\n- PRISMA 流程是自动推导的吗？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "系统综述",
+      "PRISMA",
+      "双人筛选",
+      "RoB",
+      "GRADE",
+      "sr-ledger",
+      "systematic-review",
+      "Meta分析",
+      "研究人员",
+      "循证医学"
+    ],
+    "group": "研究",
+    "difficulty": "advanced",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-statcheck",
+    "repo": "PerryLink/dsh-statcheck",
+    "displayName": "Stat Check",
+    "displayNameZh": "统计复算",
+    "categories": [
+      "research"
+    ],
+    "summary": "给作者/审稿人：重算稿件报告的统计量，标出 p 值与统计量对不上的位置。 Recompute reported statistics and flag self-inconsistent p values with exact locations.",
+    "summaryZh": "重算稿件报告的统计数据——并把对不上的那些标出来。这是算术，不是指控：每条 finding 都给出报告的统计量、它实际蕴含的 p 值，以及精确字符位置。",
+    "description": "重算稿件报告的统计数据——并把对不上的那些标出来。这是算术，不是指控：每条 finding 都给出报告的统计量、它实际蕴含的 p 值，以及精确字符位置。\n\n常见问法：\n- p 值对不上就是学术不端吗？\n- 只支持 APA 格式吗？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "统计复算",
+      "p值",
+      "statcheck",
+      "APA",
+      "统计量",
+      "一致性",
+      "作者",
+      "审稿人",
+      "科研诚信"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "@perrylink/dsh-research-core",
+    "repo": "PerryLink/dsh-research-core",
+    "displayName": "Research Core (REP v1)",
+    "displayNameZh": "科研证据协议（REP v1）",
+    "categories": [
+      "research"
+    ],
+    "summary": "给科研插件作者：REP v1 共享证据协议、存储与校验器，让每个插件说同一种证据语言。 REP v1 shared evidence protocol, store and validator for the research plugin family.",
+    "summaryZh": "REP v1——DSH 科研插件家族的共享证据协议。一套协议、一个存储、一个校验器：每个科研插件说同一种证据语言，任何人 30 秒内可复算它声称的结论。",
+    "description": "REP v1——DSH 科研插件家族的共享证据协议。一套协议、一个存储、一个校验器：每个科研插件说同一种证据语言，任何人 30 秒内可复算它声称的结论。\n\n常见问法：\n- REP 是标准吗？\n- 其他插件必须用吗？\n\n说明：只做确定性核对/计算，不替代人工复核或学术判断。",
+    "keywords": [
+      "REP",
+      "证据协议",
+      "research-core",
+      "科研插件",
+      "证据存储",
+      "校验器",
+      "evidence-protocol",
+      "科研基础设施",
+      "插件作者"
+    ],
+    "group": "研究",
+    "difficulty": "advanced",
+    "status": "active"
   }
 ]

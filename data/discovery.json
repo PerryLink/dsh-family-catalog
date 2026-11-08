@@ -8376,5 +8376,1214 @@
     "notFor": [
       "不替代人工复核"
     ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-cite-verify",
+    "displayNameZh": "引用核验",
+    "displayNameEn": "Citation Verify",
+    "aliases": [
+      "引用核验",
+      "Citation Verify",
+      "dsh-cite-verify",
+      "引文",
+      "DOI",
+      "PMID",
+      "arXiv",
+      "BibTeX",
+      "参考文献",
+      "元数据",
+      "citation",
+      "doi"
+    ],
+    "searchPhrases": [
+      "引用核验",
+      "引用核验 怎么用",
+      "引用核验 插件",
+      "dsh 引用核验"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次引用核验。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "@perrylink/dsh-claim-check",
+    "displayNameZh": "断言支撑核对",
+    "displayNameEn": "Claim Check",
+    "aliases": [
+      "断言支撑核对",
+      "Claim Check",
+      "@perrylink/dsh-claim-check",
+      "断言",
+      "claim",
+      "来源支撑",
+      "逐字引用",
+      "数字核对",
+      "否定",
+      "限定词",
+      "证据",
+      "claim-check"
+    ],
+    "searchPhrases": [
+      "断言支撑核对",
+      "断言支撑核对 怎么用",
+      "断言支撑核对 插件",
+      "dsh 断言支撑核对"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次断言支撑核对。",
+    "notFor": [
+      "不作出定性结论，不替代主管部门认定"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-dataset-card",
+    "displayNameZh": "数据集 Datasheet",
+    "displayNameEn": "Dataset Card",
+    "aliases": [
+      "数据集 Datasheet",
+      "Dataset Card",
+      "dsh-dataset-card",
+      "数据集",
+      "Datasheet",
+      "数据画像",
+      "PII",
+      "个人数据",
+      "CSV",
+      "TSV",
+      "JSONL",
+      "dataset-card"
+    ],
+    "searchPhrases": [
+      "数据集 Datasheet",
+      "数据集 Datasheet 怎么用",
+      "数据集 Datasheet 插件",
+      "dsh 数据集 Datasheet"
+    ],
+    "audience": [
+      "数据分析",
+      "开发者"
+    ],
+    "facets": {
+      "domains": [
+        "data"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [
+        "csv",
+        "json"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-data-quality",
+      "dsh-pim-lint",
+      "dsh-table-ingest"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次数据集 Datasheet。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-doc-anchor",
+    "displayNameZh": "文档证据锚点",
+    "displayNameEn": "Doc Anchor",
+    "aliases": [
+      "文档证据锚点",
+      "Doc Anchor",
+      "dsh-doc-anchor",
+      "文档定位",
+      "PDF",
+      "HTML",
+      "LaTeX",
+      "Markdown",
+      "证据坐标",
+      "快照",
+      "doc-anchor",
+      "evidence"
+    ],
+    "searchPhrases": [
+      "文档证据锚点",
+      "文档证据锚点 怎么用",
+      "文档证据锚点 插件",
+      "dsh 文档证据锚点"
+    ],
+    "audience": [
+      "文档处理",
+      "开发者"
+    ],
+    "facets": {
+      "domains": [
+        "documents"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [
+        "docx",
+        "pdf"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-docx-redline",
+      "dsh-manuscript-check",
+      "dsh-response-letter"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次文档证据锚点。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-dmp",
+    "displayNameZh": "数据管理计划",
+    "displayNameEn": "DMP",
+    "aliases": [
+      "数据管理计划",
+      "DMP",
+      "dsh-dmp",
+      "数据共享",
+      "保存期",
+      "备份",
+      "仓库",
+      "许可证",
+      "DOI",
+      "data-management",
+      "FAIR",
+      "科研管理"
+    ],
+    "searchPhrases": [
+      "数据管理计划",
+      "数据管理计划 怎么用",
+      "数据管理计划 插件",
+      "dsh 数据管理计划"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次数据管理计划。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-image-integrity",
+    "displayNameZh": "图像完整性核对",
+    "displayNameEn": "Image Integrity",
+    "aliases": [
+      "图像完整性核对",
+      "Image Integrity",
+      "dsh-image-integrity",
+      "图像完整性",
+      "子图复用",
+      "图片查重",
+      "镜像粘贴",
+      "PNG",
+      "NCC",
+      "SARIF",
+      "image-integrity",
+      "figure"
+    ],
+    "searchPhrases": [
+      "图像完整性核对",
+      "图像完整性核对 怎么用",
+      "图像完整性核对 插件",
+      "dsh 图像完整性核对"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [
+        "image"
+      ],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次图像完整性核对。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-irb",
+    "displayNameZh": "伦理申请清单",
+    "displayNameEn": "IRB Checklist",
+    "aliases": [
+      "伦理申请清单",
+      "IRB Checklist",
+      "dsh-irb",
+      "伦理申请",
+      "IRB",
+      "伦理委员会",
+      "知情同意",
+      "风险等级",
+      "保障措施",
+      "irb",
+      "ethics",
+      "申请人"
+    ],
+    "searchPhrases": [
+      "伦理申请清单",
+      "伦理申请清单 怎么用",
+      "伦理申请清单 插件",
+      "dsh 伦理申请清单"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次伦理申请清单。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-lit-watch",
+    "displayNameZh": "文献监测",
+    "displayNameEn": "Literature Watch",
+    "aliases": [
+      "文献监测",
+      "Literature Watch",
+      "dsh-lit-watch",
+      "Crossref",
+      "新增文献",
+      "DOI",
+      "检索式",
+      "lit-watch",
+      "literature-watch",
+      "研究人员",
+      "文献综述",
+      "研究"
+    ],
+    "searchPhrases": [
+      "文献监测",
+      "文献监测 怎么用",
+      "文献监测 插件",
+      "dsh 文献监测"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次文献监测。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-grant-cn",
+    "displayNameZh": "中文基金申请书检查",
+    "displayNameEn": "CN Grant Check",
+    "aliases": [
+      "中文基金申请书检查",
+      "CN Grant Check",
+      "dsh-grant-cn",
+      "基金申请书",
+      "国自然",
+      "中文基金",
+      "预算",
+      "算术",
+      "材料包",
+      "形式审查",
+      "grant",
+      "nsfc"
+    ],
+    "searchPhrases": [
+      "中文基金申请书检查",
+      "中文基金申请书检查 怎么用",
+      "中文基金申请书检查 插件",
+      "dsh 中文基金申请书检查"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次中文基金申请书检查。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-manuscript-check",
+    "displayNameZh": "投稿前稿件检查",
+    "displayNameEn": "Manuscript Check",
+    "aliases": [
+      "投稿前稿件检查",
+      "Manuscript Check",
+      "dsh-manuscript-check",
+      "投稿",
+      "稿件检查",
+      "CONSORT",
+      "STROBE",
+      "PRISMA",
+      "声明",
+      "投稿包",
+      "manuscript",
+      "作者"
+    ],
+    "searchPhrases": [
+      "投稿前稿件检查",
+      "投稿前稿件检查 怎么用",
+      "投稿前稿件检查 插件",
+      "dsh 投稿前稿件检查"
+    ],
+    "audience": [
+      "文档处理",
+      "开发者"
+    ],
+    "facets": {
+      "domains": [
+        "documents"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-docx-redline",
+      "dsh-doc-anchor",
+      "dsh-response-letter"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次投稿前稿件检查。",
+    "notFor": [
+      "不作出定性结论，不替代主管部门认定"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-notebook-capture",
+    "displayNameZh": "Notebook 复现采集",
+    "displayNameEn": "Notebook Capture",
+    "aliases": [
+      "Notebook 复现采集",
+      "Notebook Capture",
+      "dsh-notebook-capture",
+      "Notebook",
+      "ipynb",
+      "可复现",
+      "随机种子",
+      "内核",
+      "环境",
+      "哈希",
+      "notebook-capture",
+      "reproducibility"
+    ],
+    "searchPhrases": [
+      "Notebook 复现采集",
+      "Notebook 复现采集 怎么用",
+      "Notebook 复现采集 插件",
+      "dsh Notebook 复现采集"
+    ],
+    "audience": [
+      "数据分析",
+      "开发者"
+    ],
+    "facets": {
+      "domains": [
+        "data"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-data-quality",
+      "dsh-pim-lint",
+      "dsh-table-ingest"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次Notebook 复现采集。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-meta-analysis",
+    "displayNameZh": "元分析算术",
+    "displayNameEn": "Meta-analysis",
+    "aliases": [
+      "元分析算术",
+      "Meta-analysis",
+      "dsh-meta-analysis",
+      "元分析",
+      "meta-analysis",
+      "效应量",
+      "OR",
+      "RR",
+      "SMD",
+      "I2",
+      "Egger",
+      "森林图"
+    ],
+    "searchPhrases": [
+      "元分析算术",
+      "元分析算术 怎么用",
+      "元分析算术 插件",
+      "dsh 元分析算术"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次元分析算术。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-response-letter",
+    "displayNameZh": "审稿回复信",
+    "displayNameEn": "Response Letter",
+    "aliases": [
+      "审稿回复信",
+      "Response Letter",
+      "dsh-response-letter",
+      "审稿意见",
+      "回复信",
+      "response-letter",
+      "审稿人",
+      "逐条回复",
+      "覆盖表",
+      "作者",
+      "编辑",
+      "同行评议"
+    ],
+    "searchPhrases": [
+      "审稿回复信",
+      "审稿回复信 怎么用",
+      "审稿回复信 插件",
+      "dsh 审稿回复信"
+    ],
+    "audience": [
+      "文档处理",
+      "开发者"
+    ],
+    "facets": {
+      "domains": [
+        "documents"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-docx-redline",
+      "dsh-doc-anchor",
+      "dsh-manuscript-check"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次审稿回复信。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-retraction-watch",
+    "displayNameZh": "撤稿与更正监测",
+    "displayNameEn": "Retraction Watch",
+    "aliases": [
+      "撤稿与更正监测",
+      "Retraction Watch",
+      "dsh-retraction-watch",
+      "撤稿",
+      "更正",
+      "retraction",
+      "Crossref",
+      "DOI",
+      "科研诚信",
+      "文献",
+      "retraction-watch",
+      "研究人员",
+      "撤稿监测",
+      "更正监测",
+      "retraction watch"
+    ],
+    "searchPhrases": [
+      "撤稿与更正监测",
+      "撤稿与更正监测 怎么用",
+      "撤稿与更正监测 插件",
+      "dsh 撤稿与更正监测"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次撤稿与更正监测。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-repro-audit",
+    "displayNameZh": "复现审计",
+    "displayNameEn": "Repro Audit",
+    "aliases": [
+      "复现审计",
+      "Repro Audit",
+      "dsh-repro-audit",
+      "复现",
+      "reproducibility",
+      "lockfile",
+      "数据哈希",
+      "seed",
+      "环境",
+      "漂移",
+      "repro-audit",
+      "研究人员"
+    ],
+    "searchPhrases": [
+      "复现审计",
+      "复现审计 怎么用",
+      "复现审计 插件",
+      "dsh 复现审计"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次复现审计。",
+    "notFor": [
+      "不作出定性结论，不替代主管部门认定"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-source-cnki",
+    "displayNameZh": "中文文献来源",
+    "displayNameEn": "CNKI Source",
+    "aliases": [
+      "中文文献来源",
+      "CNKI Source",
+      "dsh-source-cnki",
+      "中文文献",
+      "CNKI",
+      "RIS",
+      "EndNote",
+      "GB/T 7714",
+      "APA",
+      "参考文献",
+      "source-cnki",
+      "研究人员"
+    ],
+    "searchPhrases": [
+      "中文文献来源",
+      "中文文献来源 怎么用",
+      "中文文献来源 插件",
+      "dsh 中文文献来源"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次中文文献来源。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-sr-ledger",
+    "displayNameZh": "系统综述账本",
+    "displayNameEn": "SR Ledger",
+    "aliases": [
+      "系统综述账本",
+      "SR Ledger",
+      "dsh-sr-ledger",
+      "系统综述",
+      "PRISMA",
+      "双人筛选",
+      "RoB",
+      "GRADE",
+      "sr-ledger",
+      "systematic-review",
+      "Meta分析",
+      "研究人员"
+    ],
+    "searchPhrases": [
+      "系统综述账本",
+      "系统综述账本 怎么用",
+      "系统综述账本 插件",
+      "dsh 系统综述账本"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "reconciliation",
+        "ledger"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次系统综述账本。",
+    "notFor": [
+      "不替代人工复核"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-statcheck",
+    "displayNameZh": "统计复算",
+    "displayNameEn": "Stat Check",
+    "aliases": [
+      "统计复算",
+      "Stat Check",
+      "dsh-statcheck",
+      "p值",
+      "statcheck",
+      "APA",
+      "统计量",
+      "一致性",
+      "作者",
+      "审稿人",
+      "科研诚信",
+      "研究"
+    ],
+    "searchPhrases": [
+      "统计复算",
+      "统计复算 怎么用",
+      "统计复算 插件",
+      "dsh 统计复算"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "checker"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次统计复算。",
+    "notFor": [
+      "不作出定性结论，不替代主管部门认定"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "@perrylink/dsh-research-core",
+    "displayNameZh": "科研证据协议（REP v1）",
+    "displayNameEn": "Research Core (REP v1)",
+    "aliases": [
+      "科研证据协议（REP v1）",
+      "Research Core (REP v1)",
+      "@perrylink/dsh-research-core",
+      "REP",
+      "证据协议",
+      "research-core",
+      "科研插件",
+      "证据存储",
+      "校验器",
+      "evidence-protocol",
+      "科研基础设施",
+      "插件作者"
+    ],
+    "searchPhrases": [
+      "科研证据协议（REP v1）",
+      "科研证据协议（REP v1） 怎么用",
+      "科研证据协议（REP v1） 插件",
+      "dsh 科研证据协议（REP v1）"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-fund-research",
+      "dsh-industry-research",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-08",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只处理用户导入的数据；不替代人工复核。",
+        "自动补全的发现元数据，待人工复核（2026-11-08）。"
+      ]
+    },
+    "demoPrompt": "用自带样例跑一次科研证据协议（REP v1）。",
+    "notFor": [
+      "不替代人工复核"
+    ]
   }
 ]

@@ -6,81 +6,309 @@
     {
       "id": "customs",
       "nameZh": "报关与关务",
-      "audience": ["报关员", "关务", "外贸单证员", "原产地证经办"],
-      "queries": ["报关单品名金额不一致", "HS编码归类和章品目对不上", "信用证单据不符点", "原产地RVC怎么算", "出口管制物项许可证"],
-      "workflow": ["dsh-table-ingest", "dsh-customs-doc-check", "dsh-hs-classify", "dsh-lc-doc-check", "dsh-origin-rvc-check", "dsh-export-ctl-check", "dsh-demurrage-ledger"],
-      "standards": ["《中华人民共和国进出口税则》", "《中华人民共和国海关进出口货物报关单填制规范》", "UCP600"]
+      "audience": [
+        "报关员",
+        "关务",
+        "外贸单证员",
+        "原产地证经办"
+      ],
+      "queries": [
+        "报关单品名金额不一致",
+        "HS编码归类和章品目对不上",
+        "信用证单据不符点",
+        "原产地RVC怎么算",
+        "出口管制物项许可证"
+      ],
+      "workflow": [
+        "dsh-table-ingest",
+        "dsh-customs-doc-check",
+        "dsh-hs-classify",
+        "dsh-lc-doc-check",
+        "dsh-origin-rvc-check",
+        "dsh-export-ctl-check",
+        "dsh-demurrage-ledger"
+      ],
+      "standards": [
+        "《中华人民共和国进出口税则》",
+        "《中华人民共和国海关进出口货物报关单填制规范》",
+        "UCP600"
+      ]
     },
     {
       "id": "tender",
       "nameZh": "招投标",
-      "audience": ["投标项目经理", "招标代理", "评标专家", "资格审查"],
-      "queries": ["投标资格条件逐条响应", "招标文件符合性预检", "评标评分矩阵分值合计", "质疑投诉期限"],
-      "workflow": ["dsh-bid-ca-precheck", "dsh-bid-qual-check", "dsh-tender-matrix", "dsh-tender-extract", "dsh-protest-deadline", "dsh-contract-stance"],
-      "standards": ["《中华人民共和国招标投标法》", "《中华人民共和国招标投标法实施条例》"]
+      "audience": [
+        "投标项目经理",
+        "招标代理",
+        "评标专家",
+        "资格审查"
+      ],
+      "queries": [
+        "投标资格条件逐条响应",
+        "招标文件符合性预检",
+        "评标评分矩阵分值合计",
+        "质疑投诉期限"
+      ],
+      "workflow": [
+        "dsh-bid-ca-precheck",
+        "dsh-bid-qual-check",
+        "dsh-tender-matrix",
+        "dsh-tender-extract",
+        "dsh-protest-deadline",
+        "dsh-contract-stance"
+      ],
+      "standards": [
+        "《中华人民共和国招标投标法》",
+        "《中华人民共和国招标投标法实施条例》"
+      ]
     },
     {
       "id": "construction-ehs",
       "nameZh": "工程建设与 EHS",
-      "audience": ["安全员", "EHS", "监理工程师", "环评工程师", "建设单位"],
-      "queries": ["监理日志旁站", "土壤地下水监测超标", "环境影响评价导则适用性", "危化品临界量", "应急预案要素"],
-      "workflow": ["dsh-eia-guide-check", "dsh-site-log-check", "dsh-soilwater-check", "dsh-safety-brief-check", "dsh-hazplan-check", "dsh-hazchem-check", "dsh-emergency-plan", "dsh-permit-report-check"],
-      "standards": ["GB/T 50319-2013", "GB 18218—2018", "GB/T 29639-2020"]
+      "audience": [
+        "安全员",
+        "EHS",
+        "监理工程师",
+        "环评工程师",
+        "建设单位"
+      ],
+      "queries": [
+        "监理日志旁站",
+        "土壤地下水监测超标",
+        "环境影响评价导则适用性",
+        "危化品临界量",
+        "应急预案要素"
+      ],
+      "workflow": [
+        "dsh-eia-guide-check",
+        "dsh-site-log-check",
+        "dsh-soilwater-check",
+        "dsh-safety-brief-check",
+        "dsh-hazplan-check",
+        "dsh-hazchem-check",
+        "dsh-emergency-plan",
+        "dsh-permit-report-check"
+      ],
+      "standards": [
+        "GB/T 50319-2013",
+        "GB 18218—2018",
+        "GB/T 29639-2020"
+      ]
     },
     {
       "id": "medical",
       "nameZh": "医疗病案",
-      "audience": ["病案室", "质控科", "病案编码员", "护理部", "医保办"],
-      "queries": ["病案首页质控", "ICD编码星剑号", "护理记录时限签名"],
-      "workflow": ["dsh-medrec-qc", "dsh-icd-rule-check", "dsh-nurse-record-check"],
-      "standards": ["《住院病案首页数据填写质量规范（暂行）》", "GB/T 14396-2016"]
+      "audience": [
+        "病案室",
+        "质控科",
+        "病案编码员",
+        "护理部",
+        "医保办"
+      ],
+      "queries": [
+        "病案首页质控",
+        "ICD编码星剑号",
+        "护理记录时限签名"
+      ],
+      "workflow": [
+        "dsh-medrec-qc",
+        "dsh-icd-rule-check",
+        "dsh-nurse-record-check"
+      ],
+      "standards": [
+        "《住院病案首页数据填写质量规范（暂行）》",
+        "GB/T 14396-2016"
+      ]
     },
     {
       "id": "legal",
       "nameZh": "法律与法务",
-      "audience": ["律师", "法务", "法官助理", "当事人"],
-      "queries": ["证据清单待证事实", "法条引用条号原文", "合同条款立场台账"],
-      "workflow": ["dsh-evidence-check", "dsh-lawcite-adapter", "dsh-pleading-draft", "dsh-contract-suite", "dsh-legal-clause", "dsh-legal-intake"],
-      "standards": ["《中华人民共和国民法典》", "《最高人民法院关于民事诉讼证据的若干规定》"]
+      "audience": [
+        "律师",
+        "法务",
+        "法官助理",
+        "当事人"
+      ],
+      "queries": [
+        "证据清单待证事实",
+        "法条引用条号原文",
+        "合同条款立场台账"
+      ],
+      "workflow": [
+        "dsh-evidence-check",
+        "dsh-lawcite-adapter",
+        "dsh-pleading-draft",
+        "dsh-contract-suite",
+        "dsh-legal-clause",
+        "dsh-legal-intake"
+      ],
+      "standards": [
+        "《中华人民共和国民法典》",
+        "《最高人民法院关于民事诉讼证据的若干规定》"
+      ]
     },
     {
       "id": "finance",
       "nameZh": "财务运营",
-      "audience": ["会计", "出纳", "应付会计", "审计", "差旅报销"],
-      "queries": ["电子发票OFD", "发票重复报销", "银行流水对账", "三单匹配", "差旅订单发票卡流水对不上"],
-      "workflow": ["dsh-einvoice", "dsh-invoice-ledger", "dsh-bankrec", "dsh-ap-three-way", "dsh-travel-recon", "dsh-finops-suite", "dsh-payroll-audit"],
-      "standards": ["《企业会计准则》", "《中华人民共和国发票管理办法》"]
+      "audience": [
+        "会计",
+        "出纳",
+        "应付会计",
+        "审计",
+        "差旅报销"
+      ],
+      "queries": [
+        "电子发票OFD",
+        "发票重复报销",
+        "银行流水对账",
+        "三单匹配",
+        "差旅订单发票卡流水对不上"
+      ],
+      "workflow": [
+        "dsh-einvoice",
+        "dsh-invoice-ledger",
+        "dsh-bankrec",
+        "dsh-ap-three-way",
+        "dsh-travel-recon",
+        "dsh-finops-suite",
+        "dsh-payroll-audit"
+      ],
+      "standards": [
+        "《企业会计准则》",
+        "《中华人民共和国发票管理办法》"
+      ]
     },
     {
       "id": "government",
       "nameZh": "公文与政务",
-      "audience": ["办公室文秘", "公文写作", "党政机关", "国企办公室"],
-      "queries": ["公文格式版头", "公文流转时限", "档案归档保管期限", "三重一大决策"],
-      "workflow": ["dsh-gongwen-word-check", "dsh-gongwen-flow-check", "dsh-archive-check", "dsh-policy-brief-draft", "dsh-soe-decision-check"],
-      "standards": ["GB/T 9704", "《党政机关公文处理工作条例》"]
+      "audience": [
+        "办公室文秘",
+        "公文写作",
+        "党政机关",
+        "国企办公室"
+      ],
+      "queries": [
+        "公文格式版头",
+        "公文流转时限",
+        "档案归档保管期限",
+        "三重一大决策"
+      ],
+      "workflow": [
+        "dsh-gongwen-word-check",
+        "dsh-gongwen-flow-check",
+        "dsh-archive-check",
+        "dsh-policy-brief-draft",
+        "dsh-soe-decision-check"
+      ],
+      "standards": [
+        "GB/T 9704",
+        "《党政机关公文处理工作条例》"
+      ]
     },
     {
       "id": "research",
       "nameZh": "科研与教育",
-      "audience": ["申请人", "科研秘书", "研究人员", "研究生", "编辑"],
-      "queries": ["国自然形式审查匿名化", "论文引文和原文对不上", "开题报告评审", "学习差距分析"],
-      "workflow": ["dsh-nsfc-form-check", "dsh-library", "dsh-research-report", "dsh-industry-research", "dsh-fund-research", "dsh-essay-rubric-check", "dsh-learning-gap-check", "dsh-paper-doc-adapter"],
-      "standards": ["《国家自然科学基金条例》", "GB/T 7714"]
+      "audience": [
+        "申请人",
+        "科研秘书",
+        "研究人员",
+        "研究生",
+        "编辑"
+      ],
+      "queries": [
+        "国自然形式审查匿名化",
+        "论文引文和原文对不上",
+        "开题报告评审",
+        "学习差距分析",
+        "引用核验",
+        "撤稿监测",
+        "元分析效应量",
+        "系统综述 PRISMA"
+      ],
+      "workflow": [
+        "dsh-nsfc-form-check",
+        "dsh-library",
+        "dsh-research-report",
+        "dsh-industry-research",
+        "dsh-fund-research",
+        "dsh-essay-rubric-check",
+        "dsh-learning-gap-check",
+        "dsh-paper-doc-adapter",
+        "dsh-grant-cn",
+        "dsh-doc-anchor",
+        "dsh-sr-ledger",
+        "dsh-meta-analysis",
+        "dsh-cite-verify",
+        "dsh-retraction-watch",
+        "dsh-statcheck",
+        "dsh-repro-audit"
+      ],
+      "standards": [
+        "《国家自然科学基金条例》",
+        "GB/T 7714"
+      ]
     },
     {
       "id": "quality",
       "nameZh": "质量管理",
-      "audience": ["质量经理", "质量工程师", "供应商质量", "体系工程师", "SQE"],
-      "queries": ["FMEA RPN", "PPAP提交等级", "SPC控制图控制限", "CAPA闭环", "作业规程一致性"],
-      "workflow": ["dsh-fmea-table-check", "dsh-ppap-check", "dsh-spc-gbt-adapter", "dsh-qms-capa", "dsh-sop-sync-check", "dsh-data-quality", "dsh-score", "dsh-test-drive"],
-      "standards": ["IATF 16949", "《生产件批准程序（PPAP）手册》", "GB/T 4091"]
+      "audience": [
+        "质量经理",
+        "质量工程师",
+        "供应商质量",
+        "体系工程师",
+        "SQE"
+      ],
+      "queries": [
+        "FMEA RPN",
+        "PPAP提交等级",
+        "SPC控制图控制限",
+        "CAPA闭环",
+        "作业规程一致性"
+      ],
+      "workflow": [
+        "dsh-fmea-table-check",
+        "dsh-ppap-check",
+        "dsh-spc-gbt-adapter",
+        "dsh-qms-capa",
+        "dsh-sop-sync-check",
+        "dsh-data-quality",
+        "dsh-score",
+        "dsh-test-drive"
+      ],
+      "standards": [
+        "IATF 16949",
+        "《生产件批准程序（PPAP）手册》",
+        "GB/T 4091"
+      ]
     },
     {
       "id": "data",
       "nameZh": "数据与开发质量",
-      "audience": ["数据分析", "开发者", "平台工程", "质量平台"],
-      "queries": ["表格入库", "数据画像清洗", "Excel对账", "PIM数据自检", "插件评测包"],
-      "workflow": ["dsh-table-ingest", "dsh-data-quality", "dsh-excel-reconcile", "dsh-pim-lint", "dsh-eval-pack", "dsh-policy-ledger"],
+      "audience": [
+        "数据分析",
+        "开发者",
+        "平台工程",
+        "质量平台"
+      ],
+      "queries": [
+        "表格入库",
+        "数据画像清洗",
+        "Excel对账",
+        "PIM数据自检",
+        "插件评测包",
+        "数据集 Datasheet",
+        "Notebook 复现"
+      ],
+      "workflow": [
+        "dsh-table-ingest",
+        "dsh-data-quality",
+        "dsh-excel-reconcile",
+        "dsh-pim-lint",
+        "dsh-eval-pack",
+        "dsh-policy-ledger",
+        "dsh-dataset-card",
+        "dsh-notebook-capture"
+      ],
       "standards": []
     }
   ]

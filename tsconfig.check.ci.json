@@ -13,5 +13,5 @@
     "skipLibCheck": true,
     "paths": {}
   },
-  "include": ["scripts/**/*.mjs", "deploy/**/*.js", "deploy/**/*.mjs", "lib/**/*.mjs", "mcp/**/*.mjs"]
+  "include": ["scripts/**/*.mjs", "deploy/**/*.js", "deploy/**/*.mjs", "lib/**/*.mjs", "mcp/**/*.mjs", "api/**/*.js"]
 }

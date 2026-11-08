@@ -97,7 +97,7 @@
     },
     {
       "name": "dsh-einvoice",
-      "expectedPathHint": "not in checkers/ (catalog-only)",
+      "expectedPathHint": "not in checkers/ (catalog-only; mirror at ../readme-upgrade/repos/dsh-einvoice)",
       "keywords": [
         "电子发票",
         "数电票",
@@ -419,7 +419,7 @@
     },
     {
       "name": "dsh-ifc-qto",
-      "expectedPathHint": "checkers/dsh-ifc-qto",
+      "expectedPathHint": "not in checkers/ (catalog-only; mirror at ../deepseek-community-hub/04-build/dsh-ifc-qto)",
       "keywords": [
         "IFC",
         "BIM",
@@ -442,7 +442,7 @@
     },
     {
       "name": "dsh-qms-capa",
-      "expectedPathHint": "checkers/dsh-qms-capa",
+      "expectedPathHint": "not in checkers/ (catalog-only; mirror at ../deepseek-community-hub/04-build/dsh-qms-capa)",
       "keywords": [
         "QMS",
         "CAPA",

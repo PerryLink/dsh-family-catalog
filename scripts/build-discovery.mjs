@@ -112,5 +112,6 @@ await writeFile(`${base}/deploy/search-core.mjs`, core)
 // Hubs are served by /v1/hubs so the browsing entry points do not depend on
 // the repo checkout either.
 const hubs = await readFile(`${base}/data/hubs.json`, 'utf8')
+await writeFile(`${base}/artifacts/v1/hubs.json`, hubs)
 await writeFile(`${base}/deploy/artifacts/v1/hubs.json`, hubs)
 console.log(`built search index: ${items.length} items (${discovery.length} with discovery metadata) -> artifacts/v1/search-index.json + deploy/ copy (+ search-core.mjs, hubs.json)`)

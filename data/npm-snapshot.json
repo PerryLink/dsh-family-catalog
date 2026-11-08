@@ -1130,5 +1130,176 @@
     "repository": "git+https://github.com/PerryLink/dsh-check-pack.git",
     "latest": "0.2.0",
     "updatedAt": "2026-11-02T12:39:46.215Z"
+  },
+  {
+    "name": "dsh-cite-verify",
+    "description": "Verify that a citation exists and that its metadata is right, for DeepSeek Harness: DOI / PMID / arXiv / BibTeX resolution through Crossref, PubMed and arXiv, field-by-field metadata comparison, version/duplicate/retraction observations, content-addressed",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-cite-verify#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-cite-verify.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:38:34.947Z"
+  },
+  {
+    "name": "@perrylink/dsh-claim-check",
+    "description": "Deterministic claim support checking for DeepSeek Harness: verbatim quote spans, number matching, labelled-value contradiction, negation and hedging polarity against the cited sentence, REP v1 evidence/claim/verdict records and SARIF output. A paraphrase ",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-claim-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-claim-check.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:52:54.020Z"
+  },
+  {
+    "name": "dsh-dataset-card",
+    "description": "Dataset documentation for DeepSeek Harness: bounded CSV/TSV/JSON/JSONL profiling (types, missingness, cardinality), redacted PII detection by column name and value pattern (emails, phones, national IDs, IPs), a Datasheet-style card with missing-section wa",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-dataset-card#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-dataset-card.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:53:28.097Z"
+  },
+  {
+    "name": "dsh-doc-anchor",
+    "description": "Turn PDF / HTML / LaTeX / Markdown documents into locatable evidence surfaces for DeepSeek Harness: content-addressed snapshots of the original bytes plus the extracted text, page/section/paragraph/char anchors, table grids and a REP v1 evidence record. I",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-doc-anchor#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-doc-anchor.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:40:03.230Z"
+  },
+  {
+    "name": "dsh-dmp",
+    "description": "Data-management-plan tooling for DeepSeek Harness: a ten-section scaffold with prompts, completeness/consistency checks (datasets, personal data, open-sharing conflicts, retention minimum, backup, repository/license/DOI, contact), Markdown/JSON/SARIF expo",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-dmp#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-dmp.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:53:53.610Z"
+  },
+  {
+    "name": "dsh-image-integrity",
+    "description": "Image integrity checks for DeepSeek Harness: zero-dependency 8-bit PNG decoding (grey/RGB/RGBA) with mean-threshold block fingerprints and NCC confirmation to find duplicated or mirrored regions inside one figure or shared between two figures, plus REP ev",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-image-integrity#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-image-integrity.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:41:43.569Z"
+  },
+  {
+    "name": "dsh-irb",
+    "description": "Ethics-application checklist for DeepSeek Harness: 18-item keyword checklist (title, PI, purpose, design, participants, recruitment, consent, assent, risks, benefits, confidentiality, vulnerable groups, compensation, conflicts, retention, dissemination, a",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-irb#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-irb.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:54:19.935Z"
+  },
+  {
+    "name": "dsh-lit-watch",
+    "description": "Literature watch for DeepSeek Harness: save named Crossref bibliographic queries with time windows, run them against Crossref with a bounded client, keep a seen-DOI store so repeated runs return only genuinely new items, and render a Markdown digest plus ",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-lit-watch#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-lit-watch.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:44:11.453Z"
+  },
+  {
+    "name": "dsh-grant-cn",
+    "description": "中文基金申请书检查（DeepSeek Harness）：19 项起步清单（项目名称/摘要/科学问题属性 A-D/立项依据/目标/内容/方案/技术路线/创新/可行性/基础/条件/团队/预算/预算说明/伦理/数据共享/限项/参考文献），预算算术与结构校验（设备费/业务费/劳务费/间接费用，合计一致性），申请材料包扫描（申请书/预算表/伦理/承诺书/简历/附件），输出 JSON/Markdown 与 REP 证据。关键词清单，不是评审结论。",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-grant-cn#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-grant-cn.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:41:41.137Z"
+  },
+  {
+    "name": "dsh-manuscript-check",
+    "description": "Pre-submission checklist for DeepSeek Harness: manuscript structure and declaration statements, keyword-based coverage of starter CONSORT/STROBE/PRISMA items with locators and advice, and a submission-pack scan (manuscript, cover letter, numbered figures ",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-manuscript-check#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-manuscript-check.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:40:31.274Z"
+  },
+  {
+    "name": "dsh-notebook-capture",
+    "description": "Notebook reproducibility capture for DeepSeek Harness: reads .ipynb JSON without executing it, reports kernel/language, code vs markdown cells, execution order (out-of-order and never-run cells), imports, runtime installs, seeds, absolute paths and output",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-notebook-capture#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-notebook-capture.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:53:50.219Z"
+  },
+  {
+    "name": "dsh-meta-analysis",
+    "description": "Meta-analysis arithmetic for DeepSeek Harness: effect-size conversions (OR/RR/d/r/SMD, SE from CI) with named formulas, fixed-effect and DerSimonian-Laird random-effects pooling, Q/df/p, I2, tau2, forest-plot data, Markdown/SARIF reports and a light Egger",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-meta-analysis#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-meta-analysis.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:42:26.069Z"
+  },
+  {
+    "name": "dsh-response-letter",
+    "description": "Reviewer-response workflow for DeepSeek Harness: parse reviewer comments (Reviewer/Referee/审稿人 headers, numbered or paragraph mode) with locators, check point-by-point coverage by response number (missing, too short, extra, duplicates), and export a Markd",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-response-letter#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-response-letter.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:42:09.941Z"
+  },
+  {
+    "name": "dsh-retraction-watch",
+    "description": "Retraction and correction monitoring for DeepSeek Harness: Crossref work records plus the verified filter=updates query, per-DOI status (retracted/concern/corrected/notice/clear/unknown), an append-only timeline with change detection, REP v1 evidence snap",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-retraction-watch#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-retraction-watch.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:40:36.391Z"
+  },
+  {
+    "name": "dsh-repro-audit",
+    "description": "Reproducibility evidence for DeepSeek Harness: a bounded read-only scan records the git commit and dirty state, dependency lockfiles, environment pins, input-data hashes, figures, notebooks, explicit seeds and runnable commands, derives gap severities and",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-repro-audit#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-repro-audit.git",
+    "latest": "0.1.1",
+    "updatedAt": "2026-11-08T12:35:55.930Z"
+  },
+  {
+    "name": "dsh-source-cnki",
+    "description": "Chinese-literature tooling for DeepSeek Harness without scraping: import RIS/EndNote-style or labeled (题名：/作者：/来源：) exports into stable records, format GB/T 7714-2015 (顺序编码制) or APA 7 citations (no invented fields), and run structural metadata validation ",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-source-cnki#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-source-cnki.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:42:34.455Z"
+  },
+  {
+    "name": "dsh-sr-ledger",
+    "description": "Systematic-review ledger for DeepSeek Harness: PRISMA 2020 protocol revisions, imported records, dual screening with explicit conflict adjudication, RoB 2 / ROBINS-I / GRADE assessments, derived PRISMA counts with integrity issues, and an export bundle (p",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-sr-ledger#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-sr-ledger.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:40:30.547Z"
+  },
+  {
+    "name": "dsh-statcheck",
+    "description": "Recompute the statistics reported in a manuscript and flag self-inconsistent p values for DeepSeek Harness: APA-style t/F/chi-square/r/z parsing, two-tailed and upper-tail p values from zero-dependency distributions, CI-versus-p checks, exact character lo",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-statcheck#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-statcheck.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:40:21.224Z"
+  },
+  {
+    "name": "@perrylink/dsh-research-core",
+    "description": "REP v1 — the shared Research Evidence Protocol for DeepSeek Harness research plugins: JSON Schema + TypeScript types for sources, snapshots, anchors, evidence, claims, checks, artifacts, audit events and sealed report manifests, plus a zero-dependency con",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-research-core#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-research-core.git",
+    "latest": "0.1.0",
+    "updatedAt": "2026-11-08T11:39:09.480Z"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "description": "50-query discovery bench: 26 exact domain queries + 24 synonym/role/standard/long-sentence queries. Expected plugin is the primary match; top3 hit is acceptable.",
+  "description": "58-query discovery bench: 26 exact domain queries + 24 synonym/role/standard/long-sentence queries + 8 research-suite queries. Expected plugin is the primary match; top3 hit is acceptable.",
   "queries": [
     {
       "id": "customs-01",
@@ -400,6 +400,70 @@
       "query": "监理日志日期断档",
       "expected": [
         "dsh-site-log-check"
+      ]
+    },
+    {
+      "id": "research-02",
+      "domain": "research",
+      "query": "引用核验",
+      "expected": [
+        "dsh-cite-verify"
+      ]
+    },
+    {
+      "id": "research-03",
+      "domain": "research",
+      "query": "撤稿监测",
+      "expected": [
+        "dsh-retraction-watch"
+      ]
+    },
+    {
+      "id": "research-04",
+      "domain": "research",
+      "query": "元分析效应量",
+      "expected": [
+        "dsh-meta-analysis"
+      ]
+    },
+    {
+      "id": "research-05",
+      "domain": "research",
+      "query": "数据管理计划",
+      "expected": [
+        "dsh-dmp"
+      ]
+    },
+    {
+      "id": "research-06",
+      "domain": "research",
+      "query": "审稿回复信",
+      "expected": [
+        "dsh-response-letter"
+      ]
+    },
+    {
+      "id": "research-07",
+      "domain": "research",
+      "query": "系统综述 PRISMA",
+      "expected": [
+        "dsh-sr-ledger"
+      ]
+    },
+    {
+      "id": "research-08",
+      "domain": "research",
+      "query": "基金申请书预算",
+      "expected": [
+        "dsh-grant-cn"
+      ]
+    },
+    {
+      "id": "research-09",
+      "domain": "research",
+      "query": "统计复算 p 值",
+      "expected": [
+        "dsh-statcheck"
       ]
     }
   ]
