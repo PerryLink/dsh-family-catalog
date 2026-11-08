@@ -17,10 +17,10 @@ lib/search-core.mjs (no fs) ─> scripts/search.mjs (Node + CLI)
                             └─> mcp/plugin-search-server.mjs  plugin_search, plugin_get
 ```
 
-The 40 rows in `data/discovery.json` are schema-valid discovery manifests
+The 126 rows in `data/discovery.json` are schema-valid discovery manifests
 (aliases, searchPhrases, audience, facets, maturity, coverage, related,
-demoPrompt). The other 86 rows are indexed from their catalog fields so search
-does not regress for them. The index is a sidecar: none of these fields enter the
+demoPrompt): 40 authored and 86 generated from catalog fields, each generated
+row flagged in `coverage.limitations` as pending human review. The index is a sidecar: none of these fields enter the
 1.0.0 item schema.
 
 ## HTTP endpoints
@@ -123,8 +123,9 @@ top3 35/50 (70%), zero-result 15/50.
    `defaultLimit=maxLimit=100`), and the full page passes Ajv strict against the
    upstream schema. The Vercel static mirror is not paginated; register the
    workers.dev manifest, not the Vercel one.
-2. 40/126 rows have the rich discovery metadata. The rest are indexed from
-   catalog fields; extending them is P4 work.
+2. 40/126 rows have authored discovery metadata; the other 86 are generated
+   baselines (flagged in `coverage.limitations`). Authoring them properly is
+   ongoing P4 work.
 3. Scores are deliberately simple (field weights + IDF-weighted CJK n-grams),
    not a learned ranker. `matched_on`/`why` are there so a wrong hit can be
    attributed.

@@ -119,7 +119,7 @@ A listing in this catalog is metadata, not a security review. The same plugins a
 
 The 1.0.0 provider page is what DSH Desktop reads, and its search is one whole-string `includes` over `id/name/displayName/summary/description/publisher/keywords`. That misses Chinese domain words that only live in `summaryZh`. The sidecar fixes that without changing the 1.0.0 item schema:
 
-- `data/discovery.json` — 40 schema-valid discovery manifests (aliases, searchPhrases, audience, facets, maturity, coverage).
+- `data/discovery.json` — 126 schema-valid discovery manifests (40 authored, 86 generated from catalog fields and flagged for review) with aliases, searchPhrases, audience, facets, maturity and coverage.
 - `data/facets.json` — 126/126 facet/status sidecar (domains, subdomains, tasks, artifacts, standards, maintenance, maturity, coverage, replacement).
 - `data/hubs.json` — 10 domain hubs (customs, tender, construction-ehs, medical, legal, finance, government, research, quality, data).
 - `GET /v1/search?q=&domain=&task=&audience=&limit=` and `GET /v1/plugin?name=` on both workers.
