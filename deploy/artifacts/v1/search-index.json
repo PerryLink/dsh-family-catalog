@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "generatedBy": "scripts/build-discovery.mjs",
   "source": {
-    "discovery": 145,
+    "discovery": 146,
     "packages": 146
   },
   "count": 146,
@@ -8049,14 +8049,19 @@
       "summary": "Map request parameters across 11 vendor dialects and repair malformed JSON tool output with deterministic, auditable rules. No network, no model call, no invented data.",
       "summaryZh": "在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。",
       "aliases": [
+        "厂商参数映射",
+        "参数映射",
+        "JSON修复",
+        "报文修复",
+        "坏掉的JSON",
+        "schema校验",
         "parameter mapping",
         "vendor params",
         "json repair",
         "schema validation",
         "tool output",
-        "参数映射",
-        "JSON修复",
-        "厂商参数"
+        "开发者",
+        "插件作者"
       ],
       "keywordsZh": [
         "参数映射",
@@ -8070,30 +8075,56 @@
         "schema validation",
         "tool output"
       ],
-      "searchPhrases": [],
-      "audience": [],
+      "searchPhrases": [
+        "厂商参数映射",
+        "坏掉的JSON工具输出怎么修",
+        "参数映射怎么用",
+        "JSON修复会编造值吗"
+      ],
+      "audience": [
+        "开发者",
+        "插件作者"
+      ],
       "facets": {
-        "domains": [],
+        "domains": [
+          "dev"
+        ],
         "subdomains": [],
-        "tasks": [],
-        "artifacts": [],
-        "jurisdictions": [],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [
+          "json"
+        ],
+        "jurisdictions": [
+          "CN"
+        ],
         "standards": []
       },
-      "maturity": "stable",
-      "maintenance": "unknown",
+      "maturity": "beta",
+      "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08"
+        "lastReviewed": "2026-11-08",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "只按固定规则修复 JSON，不判断业务语义；不替代人工复核。"
+        ]
       },
-      "related": [],
-      "demoPrompt": null,
+      "related": [
+        "dsh-translate",
+        "dsh-mcp-panel",
+        "dsh-fast"
+      ],
+      "demoPrompt": "用样例跑一次厂商参数映射与报文修复。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T13:13:02.403Z",
-      "source": "catalog",
-      "searchText": "dsh-param-repair\nVendor parameter mapping & JSON repair\n厂商参数映射与报文修复\nMap request parameters across 11 vendor dialects and repair malformed JSON tool output with deterministic, auditable rules. No network, no model call, no invented data.\n在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。\nparameter mapping\nvendor params\njson repair\nschema validation\ntool output\n参数映射\nJSON修复\n厂商参数\nparameter mapping\nvendor params\njson repair\nschema validation\ntool output\n参数映射\nJSON修复\n厂商参数"
+      "source": "discovery",
+      "searchText": "dsh-param-repair\nVendor parameter mapping & JSON repair\n厂商参数映射与报文修复\nMap request parameters across 11 vendor dialects and repair malformed JSON tool output with deterministic, auditable rules. No network, no model call, no invented data.\n在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。\n厂商参数映射\n参数映射\nJSON修复\n报文修复\n坏掉的JSON\nschema校验\nparameter mapping\nvendor params\njson repair\nschema validation\ntool output\n开发者\n插件作者\nparameter mapping\nvendor params\njson repair\nschema validation\ntool output\n参数映射\nJSON修复\n厂商参数\n厂商参数映射\n坏掉的JSON工具输出怎么修\n参数映射怎么用\nJSON修复会编造值吗\n开发者\n插件作者\ndev\ntool"
     },
     {
       "name": "dsh-warranty-calc",
@@ -10318,7 +10349,11 @@
         "参考文献",
         "元数据",
         "citation",
-        "doi"
+        "doi",
+        "bibtex",
+        "研究人员",
+        "编辑",
+        "科研诚信"
       ],
       "keywordsZh": [
         "引用核验",
@@ -10340,13 +10375,14 @@
       ],
       "searchPhrases": [
         "引用核验",
-        "引用核验 怎么用",
-        "引用核验 插件",
-        "dsh 引用核验"
+        "DOI 查不到就算引用造假吗？",
+        "元数据和原文对不上怎么办？",
+        "引用核验怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -10370,8 +10406,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -10379,14 +10414,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次引用核验。",
+      "demoPrompt": "用样例跑一次引用核验。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:38:34.947Z",
       "source": "discovery",
-      "searchText": "dsh-cite-verify\nCitation Verify\n引用核验\n给研究人员/编辑：核验 DOI/PMID/arXiv/BibTeX 引用是否存在、元数据是否逐字段正确。 Citation existence and metadata verification against DOI/PMID/arXiv/BibTeX.\n核验一条引用确实存在——并核验它的元数据是否正确。DOI / PMID / arXiv / BibTeX → 数据源自己的回答、逐字段核对、内容寻址的快照与 REP 证据记录。\n引用核验\nCitation Verify\ndsh-cite-verify\n引文\nDOI\nPMID\narXiv\nBibTeX\n参考文献\n元数据\ncitation\ndoi\n引用核验\n引文\nDOI\nPMID\narXiv\nBibTeX\n参考文献\n元数据\ncitation\ndoi\nbibtex\n研究人员\n编辑\n科研诚信\n引用核验\n引用核验 怎么用\n引用核验 插件\ndsh 引用核验\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-cite-verify\nCitation Verify\n引用核验\n给研究人员/编辑：核验 DOI/PMID/arXiv/BibTeX 引用是否存在、元数据是否逐字段正确。 Citation existence and metadata verification against DOI/PMID/arXiv/BibTeX.\n核验一条引用确实存在——并核验它的元数据是否正确。DOI / PMID / arXiv / BibTeX → 数据源自己的回答、逐字段核对、内容寻址的快照与 REP 证据记录。\n引用核验\nCitation Verify\ndsh-cite-verify\n引文\nDOI\nPMID\narXiv\nBibTeX\n参考文献\n元数据\ncitation\ndoi\nbibtex\n研究人员\n编辑\n科研诚信\n引用核验\n引文\nDOI\nPMID\narXiv\nBibTeX\n参考文献\n元数据\ncitation\ndoi\nbibtex\n研究人员\n编辑\n科研诚信\n引用核验\nDOI 查不到就算引用造假吗？\n元数据和原文对不上怎么办？\n引用核验怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "@perrylink/dsh-claim-check",
@@ -10406,7 +10441,10 @@
         "否定",
         "限定词",
         "证据",
-        "claim-check"
+        "claim-check",
+        "quote-span",
+        "研究人员",
+        "审稿人"
       ],
       "keywordsZh": [
         "断言",
@@ -10426,13 +10464,14 @@
       ],
       "searchPhrases": [
         "断言支撑核对",
-        "断言支撑核对 怎么用",
-        "断言支撑核对 插件",
-        "dsh 断言支撑核对"
+        "转述算支持吗？",
+        "数字和单位不一致怎么报？",
+        "断言支撑核对怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -10456,8 +10495,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -10465,14 +10503,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次断言支撑核对。",
+      "demoPrompt": "用样例跑一次断言支撑核对。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:52:54.020Z",
       "source": "discovery",
-      "searchText": "@perrylink/dsh-claim-check\nClaim Check\n断言支撑核对\n给研究人员/审稿人：核对来源原文是否逐字、按数字和否定限定支持这条断言。 Deterministic claim-support check over source spans, numbers and negation.\n来源原文是否真的支持这条断言？逐字节、确定性、可复算：逐字片段、数字、带标签的数值、否定与限定。转述按 insufficient 处理，绝不报“支持”。\n断言支撑核对\nClaim Check\n@perrylink/dsh-claim-check\n断言\nclaim\n来源支撑\n逐字引用\n数字核对\n否定\n限定词\n证据\nclaim-check\n断言\nclaim\n来源支撑\n逐字引用\n数字核对\n否定\n限定词\n证据\nclaim-check\nquote-span\n研究人员\n审稿人\n断言支撑核对\n断言支撑核对 怎么用\n断言支撑核对 插件\ndsh 断言支撑核对\n研究人员\n研究生\nresearch\nchecker"
+      "searchText": "@perrylink/dsh-claim-check\nClaim Check\n断言支撑核对\n给研究人员/审稿人：核对来源原文是否逐字、按数字和否定限定支持这条断言。 Deterministic claim-support check over source spans, numbers and negation.\n来源原文是否真的支持这条断言？逐字节、确定性、可复算：逐字片段、数字、带标签的数值、否定与限定。转述按 insufficient 处理，绝不报“支持”。\n断言支撑核对\nClaim Check\n@perrylink/dsh-claim-check\n断言\nclaim\n来源支撑\n逐字引用\n数字核对\n否定\n限定词\n证据\nclaim-check\nquote-span\n研究人员\n审稿人\n断言\nclaim\n来源支撑\n逐字引用\n数字核对\n否定\n限定词\n证据\nclaim-check\nquote-span\n研究人员\n审稿人\n断言支撑核对\n转述算支持吗？\n数字和单位不一致怎么报？\n断言支撑核对怎么用\n研究人员\n研究生\n科研秘书\nresearch\nchecker"
     },
     {
       "name": "dsh-dataset-card",
@@ -10492,7 +10530,10 @@
         "CSV",
         "TSV",
         "JSONL",
-        "dataset-card"
+        "dataset-card",
+        "data-profile",
+        "数据分析",
+        "数据发布"
       ],
       "keywordsZh": [
         "数据集",
@@ -10512,12 +10553,13 @@
       ],
       "searchPhrases": [
         "数据集 Datasheet",
-        "数据集 Datasheet 怎么用",
-        "数据集 Datasheet 插件",
-        "dsh 数据集 Datasheet"
+        "怎样判断一列是 PII？",
+        "Datasheet 缺章节怎么办？",
+        "数据集 Datasheet怎么用"
       ],
       "audience": [
         "数据分析",
+        "研究人员",
         "开发者"
       ],
       "facets": {
@@ -10545,8 +10587,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -10554,14 +10595,14 @@
         "dsh-pim-lint",
         "dsh-table-ingest"
       ],
-      "demoPrompt": "用自带样例跑一次数据集 Datasheet。",
+      "demoPrompt": "用样例跑一次数据集 Datasheet。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:53:28.097Z",
       "source": "discovery",
-      "searchText": "dsh-dataset-card\nDataset Card\n数据集 Datasheet\n给数据发布者：对 CSV/TSV/JSON/JSONL 做画像、标记疑似 PII，并生成 Datasheet 卡片。 Dataset profiling, PII hints and a Datasheet-style card.\n发布数据集时附上一份 Datasheet——并在发布前搞清楚个人数据在哪里。对 CSV/TSV/JSON/JSONL 做画像，按列名与脱敏值模式标记疑似 PII，拒绝把原始行存为证据。\n数据集 Datasheet\nDataset Card\ndsh-dataset-card\n数据集\nDatasheet\n数据画像\nPII\n个人数据\nCSV\nTSV\nJSONL\ndataset-card\n数据集\nDatasheet\n数据画像\nPII\n个人数据\nCSV\nTSV\nJSONL\ndataset-card\ndata-profile\n数据分析\n数据发布\n数据集 Datasheet\n数据集 Datasheet 怎么用\n数据集 Datasheet 插件\ndsh 数据集 Datasheet\n数据分析\n开发者\ndata\ntool"
+      "searchText": "dsh-dataset-card\nDataset Card\n数据集 Datasheet\n给数据发布者：对 CSV/TSV/JSON/JSONL 做画像、标记疑似 PII，并生成 Datasheet 卡片。 Dataset profiling, PII hints and a Datasheet-style card.\n发布数据集时附上一份 Datasheet——并在发布前搞清楚个人数据在哪里。对 CSV/TSV/JSON/JSONL 做画像，按列名与脱敏值模式标记疑似 PII，拒绝把原始行存为证据。\n数据集 Datasheet\nDataset Card\ndsh-dataset-card\n数据集\nDatasheet\n数据画像\nPII\n个人数据\nCSV\nTSV\nJSONL\ndataset-card\ndata-profile\n数据分析\n数据发布\n数据集\nDatasheet\n数据画像\nPII\n个人数据\nCSV\nTSV\nJSONL\ndataset-card\ndata-profile\n数据分析\n数据发布\n数据集 Datasheet\n怎样判断一列是 PII？\nDatasheet 缺章节怎么办？\n数据集 Datasheet怎么用\n数据分析\n研究人员\n开发者\ndata\ntool"
     },
     {
       "name": "dsh-doc-anchor",
@@ -10581,7 +10622,9 @@
         "证据坐标",
         "快照",
         "doc-anchor",
-        "evidence"
+        "evidence",
+        "研究人员",
+        "编辑"
       ],
       "keywordsZh": [
         "文档定位",
@@ -10600,13 +10643,14 @@
       ],
       "searchPhrases": [
         "文档证据锚点",
-        "文档证据锚点 怎么用",
-        "文档证据锚点 插件",
-        "dsh 文档证据锚点"
+        "扫描版 PDF 能定位吗？",
+        "证据快照怎么复核？",
+        "文档证据锚点怎么用"
       ],
       "audience": [
-        "文档处理",
-        "开发者"
+        "作者",
+        "编辑",
+        "研究人员"
       ],
       "facets": {
         "domains": [
@@ -10633,8 +10677,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -10642,14 +10685,14 @@
         "dsh-manuscript-check",
         "dsh-response-letter"
       ],
-      "demoPrompt": "用自带样例跑一次文档证据锚点。",
+      "demoPrompt": "用样例跑一次文档证据锚点。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:40:03.230Z",
       "source": "discovery",
-      "searchText": "dsh-doc-anchor\nDoc Anchor\n文档证据锚点\n给研究人员/编辑：把 PDF/HTML/LaTeX/Markdown 转成可定位的证据坐标与不可变快照。 Locatable evidence anchors for PDF/HTML/LaTeX/Markdown.\n把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据。它不做阅读器、渲染或翻译——只提供坐标、不可变快照，以及一份任何人都能复核的证据记录。\n文档证据锚点\nDoc Anchor\ndsh-doc-anchor\n文档定位\nPDF\nHTML\nLaTeX\nMarkdown\n证据坐标\n快照\ndoc-anchor\nevidence\n文档定位\nPDF\nHTML\nLaTeX\nMarkdown\n证据坐标\n快照\ndoc-anchor\nevidence\n研究人员\n编辑\n文档证据锚点\n文档证据锚点 怎么用\n文档证据锚点 插件\ndsh 文档证据锚点\n文档处理\n开发者\ndocuments\ntool"
+      "searchText": "dsh-doc-anchor\nDoc Anchor\n文档证据锚点\n给研究人员/编辑：把 PDF/HTML/LaTeX/Markdown 转成可定位的证据坐标与不可变快照。 Locatable evidence anchors for PDF/HTML/LaTeX/Markdown.\n把 PDF / HTML / LaTeX / Markdown 文档变成可定位的证据。它不做阅读器、渲染或翻译——只提供坐标、不可变快照，以及一份任何人都能复核的证据记录。\n文档证据锚点\nDoc Anchor\ndsh-doc-anchor\n文档定位\nPDF\nHTML\nLaTeX\nMarkdown\n证据坐标\n快照\ndoc-anchor\nevidence\n研究人员\n编辑\n文档定位\nPDF\nHTML\nLaTeX\nMarkdown\n证据坐标\n快照\ndoc-anchor\nevidence\n研究人员\n编辑\n文档证据锚点\n扫描版 PDF 能定位吗？\n证据快照怎么复核？\n文档证据锚点怎么用\n作者\n编辑\n研究人员\ndocuments\ntool"
     },
     {
       "name": "dsh-dmp",
@@ -10669,7 +10712,8 @@
         "DOI",
         "data-management",
         "FAIR",
-        "科研管理"
+        "科研管理",
+        "申请人"
       ],
       "keywordsZh": [
         "数据管理计划",
@@ -10689,13 +10733,14 @@
       ],
       "searchPhrases": [
         "数据管理计划",
-        "数据管理计划 怎么用",
-        "数据管理计划 插件",
-        "dsh 数据管理计划"
+        "个人数据和开放共享冲突怎么办？",
+        "保存期写多长？",
+        "数据管理计划怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -10719,8 +10764,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -10728,14 +10772,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次数据管理计划。",
+      "demoPrompt": "用样例跑一次数据管理计划。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:53:53.610Z",
       "source": "discovery",
-      "searchText": "dsh-dmp\nDMP\n数据管理计划\n给申请人/科研管理：用十节脚手架写数据管理计划，并检查个人数据、保存期、备份与仓库许可。 Ten-section data-management-plan scaffold and consistency check.\n一份说得清数据放在哪里、谁能动、资助结束后如何处置的数据管理计划。十节脚手架，每节带提示语；检查个人数据与开放共享、最短保存期、备份、仓库/许可证/DOI。\n数据管理计划\nDMP\ndsh-dmp\n数据共享\n保存期\n备份\n仓库\n许可证\nDOI\ndata-management\nFAIR\n科研管理\n数据管理计划\nDMP\n数据共享\n保存期\n备份\n仓库\n许可证\nDOI\ndata-management\nFAIR\n科研管理\n申请人\n数据管理计划\n数据管理计划 怎么用\n数据管理计划 插件\ndsh 数据管理计划\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-dmp\nDMP\n数据管理计划\n给申请人/科研管理：用十节脚手架写数据管理计划，并检查个人数据、保存期、备份与仓库许可。 Ten-section data-management-plan scaffold and consistency check.\n一份说得清数据放在哪里、谁能动、资助结束后如何处置的数据管理计划。十节脚手架，每节带提示语；检查个人数据与开放共享、最短保存期、备份、仓库/许可证/DOI。\n数据管理计划\nDMP\ndsh-dmp\n数据共享\n保存期\n备份\n仓库\n许可证\nDOI\ndata-management\nFAIR\n科研管理\n申请人\n数据管理计划\nDMP\n数据共享\n保存期\n备份\n仓库\n许可证\nDOI\ndata-management\nFAIR\n科研管理\n申请人\n数据管理计划\n个人数据和开放共享冲突怎么办？\n保存期写多长？\n数据管理计划怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "dsh-image-integrity",
@@ -10755,7 +10799,9 @@
         "NCC",
         "SARIF",
         "image-integrity",
-        "figure"
+        "figure",
+        "期刊编辑",
+        "科研诚信"
       ],
       "keywordsZh": [
         "图像完整性",
@@ -10774,13 +10820,14 @@
       ],
       "searchPhrases": [
         "图像完整性核对",
-        "图像完整性核对 怎么用",
-        "图像完整性核对 插件",
-        "dsh 图像完整性核对"
+        "镜像粘贴能查出来吗？",
+        "查重结果能当造假证据吗？",
+        "图像完整性核对怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -10806,8 +10853,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -10815,14 +10861,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次图像完整性核对。",
+      "demoPrompt": "用样例跑一次图像完整性核对。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:41:43.569Z",
       "source": "discovery",
-      "searchText": "dsh-image-integrity\nImage Integrity\n图像完整性核对\n给期刊编辑/科研诚信：用零依赖 PNG 指纹找重复或镜像复用的子图。 Duplicate or mirrored figure-panel detection with zero-dependency PNG fingerprints.\n这张子图是不是被复用了——原地重复，还是从另一张图镜像粘贴过来？零依赖 PNG 解码、带 NCC 确认的均值阈值块指纹、重复/镜像区域报告与 SARIF。\n图像完整性核对\nImage Integrity\ndsh-image-integrity\n图像完整性\n子图复用\n图片查重\n镜像粘贴\nPNG\nNCC\nSARIF\nimage-integrity\nfigure\n图像完整性\n子图复用\n图片查重\n镜像粘贴\nPNG\nNCC\nSARIF\nimage-integrity\nfigure\n期刊编辑\n科研诚信\n图像完整性核对\n图像完整性核对 怎么用\n图像完整性核对 插件\ndsh 图像完整性核对\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-image-integrity\nImage Integrity\n图像完整性核对\n给期刊编辑/科研诚信：用零依赖 PNG 指纹找重复或镜像复用的子图。 Duplicate or mirrored figure-panel detection with zero-dependency PNG fingerprints.\n这张子图是不是被复用了——原地重复，还是从另一张图镜像粘贴过来？零依赖 PNG 解码、带 NCC 确认的均值阈值块指纹、重复/镜像区域报告与 SARIF。\n图像完整性核对\nImage Integrity\ndsh-image-integrity\n图像完整性\n子图复用\n图片查重\n镜像粘贴\nPNG\nNCC\nSARIF\nimage-integrity\nfigure\n期刊编辑\n科研诚信\n图像完整性\n子图复用\n图片查重\n镜像粘贴\nPNG\nNCC\nSARIF\nimage-integrity\nfigure\n期刊编辑\n科研诚信\n图像完整性核对\n镜像粘贴能查出来吗？\n查重结果能当造假证据吗？\n图像完整性核对怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "dsh-irb",
@@ -10842,7 +10888,8 @@
         "保障措施",
         "irb",
         "ethics",
-        "申请人"
+        "申请人",
+        "伦理秘书"
       ],
       "keywordsZh": [
         "伦理申请",
@@ -10860,13 +10907,14 @@
       ],
       "searchPhrases": [
         "伦理申请清单",
-        "伦理申请清单 怎么用",
-        "伦理申请清单 插件",
-        "dsh 伦理申请清单"
+        "风险等级是伦理委员会结论吗？",
+        "知情同意书缺项怎么办？",
+        "伦理申请清单怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -10890,8 +10938,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -10899,14 +10946,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次伦理申请清单。",
+      "demoPrompt": "用样例跑一次伦理申请清单。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:54:19.935Z",
       "source": "discovery",
-      "searchText": "dsh-irb\nIRB Checklist\n伦理申请清单\n给申请人/伦理秘书：按 18 项清单检查伦理申请材料，给出建议风险等级与保障措施。 Ethics-application checklist with a suggested risk level and safeguards.\n赶在伦理委员会之前把申请材料准备好——并知道哪些核心陈述还缺着。18 项关键词清单、建议性风险等级与对应保障措施，可导出 Markdown + SARIF。\n伦理申请清单\nIRB Checklist\ndsh-irb\n伦理申请\nIRB\n伦理委员会\n知情同意\n风险等级\n保障措施\nirb\nethics\n申请人\n伦理申请\nIRB\n伦理委员会\n知情同意\n风险等级\n保障措施\nirb\nethics\n申请人\n伦理秘书\n伦理申请清单\n伦理申请清单 怎么用\n伦理申请清单 插件\ndsh 伦理申请清单\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-irb\nIRB Checklist\n伦理申请清单\n给申请人/伦理秘书：按 18 项清单检查伦理申请材料，给出建议风险等级与保障措施。 Ethics-application checklist with a suggested risk level and safeguards.\n赶在伦理委员会之前把申请材料准备好——并知道哪些核心陈述还缺着。18 项关键词清单、建议性风险等级与对应保障措施，可导出 Markdown + SARIF。\n伦理申请清单\nIRB Checklist\ndsh-irb\n伦理申请\nIRB\n伦理委员会\n知情同意\n风险等级\n保障措施\nirb\nethics\n申请人\n伦理秘书\n伦理申请\nIRB\n伦理委员会\n知情同意\n风险等级\n保障措施\nirb\nethics\n申请人\n伦理秘书\n伦理申请清单\n风险等级是伦理委员会结论吗？\n知情同意书缺项怎么办？\n伦理申请清单怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "dsh-lit-watch",
@@ -10925,8 +10972,7 @@
         "lit-watch",
         "literature-watch",
         "研究人员",
-        "文献综述",
-        "研究"
+        "文献综述"
       ],
       "keywordsZh": [
         "文献监测",
@@ -10943,13 +10989,14 @@
       ],
       "searchPhrases": [
         "文献监测",
-        "文献监测 怎么用",
-        "文献监测 插件",
-        "dsh 文献监测"
+        "重复运行会不会报旧文献？",
+        "Crossref 查不到怎么办？",
+        "文献监测怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -10973,8 +11020,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -10982,14 +11028,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次文献监测。",
+      "demoPrompt": "用样例跑一次文献监测。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:44:11.453Z",
       "source": "discovery",
-      "searchText": "dsh-lit-watch\nLiterature Watch\n文献监测\n给研究人员：保存 Crossref 检索式，只报告自上次以来真正新增的文献。 Saved Crossref queries that report only genuinely new literature since the last run.\n这次检索相比上次新增了什么——而且只报新增。保存带时间窗口的 Crossref 检索；用已见 DOI 库保证重复运行只返回真正新增的条目。\n文献监测\nLiterature Watch\ndsh-lit-watch\nCrossref\n新增文献\nDOI\n检索式\nlit-watch\nliterature-watch\n研究人员\n文献综述\n研究\n文献监测\nCrossref\n新增文献\nDOI\n检索式\nlit-watch\nliterature-watch\n研究人员\n文献综述\n文献监测\n文献监测 怎么用\n文献监测 插件\ndsh 文献监测\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-lit-watch\nLiterature Watch\n文献监测\n给研究人员：保存 Crossref 检索式，只报告自上次以来真正新增的文献。 Saved Crossref queries that report only genuinely new literature since the last run.\n这次检索相比上次新增了什么——而且只报新增。保存带时间窗口的 Crossref 检索；用已见 DOI 库保证重复运行只返回真正新增的条目。\n文献监测\nLiterature Watch\ndsh-lit-watch\nCrossref\n新增文献\nDOI\n检索式\nlit-watch\nliterature-watch\n研究人员\n文献综述\n文献监测\nCrossref\n新增文献\nDOI\n检索式\nlit-watch\nliterature-watch\n研究人员\n文献综述\n文献监测\n重复运行会不会报旧文献？\nCrossref 查不到怎么办？\n文献监测怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "dsh-grant-cn",
@@ -11009,7 +11055,9 @@
         "材料包",
         "形式审查",
         "grant",
-        "nsfc"
+        "nsfc",
+        "申请人",
+        "科研秘书"
       ],
       "keywordsZh": [
         "基金申请书",
@@ -11028,13 +11076,14 @@
       ],
       "searchPhrases": [
         "中文基金申请书检查",
-        "中文基金申请书检查 怎么用",
-        "中文基金申请书检查 插件",
-        "dsh 中文基金申请书检查"
+        "预算算术怎么核？",
+        "19 项清单是评审结论吗？",
+        "中文基金申请书检查怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -11058,8 +11107,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11067,14 +11115,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次中文基金申请书检查。",
+      "demoPrompt": "用样例跑一次中文基金申请书检查。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:41:41.137Z",
       "source": "discovery",
-      "searchText": "dsh-grant-cn\nCN Grant Check\n中文基金申请书检查\n给申请人/科研秘书：检查中文基金申请书的 19 项结构、预算算术与材料包。 Chinese grant application checklist: structure, budget arithmetic and submission package.\n投稿/申报前：本子的检查清单是否齐、预算算术是否对、材料包是否真的打包了？面向中文基金申请书的 19 项结构/属性/声明检查、预算算术与材料包扫描。\n中文基金申请书检查\nCN Grant Check\ndsh-grant-cn\n基金申请书\n国自然\n中文基金\n预算\n算术\n材料包\n形式审查\ngrant\nnsfc\n基金申请书\n国自然\n中文基金\n预算\n算术\n材料包\n形式审查\ngrant\nnsfc\n申请人\n科研秘书\n中文基金申请书检查\n中文基金申请书检查 怎么用\n中文基金申请书检查 插件\ndsh 中文基金申请书检查\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-grant-cn\nCN Grant Check\n中文基金申请书检查\n给申请人/科研秘书：检查中文基金申请书的 19 项结构、预算算术与材料包。 Chinese grant application checklist: structure, budget arithmetic and submission package.\n投稿/申报前：本子的检查清单是否齐、预算算术是否对、材料包是否真的打包了？面向中文基金申请书的 19 项结构/属性/声明检查、预算算术与材料包扫描。\n中文基金申请书检查\nCN Grant Check\ndsh-grant-cn\n基金申请书\n国自然\n中文基金\n预算\n算术\n材料包\n形式审查\ngrant\nnsfc\n申请人\n科研秘书\n基金申请书\n国自然\n中文基金\n预算\n算术\n材料包\n形式审查\ngrant\nnsfc\n申请人\n科研秘书\n中文基金申请书检查\n预算算术怎么核？\n19 项清单是评审结论吗？\n中文基金申请书检查怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "dsh-manuscript-check",
@@ -11094,7 +11142,8 @@
         "声明",
         "投稿包",
         "manuscript",
-        "作者"
+        "作者",
+        "编辑"
       ],
       "keywordsZh": [
         "投稿",
@@ -11112,13 +11161,14 @@
       ],
       "searchPhrases": [
         "投稿前稿件检查",
-        "投稿前稿件检查 怎么用",
-        "投稿前稿件检查 插件",
-        "dsh 投稿前稿件检查"
+        "CONSORT 条目必须全有吗？",
+        "投稿包缺文件怎么报？",
+        "投稿前稿件检查怎么用"
       ],
       "audience": [
-        "文档处理",
-        "开发者"
+        "作者",
+        "编辑",
+        "研究人员"
       ],
       "facets": {
         "domains": [
@@ -11142,8 +11192,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11151,14 +11200,14 @@
         "dsh-doc-anchor",
         "dsh-response-letter"
       ],
-      "demoPrompt": "用自带样例跑一次投稿前稿件检查。",
+      "demoPrompt": "用样例跑一次投稿前稿件检查。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:40:31.274Z",
       "source": "discovery",
-      "searchText": "dsh-manuscript-check\nManuscript Check\n投稿前稿件检查\n给作者/编辑：投稿前检查稿件结构、声明与 CONSORT/STROBE/PRISMA 条目覆盖。 Pre-submission manuscript structure, declarations and reporting-checklist coverage.\n投稿前：稿件是否完整、指南要求报告的内容是否都报告了、投稿包是否真的打齐了？关键词检查清单 + CONSORT/STROBE/PRISMA 起步条目覆盖 + 投稿目录扫描。\n投稿前稿件检查\nManuscript Check\ndsh-manuscript-check\n投稿\n稿件检查\nCONSORT\nSTROBE\nPRISMA\n声明\n投稿包\nmanuscript\n作者\n投稿\n稿件检查\nCONSORT\nSTROBE\nPRISMA\n声明\n投稿包\nmanuscript\n作者\n编辑\n投稿前稿件检查\n投稿前稿件检查 怎么用\n投稿前稿件检查 插件\ndsh 投稿前稿件检查\n文档处理\n开发者\ndocuments\nchecker"
+      "searchText": "dsh-manuscript-check\nManuscript Check\n投稿前稿件检查\n给作者/编辑：投稿前检查稿件结构、声明与 CONSORT/STROBE/PRISMA 条目覆盖。 Pre-submission manuscript structure, declarations and reporting-checklist coverage.\n投稿前：稿件是否完整、指南要求报告的内容是否都报告了、投稿包是否真的打齐了？关键词检查清单 + CONSORT/STROBE/PRISMA 起步条目覆盖 + 投稿目录扫描。\n投稿前稿件检查\nManuscript Check\ndsh-manuscript-check\n投稿\n稿件检查\nCONSORT\nSTROBE\nPRISMA\n声明\n投稿包\nmanuscript\n作者\n编辑\n投稿\n稿件检查\nCONSORT\nSTROBE\nPRISMA\n声明\n投稿包\nmanuscript\n作者\n编辑\n投稿前稿件检查\nCONSORT 条目必须全有吗？\n投稿包缺文件怎么报？\n投稿前稿件检查怎么用\n作者\n编辑\n研究人员\ndocuments\nchecker"
     },
     {
       "name": "dsh-notebook-capture",
@@ -11178,7 +11227,8 @@
         "环境",
         "哈希",
         "notebook-capture",
-        "reproducibility"
+        "reproducibility",
+        "研究人员"
       ],
       "keywordsZh": [
         "可复现",
@@ -11196,12 +11246,13 @@
       ],
       "searchPhrases": [
         "Notebook 复现采集",
-        "Notebook 复现采集 怎么用",
-        "Notebook 复现采集 插件",
-        "dsh Notebook 复现采集"
+        "会执行 notebook 吗？",
+        "没有 lockfile 怎么记录？",
+        "Notebook 复现采集怎么用"
       ],
       "audience": [
         "数据分析",
+        "研究人员",
         "开发者"
       ],
       "facets": {
@@ -11226,8 +11277,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11235,14 +11285,14 @@
         "dsh-pim-lint",
         "dsh-table-ingest"
       ],
-      "demoPrompt": "用自带样例跑一次Notebook 复现采集。",
+      "demoPrompt": "用样例跑一次Notebook 复现采集。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:53:50.219Z",
       "source": "discovery",
-      "searchText": "dsh-notebook-capture\nNotebook Capture\nNotebook 复现采集\n给研究人员：不执行 notebook，只读取 .ipynb，记录内核、顺序、种子、路径与哈希。 Notebook reproducibility capture from .ipynb without executing it.\n能在你机器上跑通的 notebook，还不等于可复现。不执行、只读取 .ipynb：内核、执行顺序、import、运行时安装、随机种子、绝对路径、输出状态与哈希。\nNotebook 复现采集\nNotebook Capture\ndsh-notebook-capture\nNotebook\nipynb\n可复现\n随机种子\n内核\n环境\n哈希\nnotebook-capture\nreproducibility\nNotebook\nipynb\n可复现\n随机种子\n内核\n环境\n哈希\nnotebook-capture\nreproducibility\n研究人员\nNotebook 复现采集\nNotebook 复现采集 怎么用\nNotebook 复现采集 插件\ndsh Notebook 复现采集\n数据分析\n开发者\ndata\ntool"
+      "searchText": "dsh-notebook-capture\nNotebook Capture\nNotebook 复现采集\n给研究人员：不执行 notebook，只读取 .ipynb，记录内核、顺序、种子、路径与哈希。 Notebook reproducibility capture from .ipynb without executing it.\n能在你机器上跑通的 notebook，还不等于可复现。不执行、只读取 .ipynb：内核、执行顺序、import、运行时安装、随机种子、绝对路径、输出状态与哈希。\nNotebook 复现采集\nNotebook Capture\ndsh-notebook-capture\nNotebook\nipynb\n可复现\n随机种子\n内核\n环境\n哈希\nnotebook-capture\nreproducibility\n研究人员\nNotebook\nipynb\n可复现\n随机种子\n内核\n环境\n哈希\nnotebook-capture\nreproducibility\n研究人员\nNotebook 复现采集\n会执行 notebook 吗？\n没有 lockfile 怎么记录？\nNotebook 复现采集怎么用\n数据分析\n研究人员\n开发者\ndata\ntool"
     },
     {
       "name": "dsh-meta-analysis",
@@ -11262,7 +11312,10 @@
         "SMD",
         "I2",
         "Egger",
-        "森林图"
+        "森林图",
+        "固定效应",
+        "随机效应",
+        "研究人员"
       ],
       "keywordsZh": [
         "元分析",
@@ -11282,13 +11335,14 @@
       ],
       "searchPhrases": [
         "元分析算术",
-        "元分析算术 怎么用",
-        "元分析算术 插件",
-        "dsh 元分析算术"
+        "少于十项研究为什么拒绝 Egger？",
+        "OR 和 RR 怎么换算？",
+        "元分析算术怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -11312,8 +11366,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11321,14 +11374,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次元分析算术。",
+      "demoPrompt": "用样例跑一次元分析算术。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:42:26.069Z",
       "source": "discovery",
-      "searchText": "dsh-meta-analysis\nMeta-analysis\n元分析算术\n给研究人员：做效应量换算、固定/随机效应合并、Q/I²/τ² 与森林图数据，每步可复算。 Meta-analysis arithmetic: effect sizes, fixed/random pooling, Q/I²/τ² and forest-plot data.\n把效应量合并起来——每一步算术都能逐行核对。效应量换算、固定效应与 DerSimonian–Laird 随机效应合并、Q / I² / τ²、森林图数据与轻量 Egger 检验。\n元分析算术\nMeta-analysis\ndsh-meta-analysis\n元分析\nmeta-analysis\n效应量\nOR\nRR\nSMD\nI2\nEgger\n森林图\n元分析\nmeta-analysis\n效应量\nOR\nRR\nSMD\nI2\nEgger\n森林图\n固定效应\n随机效应\n研究人员\n元分析算术\n元分析算术 怎么用\n元分析算术 插件\ndsh 元分析算术\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-meta-analysis\nMeta-analysis\n元分析算术\n给研究人员：做效应量换算、固定/随机效应合并、Q/I²/τ² 与森林图数据，每步可复算。 Meta-analysis arithmetic: effect sizes, fixed/random pooling, Q/I²/τ² and forest-plot data.\n把效应量合并起来——每一步算术都能逐行核对。效应量换算、固定效应与 DerSimonian–Laird 随机效应合并、Q / I² / τ²、森林图数据与轻量 Egger 检验。\n元分析算术\nMeta-analysis\ndsh-meta-analysis\n元分析\nmeta-analysis\n效应量\nOR\nRR\nSMD\nI2\nEgger\n森林图\n固定效应\n随机效应\n研究人员\n元分析\nmeta-analysis\n效应量\nOR\nRR\nSMD\nI2\nEgger\n森林图\n固定效应\n随机效应\n研究人员\n元分析算术\n少于十项研究为什么拒绝 Egger？\nOR 和 RR 怎么换算？\n元分析算术怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "dsh-response-letter",
@@ -11365,13 +11418,14 @@
       ],
       "searchPhrases": [
         "审稿回复信",
-        "审稿回复信 怎么用",
-        "审稿回复信 插件",
-        "dsh 审稿回复信"
+        "审稿意见编号不连续怎么办？",
+        "回复太短怎么判？",
+        "审稿回复信怎么用"
       ],
       "audience": [
-        "文档处理",
-        "开发者"
+        "作者",
+        "编辑",
+        "研究人员"
       ],
       "facets": {
         "domains": [
@@ -11395,8 +11449,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11404,14 +11457,14 @@
         "dsh-doc-anchor",
         "dsh-manuscript-check"
       ],
-      "demoPrompt": "用自带样例跑一次审稿回复信。",
+      "demoPrompt": "用样例跑一次审稿回复信。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:42:09.941Z",
       "source": "discovery",
-      "searchText": "dsh-response-letter\nResponse Letter\n审稿回复信\n给作者/编辑：解析审稿意见，逐条核对回复信是否覆盖、缺失、重复或过短。 Reviewer-comment parsing and clause-by-clause response-letter coverage check.\n每一条审稿意见都有回复——而且可以按编号核实。解析审稿意见（Reviewer/Referee/审稿人 标题行），检查回复信的缺失、过短、多余、重复，并导出覆盖表。\n审稿回复信\nResponse Letter\ndsh-response-letter\n审稿意见\n回复信\nresponse-letter\n审稿人\n逐条回复\n覆盖表\n作者\n编辑\n同行评议\n审稿意见\n回复信\nresponse-letter\n审稿人\n逐条回复\n覆盖表\n作者\n编辑\n同行评议\n审稿回复信\n审稿回复信 怎么用\n审稿回复信 插件\ndsh 审稿回复信\n文档处理\n开发者\ndocuments\ntool"
+      "searchText": "dsh-response-letter\nResponse Letter\n审稿回复信\n给作者/编辑：解析审稿意见，逐条核对回复信是否覆盖、缺失、重复或过短。 Reviewer-comment parsing and clause-by-clause response-letter coverage check.\n每一条审稿意见都有回复——而且可以按编号核实。解析审稿意见（Reviewer/Referee/审稿人 标题行），检查回复信的缺失、过短、多余、重复，并导出覆盖表。\n审稿回复信\nResponse Letter\ndsh-response-letter\n审稿意见\n回复信\nresponse-letter\n审稿人\n逐条回复\n覆盖表\n作者\n编辑\n同行评议\n审稿意见\n回复信\nresponse-letter\n审稿人\n逐条回复\n覆盖表\n作者\n编辑\n同行评议\n审稿回复信\n审稿意见编号不连续怎么办？\n回复太短怎么判？\n审稿回复信怎么用\n作者\n编辑\n研究人员\ndocuments\ntool"
     },
     {
       "name": "dsh-retraction-watch",
@@ -11432,6 +11485,7 @@
         "文献",
         "retraction-watch",
         "研究人员",
+        "编辑",
         "撤稿监测",
         "更正监测",
         "retraction watch"
@@ -11452,13 +11506,14 @@
       ],
       "searchPhrases": [
         "撤稿与更正监测",
-        "撤稿与更正监测 怎么用",
-        "撤稿与更正监测 插件",
-        "dsh 撤稿与更正监测"
+        "clear 是不是等于没问题？",
+        "更正和撤稿怎么区分？",
+        "撤稿与更正监测怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -11482,8 +11537,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11491,14 +11545,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次撤稿与更正监测。",
+      "demoPrompt": "用样例跑一次撤稿与更正监测。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:40:36.391Z",
       "source": "discovery",
-      "searchText": "dsh-retraction-watch\nRetraction Watch\n撤稿与更正监测\n给研究人员/编辑：按 DOI 检查论文是否被撤稿或更正，并保留可复读的时间线。 Retraction and correction monitoring per DOI with an append-only timeline.\n你引用的论文，后来有没有被撤稿或更正？Crossref 工作记录 + 已实测的 filter=updates:<doi> 查询、逐 DOI 状态、追加式时间线与 REP 证据。\n撤稿与更正监测\nRetraction Watch\ndsh-retraction-watch\n撤稿\n更正\nretraction\nCrossref\nDOI\n科研诚信\n文献\nretraction-watch\n研究人员\n撤稿监测\n更正监测\nretraction watch\n撤稿\n更正\nretraction\nCrossref\nDOI\n科研诚信\n文献\nretraction-watch\n研究人员\n编辑\n撤稿与更正监测\n撤稿与更正监测 怎么用\n撤稿与更正监测 插件\ndsh 撤稿与更正监测\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-retraction-watch\nRetraction Watch\n撤稿与更正监测\n给研究人员/编辑：按 DOI 检查论文是否被撤稿或更正，并保留可复读的时间线。 Retraction and correction monitoring per DOI with an append-only timeline.\n你引用的论文，后来有没有被撤稿或更正？Crossref 工作记录 + 已实测的 filter=updates:<doi> 查询、逐 DOI 状态、追加式时间线与 REP 证据。\n撤稿与更正监测\nRetraction Watch\ndsh-retraction-watch\n撤稿\n更正\nretraction\nCrossref\nDOI\n科研诚信\n文献\nretraction-watch\n研究人员\n编辑\n撤稿监测\n更正监测\nretraction watch\n撤稿\n更正\nretraction\nCrossref\nDOI\n科研诚信\n文献\nretraction-watch\n研究人员\n编辑\n撤稿与更正监测\nclear 是不是等于没问题？\n更正和撤稿怎么区分？\n撤稿与更正监测怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "dsh-repro-audit",
@@ -11518,7 +11572,8 @@
         "环境",
         "漂移",
         "repro-audit",
-        "研究人员"
+        "研究人员",
+        "评审"
       ],
       "keywordsZh": [
         "复现",
@@ -11536,13 +11591,14 @@
       ],
       "searchPhrases": [
         "复现审计",
-        "复现审计 怎么用",
-        "复现审计 插件",
-        "dsh 复现审计"
+        "扫描会改仓库吗？",
+        "数据哈希对不上说明什么？",
+        "复现审计怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -11566,8 +11622,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11575,14 +11630,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次复现审计。",
+      "demoPrompt": "用样例跑一次复现审计。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T12:35:55.930Z",
       "source": "discovery",
-      "searchText": "dsh-repro-audit\nRepro Audit\n复现审计\n给研究人员/评审：记录 commit、lockfile、环境、数据哈希、seed 与运行命令，并做漂移检查。 Reproducibility evidence capture and drift check for a recorded analysis.\n别人能复现这项分析吗——以及从你记录至今，有没有东西发生漂移？有界只读扫描记录 commit、lockfile、环境、数据哈希、图表、seed 与运行命令。\n复现审计\nRepro Audit\ndsh-repro-audit\n复现\nreproducibility\nlockfile\n数据哈希\nseed\n环境\n漂移\nrepro-audit\n研究人员\n复现\nreproducibility\nlockfile\n数据哈希\nseed\n环境\n漂移\nrepro-audit\n研究人员\n评审\n复现审计\n复现审计 怎么用\n复现审计 插件\ndsh 复现审计\n研究人员\n研究生\nresearch\nchecker"
+      "searchText": "dsh-repro-audit\nRepro Audit\n复现审计\n给研究人员/评审：记录 commit、lockfile、环境、数据哈希、seed 与运行命令，并做漂移检查。 Reproducibility evidence capture and drift check for a recorded analysis.\n别人能复现这项分析吗——以及从你记录至今，有没有东西发生漂移？有界只读扫描记录 commit、lockfile、环境、数据哈希、图表、seed 与运行命令。\n复现审计\nRepro Audit\ndsh-repro-audit\n复现\nreproducibility\nlockfile\n数据哈希\nseed\n环境\n漂移\nrepro-audit\n研究人员\n评审\n复现\nreproducibility\nlockfile\n数据哈希\nseed\n环境\n漂移\nrepro-audit\n研究人员\n评审\n复现审计\n扫描会改仓库吗？\n数据哈希对不上说明什么？\n复现审计怎么用\n研究人员\n研究生\n科研秘书\nresearch\nchecker"
     },
     {
       "name": "dsh-source-cnki",
@@ -11602,7 +11657,8 @@
         "APA",
         "参考文献",
         "source-cnki",
-        "研究人员"
+        "研究人员",
+        "文献管理"
       ],
       "keywordsZh": [
         "中文文献",
@@ -11620,13 +11676,14 @@
       ],
       "searchPhrases": [
         "中文文献来源",
-        "中文文献来源 怎么用",
-        "中文文献来源 插件",
-        "dsh 中文文献来源"
+        "会抓取 CNKI 吗？",
+        "GB/T 7714 和 APA 能同时输出吗？",
+        "中文文献来源怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -11650,8 +11707,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11659,14 +11715,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次中文文献来源。",
+      "demoPrompt": "用样例跑一次中文文献来源。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:42:34.455Z",
       "source": "discovery",
-      "searchText": "dsh-source-cnki\nCNKI Source\n中文文献来源\n给研究人员：导入 RIS/EndNote 导出，按 GB/T 7714-2015 或 APA 7 排版并校验元数据。 Chinese-literature import, GB/T 7714 / APA 7 formatting and metadata validation without scraping.\n中文文献记录：导入你自己的导出文件，按 GB/T 7714 引用，检查元数据——全程不抓取 CNKI。读取 RIS/EndNote 风格或带标签的文本导出，分配稳定记录 id。\n中文文献来源\nCNKI Source\ndsh-source-cnki\n中文文献\nCNKI\nRIS\nEndNote\nGB/T 7714\nAPA\n参考文献\nsource-cnki\n研究人员\n中文文献\nCNKI\nRIS\nEndNote\nGB/T 7714\nAPA\n参考文献\nsource-cnki\n研究人员\n文献管理\n中文文献来源\n中文文献来源 怎么用\n中文文献来源 插件\ndsh 中文文献来源\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "dsh-source-cnki\nCNKI Source\n中文文献来源\n给研究人员：导入 RIS/EndNote 导出，按 GB/T 7714-2015 或 APA 7 排版并校验元数据。 Chinese-literature import, GB/T 7714 / APA 7 formatting and metadata validation without scraping.\n中文文献记录：导入你自己的导出文件，按 GB/T 7714 引用，检查元数据——全程不抓取 CNKI。读取 RIS/EndNote 风格或带标签的文本导出，分配稳定记录 id。\n中文文献来源\nCNKI Source\ndsh-source-cnki\n中文文献\nCNKI\nRIS\nEndNote\nGB/T 7714\nAPA\n参考文献\nsource-cnki\n研究人员\n文献管理\n中文文献\nCNKI\nRIS\nEndNote\nGB/T 7714\nAPA\n参考文献\nsource-cnki\n研究人员\n文献管理\n中文文献来源\n会抓取 CNKI 吗？\nGB/T 7714 和 APA 能同时输出吗？\n中文文献来源怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
     {
       "name": "dsh-sr-ledger",
@@ -11686,7 +11742,8 @@
         "sr-ledger",
         "systematic-review",
         "Meta分析",
-        "研究人员"
+        "研究人员",
+        "循证医学"
       ],
       "keywordsZh": [
         "系统综述",
@@ -11704,13 +11761,14 @@
       ],
       "searchPhrases": [
         "系统综述账本",
-        "系统综述账本 怎么用",
-        "系统综述账本 插件",
-        "dsh 系统综述账本"
+        "双人筛选冲突怎么记？",
+        "PRISMA 流程是自动推导的吗？",
+        "系统综述账本怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -11735,8 +11793,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11744,14 +11801,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次系统综述账本。",
+      "demoPrompt": "用样例跑一次系统综述账本。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:40:30.547Z",
       "source": "discovery",
-      "searchText": "dsh-sr-ledger\nSR Ledger\n系统综述账本\n给系统综述团队：记录方案、双人筛选、冲突裁决与 RoB/GRADE，并推导 PRISMA 2020 流程。 Systematic-review ledger: protocol, dual screening, adjudication, RoB/GRADE and PRISMA 2020.\n经得起复核的系统综述账本：只追加、双人筛选、PRISMA 2020、审计可验。记录方案、每条筛选决策、冲突裁决与 RoB/GRADE 评估，再推导 PRISMA 流程。\n系统综述账本\nSR Ledger\ndsh-sr-ledger\n系统综述\nPRISMA\n双人筛选\nRoB\nGRADE\nsr-ledger\nsystematic-review\nMeta分析\n研究人员\n系统综述\nPRISMA\n双人筛选\nRoB\nGRADE\nsr-ledger\nsystematic-review\nMeta分析\n研究人员\n循证医学\n系统综述账本\n系统综述账本 怎么用\n系统综述账本 插件\ndsh 系统综述账本\n研究人员\n研究生\nresearch\nreconciliation\nledger"
+      "searchText": "dsh-sr-ledger\nSR Ledger\n系统综述账本\n给系统综述团队：记录方案、双人筛选、冲突裁决与 RoB/GRADE，并推导 PRISMA 2020 流程。 Systematic-review ledger: protocol, dual screening, adjudication, RoB/GRADE and PRISMA 2020.\n经得起复核的系统综述账本：只追加、双人筛选、PRISMA 2020、审计可验。记录方案、每条筛选决策、冲突裁决与 RoB/GRADE 评估，再推导 PRISMA 流程。\n系统综述账本\nSR Ledger\ndsh-sr-ledger\n系统综述\nPRISMA\n双人筛选\nRoB\nGRADE\nsr-ledger\nsystematic-review\nMeta分析\n研究人员\n循证医学\n系统综述\nPRISMA\n双人筛选\nRoB\nGRADE\nsr-ledger\nsystematic-review\nMeta分析\n研究人员\n循证医学\n系统综述账本\n双人筛选冲突怎么记？\nPRISMA 流程是自动推导的吗？\n系统综述账本怎么用\n研究人员\n研究生\n科研秘书\nresearch\nreconciliation\nledger"
     },
     {
       "name": "dsh-statcheck",
@@ -11770,8 +11827,7 @@
         "一致性",
         "作者",
         "审稿人",
-        "科研诚信",
-        "研究"
+        "科研诚信"
       ],
       "keywordsZh": [
         "统计复算",
@@ -11788,13 +11844,14 @@
       ],
       "searchPhrases": [
         "统计复算",
-        "统计复算 怎么用",
-        "统计复算 插件",
-        "dsh 统计复算"
+        "p 值对不上就是学术不端吗？",
+        "只支持 APA 格式吗？",
+        "统计复算怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -11818,8 +11875,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11827,14 +11883,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次统计复算。",
+      "demoPrompt": "用样例跑一次统计复算。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:40:21.224Z",
       "source": "discovery",
-      "searchText": "dsh-statcheck\nStat Check\n统计复算\n给作者/审稿人：重算稿件报告的统计量，标出 p 值与统计量对不上的位置。 Recompute reported statistics and flag self-inconsistent p values with exact locations.\n重算稿件报告的统计数据——并把对不上的那些标出来。这是算术，不是指控：每条 finding 都给出报告的统计量、它实际蕴含的 p 值，以及精确字符位置。\n统计复算\nStat Check\ndsh-statcheck\np值\nstatcheck\nAPA\n统计量\n一致性\n作者\n审稿人\n科研诚信\n研究\n统计复算\np值\nstatcheck\nAPA\n统计量\n一致性\n作者\n审稿人\n科研诚信\n统计复算\n统计复算 怎么用\n统计复算 插件\ndsh 统计复算\n研究人员\n研究生\nresearch\nchecker"
+      "searchText": "dsh-statcheck\nStat Check\n统计复算\n给作者/审稿人：重算稿件报告的统计量，标出 p 值与统计量对不上的位置。 Recompute reported statistics and flag self-inconsistent p values with exact locations.\n重算稿件报告的统计数据——并把对不上的那些标出来。这是算术，不是指控：每条 finding 都给出报告的统计量、它实际蕴含的 p 值，以及精确字符位置。\n统计复算\nStat Check\ndsh-statcheck\np值\nstatcheck\nAPA\n统计量\n一致性\n作者\n审稿人\n科研诚信\n统计复算\np值\nstatcheck\nAPA\n统计量\n一致性\n作者\n审稿人\n科研诚信\n统计复算\np 值对不上就是学术不端吗？\n只支持 APA 格式吗？\n统计复算怎么用\n研究人员\n研究生\n科研秘书\nresearch\nchecker"
     },
     {
       "name": "@perrylink/dsh-research-core",
@@ -11871,13 +11927,14 @@
       ],
       "searchPhrases": [
         "科研证据协议（REP v1）",
-        "科研证据协议（REP v1） 怎么用",
-        "科研证据协议（REP v1） 插件",
-        "dsh 科研证据协议（REP v1）"
+        "REP 是标准吗？",
+        "其他插件必须用吗？",
+        "科研证据协议（REP v1）怎么用"
       ],
       "audience": [
         "研究人员",
-        "研究生"
+        "研究生",
+        "科研秘书"
       ],
       "facets": {
         "domains": [
@@ -11901,8 +11958,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只做确定性核对/计算，不替代人工复核或学术判断。"
         ]
       },
       "related": [
@@ -11910,14 +11966,14 @@
         "dsh-industry-research",
         "dsh-library"
       ],
-      "demoPrompt": "用自带样例跑一次科研证据协议（REP v1）。",
+      "demoPrompt": "用样例跑一次科研证据协议（REP v1）。",
       "lang": [
         "zh",
         "en"
       ],
       "updatedAt": "2026-11-08T11:39:09.480Z",
       "source": "discovery",
-      "searchText": "@perrylink/dsh-research-core\nResearch Core (REP v1)\n科研证据协议（REP v1）\n给科研插件作者：REP v1 共享证据协议、存储与校验器，让每个插件说同一种证据语言。 REP v1 shared evidence protocol, store and validator for the research plugin family.\nREP v1——DSH 科研插件家族的共享证据协议。一套协议、一个存储、一个校验器：每个科研插件说同一种证据语言，任何人 30 秒内可复算它声称的结论。\n科研证据协议（REP v1）\nResearch Core (REP v1)\n@perrylink/dsh-research-core\nREP\n证据协议\nresearch-core\n科研插件\n证据存储\n校验器\nevidence-protocol\n科研基础设施\n插件作者\nREP\n证据协议\nresearch-core\n科研插件\n证据存储\n校验器\nevidence-protocol\n科研基础设施\n插件作者\n科研证据协议（REP v1）\n科研证据协议（REP v1） 怎么用\n科研证据协议（REP v1） 插件\ndsh 科研证据协议（REP v1）\n研究人员\n研究生\nresearch\ntool"
+      "searchText": "@perrylink/dsh-research-core\nResearch Core (REP v1)\n科研证据协议（REP v1）\n给科研插件作者：REP v1 共享证据协议、存储与校验器，让每个插件说同一种证据语言。 REP v1 shared evidence protocol, store and validator for the research plugin family.\nREP v1——DSH 科研插件家族的共享证据协议。一套协议、一个存储、一个校验器：每个科研插件说同一种证据语言，任何人 30 秒内可复算它声称的结论。\n科研证据协议（REP v1）\nResearch Core (REP v1)\n@perrylink/dsh-research-core\nREP\n证据协议\nresearch-core\n科研插件\n证据存储\n校验器\nevidence-protocol\n科研基础设施\n插件作者\nREP\n证据协议\nresearch-core\n科研插件\n证据存储\n校验器\nevidence-protocol\n科研基础设施\n插件作者\n科研证据协议（REP v1）\nREP 是标准吗？\n其他插件必须用吗？\n科研证据协议（REP v1）怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     }
   ]
 }

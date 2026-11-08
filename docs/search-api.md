@@ -7,7 +7,7 @@ it: a search index, a search core, two worker endpoints and a stdio MCP server.
 ## Data flow
 
 ```
-data/packages.json (145)  ─┐
+data/packages.json (146)  ─┐
 data/discovery.json (40)  ─┼─> scripts/build-discovery.mjs ─> artifacts/v1/search-index.json
 data/npm-snapshot.json    ─┘                                   deploy/artifacts/v1/search-index.json
 
@@ -17,9 +17,9 @@ lib/search-core.mjs (no fs) ─> scripts/search.mjs (Node + CLI)
                             └─> mcp/plugin-search-server.mjs  plugin_search, plugin_get
 ```
 
-The 145 rows in `data/discovery.json` are schema-valid discovery manifests
+The 146 rows in `data/discovery.json` are schema-valid discovery manifests
 (aliases, searchPhrases, audience, facets, maturity, coverage, related,
-demoPrompt): 40 authored and 105 generated from catalog fields, each generated
+demoPrompt): 61 authored and 85 generated from catalog fields, each generated
 row flagged in `coverage.limitations` as pending human review. The index is a sidecar: none of these fields enter the
 1.0.0 item schema.
 
@@ -105,7 +105,7 @@ agent has concrete query shapes before it calls the tool.
 ```sh
 node scripts/build-discovery.mjs          # index + deploy/search-core.mjs
 node scripts/build-facets.mjs             # P2 facet/status sidecar
-node scripts/check-facets.mjs             # 145/145 coverage, hubs, status counts
+node scripts/check-facets.mjs             # 146/146 coverage, hubs, status counts
 node scripts/discovery-bench.mjs --source=index --fail-under=85
 node scripts/worker-smoke.mjs             # 11/11 routes
 node scripts/mcp-smoke.mjs                # 9/9 MCP calls
@@ -115,6 +115,10 @@ Current bench (2026-11-08): 58 queries, top1 57/58, top3 58/58 (100%), zero-resu
 MRR@5 0.991. Desktop's whole-string `includes` replay over the same 58 queries:
 top3 38/58 (65.5%), zero-result 20/58.
 
+Held-out bench (20 phrasings never written into any metadata, measured once):
+top1 17/20, top3 19/20 (95%), zero-result 0/20, MRR@5 0.900. The single top3 miss is
+`来源原文支持这条断言吗` (claim-check); it is recorded, not tuned away.
+
 ## Known limits
 
 1. **The 1.0.0 page is now strict.** Extra fields moved to `display.json`; the
@@ -123,7 +127,7 @@ top3 38/58 (65.5%), zero-result 20/58.
    `defaultLimit=maxLimit=100`), and the full page passes Ajv strict against the
    upstream schema. The Vercel static mirror is not paginated; register the
    workers.dev manifest, not the Vercel one.
-2. 40/145 rows have authored discovery metadata; the other 105 are generated
+2. 61/146 rows have authored discovery metadata; the other 85 are generated
    baselines (flagged in `coverage.limitations`). Authoring them properly is
    ongoing P4 work.
 3. Scores are deliberately simple (field weights + IDF-weighted CJK n-grams),
