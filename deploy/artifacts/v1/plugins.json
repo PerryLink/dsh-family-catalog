@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-08T13:02:00.261Z",
+  "generatedAt": "2026-11-08T13:14:24.442Z",
   "revision": "perrylink-dsh-catalog-2026-11-08",
   "items": [
     {
@@ -3560,12 +3560,25 @@
     {
       "id": "dsh-translate",
       "name": "dsh-translate",
-      "displayName": "Translate — 翻译与 JSON 修复",
-      "summary": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。 Translate text and files inside DeepSeek Harness with quality checks; also fixes broken JSON output from models.",
+      "displayName": "Full-page translation — 整页翻译",
+      "summary": "用你自己的 DSH 模型路由把整个 Web GUI 翻成你的语言；代码、路径、命令、标识符、数字与专名原样保留，只改显示层，不写会话日志。 Translate the rendered web GUI into your language with your own DSH model route. Code, paths, commands, identifiers, numbers and product names stay verbatim; display-only, the session log is never touched.",
+      "description": "dsh-translate walks the rendered page, masks code, file paths, shell commands, URLs, identifiers, versions, hashes, numbers and product names into placeholders, and translates the remaining prose with the model route the current session already uses. The result is written back into the same text nodes and one click restores the originals. Nothing is written to the session log, the workspace or the DSH config.",
+      "keywords": [
+        "translation",
+        "i18n",
+        "localization",
+        "ui",
+        "dom",
+        "page translation",
+        "翻译",
+        "整页翻译",
+        "双语"
+      ],
       "homepage": "https://github.com/PerryLink/dsh-translate",
       "latestVersion": "0.3.0",
       "license": "Apache-2.0",
       "categories": [
+        "interface",
         "tools"
       ],
       "repository": {
@@ -3582,10 +3595,51 @@
       "media": {
         "icon": {
           "url": "https://replace-with-deploy-origin.invalid/icons/dsh-translate.png",
-          "alt": "翻译与 JSON 修复"
+          "alt": "整页翻译"
         }
       },
       "updatedAt": "2026-11-08T11:23:18.769Z"
+    },
+    {
+      "id": "dsh-param-repair",
+      "name": "dsh-param-repair",
+      "displayName": "Vendor parameter mapping & JSON repair — 厂商参数映射与报文修复",
+      "summary": "在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。 Map request parameters across 11 vendor dialects and repair malformed JSON tool output with deterministic, auditable rules. No network, no model call, no invented data.",
+      "description": "dsh-param-repair maps temperature, top_p, max_tokens, stop, system and related parameters across 11 LLM vendors, and repairs broken JSON tool output with bounded deterministic strategies (escape repair, trailing-comma removal, truncation closure, required-field completion). The /translate command, the fix_json tool and the post-execute repair layer share one auditable rule set and never fabricate a value.",
+      "keywords": [
+        "parameter mapping",
+        "vendor params",
+        "json repair",
+        "schema validation",
+        "tool output",
+        "参数映射",
+        "JSON修复",
+        "厂商参数"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-param-repair",
+      "latestVersion": "1.0.1",
+      "license": "Apache-2.0",
+      "categories": [
+        "developer-tools"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-param-repair"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-param-repair"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-param-repair.png",
+          "alt": "厂商参数映射与报文修复"
+        }
+      },
+      "updatedAt": "2026-11-08T13:13:02.403Z"
     },
     {
       "id": "dsh-warranty-calc",
@@ -5461,6 +5515,6 @@
     }
   ],
   "page": {
-    "total": 145
+    "total": 146
   }
 }

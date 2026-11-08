@@ -5,12 +5,19 @@
 // Usage: node scripts/worker-smoke.mjs
 // Exit 1 if any route fails; prints a success rate for the P3 acceptance note.
 
+import { readFileSync } from 'node:fs'
 import worker from '../deploy/cloudflare-worker.js'
 import { onRequest } from '../deploy/functions/[[path]].js'
 import vercelPlugins from '../api/plugins.js'
 import vercelSearch from '../api/search.js'
 import vercelPlugin from '../api/plugin.js'
 import vercelHubs from '../api/hubs.js'
+
+// Page sizes are derived from the shipped data so adding a package cannot
+// leave this smoke asserting yesterday's totals.
+const TOTAL_ITEMS = JSON.parse(readFileSync(new URL('../data/packages.json', import.meta.url), 'utf8')).length
+const PAGE_SIZE = 100
+const PAGE_2_ITEMS = TOTAL_ITEMS - PAGE_SIZE
 
 const QUERIES = [
   '报关单品名和金额对不上怎么办',
@@ -49,12 +56,12 @@ if (hubResult.status === 200 && (hubResult.body.hubs ?? []).length === 10) passe
 console.log(`${(hubResult.body.hubs ?? []).length === 10 ? 'PASS' : 'FAIL'} /v1/hubs -> ${(hubResult.body.hubs ?? []).length} hubs`)
 total += 1
 const page1 = await get('/v1/plugins')
-const page1ok = page1.status === 200 && page1.body.items.length === 100 && page1.body.page.total === 145 && page1.body.page.nextCursor === '100'
+const page1ok = page1.status === 200 && page1.body.items.length === 100 && page1.body.page.total === TOTAL_ITEMS && page1.body.page.nextCursor === '100'
 if (page1ok) passed += 1
 console.log(`${page1ok ? 'PASS' : 'FAIL'} /v1/plugins page1 -> ${page1.body.items?.length} items, next=${page1.body.page?.nextCursor}`)
 total += 1
 const page2 = await get('/v1/plugins?cursor=100')
-const page2ok = page2.status === 200 && page2.body.items.length === 45 && page2.body.page.nextCursor === undefined
+const page2ok = page2.status === 200 && page2.body.items.length === PAGE_2_ITEMS && page2.body.page.nextCursor === undefined
 if (page2ok) passed += 1
 console.log(`${page2ok ? 'PASS' : 'FAIL'} /v1/plugins page2 -> ${page2.body.items?.length} items, next=${page2.body.page?.nextCursor}`)
 total += 1
@@ -80,7 +87,7 @@ const pagesChecks = [
   ['/v1/search?q=HS%E7%BC%96%E7%A0%81', (/** @type {any} */ body) => body.results?.some((/** @type {any} */ hit) => hit.name === 'dsh-hs-classify'), 'search'],
   ['/v1/hubs', (/** @type {any} */ body) => (body.hubs ?? []).length === 10, 'hubs'],
   ['/v1/plugin?name=dsh-hs-classify', (/** @type {any} */ body) => body.name === 'dsh-hs-classify', 'plugin'],
-  ['/v1/plugins?cursor=100', (/** @type {any} */ body) => body.items?.length === 45, 'pagination page2'],
+  ['/v1/plugins?cursor=100', (/** @type {any} */ body) => body.items?.length === PAGE_2_ITEMS, 'pagination page2'],
 ]
 for (const [path, check, label] of pagesChecks) {
   total += 1
@@ -108,7 +115,7 @@ const callVercel = (handler, path) => new Promise((resolve) => {
 })
 /** @type {[any, string, (body: any) => boolean, string][]} */
 const vercelChecks = [
-  [vercelPlugins, '/v1/plugins?cursor=100', (/** @type {any} */ body) => body.items?.length === 45, 'pagination page2'],
+  [vercelPlugins, '/v1/plugins?cursor=100', (/** @type {any} */ body) => body.items?.length === PAGE_2_ITEMS, 'pagination page2'],
   [vercelSearch, '/v1/search?q=HS%E7%BC%96%E7%A0%81', (/** @type {any} */ body) => body.results?.some((/** @type {any} */ hit) => hit.name === 'dsh-hs-classify'), 'search'],
   [vercelPlugin, '/v1/plugin?name=dsh-hs-classify', (/** @type {any} */ body) => body.name === 'dsh-hs-classify', 'plugin'],
   [vercelHubs, '/v1/hubs', (/** @type {any} */ body) => (body.hubs ?? []).length === 10, 'hubs'],

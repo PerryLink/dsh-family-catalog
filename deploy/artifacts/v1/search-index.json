@@ -3,9 +3,9 @@
   "generatedBy": "scripts/build-discovery.mjs",
   "source": {
     "discovery": 145,
-    "packages": 145
+    "packages": 146
   },
-  "count": 145,
+  "count": 146,
   "items": [
     {
       "name": "dsh-github-bot",
@@ -7964,10 +7964,10 @@
     },
     {
       "name": "dsh-translate",
-      "displayName": "Translate",
-      "displayNameZh": "翻译与 JSON 修复",
-      "summary": "Translate text and files inside DeepSeek Harness with quality checks; also fixes broken JSON output from models.",
-      "summaryZh": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。",
+      "displayName": "Full-page translation",
+      "displayNameZh": "整页翻译",
+      "summary": "Translate the rendered web GUI into your language with your own DSH model route. Code, paths, commands, identifiers, numbers and product names stay verbatim; display-only, the session log is never touched.",
+      "summaryZh": "用你自己的 DSH 模型路由把整个 Web GUI 翻成你的语言；代码、路径、命令、标识符、数字与专名原样保留，只改显示层，不写会话日志。",
       "aliases": [
         "翻译与 JSON 修复",
         "Translate",
@@ -7975,8 +7975,19 @@
         "tools",
         "集成"
       ],
-      "keywordsZh": [],
-      "keywordsEn": [],
+      "keywordsZh": [
+        "翻译",
+        "整页翻译",
+        "双语"
+      ],
+      "keywordsEn": [
+        "translation",
+        "i18n",
+        "localization",
+        "ui",
+        "dom",
+        "page translation"
+      ],
       "searchPhrases": [
         "翻译与 JSON 修复",
         "翻译与 JSON 修复 怎么用",
@@ -8029,7 +8040,60 @@
       ],
       "updatedAt": "2026-11-08T11:23:18.769Z",
       "source": "discovery",
-      "searchText": "dsh-translate\nTranslate\n翻译与 JSON 修复\nTranslate text and files inside DeepSeek Harness with quality checks; also fixes broken JSON output from models.\n在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。\n翻译与 JSON 修复\nTranslate\ndsh-translate\ntools\n集成\n翻译与 JSON 修复\n翻译与 JSON 修复 怎么用\n翻译与 JSON 修复 插件\ndsh 翻译与 JSON 修复\nAI 工程师\n平台工程\nmodel_routing\ntool"
+      "searchText": "dsh-translate\nFull-page translation\n整页翻译\nTranslate the rendered web GUI into your language with your own DSH model route. Code, paths, commands, identifiers, numbers and product names stay verbatim; display-only, the session log is never touched.\n用你自己的 DSH 模型路由把整个 Web GUI 翻成你的语言；代码、路径、命令、标识符、数字与专名原样保留，只改显示层，不写会话日志。\n翻译与 JSON 修复\nTranslate\ndsh-translate\ntools\n集成\ntranslation\ni18n\nlocalization\nui\ndom\npage translation\n翻译\n整页翻译\n双语\n翻译与 JSON 修复\n翻译与 JSON 修复 怎么用\n翻译与 JSON 修复 插件\ndsh 翻译与 JSON 修复\nAI 工程师\n平台工程\nmodel_routing\ntool"
+    },
+    {
+      "name": "dsh-param-repair",
+      "displayName": "Vendor parameter mapping & JSON repair",
+      "displayNameZh": "厂商参数映射与报文修复",
+      "summary": "Map request parameters across 11 vendor dialects and repair malformed JSON tool output with deterministic, auditable rules. No network, no model call, no invented data.",
+      "summaryZh": "在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。",
+      "aliases": [
+        "parameter mapping",
+        "vendor params",
+        "json repair",
+        "schema validation",
+        "tool output",
+        "参数映射",
+        "JSON修复",
+        "厂商参数"
+      ],
+      "keywordsZh": [
+        "参数映射",
+        "JSON修复",
+        "厂商参数"
+      ],
+      "keywordsEn": [
+        "parameter mapping",
+        "vendor params",
+        "json repair",
+        "schema validation",
+        "tool output"
+      ],
+      "searchPhrases": [],
+      "audience": [],
+      "facets": {
+        "domains": [],
+        "subdomains": [],
+        "tasks": [],
+        "artifacts": [],
+        "jurisdictions": [],
+        "standards": []
+      },
+      "maturity": "stable",
+      "maintenance": "unknown",
+      "coverage": {
+        "lastReviewed": "2026-11-08"
+      },
+      "related": [],
+      "demoPrompt": null,
+      "lang": [
+        "zh",
+        "en"
+      ],
+      "updatedAt": "2026-11-08T13:13:02.403Z",
+      "source": "catalog",
+      "searchText": "dsh-param-repair\nVendor parameter mapping & JSON repair\n厂商参数映射与报文修复\nMap request parameters across 11 vendor dialects and repair malformed JSON tool output with deterministic, auditable rules. No network, no model call, no invented data.\n在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。\nparameter mapping\nvendor params\njson repair\nschema validation\ntool output\n参数映射\nJSON修复\n厂商参数\nparameter mapping\nvendor params\njson repair\nschema validation\ntool output\n参数映射\nJSON修复\n厂商参数"
     },
     {
       "name": "dsh-warranty-calc",

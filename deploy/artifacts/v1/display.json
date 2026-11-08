@@ -1069,8 +1069,19 @@
     },
     {
       "name": "dsh-translate",
-      "displayNameZh": "翻译与 JSON 修复",
-      "summaryZh": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。",
+      "displayNameZh": "整页翻译",
+      "summaryZh": "用你自己的 DSH 模型路由把整个 Web GUI 翻成你的语言；代码、路径、命令、标识符、数字与专名原样保留，只改显示层，不写会话日志。",
+      "group": "UX",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-param-repair",
+      "displayNameZh": "厂商参数映射与报文修复",
+      "summaryZh": "在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。",
       "group": "集成",
       "requires": {
         "dsh": ">=0.2.1-0 <0.3.0",
