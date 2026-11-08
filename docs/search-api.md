@@ -19,7 +19,7 @@ lib/search-core.mjs (no fs) ─> scripts/search.mjs (Node + CLI)
 
 The 145 rows in `data/discovery.json` are schema-valid discovery manifests
 (aliases, searchPhrases, audience, facets, maturity, coverage, related,
-demoPrompt): 40 authored and 105 generated from catalog fields, each generated
+demoPrompt): 59 authored and 86 generated from catalog fields, each generated
 row flagged in `coverage.limitations` as pending human review. The index is a sidecar: none of these fields enter the
 1.0.0 item schema.
 
@@ -115,6 +115,10 @@ Current bench (2026-11-08): 58 queries, top1 57/58, top3 58/58 (100%), zero-resu
 MRR@5 0.991. Desktop's whole-string `includes` replay over the same 58 queries:
 top3 38/58 (65.5%), zero-result 20/58.
 
+Held-out bench (20 phrasings never written into any metadata, measured once):
+top1 17/20, top3 19/20 (95%), zero-result 0/20, MRR@5 0.900. The single top3 miss is
+`来源原文支持这条断言吗` (claim-check); it is recorded, not tuned away.
+
 ## Known limits
 
 1. **The 1.0.0 page is now strict.** Extra fields moved to `display.json`; the
@@ -123,7 +127,7 @@ top3 38/58 (65.5%), zero-result 20/58.
    `defaultLimit=maxLimit=100`), and the full page passes Ajv strict against the
    upstream schema. The Vercel static mirror is not paginated; register the
    workers.dev manifest, not the Vercel one.
-2. 40/145 rows have authored discovery metadata; the other 105 are generated
+2. 59/145 rows have authored discovery metadata; the other 86 are generated
    baselines (flagged in `coverage.limitations`). Authoring them properly is
    ongoing P4 work.
 3. Scores are deliberately simple (field weights + IDF-weighted CJK n-grams),
