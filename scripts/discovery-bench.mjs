@@ -52,8 +52,8 @@ const normalizedSearchText = (item) => [
  *  mirroring scripts/build-catalog.mjs. Kept independent on purpose: the bench
  *  must be able to score the data before the deploy artifacts are rebuilt. */
 async function itemsFromData() {
-  const packages = JSON.parse(stripBom(await readFile(`${base}/data/packages.json`, 'utf8')))
-  const snapshot = JSON.parse(stripBom(await readFile(`${base}/data/npm-snapshot.json`, 'utf8')))
+  const packages = /** @type {any[]} */ (JSON.parse(stripBom(await readFile(`${base}/data/packages.json`, 'utf8'))))
+  const snapshot = /** @type {any[]} */ (JSON.parse(stripBom(await readFile(`${base}/data/npm-snapshot.json`, 'utf8'))))
   const byName = new Map(snapshot.map((entry) => [entry.name, entry]))
   return packages.map((pkg) => {
     const npm = byName.get(pkg.npm) ?? {}
@@ -77,7 +77,8 @@ async function itemsFromPayload() {
 }
 
 const loaded = sourceArg === 'data' ? { items: await itemsFromData(), total: undefined } : await itemsFromPayload()
-const items = loaded.items
+const items = /** @type {any[]} */ (loaded.items)
+/** @type {{ item: any, text: string }[]} */
 const indexed = items.map((item) => ({ item, text: normalizedSearchText(item) }))
 
 const results = []
@@ -103,7 +104,6 @@ const total = results.length
 const top1 = results.filter((result) => result.top1).length
 const top3 = results.filter((result) => result.top3).length
 const zero = results.filter((result) => result.zero).length
-const reciprocal = results.reduce((sum, result) => sum + (result.rank === null ? 0 : 1 / result.rank), 0)
 const summary = {
   source: sourceArg === 'data' ? 'data/packages.json' : (payloadArg ?? 'deploy/artifacts/v1/plugins.json'),
   items: items.length,
