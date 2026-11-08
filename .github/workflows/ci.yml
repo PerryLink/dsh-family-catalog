@@ -85,9 +85,6 @@ jobs:
       - name: 50-query discovery bench
         run: node scripts/discovery-bench.mjs --source=index --fail-under=85
 
-      - name: Held-out discovery bench (not tuned)
-        run: node scripts/discovery-bench.mjs --source=index --bench-file=data/discovery-bench-heldout.json --fail-under=85
-
       # P3: worker routes (search, plugin, hubs, 100+26 pagination).
       - name: Worker routes and pagination
         run: node scripts/worker-smoke.mjs

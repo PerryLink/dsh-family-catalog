@@ -2676,8 +2676,7 @@
       "JSON修复",
       "厂商参数"
     ],
-    "description": "dsh-param-repair maps temperature, top_p, max_tokens, stop, system and related parameters across 11 LLM vendors, and repairs broken JSON tool output with bounded deterministic strategies (escape repair, trailing-comma removal, truncation closure, required-field completion). The /translate command, the fix_json tool and the post-execute repair layer share one auditable rule set and never fabricate a value.",
-    "status": "active"
+    "description": "dsh-param-repair maps temperature, top_p, max_tokens, stop, system and related parameters across 11 LLM vendors, and repairs broken JSON tool output with bounded deterministic strategies (escape repair, trailing-comma removal, truncation closure, required-field completion). The /translate command, the fix_json tool and the post-execute repair layer share one auditable rule set and never fabricate a value."
   },
   {
     "npm": "dsh-warranty-calc",

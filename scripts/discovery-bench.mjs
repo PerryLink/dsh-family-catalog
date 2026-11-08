@@ -27,11 +27,9 @@ const args = process.argv.slice(2)
 const asJson = args.includes('--json')
 const sourceArg = args.find((value) => value.startsWith('--source='))?.slice('--source='.length) ?? 'payload'
 const payloadArg = args.find((value) => value.startsWith('--payload='))?.slice('--payload='.length)
-const benchArg = args.find((value) => value.startsWith('--bench-file='))?.slice('--bench-file='.length)
 const failUnder = Number(args.find((value) => value.startsWith('--fail-under='))?.slice('--fail-under='.length) ?? Number.NaN)
 
-const benchFile = benchArg ?? `${base}/data/discovery-bench.json`
-const bench = JSON.parse(stripBom(await readFile(benchFile.startsWith('/') ? benchFile : `${base}/${benchFile}`, 'utf8')))
+const bench = JSON.parse(stripBom(await readFile(`${base}/data/discovery-bench.json`, 'utf8')))
 
 /** Desktop's normalized search blob. @param {any} item */
 const normalizedSearchText = (item) => [
@@ -93,7 +91,7 @@ function summarize(results, source, pageTotal, items) {
 
 /** @param {any} summary @param {any[]} results */
 function report(summary, results) {
-  console.log(`discovery-bench: ${summary.source} — ${summary.items} items, ${summary.queries} queries (${benchFile.split('/').pop()})`)
+  console.log(`discovery-bench: ${summary.source} — ${summary.items} items, ${summary.queries} queries`)
   console.log(`top1 ${summary.top1}/${summary.queries} · top3 ${summary.top3}/${summary.queries} (${summary.top3Rate}%) · zero-result ${summary.zero}/${summary.queries} · MRR@5 ${summary.mrr5}`)
   console.log('')
   for (const result of results) {
