@@ -14,9 +14,12 @@
     "method": "GET"
   },
   "query": {
-    "supported": [],
-    "defaultLimit": 50,
-    "maxLimit": 50,
+    "supported": [
+      "cursor",
+      "limit"
+    ],
+    "defaultLimit": 100,
+    "maxLimit": 100,
     "sorts": []
   }
 }

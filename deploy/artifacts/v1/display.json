@@ -1,0 +1,1417 @@
+{
+  "schemaVersion": 1,
+  "note": "Display/status metadata that the public 1.0.0 item schema does not allow. Keyed by npm name; not part of /v1/plugins.",
+  "items": [
+    {
+      "name": "dsh-github-bot",
+      "displayNameZh": "GitHub 集成",
+      "summaryZh": "GitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-clinic",
+      "displayNameZh": "插件医生",
+      "summaryZh": "DeepSeek Harness 插件零依赖检测器：包结构静态检查（R）、cordis 契约扫描（K）、无键无头沙箱冒烟（D）与生态清单校验（CC）四层。",
+      "group": "生态",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-scaffold",
+      "displayNameZh": "插件工具包",
+      "summaryZh": "PerryLink DSH 插件共享零运行时依赖工具包：可插拔 Provider 注册表接缝、失效即拒的审批门与自适应会话事件门、机械校验脚本、共享的脱敏/计价/裁决模块，以及新插件骨架。",
+      "group": "基建",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-security-pack",
+      "displayNameZh": "安全技能包",
+      "summaryZh": "安全技能包 provider：预置带风险卡的安全评审技能，同时提供宿主侧与客户端侧两个面。",
+      "group": "安全",
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-dida",
+      "displayNameZh": "滴答清单桥",
+      "summaryZh": "TickTick（滴答清单）任务桥：会话顶部任务面板（列表筛选、快速添加、完成、删除、截止日期、拖动排序）、十一个 ticktick_* 工具，以及基于官方 TickTick MCP 端点的插件设置卡。",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-aqua-input-check",
+      "displayNameZh": "水产投入品记录核对",
+      "summaryZh": "水产养殖投入品记录核对（按投入品用量、休药期与起捕间隔核对记录自洽，仅提示差异，不作出定性结论）",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-archive-check",
+      "displayNameZh": "档案归档核对",
+      "summaryZh": "档案归档完整性与保管期限核对（依据《档案法》及配套规定，仅提示差异，不作出定性结论）",
+      "group": "公文",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-auto-review",
+      "displayNameZh": "自动复核",
+      "summaryZh": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-autotier",
+      "displayNameZh": "模型分层路由",
+      "summaryZh": "强/廉价模型档位的自动路由：在 agent/request 瀑布上按意图落档，plan 模式交棒（强模型规划、廉价模型实现），在 tools/pre-execute 上做确定性高风险守卫，失败升级并带 TTL 回退。",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-background-agents",
+      "displayNameZh": "后台代理",
+      "summaryZh": "已于 2026-10-05 退役 —— 官方 DeepSeek Harness 已原生提供可续接子代理（backgroundMode: continuable 的 subagent 加 send_message）。请改用原生能力；本条目仅为让包名可解析而保留。",
+      "status": "retired",
+      "group": "会话",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate",
+      "conflicts": [
+        "dsh-team-rooms"
+      ]
+    },
+    {
+      "name": "dsh-bid-ca-precheck",
+      "displayNameZh": "投标符合性预检",
+      "summaryZh": "投标文件符合性预检（按招标文件逐条核对响应情况，仅提示差异，不作出定性结论）",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-bid-qual-check",
+      "displayNameZh": "投标人资格核对",
+      "summaryZh": "投标人资格条件核对（按资格条件与证明材料核对逐条响应，仅提示差异，不作出定性结论）",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-budget",
+      "displayNameZh": "成本治理",
+      "summaryZh": "成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。",
+      "status": "frozen",
+      "group": "观测",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-cert-mcp",
+      "displayNameZh": "认证 MCP",
+      "summaryZh": "只读 MCP 服务器，对外提供 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照与五维证据。",
+      "group": "生态",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-checkpoint-rewind",
+      "displayNameZh": "检查点回滚",
+      "summaryZh": "统一的 DSH 检查点：会话/工作区/配置三态快照，一条命令 /checkpoint 与 /rewind 回滚，附 checkpoint 工具、定时自动快照、带两两差异的设置页时间线与种子重放式会话恢复。",
+      "group": "会话",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-claude-move",
+      "displayNameZh": "配置迁移",
+      "summaryZh": "从 Claude Code 迁到 DeepSeek Harness：导入 CLAUDE.md/AGENTS.md、斜杠命令与会话历史，全程审批门控且可重复执行。",
+      "status": "frozen",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-click",
+      "displayNameZh": "桌面控制",
+      "summaryZh": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。",
+      "group": "桌面",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-community-bench",
+      "displayNameZh": "社区基准",
+      "summaryZh": "DSH 应用内社区基准标签页：读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地算分。",
+      "group": "校验工具",
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-composer-history",
+      "displayNameZh": "输入历史",
+      "summaryZh": "Web 输入框的终端式历史：边缘优先的方向键与草稿/光标精确还原、浏览器本地持久化、Ctrl+R 反向搜索、工作区召回与滑动上下文感知。",
+      "group": "会话",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-contract-stance",
+      "displayNameZh": "合同立场台账核对",
+      "summaryZh": "合同条款立场台账核对（按立场、风险等级与退让底线核对台账自洽，仅提示差异，不作出定性结论）",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-customs-doc-check",
+      "displayNameZh": "报关单证一致性核对",
+      "summaryZh": "报关单证一致性核对（按公开的报关单填制规范核对单证间字段一致性，仅提示差异，不作出定性结论）",
+      "group": "外贸",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-data-quality",
+      "displayNameZh": "数据质量",
+      "summaryZh": "确定性的数据画像、清洗与校验：DAMA 记分卡、内容哈希去重、指标期望与漂移检查。",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-defend",
+      "displayNameZh": "注入防御",
+      "summaryZh": "面向 DeepSeek Harness 的提示注入、越狱与密钥泄漏防御：Aho-Corasick 检测配允许/询问/阻断拦截、脱敏审计事件，以及递归删除的执行前闸门。",
+      "status": "frozen",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-demurrage-ledger",
+      "displayNameZh": "滞箱费台账核对",
+      "summaryZh": "滞箱费台账核对（按免箱期与费率核对超期天数与金额的自洽性，仅提示差异，不作出定性结论）",
+      "group": "外贸",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-doublecheck",
+      "displayNameZh": "交付质检",
+      "summaryZh": "交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-draw",
+      "displayNameZh": "图像生成路由",
+      "summaryZh": "统一的静态图像生成路由：一个 image_generate 工具配标准参数，按配置路由引擎（OpenAI Images、智谱 CogView 及任何兼容端点），带健康感知回退、工作区持久附件与按会话配额记账。",
+      "status": "frozen",
+      "group": "桌面",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-drill-script-check",
+      "displayNameZh": "应急演练脚本核对",
+      "summaryZh": "应急演练脚本核对（按阶段、响应分级、指挥与资源要素核对脚本齐备，仅提示差异，不作出定性结论）",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-eia-guide-check",
+      "displayNameZh": "环评导则适用性核对",
+      "summaryZh": "环评导则适用性核对（按要素、导则名称与执行标准核对台账自洽，仅提示差异，不作出定性结论）",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-emergency-plan",
+      "displayNameZh": "应急预案要素核对",
+      "summaryZh": "应急预案要素齐备性与条款级页码定位（依据 GB/T 29639-2020 等公开文件，仅提示差异，不作出定性结论）",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-essay-rubric-check",
+      "displayNameZh": "作文量表评分核对",
+      "summaryZh": "作文量表评分核对（按评分项、原文定位与分值算术核对评分自洽，仅提示差异，不作出定性结论）",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-evidence-check",
+      "displayNameZh": "证据清单核对",
+      "summaryZh": "证据清单齐备性核对（按待证事实与证据要素核对清单自洽，仅提示差异，不作出定性结论）",
+      "group": "法律",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-export-ctl-check",
+      "displayNameZh": "出口管制物项核对",
+      "summaryZh": "出口管制物项核对（按管制清单、最终用途与许可证核对台账齐备，仅提示差异，不作出定性结论）",
+      "group": "外贸",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-fast",
+      "displayNameZh": "性能诊断",
+      "summaryZh": "只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。",
+      "group": "观测",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-fmea-table-check",
+      "displayNameZh": "FMEA 分析表核对",
+      "summaryZh": "FMEA 分析表要素齐备性与风险顺序数一致性核对（按公开的 FMEA 方法标准核对表内自洽，仅提示差异，不作出定性结论）",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-forecast-penalty",
+      "displayNameZh": "预测准确率考核核对",
+      "summaryZh": "预测准确率考核核对（按准确率、门槛与考核单价核对考核费用的算术自洽，仅提示差异，不作出定性结论）",
+      "group": "外贸",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-fund-research",
+      "displayNameZh": "基金研究",
+      "summaryZh": "基金研究：分析基金的收益、持仓与业绩归因。",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-gongwen-flow-check",
+      "displayNameZh": "公文流转时限核对",
+      "summaryZh": "公文流转与办理时限核对（按公开的公文处理规范核对环节完整性与时限，仅提示差异，不作出定性结论）",
+      "group": "公文",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-gongwen-word-check",
+      "displayNameZh": "公文格式要素核对",
+      "summaryZh": "公文格式要素核对（按公开的党政机关公文格式标准核对版头与主体要素，仅提示差异，不作出定性结论）",
+      "group": "公文",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-guard-plan-qc",
+      "displayNameZh": "劳保用品配置表核对",
+      "summaryZh": "劳动保护与安全防护用品配置表核对（按公开的配备标准核对品名规格与配置数量，仅提示差异，不作出定性结论）",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-hazchem-check",
+      "displayNameZh": "危化品临界量核对",
+      "summaryZh": "危险化学品临界量与重大危险源辨识核对（按储存量与临界量核对台账自洽，仅提示差异，不作出定性结论）",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-hazplan-check",
+      "displayNameZh": "HAZOP 分析表核对",
+      "summaryZh": "HAZOP 分析表要素齐备性与偏差推导一致性核对（依据公开的危险与可操作性分析标准，仅提示差异，不作出定性结论）",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-hidden-risk-map",
+      "displayNameZh": "重大事故隐患映射",
+      "summaryZh": "安全隐患台账→《工贸企业重大事故隐患判定标准》（应急管理部令第10号）条款映射提示（仅提示差异，不作出定性结论）",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-hs-classify",
+      "displayNameZh": "商品归类层级核对",
+      "summaryZh": "商品归类层级一致性核对（按章、品目、子目与商品编号的层级关系核对自洽，仅提示差异，不作出定性结论）",
+      "group": "外贸",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-icd-rule-check",
+      "displayNameZh": "ICD 编码配对核对",
+      "summaryZh": "ICD 合并编码与星剑号配对提示（依据 GB/T 14396-2016 与公开的 ICD 使用说明，仅提示差异，不作出定性结论）",
+      "group": "医疗",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-industry-research",
+      "displayNameZh": "行业研究",
+      "summaryZh": "行业研究工具箱：结构化的公司与行业专题，附来源留档与可审计的研究轨迹。",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-lawcite-adapter",
+      "displayNameZh": "法条引用核对",
+      "summaryZh": "法条引用与文书要素核对（按名称、条号、原文与效力状态核对引用可核验性，仅提示差异，不作出定性结论）",
+      "group": "法律",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-laya",
+      "displayNameZh": "Laya 决策引擎",
+      "summaryZh": "把 Laya 的定型决策（noul 是/否、choice 选择、score 打分）做成 DeepSeek Harness 的一等 Cordis 服务与模型可见工具，背后是本地运行的 Laya 决策 sidecar。",
+      "group": "集成",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-lc-doc-check",
+      "displayNameZh": "信用证单据条款核对",
+      "summaryZh": "信用证单据条款核对（按单据种类、份数、期限与不符点核对交单自洽，仅提示差异，不作出定性结论）",
+      "group": "外贸",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-learning-gap-check",
+      "displayNameZh": "能力差距台账核对",
+      "summaryZh": "能力差距与培养计划核对（按能力等级差、培养措施与完成期限核对台账闭环，仅提示差异，不作出定性结论）",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-library",
+      "displayNameZh": "本地知识库",
+      "summaryZh": "本地文档知识库：library_add/remove/list，语义加关键词的混合检索 library_search（带多样性重排与防\"中间遗忘\"）、引用感知注入、library_cite_check 与 library_diagnose，SQLite 索引与本地嵌入，不下载模型。",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-local-ai",
+      "displayNameZh": "本地模型",
+      "summaryZh": "在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-lsp-actions",
+      "displayNameZh": "LSP 动作",
+      "summaryZh": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-mask",
+      "displayNameZh": "隐私脱敏",
+      "summaryZh": "PII 脱敏中间件：手机号、邮箱、身份证、银行卡与密钥在到达模型前变成占位符，宿主侧还原表保证可逆，明文不进会话日志。",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-mcp-panel",
+      "displayNameZh": "MCP 面板",
+      "summaryZh": "只读 MCP 控制台：/mcp 命令带健康诊断与管道试调，设置页 MCP 标签管理服务器（写入需审批、自动备份），并可在官方工具管道上试调工具。",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-medrec-qc",
+      "displayNameZh": "病案首页质控",
+      "summaryZh": "病案首页形式质控与逻辑矛盾提示（依据国卫办医发〔2016〕24号等公开文件，仅提示差异，不作出定性结论）",
+      "group": "医疗",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-memento",
+      "displayNameZh": "跨会话记忆",
+      "summaryZh": "有界、分层、审批门控、可审计的跨会话记忆：一条能力接缝（ctx.memory 服务 + 本地 SQLite provider + memory 工具 + 冻结快照注入），不是又一个记忆仓库。",
+      "group": "会话",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-nsfc-form-check",
+      "displayNameZh": "基金申请书形式审查",
+      "summaryZh": "国家自然科学基金申请书形式审查与匿名化提示（依据《国家自然科学基金条例》与申请人导入的当年指南，仅提示差异，不作出定性结论）",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-nurse-record-check",
+      "displayNameZh": "护理记录完整性核对",
+      "summaryZh": "护理记录时限、签名与评估表完整性校验（依据《病历书写基本规范》等公开文件，仅提示差异，不作出定性结论）",
+      "group": "医疗",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-observe",
+      "displayNameZh": "可观测性",
+      "summaryZh": "可观测性：请求追踪、遥测上报、日志缓冲与重试可见性。",
+      "group": "观测",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-origin-rvc-check",
+      "displayNameZh": "原产地 RVC 核对",
+      "summaryZh": "原产地区域价值成分核对（按 RVC 定义式与门槛核对原产地判定自洽，仅提示差异，不作出定性结论）",
+      "group": "外贸",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-ota-review-check",
+      "displayNameZh": "在线点评回复台账核对",
+      "summaryZh": "在线点评回复台账核对（按回复时限、问题分类与整改状态核对台账闭环，仅提示差异，不作出定性结论）",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-output-styles",
+      "displayNameZh": "输出风格",
+      "summaryZh": "运行时可切换的模型输出风格：Markdown 风格库（六个内置，含 Claude Code 对等的 proactive/learning）、/style 命令、按会话持久化、系统提示注入、插件渲染器注册表、按会话与按工具的规则，以及 /export 渲染。",
+      "group": "UX",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-paper-doc-adapter",
+      "displayNameZh": "试卷结构核对",
+      "summaryZh": "试卷解析结构核对（按题型、答案、分值与 yotta 标识核对试卷结构自洽，仅提示差异，不作出定性结论）",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-permission-rules",
+      "displayNameZh": "权限规则",
+      "summaryZh": "声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-permit-report-check",
+      "displayNameZh": "行政许可办理核对",
+      "summaryZh": "行政许可办理核对（按申请材料、法定时限与决定记录核对台账闭环，仅提示差异，不作出定性结论）",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-personal-directive",
+      "displayNameZh": "个人指令",
+      "summaryZh": "仓库提示词插件，带顶栏实时开关；框架版附带中性占位指令。",
+      "group": "会话",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-phocinae",
+      "displayNameZh": "Phocinae 决策层",
+      "summaryZh": "本地的非生成式决策层：phocinae_ask / phocinae_gate 两个工具，外加一个失效即拒的审批闸门。",
+      "group": "集成",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-phone-inbox",
+      "displayNameZh": "手机收件箱",
+      "summaryZh": "会话的手机（微信桥）入站附件收件箱：列出本会话实际收到的附件，并按需采纳到工作区。",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-pipeline-check",
+      "displayNameZh": "项目文件链条核对",
+      "summaryZh": "项目全流程文件链条核对（按环节先后与金额口径核对链条自洽，仅提示差异，不作出定性结论）",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-pleading-draft",
+      "displayNameZh": "起诉状要素核对",
+      "summaryZh": "起诉状要素齐备性核对（按诉请、事实、证据、法条四要素核对文书齐备，仅提示差异，不作出定性结论）",
+      "group": "法律",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-primer",
+      "displayNameZh": "插件开发指南",
+      "summaryZh": "把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。",
+      "group": "生态",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-codemod",
+      "displayNameZh": "插件升级技能",
+      "summaryZh": "面向 DeepSeek Harness 插件作者的新一代单包升级技能：一份走廊索引读取调用方 peer 区间并路由到对应已封版升级卡片（dsh 0.1.3-alpha.1 → 0.1.5-rc.1 与 0.1.5-rc.2 → 0.1.6-alpha.2），零依赖接缝扫描器以 bundle 技能与 npx CLI 两种形态提供。",
+      "group": "生态",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-policy-brief-draft",
+      "displayNameZh": "政策专报要素核对",
+      "summaryZh": "政策专报要素核对（按观点、依据、出处与建议核对专报齐备，仅提示差异，不作出定性结论）",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-power-loss-split",
+      "displayNameZh": "线损电量拆分核对",
+      "summaryZh": "线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-power-ticket-check",
+      "displayNameZh": "电力工作票核对",
+      "summaryZh": "电力工作票要素齐备性与签发许可顺序核对（依据现行电力安全工作规程，仅提示差异，不作出定性结论）",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-ppap-check",
+      "displayNameZh": "PPAP 提交要素核对",
+      "summaryZh": "PPAP 提交要素齐备性核对（按公开的 PPAP 手册与提交等级核对要素齐备与版本填写，仅提示差异，不作出定性结论）",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-protest-deadline",
+      "displayNameZh": "质疑投诉期限核对",
+      "summaryZh": "质疑与投诉期限核对（按公开的政府采购质疑投诉规定核对期限与台账自洽，仅提示差异，不作出定性结论）",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-railway-window",
+      "displayNameZh": "铁路天窗台账核对",
+      "summaryZh": "铁路施工天窗台账核对（按时间窗、时长算术与命令号核对台账自洽，仅提示差异，不作出定性结论）",
+      "group": "外贸",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-reach",
+      "displayNameZh": "多渠道审批桥",
+      "summaryZh": "多渠道决策与远程控制桥：任何工作区的审批卡与提问卡镜像到 IM（微信 iLink、Telegram、飞书），用稳定的 #token 标识与 P{n} 编号，在聊天里经原生 pending 瀑布作答；发送者归属失败即拒，另带会话控制台与主动 reach_send。",
+      "status": "frozen",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-repair-order-qc",
+      "displayNameZh": "维修工单结算核对",
+      "summaryZh": "维修工单结算核对（按项目金额、配件工时合计与结算总额核对算术自洽，仅提示差异，不作出定性结论）",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-research-report",
+      "displayNameZh": "研究报告",
+      "summaryZh": "带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.1.6-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-review-reply-check",
+      "displayNameZh": "审稿意见回应核对",
+      "summaryZh": "审稿意见逐条回应覆盖核对（按意见与回应一一对应核对覆盖完整性，仅提示差异，不作出定性结论）",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-rulefile-check",
+      "displayNameZh": "规则库文件自检",
+      "summaryZh": "规则库文件自检核对（按条款引用纪律与效力上限核对规则库自身合规，仅提示差异，不作出定性结论）",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-safety-brief-check",
+      "displayNameZh": "安全技术交底核对",
+      "summaryZh": "安全技术交底记录要素齐备性与签字闭环核对（依据公开的安全生产法规与检查标准，仅提示差异，不作出定性结论）",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-score",
+      "displayNameZh": "插件评分",
+      "summaryZh": "DSH 生态的插件质量评分：按检查项评估插件并产出有证据支撑的合规报告。",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-session-pin",
+      "displayNameZh": "会话置顶",
+      "summaryZh": "已于 2026-10-05 退役 —— 官方 DeepSeek Harness 已原生支持会话置顶（dsh-client-ui-workspace 的行菜单与悬停按钮）。请用内置置顶；本条目仅为让包名可解析而保留。",
+      "status": "retired",
+      "group": "会话",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-session-sync",
+      "displayNameZh": "会话同步",
+      "summaryZh": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。",
+      "group": "会话",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-site-log-check",
+      "displayNameZh": "监理日志连续性核对",
+      "summaryZh": "监理日志跨日连续性与旁站覆盖提示（依据 GB/T 50319-2013 等公开文件，仅提示差异，不作出定性结论）",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-soe-decision-check",
+      "displayNameZh": "三重一大决策台账核对",
+      "summaryZh": "三重一大决策台账核对（按前置研究、会议审议与决议记录核对程序留痕，仅提示差异，不作出定性结论）",
+      "group": "治理",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-soilwater-check",
+      "displayNameZh": "土壤地下水监测核对",
+      "summaryZh": "土壤与地下水监测台账核对（按点位、监测项目、限值与超标判定核对台账自洽，仅提示差异，不作出定性结论）",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-sop-sync-check",
+      "displayNameZh": "作业规程同步核对",
+      "summaryZh": "作业规程与 FMEA／控制计划一致性核对（按编号与版本核对三份文件是否同步，仅提示差异，不作出定性结论）",
+      "group": "治理",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-spc-gbt-adapter",
+      "displayNameZh": "控制图常数核对",
+      "summaryZh": "控制图常数与过程能力指数核对（按 GB/T 4091 的常规控制图常数表核对控制限与 Cp/Cpk 的自洽性，仅提示差异，不作出定性结论）",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-talk",
+      "displayNameZh": "语音对话",
+      "summaryZh": "给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。",
+      "group": "桌面",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-team-rooms",
+      "displayNameZh": "团队房间",
+      "summaryZh": "DeepSeek Harness 团队房间：跨独立会话的持久共享空间——消息总线、共享任务板与时间线。从 dsh-background-agents 拆分而来（其后台代理部分已被 DSH 原生可续接子代理取代）。",
+      "status": "retired",
+      "group": "会话",
+      "requires": {
+        "dsh": ">=0.1.2-rc.1 <0.2.0 || >=0.1.5-alpha.1 <0.2.0 || >=0.1.6-0 <0.2.0 || >=0.1.7-0 <0.2.0 || >=0.2.0-0 <0.3.0 || >=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate",
+      "conflicts": [
+        "dsh-background-agents"
+      ]
+    },
+    {
+      "name": "dsh-tender-extract",
+      "displayNameZh": "招标条款摘录核对",
+      "summaryZh": "招标文件条款摘录核对（按出处与原文逐字核对摘录完整性，仅提示差异，不作出定性结论）",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-tender-matrix",
+      "displayNameZh": "评标评分矩阵核对",
+      "summaryZh": "评标因素评分矩阵核对（按分值上限与合计核对矩阵自洽，仅提示差异，不作出定性结论）",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-test-drive",
+      "displayNameZh": "装机试驾",
+      "summaryZh": "在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-translate",
+      "displayNameZh": "翻译与 JSON 修复",
+      "summaryZh": "在 DeepSeek Harness 内翻译文本与文件并做质量检查；同时修复模型输出的破损 JSON。",
+      "group": "集成",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-warranty-calc",
+      "displayNameZh": "质保期与索赔核对",
+      "summaryZh": "质保期与索赔金额核对（按质保期月数与里程、索赔金额算式核对自洽，仅提示差异，不作出定性结论）",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-einvoice",
+      "displayNameZh": "中国电子发票（文件级）",
+      "summaryZh": "文件级中国电子发票（OFD/XML）入库、解析、去重与本地归档。",
+      "status": "active",
+      "group": "财务运营",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-bankrec",
+      "displayNameZh": "银行流水对账",
+      "summaryZh": "银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。",
+      "status": "active",
+      "group": "财务运营",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-ap-three-way",
+      "displayNameZh": "AP 三单匹配",
+      "summaryZh": "发票/PO/GRN 三单匹配、容差与例外底稿。",
+      "status": "active",
+      "group": "财务运营",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-travel-recon",
+      "displayNameZh": "差旅对账与政策检查",
+      "summaryZh": "差旅订单/发票/卡流水对账、去重与只读政策检查。",
+      "status": "active",
+      "group": "财务运营",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-legal-intake",
+      "displayNameZh": "法务需求收件",
+      "summaryZh": "法务需求 EML 收件、线程去重与台账导出。",
+      "status": "active",
+      "group": "法务运营",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-legal-clause",
+      "displayNameZh": "合同条款与 playbook 审查",
+      "summaryZh": "合同条款树、playbook 映射与未解决报告。",
+      "status": "active",
+      "group": "法务运营",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-ghg",
+      "displayNameZh": "用电碳排放（范围二）",
+      "summaryZh": "用电活动入库、GHG 计算、逐行复算、底稿与部分 ESRS 包。",
+      "status": "frozen",
+      "group": "可持续与质量",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-qms-capa",
+      "displayNameZh": "QMS NCR、CAPA 与 8D",
+      "summaryZh": "QMS NCR 入库、批次别名、影响评估、CAPA 与 8D。",
+      "status": "frozen",
+      "group": "可持续与质量",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-hs-candidate",
+      "displayNameZh": "HS 候选预检",
+      "summaryZh": "HS Top3 候选、12 要素完整性、RVC 与税则版本门。",
+      "status": "frozen",
+      "group": "关务与物流",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-freight-audit",
+      "displayNameZh": "运费账单审计",
+      "summaryZh": "运费 ratecard 版本、账单审计、recovery 汇总与差异导出。",
+      "status": "frozen",
+      "group": "关务与物流",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-docx-redline",
+      "displayNameZh": "DOCX 检查与文本差异",
+      "summaryZh": "DOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。",
+      "status": "frozen",
+      "group": "文档与模型",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-ifc-qto",
+      "displayNameZh": "IFC 工程量清单",
+      "summaryZh": "IFC 构件/工程量清单与 CSV 导出。",
+      "status": "frozen",
+      "group": "文档与模型",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-policy-ledger",
+      "displayNameZh": "安装诊断",
+      "summaryZh": "只读安装诊断：能力快照、tarball 断言与安装日志分类。",
+      "status": "active",
+      "group": "校验工具",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-pim-lint",
+      "displayNameZh": "PIM 目录 lint",
+      "summaryZh": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。",
+      "status": "frozen",
+      "group": "校验工具",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-eval-pack",
+      "displayNameZh": "Eval pack 校验与评分",
+      "summaryZh": "公开/合成 eval-pack lint 与确定性 JSON 评分。",
+      "status": "active",
+      "group": "校验工具",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-finops-suite",
+      "displayNameZh": "财务运营套件",
+      "summaryZh": "一键安装 dsh-einvoice、dsh-bankrec、dsh-ap-three-way 与 dsh-travel-recon 的财务运营套件。",
+      "status": "active",
+      "group": "财务运营",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-contract-suite",
+      "displayNameZh": "合同法务套件",
+      "summaryZh": "一键安装 dsh-legal-intake 与 dsh-legal-clause 的合同法务套件。",
+      "status": "active",
+      "group": "法务运营",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.3.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-bid-health-check",
+      "displayNameZh": "投标健康度检查",
+      "summaryZh": "读 RequirementsPack 与投标文件，报告哪些要求看起来有响应、哪些没有、哪些根本定位不到。",
+      "status": "active",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-canteen-retention-check",
+      "displayNameZh": "食堂留样台账核对",
+      "summaryZh": "核对食堂留样台账：四要素是否齐全、留样量是否达 125 克、是否冷藏满 48 小时、是否残留模板占位符。",
+      "status": "active",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-construction-doc-check",
+      "displayNameZh": "施工资料目录核对",
+      "summaryZh": "扫描施工项目资料目录，报告缺哪些规定资料、哪些像是过期版本、哪些文件是空的。",
+      "status": "active",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-excel-reconcile",
+      "displayNameZh": "Excel 两表对账",
+      "summaryZh": "按主键对齐两份 Excel/CSV 表，按容差逐字段比较，输出 Markdown 报告、JSON 结果与差异工作簿。",
+      "status": "active",
+      "group": "数据",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-invoice-ledger",
+      "displayNameZh": "发票台账核对",
+      "summaryZh": "核对发票台账：重复报销、价税勾稽、抬头、日期、模板占位符，输出异常清单与规范化台账。",
+      "status": "active",
+      "group": "财务运营",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-payroll-audit",
+      "displayNameZh": "工资表审计",
+      "summaryZh": "按已核实的社保/公积金/个税参数核对工资表，逐条给出差异与依据，不代申报。",
+      "status": "active",
+      "group": "财务运营",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-safety-ledger-check",
+      "displayNameZh": "施工安全资格台账核对",
+      "summaryZh": "核对施工安全资格台账：三级教育与学时、培训档案四要素、特种作业证书、有效期、工种匹配、六个月实习期。",
+      "status": "active",
+      "group": "工程建设",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-table-ingest",
+      "displayNameZh": "表格入库",
+      "summaryZh": "把 docx/xlsx/csv 转成规则检查器能吃的表格 JSON，带候选表、表头识别、预览与置信度。",
+      "status": "active",
+      "group": "数据",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-tender-requirements",
+      "displayNameZh": "招标要求抽取",
+      "summaryZh": "从招标文件抽取关键信息：前附表的时间与保证金、投标文件组成与份数，并逐项报告是否检索到。",
+      "status": "active",
+      "group": "招投标",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "dsh-check-pack",
+      "displayNameZh": "合规核查套件（53 个）",
+      "summaryZh": "一条命令装齐 53 个 PerryLink 合规核查器（dsh-checkers 套件），并插入 53 条 Cordis 行；覆盖报关、招投标、EHS、医疗、法律、财务等场景。",
+      "status": "active",
+      "group": "质量",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0",
+        "node": "^22.19.0 || >=24.0.0"
+      },
+      "difficulty": "beginner"
+    }
+  ]
+}

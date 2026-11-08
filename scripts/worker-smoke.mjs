@@ -43,6 +43,20 @@ const hubResult = await get('/v1/hubs')
 if (hubResult.status === 200 && (hubResult.body.hubs ?? []).length === 10) passed += 1
 console.log(`${(hubResult.body.hubs ?? []).length === 10 ? 'PASS' : 'FAIL'} /v1/hubs -> ${(hubResult.body.hubs ?? []).length} hubs`)
 total += 1
+const page1 = await get('/v1/plugins')
+const page1ok = page1.status === 200 && page1.body.items.length === 100 && page1.body.page.total === 126 && page1.body.page.nextCursor === '100'
+if (page1ok) passed += 1
+console.log(`${page1ok ? 'PASS' : 'FAIL'} /v1/plugins page1 -> ${page1.body.items?.length} items, next=${page1.body.page?.nextCursor}`)
+total += 1
+const page2 = await get('/v1/plugins?cursor=100')
+const page2ok = page2.status === 200 && page2.body.items.length === 26 && page2.body.page.nextCursor === undefined
+if (page2ok) passed += 1
+console.log(`${page2ok ? 'PASS' : 'FAIL'} /v1/plugins page2 -> ${page2.body.items?.length} items, next=${page2.body.page?.nextCursor}`)
+total += 1
+const badCursor = await get('/v1/plugins?cursor=abc')
+if (badCursor.status === 400) passed += 1
+console.log(`${badCursor.status === 400 ? 'PASS' : 'FAIL'} /v1/plugins bad cursor -> ${badCursor.status}`)
+total += 1
 const missing = await get('/v1/search')
 if (missing.status === 400) passed += 1
 console.log(`${missing.status === 400 ? 'PASS' : 'FAIL'} /v1/search without q -> 400`)

@@ -13,6 +13,7 @@ import manifest from './catalog-source.json' with { type: 'json' }
 import page from './artifacts/v1/plugins.json' with { type: 'json' }
 import searchIndex from './artifacts/v1/search-index.json' with { type: 'json' }
 import hubs from './artifacts/v1/hubs.json' with { type: 'json' }
+import { sliceCatalogPage } from './catalog-page.mjs'
 import { search } from './search-core.mjs'
 
 /** `Deno` is a Deno Deploy global and is not declared by @types/node, so it is
@@ -54,7 +55,10 @@ denoRuntime.Deno.serve((request) => {
   const { pathname } = url
   if (request.method !== 'GET') return new Response('method not allowed', { status: 405 })
   if (pathname === '/catalog-source.json') return text(manifest)
-  if (pathname === '/v1/plugins') return text(page)
+  if (pathname === '/v1/plugins') {
+    const sliced = sliceCatalogPage(page, url)
+    return sliced.error ? text({ error: sliced.error }, 400) : text(sliced.page)
+  }
   if (pathname === '/v1/search') return searchResult(url)
   if (pathname === '/v1/plugin') return pluginResult(url)
   if (pathname === '/v1/hubs') return text(hubs)

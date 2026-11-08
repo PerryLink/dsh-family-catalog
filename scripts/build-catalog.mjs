@@ -43,6 +43,7 @@ const clean = (value) => {
   if (typeof value !== 'string') return value
   return value.replace(/[\u0000-\u001F\u007F-\u009F\u202A-\u202E\u2066-\u2069]/g, ' ')
 }
+const CJK = /[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u
 
 // 1.0.0 item schema: keywords is an array of ≤64 unique strings, each 1..64 chars.
 // Data rows are hand-written, so normalize here rather than trusting every row:
@@ -72,46 +73,64 @@ const descriptionOf = (value) => {
   return description.length > 0 ? description : undefined
 }
 
+/** @type {any[]} */
 const items = []
+/** @type {any[]} */
+const displayItems = []
 for (const pkg of packages) {
   const npm = byName.get(pkg.npm)
   if (!npm) throw new Error(`npm snapshot missing for ${pkg.npm}`)
   const repositoryUrl = `https://github.com/${pkg.repo}`
   const iconSlug = pkg.npm.replace(/^@/, '').replace(/[^A-Za-z0-9._-]/g, '-')
-  // Both Chinese fields are carried only when data/packages.json declares them, so a
-  // row that has not been translated yet emits no empty string (the market's own
-  // schema extension: exporters read these, nothing installs from them). `clean` is
-  // applied for the same reason as displayName/summary — the wire schema rejects
-  // control characters and bidi controls.
+  const displayName = clean(pkg.displayName)
   const displayNameZh = typeof pkg.displayNameZh === 'string' && pkg.displayNameZh.length > 0 ? clean(pkg.displayNameZh) : undefined
   const summaryZh = typeof pkg.summaryZh === 'string' && pkg.summaryZh.length > 0 ? clean(pkg.summaryZh).slice(0, 1000) : undefined
+  const englishSummary = clean(pkg.summary ?? npm.description ?? `${pkg.displayName}: DeepSeek Harness (dsh) plugin.`).slice(0, 1000)
+  // 1.0.0 has no displayNameZh/summaryZh. Put the Chinese name inside the
+  // schema-valid displayName ("English — 中文") and, when the English summary is
+  // Latin-only, prepend summaryZh. Chinese therefore stays visible AND searchable
+  // without an extension field; the pure Chinese pair moves to display.json.
+  const nameSuffix = displayNameZh === undefined ? '' : ` — ${displayNameZh}`
+  const displayNameWithZh = displayName.length + nameSuffix.length <= 120 ? `${displayName}${nameSuffix}` : displayName
+  const summary = summaryZh !== undefined && !CJK.test(englishSummary)
+    ? `${summaryZh} ${englishSummary}`.slice(0, 1000)
+    : englishSummary
+  // The public httpsUri pattern rejects fragments; npm homepages often end in #readme.
+  const rawHomepage = npm.homepage && /^https:/.test(npm.homepage) ? npm.homepage : repositoryUrl
+  const homepage = rawHomepage.split('#')[0]
   const keywords = keywordsOf(pkg.keywords)
   const description = descriptionOf(pkg.description)
   const item = {
     id: pkg.npm.startsWith('@') ? pkg.npm.slice(1) : pkg.npm,
     name: pkg.npm,
-    displayName: clean(pkg.displayName),
-    ...(displayNameZh === undefined ? {} : { displayNameZh }),
-    summary: clean(pkg.summary ?? npm.description ?? `${pkg.displayName}: DeepSeek Harness (dsh) plugin.`).slice(0, 1000),
-    ...(summaryZh === undefined ? {} : { summaryZh }),
+    displayName: displayNameWithZh,
+    summary,
     ...(description === undefined ? {} : { description }),
     ...(keywords === undefined ? {} : { keywords }),
-    homepage: npm.homepage && /^https:/.test(npm.homepage) ? npm.homepage : repositoryUrl,
+    homepage,
     latestVersion: npm.latest,
     license: typeof npm.license === 'string' && npm.license.length <= 80 ? npm.license : undefined,
+    categories: pkg.categories,
+    repository: { url: repositoryUrl },
+    package: { registry: 'npm', name: pkg.npm },
+    publisher: { name: 'PerryLink', url: 'https://github.com/PerryLink' },
+    media: { icon: { url: `${deployOrigin}/icons/${iconSlug}.png`, alt: (displayNameZh ?? displayName).slice(0, 120) } },
+    updatedAt: npm.updatedAt,
+  }
+  items.push(item)
+  // Display/status metadata that the 1.0.0 item schema does not allow. It is
+  // served as a separate sidecar so nothing is lost while the provider page stays
+  // strictly conformant.
+  displayItems.push({
+    name: pkg.npm,
+    ...(displayNameZh === undefined ? {} : { displayNameZh }),
+    ...(summaryZh === undefined ? {} : { summaryZh }),
     ...(pkg.status === undefined ? {} : { status: pkg.status }),
     ...(pkg.group === undefined ? {} : { group: pkg.group }),
     ...(pkg.requires === undefined ? {} : { requires: pkg.requires }),
     ...(pkg.difficulty === undefined ? {} : { difficulty: pkg.difficulty }),
     ...(pkg.conflicts === undefined ? {} : { conflicts: pkg.conflicts }),
-    categories: pkg.categories,
-    repository: { url: repositoryUrl },
-    package: { registry: 'npm', name: pkg.npm },
-    publisher: { name: 'PerryLink', url: 'https://github.com/PerryLink' },
-    media: { icon: { url: `${deployOrigin}/icons/${iconSlug}.png`, alt: pkg.displayName } },
-    updatedAt: npm.updatedAt,
-  }
-  items.push(item)
+  })
 }
 
 const page = {
@@ -140,11 +159,20 @@ const manifest = {
   homepage: 'https://github.com/PerryLink/dsh-family-catalog',
   attribution: { name: 'PerryLink', url: 'https://github.com/PerryLink' },
   transport: { kind: 'https-json', endpoint: `${deployOrigin}/v1/plugins`, method: 'GET' },
-  query: { supported: /** @type {string[]} */ ([]), defaultLimit: 50, maxLimit: 50, sorts: /** @type {string[]} */ ([]) },
+  // The runtime scans with limit=100 and rejects a page over the effective
+  // limit, so the catalog is served in 100-item cursor pages.
+  query: { supported: ['cursor', 'limit'], defaultLimit: 100, maxLimit: 100, sorts: /** @type {string[]} */ ([]) },
+}
+
+const display = {
+  schemaVersion: 1,
+  note: 'Display/status metadata that the public 1.0.0 item schema does not allow. Keyed by npm name; not part of /v1/plugins.',
+  items: displayItems,
 }
 
 await mkdir(`${base}/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/artifacts/v1/plugins.json`, `${JSON.stringify(page, null, 2)}\n`)
+await writeFile(`${base}/artifacts/v1/display.json`, `${JSON.stringify(display, null, 2)}\n`)
 await writeFile(`${base}/catalog-source.json`, `${JSON.stringify(manifest, null, 2)}\n`)
 // The deploy unit (deploy/deno-worker.js) imports its payload with
 // ./-relative specifiers, so it must be self-contained: mirror both
@@ -152,5 +180,9 @@ await writeFile(`${base}/catalog-source.json`, `${JSON.stringify(manifest, null,
 // (or the whole repo) serves the same content.
 await mkdir(`${base}/deploy/artifacts/v1`, { recursive: true })
 await writeFile(`${base}/deploy/artifacts/v1/plugins.json`, `${JSON.stringify(page, null, 2)}\n`)
+await writeFile(`${base}/deploy/artifacts/v1/display.json`, `${JSON.stringify(display, null, 2)}\n`)
 await writeFile(`${base}/deploy/catalog-source.json`, `${JSON.stringify(manifest, null, 2)}\n`)
+// Runtime-neutral pagination helper used by both workers and the Pages Function.
+const pageCore = await readFile(`${base}/lib/catalog-page.mjs`, 'utf8')
+await writeFile(`${base}/deploy/catalog-page.mjs`, pageCore)
 console.log(`built ${items.length} items -> artifacts/v1/plugins.json + deploy/ copies (endpoint ${deployOrigin}/v1/plugins)`)

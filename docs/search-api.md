@@ -117,12 +117,12 @@ top3 35/50 (70%), zero-result 15/50.
 
 ## Known limits
 
-1. **The 1.0.0 page is still what Desktop fetches.** The current payload carries
-   display-only fields the public schema rejects (`displayNameZh`, `summaryZh`,
-   `status`, `group`, `requires`, `difficulty`, `conflicts`) and one page of 126
-   items exceeds the runtime's `defaultLimit` check. Until the market confirms
-   an extension or the provider implements pagination, this API/MCP path is the
-   usable search surface; the page remains unchanged.
+1. **The 1.0.0 page is now strict.** Extra fields moved to `display.json`; the
+   Chinese name is embedded in `displayName` and the Chinese line in `summary`.
+   The page is served as 100 + 26 cursor pages (`supported=[cursor,limit]`,
+   `defaultLimit=maxLimit=100`), and the full page passes Ajv strict against the
+   upstream schema. The Vercel static mirror is not paginated; register the
+   workers.dev manifest, not the Vercel one.
 2. 40/126 rows have the rich discovery metadata. The rest are indexed from
    catalog fields; extending them is P4 work.
 3. Scores are deliberately simple (field weights + IDF-weighted CJK n-grams),

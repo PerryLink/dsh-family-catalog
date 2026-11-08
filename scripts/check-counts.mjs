@@ -45,26 +45,29 @@ if (page.page.total !== count) {
   failures.push(`deploy/artifacts/v1/plugins.json: page.total ${page.page.total} != ${count} rows in data/packages.json`)
 }
 
-// 2. The Chinese-name ratio has one source of truth too: a row in
-//    data/packages.json. Since 2026-10-13 every row carries both fields and the
-//    generator emits them, so the shipped page must be at 100 %. build-catalog.mjs
-//    silently dropped both fields for as long as they existed in data/ — that is
-//    exactly the "added to data, never reached the wire" drift this catches, and it
-//    is why the live endpoint served 0 Chinese names for 96 items.
+// 2. Chinese metadata moved to the display sidecar when the provider page was
+//    made strictly 1.0.0-conformant (the item schema has no displayNameZh /
+//    summaryZh). The ratio still has one source of truth: a row in
+//    data/packages.json, and display.json must carry all of them.
 /** @param {{ displayNameZh?: unknown, summaryZh?: unknown }} row */
 const hasZh = (row) =>
   typeof row.displayNameZh === 'string' && row.displayNameZh.length > 0 &&
   typeof row.summaryZh === 'string' && row.summaryZh.length > 0
+const display = await readJson('deploy/artifacts/v1/display.json')
 const zhRows = packages.filter(hasZh).length
-const zhItems = page.items.filter(hasZh).length
+const zhItems = display.items.filter(hasZh).length
 if (zhRows !== count) {
   failures.push(`data/packages.json: ${zhRows} of ${count} rows carry both displayNameZh and summaryZh; the family rule (2026-10-13) is all of them`)
 }
 if (zhItems !== zhRows) {
   failures.push(
-    `deploy/artifacts/v1/plugins.json: ${zhItems} items carry both Chinese fields but data/packages.json has ${zhRows} — rebuild with node scripts/build-catalog.mjs <deployOrigin>`,
+    `deploy/artifacts/v1/display.json: ${zhItems} rows carry both Chinese fields but data/packages.json has ${zhRows} — rebuild with node scripts/build-catalog.mjs <deployOrigin>`,
   )
 }
+// The page itself must still show Chinese: displayName is bilingual.
+const zhNames = page.items.filter((/** @type {{ displayName?: unknown }} */ item) =>
+  typeof item.displayName === 'string' && /[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u.test(item.displayName)).length
+if (zhNames !== count) failures.push(`deploy/artifacts/v1/plugins.json: ${zhNames} of ${count} displayName values carry CJK`)
 
 // 3. The manifest description states the count in prose.
 const manifest = await readJson('deploy/catalog-source.json')
@@ -90,7 +93,7 @@ if (!new RegExp(`\\b${count}-package\\b`).test(manifest.description ?? '')) {
 const readmeSites = [
   {
     name: 'README.md bounded page note (EN)',
-    pattern: /(complete bounded page \()(\d+)( items)/,
+    pattern: /(serves the complete )(\d+)(-item catalog in cursor pages)/,
     replace: (match, before, _stale, after) => `${before}${count}${after}`,
   },
   {

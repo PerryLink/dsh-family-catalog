@@ -32,6 +32,17 @@ const manifestFile = resolveArtifact('deploy/catalog-source.json', 'catalog-sour
 const pageFile = resolveArtifact('deploy/artifacts/v1/plugins.json', 'artifacts/v1/plugins.json')
 const manifest = JSON.parse(stripBom(await readFile(manifestFile.path, 'utf8')))
 const page = JSON.parse(stripBom(await readFile(pageFile.path, 'utf8')))
+const displayFile = resolveArtifact('deploy/artifacts/v1/display.json', 'artifacts/v1/display.json')
+const display = JSON.parse(stripBom(await readFile(displayFile.path, 'utf8')))
+
+// The public 1.0.0 item schema is additionalProperties:false. Any extra key here
+// makes the runtime reject the whole page (verified with Ajv strict against the
+// upstream schema), so this is a hard gate rather than a mirror-rule warning.
+const ALLOWED_ITEM_FIELDS = new Set([
+  'id', 'name', 'displayName', 'summary', 'description', 'homepage', 'latestVersion',
+  'license', 'categories', 'keywords', 'repository', 'installSource', 'package',
+  'publisher', 'media', 'capabilities', 'compatibility', 'updatedAt',
+])
 
 // catalog-source.schema.json mirrors
 check(manifest.manifestVersion === '1.0.0', 'manifestVersion must be 1.0.0')
@@ -58,30 +69,14 @@ for (const item of page.items) {
   check(typeof item.name === 'string' && item.name.length >= 1 && item.name.length <= 160, `name bounds: ${item.id}`)
   check(typeof item.displayName === 'string' && item.displayName.length >= 1 && item.displayName.length <= 120, `displayName bounds: ${item.id}`)
   check(typeof item.summary === 'string' && item.summary.length >= 1 && item.summary.length <= 1000, `summary bounds: ${item.id}`)
-  check(item.status === undefined || ['active', 'frozen', 'retired'].includes(item.status), `status vocabulary: ${item.id}`)
-  check(item.group === undefined || (typeof item.group === 'string' && item.group.length >= 1 && item.group.length <= 40), `group bounds: ${item.id}`)
-  check(item.difficulty === undefined || ['beginner', 'intermediate', 'advanced'].includes(item.difficulty), `difficulty vocabulary: ${item.id}`)
-  if (item.conflicts !== undefined) {
-    check(Array.isArray(item.conflicts) && item.conflicts.length >= 1 && item.conflicts.length <= 10, `conflicts bounds: ${item.id}`)
-    for (const c of item.conflicts) check(typeof c === 'string' && /^(?:@[a-z0-9][a-z0-9._-]*\/)?[a-z0-9][a-z0-9._-]*$/.test(c) && c !== item.package.name, `conflict package: ${item.id}`)
-  }
-  if (item.requires !== undefined) {
-    check(typeof item.requires === 'object' && item.requires !== null && Object.keys(item.requires).every(k => k === 'dsh' || k === 'node'), `requires keys: ${item.id}`)
-    for (const v of Object.values(item.requires)) check(typeof v === 'string' && v.length > 0 && v.length <= 200, `requires values: ${item.id}`)
-  }
-  // The market's schema extension for a Chinese reader. Optional on the wire, but the
-  // family's own rule since 2026-10-13 is that every item carries both: a Chinese name
-  // is the first thing a Chinese user reads, and 53 of these items are deterministic
-  // compliance checkers whose whole audience is Chinese-speaking. Enforcing it here is
-  // what stops a new row from shipping English-only.
-  check(typeof item.displayNameZh === 'string' && item.displayNameZh.length >= 1 && item.displayNameZh.length <= 120, `displayNameZh required, 1..120 chars: ${item.id}`)
-  check(typeof item.summaryZh === 'string' && item.summaryZh.length >= 1 && item.summaryZh.length <= 1000, `summaryZh required, 1..1000 chars: ${item.id}`)
-  // A Latin-only "Chinese" field is worse than an absent one: it renders as a second
-  // English name. Require at least one CJK ideograph.
-  check(/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u.test(item.displayNameZh ?? ''), `displayNameZh has no CJK character: ${item.id}`)
-  check(/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u.test(item.summaryZh ?? ''), `summaryZh has no CJK character: ${item.id}`)
-  check(!/[\u0000-\u001F\u007F-\u009F\u202A-\u202E\u2066-\u2069]/.test(`${item.displayNameZh ?? ''}${item.summaryZh ?? ''}`), `control characters in the Chinese fields: ${item.id}`)
+  for (const key of Object.keys(item)) check(ALLOWED_ITEM_FIELDS.has(key), `field outside the 1.0.0 item schema: ${key} on ${item.id}`)
+  // Chinese lives in schema-valid fields now: displayName is bilingual and the
+  // summary carries the Chinese line. A Latin-only display name would regress the
+  // Chinese reader, so require at least one CJK ideograph here.
+  check(/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u.test(item.displayName ?? ''), `displayName has no CJK character: ${item.id}`)
+  check(/[\u3400-\u4DBF\u4E00-\u9FFF\uF900-\uFAFF]/u.test(item.summary ?? ''), `summary has no CJK character: ${item.id}`)
   check(!/[\u0000-\u001F\u007F-\u009F\u202A-\u202E\u2066-\u2069]/.test(item.name + item.displayName + item.summary), `control characters: ${item.id}`)
+  check(!/#/.test(item.homepage ?? ''), `homepage must not carry a fragment: ${item.id}`)
   check(item.repository !== undefined || item.package !== undefined, `repository or package identity: ${item.id}`)
   if (item.package) {
     check(item.package.registry === 'npm', `package registry: ${item.id}`)
@@ -114,5 +109,5 @@ if (failures.length) {
   process.exit(1)
 }
 console.log(
-  `validate ok: manifest (${manifestFile.face}) + ${page.items.length} provider items (${pageFile.face}) pass v1 structural checks`,
+  `validate ok: manifest (${manifestFile.face}) + ${page.items.length} strict provider items (${pageFile.face}) + ${display.items.length} display rows (${displayFile.face})`,
 )
