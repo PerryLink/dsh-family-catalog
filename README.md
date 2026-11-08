@@ -115,6 +115,25 @@ Open the built-in Market → **Sources** → add source → paste the manifest U
 
 A listing in this catalog is metadata, not a security review. The same plugins also have evidence records in [dsh-plugin-certification](https://github.com/PerryLink/dsh-plugin-certification) and MCP access via [dsh-cert-mcp](https://github.com/PerryLink/dsh-cert-mcp).
 
+## Discovery search and MCP
+
+The 1.0.0 provider page is what DSH Desktop reads, and its search is one whole-string `includes` over `id/name/displayName/summary/description/publisher/keywords`. That misses Chinese domain words that only live in `summaryZh`. The sidecar fixes that without changing the 1.0.0 item schema:
+
+- `data/discovery.json` — 40 schema-valid discovery manifests (aliases, searchPhrases, audience, facets, maturity, coverage).
+- `data/facets.json` — 126/126 facet/status sidecar (domains, subdomains, tasks, artifacts, standards, maintenance, maturity, coverage, replacement).
+- `data/hubs.json` — 10 domain hubs (customs, tender, construction-ehs, medical, legal, finance, government, research, quality, data).
+- `GET /v1/search?q=&domain=&task=&audience=&limit=` and `GET /v1/plugin?name=` on both workers.
+- `mcp/plugin-search-server.mjs` — stdio MCP with `plugin_search` / `plugin_get`.
+
+```sh
+node scripts/build-discovery.mjs
+node scripts/discovery-bench.mjs --source=index --fail-under=85
+node scripts/worker-smoke.mjs
+node scripts/mcp-smoke.mjs
+```
+
+See [docs/search-api.md](docs/search-api.md) for the response shape, the MCP config and the known 1.0.0 contract caveats.
+
 ---
 
 ## 中文说明
