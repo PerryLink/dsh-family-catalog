@@ -36,6 +36,20 @@ jobs:
           node scripts/build-discovery.mjs
           node scripts/validate.mjs
           npx -y vercel@latest deploy --prod --yes --token "$VERCEL_TOKEN"
+          VERCEL_URL=https://perrylink-dsh-catalog.vercel.app
+          for attempt in $(seq 1 12); do
+            if curl -fsS "$VERCEL_URL/v1/search?q=HS%E7%BC%96%E7%A0%81" -o /tmp/vsearch.json \
+              && node -e "const j=require('/tmp/vsearch.json');if(!j.results||!j.results.some(r=>r.name==='dsh-hs-classify'))process.exit(1)"; then
+              break
+            fi
+            echo "vercel search not ready (attempt $attempt/12), retrying in 5s"
+            sleep 5
+          done
+          curl -fsS "$VERCEL_URL/v1/hubs" -o /tmp/vhubs.json
+          node -e "if(require('/tmp/vhubs.json').hubs.length!==10)throw new Error('vercel hubs')"
+          curl -fsS "$VERCEL_URL/v1/plugins?cursor=100" -o /tmp/vpage2.json
+          node -e "if(require('/tmp/vpage2.json').items.length!==45)throw new Error('vercel page2')"
+          echo "vercel live smoke ok"
       - name: Deploy to Cloudflare
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
