@@ -253,3 +253,8 @@ This project is part of the DeepSeek Harness plugin family from [PerryLink](http
 | **[dsh-team-rooms](https://github.com/PerryLink/dsh-team-rooms)** | 🚫 RETIRED — see the repo README |
 
 </details>
+
+## Toolchain and upstream (facts, 2026-11)
+
+- This repository is the catalog source for the PerryLink family in the DSH Desktop Market.
+- Upstream: `dsh-plugin-hub` main includes a version-aware npm metadata check ([`4f3a560`](https://github.com/dshplugin/dsh-plugin-hub/commit/4f3a560), 2026-11-09); scope is install-time npm metadata only; it does not run ENTRY and is not an endorsement.
