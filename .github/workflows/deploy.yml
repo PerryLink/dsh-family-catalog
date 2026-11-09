@@ -48,7 +48,7 @@ jobs:
           curl -fsS "$VERCEL_URL/v1/hubs" -o /tmp/vhubs.json
           node -e "if(require('/tmp/vhubs.json').hubs.length!==10)throw new Error('vercel hubs')"
           curl -fsS "$VERCEL_URL/v1/plugins?cursor=100" -o /tmp/vpage2.json
-          node -e "if(require('/tmp/vpage2.json').items.length!==46)throw new Error('vercel page2')"
+          node -e "if(require('/tmp/vpage2.json').items.length!==47)throw new Error('vercel page2')"
           echo "vercel live smoke ok"
       - name: Deploy to Cloudflare
         env:
@@ -123,7 +123,7 @@ jobs:
             curl -fsS "$URL/v1/hubs" -o /tmp/hubs.json
             node -e "const j=require('/tmp/hubs.json');if(!Array.isArray(j.hubs)||j.hubs.length!==10)throw new Error('hubs: '+(j.hubs&&j.hubs.length))"
             curl -fsS "$URL/v1/plugins?cursor=100" -o /tmp/plugins2.json
-            node -e "const j=require('/tmp/plugins2.json');if(!Array.isArray(j.items)||j.items.length!==46)throw new Error('page2: '+(j.items&&j.items.length))"
+            node -e "const j=require('/tmp/plugins2.json');if(!Array.isArray(j.items)||j.items.length!==47)throw new Error('page2: '+(j.items&&j.items.length))"
             curl -fsS "$URL/icons/dsh-auto-review.png" -o /tmp/icon.png
             node -e "const b=require('fs').readFileSync('/tmp/icon.png');if(!b.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10])))throw new Error('bad png signature');console.log('icon ok:',b.length,'bytes')"
             echo "live smoke ok: $URL"

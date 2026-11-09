@@ -49,12 +49,12 @@ if (hubResult.status === 200 && (hubResult.body.hubs ?? []).length === 10) passe
 console.log(`${(hubResult.body.hubs ?? []).length === 10 ? 'PASS' : 'FAIL'} /v1/hubs -> ${(hubResult.body.hubs ?? []).length} hubs`)
 total += 1
 const page1 = await get('/v1/plugins')
-const page1ok = page1.status === 200 && page1.body.items.length === 100 && page1.body.page.total === 146 && page1.body.page.nextCursor === '100'
+const page1ok = page1.status === 200 && page1.body.items.length === 100 && page1.body.page.total === 147 && page1.body.page.nextCursor === '100'
 if (page1ok) passed += 1
 console.log(`${page1ok ? 'PASS' : 'FAIL'} /v1/plugins page1 -> ${page1.body.items?.length} items, next=${page1.body.page?.nextCursor}`)
 total += 1
 const page2 = await get('/v1/plugins?cursor=100')
-const page2ok = page2.status === 200 && page2.body.items.length === 46 && page2.body.page.nextCursor === undefined
+const page2ok = page2.status === 200 && page2.body.items.length === 47 && page2.body.page.nextCursor === undefined
 if (page2ok) passed += 1
 console.log(`${page2ok ? 'PASS' : 'FAIL'} /v1/plugins page2 -> ${page2.body.items?.length} items, next=${page2.body.page?.nextCursor}`)
 total += 1
@@ -80,7 +80,7 @@ const pagesChecks = [
   ['/v1/search?q=HS%E7%BC%96%E7%A0%81', (/** @type {any} */ body) => body.results?.some((/** @type {any} */ hit) => hit.name === 'dsh-hs-classify'), 'search'],
   ['/v1/hubs', (/** @type {any} */ body) => (body.hubs ?? []).length === 10, 'hubs'],
   ['/v1/plugin?name=dsh-hs-classify', (/** @type {any} */ body) => body.name === 'dsh-hs-classify', 'plugin'],
-  ['/v1/plugins?cursor=100', (/** @type {any} */ body) => body.items?.length === 46, 'pagination page2'],
+  ['/v1/plugins?cursor=100', (/** @type {any} */ body) => body.items?.length === 47, 'pagination page2'],
 ]
 for (const [path, check, label] of pagesChecks) {
   total += 1
@@ -108,7 +108,7 @@ const callVercel = (handler, path) => new Promise((resolve) => {
 })
 /** @type {[any, string, (body: any) => boolean, string][]} */
 const vercelChecks = [
-  [vercelPlugins, '/v1/plugins?cursor=100', (/** @type {any} */ body) => body.items?.length === 46, 'pagination page2'],
+  [vercelPlugins, '/v1/plugins?cursor=100', (/** @type {any} */ body) => body.items?.length === 47, 'pagination page2'],
   [vercelSearch, '/v1/search?q=HS%E7%BC%96%E7%A0%81', (/** @type {any} */ body) => body.results?.some((/** @type {any} */ hit) => hit.name === 'dsh-hs-classify'), 'search'],
   [vercelPlugin, '/v1/plugin?name=dsh-hs-classify', (/** @type {any} */ body) => body.name === 'dsh-hs-classify', 'plugin'],
   [vercelHubs, '/v1/hubs', (/** @type {any} */ body) => (body.hubs ?? []).length === 10, 'hubs'],
