@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-08T14:45:44.457Z",
-  "revision": "perrylink-dsh-catalog-2026-11-08",
+  "generatedAt": "2026-11-09T12:16:38.273Z",
+  "revision": "perrylink-dsh-catalog-2026-11-09",
   "items": [
     {
       "id": "dsh-github-bot",
@@ -5512,9 +5512,50 @@
         }
       },
       "updatedAt": "2026-11-08T11:39:09.480Z"
+    },
+    {
+      "id": "dsh-sherlock",
+      "name": "dsh-sherlock",
+      "displayName": "Sherlock username check — 公开用户名检查",
+      "summary": "基于固定 Sherlock 清单检查公开用户名：六态结果（claimed/available/unknown/blocked/illegal/unreliable），对 claimed 做随机负样本校验；默认 core 41，all 单次最多 120，NSFW 默认关闭。结果是线索，不是身份证明。 Check public usernames against a pinned 481-site Sherlock manifest: six states (claimed/available/unknown/blocked/illegal/unreliable), random negative-sample verification for claimed results, default core 41, all capped at 120, NSFW off by default. Results are leads, not identity proof.",
+      "description": "Walks a pinned Sherlock snapshot (481 sites, 47 exclusions, 19 NSFW, 417 effective), queries only public endpoints, and returns six states with confidence. It never returns page HTML, never bypasses auth, paywalls, CAPTCHA or WAF, and refuses private/metadata addresses in production.",
+      "keywords": [
+        "osint",
+        "username",
+        "sherlock",
+        "recon",
+        "username enumeration",
+        "公开账号",
+        "用户名",
+        "六态"
+      ],
+      "homepage": "https://github.com/PerryLink/dsh-sherlock",
+      "latestVersion": "0.1.4",
+      "license": "Apache-2.0",
+      "categories": [
+        "security"
+      ],
+      "repository": {
+        "url": "https://github.com/PerryLink/dsh-sherlock"
+      },
+      "package": {
+        "registry": "npm",
+        "name": "dsh-sherlock"
+      },
+      "publisher": {
+        "name": "PerryLink",
+        "url": "https://github.com/PerryLink"
+      },
+      "media": {
+        "icon": {
+          "url": "https://replace-with-deploy-origin.invalid/icons/dsh-sherlock.png",
+          "alt": "公开用户名检查"
+        }
+      },
+      "updatedAt": "2026-11-09T05:10:15.813Z"
     }
   ],
   "page": {
-    "total": 146
+    "total": 147
   }
 }

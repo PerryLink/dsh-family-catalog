@@ -9593,5 +9593,65 @@
     "notFor": [
       "不替代同行评议、伦理审查或学术判断"
     ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-sherlock",
+    "displayNameZh": "公开用户名检查",
+    "displayNameEn": "Sherlock username check",
+    "aliases": [
+      "公开用户名检查",
+      "用户名检查",
+      "用户名枚举",
+      "公开账号",
+      "OSINT",
+      "Sherlock",
+      "sherlock",
+      "dsh-sherlock"
+    ],
+    "searchPhrases": [
+      "这个用户名在哪些网站存在",
+      "公开用户名怎么查",
+      "Sherlock 用户名检查",
+      "用户名被占用了么"
+    ],
+    "audience": [
+      "安全研究员",
+      "OSINT 分析师",
+      "开发者"
+    ],
+    "facets": {
+      "domains": [
+        "security"
+      ],
+      "subdomains": [
+        "osint"
+      ],
+      "tasks": [
+        "checker",
+        "scanner"
+      ],
+      "artifacts": [],
+      "jurisdictions": []
+    },
+    "related": [
+      "dsh-mask",
+      "dsh-security-pack",
+      "dsh-permission-rules"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-09",
+      "jurisdictions": [],
+      "limitations": [
+        "结果是线索，不是身份证明；blocked/unknown 不等于不存在。",
+        "只发公开 HTTP 请求；不绕过认证、付费墙、CAPTCHA 或 WAF；生产模式拒绝私有/元数据地址。"
+      ]
+    },
+    "demoPrompt": "用默认 core 检查一个公开用户名。",
+    "notFor": [
+      "不作身份认定",
+      "不绕过认证或付费墙"
+    ]
   }
 ]

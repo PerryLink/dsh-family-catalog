@@ -1310,5 +1310,14 @@
     "repository": "git+https://github.com/PerryLink/dsh-research-core.git",
     "latest": "0.1.0",
     "updatedAt": "2026-11-08T11:39:09.480Z"
+  },
+  {
+    "name": "dsh-sherlock",
+    "description": "Sherlock-compatible public username checks for DeepSeek Harness, with blocked/unknown results kept separate.",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/PerryLink/dsh-sherlock#readme",
+    "repository": "git+https://github.com/PerryLink/dsh-sherlock.git",
+    "latest": "0.1.4",
+    "updatedAt": "2026-11-09T05:10:15.813Z"
   }
 ]

@@ -4151,5 +4151,34 @@
     "group": "研究",
     "difficulty": "advanced",
     "status": "active"
+  },
+  {
+    "npm": "dsh-sherlock",
+    "repo": "PerryLink/dsh-sherlock",
+    "displayName": "Sherlock username check",
+    "displayNameZh": "公开用户名检查",
+    "categories": [
+      "security"
+    ],
+    "summary": "Check public usernames against a pinned 481-site Sherlock manifest: six states (claimed/available/unknown/blocked/illegal/unreliable), random negative-sample verification for claimed results, default core 41, all capped at 120, NSFW off by default. Results are leads, not identity proof.",
+    "summaryZh": "基于固定 Sherlock 清单检查公开用户名：六态结果（claimed/available/unknown/blocked/illegal/unreliable），对 claimed 做随机负样本校验；默认 core 41，all 单次最多 120，NSFW 默认关闭。结果是线索，不是身份证明。",
+    "description": "Walks a pinned Sherlock snapshot (481 sites, 47 exclusions, 19 NSFW, 417 effective), queries only public endpoints, and returns six states with confidence. It never returns page HTML, never bypasses auth, paywalls, CAPTCHA or WAF, and refuses private/metadata addresses in production.",
+    "keywords": [
+      "osint",
+      "username",
+      "sherlock",
+      "recon",
+      "username enumeration",
+      "公开账号",
+      "用户名",
+      "六态"
+    ],
+    "group": "安全",
+    "requires": {
+      "dsh": ">=0.2.1-rc.3 <0.4.0",
+      "node": ">=24.9.0 <25"
+    },
+    "difficulty": "intermediate",
+    "status": "active"
   }
 ]

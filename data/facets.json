@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "lastReviewed": "2026-11-08",
+  "lastReviewed": "2026-11-09",
   "sources": {
     "packages": "data/packages.json",
     "discovery": "data/discovery.json",
     "roster": "dsh-kit/data/repos.json"
   },
   "counts": {
-    "plugins": 146,
-    "active": 127,
+    "plugins": 147,
+    "active": 128,
     "frozen": 15,
     "retired": 3,
     "unknown": 1
@@ -44,7 +44,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -87,7 +87,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -130,7 +130,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -176,7 +176,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -222,7 +222,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -273,7 +273,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《水产养殖质量安全管理规定》",
           "《绿色食品 渔药使用准则》",
@@ -331,7 +331,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《归档文件整理规则》",
           "《机关文件材料归档范围和文书档案保管期限规定》",
@@ -387,7 +387,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -434,7 +434,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -477,7 +477,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -526,7 +526,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国招标投标法》",
           "《中华人民共和国招标投标法实施条例》",
@@ -582,7 +582,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国招标投标法》",
           "《中华人民共和国招标投标法实施条例》",
@@ -632,7 +632,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -678,7 +678,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -721,7 +721,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -767,7 +767,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -810,7 +810,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -856,7 +856,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -901,7 +901,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -946,7 +946,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国民法典》"
         ],
@@ -998,7 +998,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国海关进出口货物报关单填制规范》",
           "《表示货币的代码》",
@@ -1052,7 +1052,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -1098,7 +1098,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -1149,7 +1149,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "承运人运价本与运输合同（无国家标准）",
           "《表示货币的代码》",
@@ -1201,7 +1201,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -1247,7 +1247,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -1297,7 +1297,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《生产安全事故应急演练基本规范》",
           "本单位应急预案体系（本机构配置）",
@@ -1352,7 +1352,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《环境影响评价技术导则》系列",
           "本机构环评质量管理口径（本机构配置）",
@@ -1412,7 +1412,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《生产经营单位生产安全事故应急预案编制导则》",
           "《生产安全事故应急预案管理办法》",
@@ -1468,7 +1468,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《普通高中语文课程标准》",
           "《普通高等学校招生全国统一考试评卷工作规定》"
@@ -1518,7 +1518,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《最高人民法院关于民事诉讼证据的若干规定》",
           "法释〔2019〕19号"
@@ -1571,7 +1571,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国出口管制法》",
           "2020 年 10 月 17 日第十三届全国人大常委会第二十二次会议通过，主席令第五十八号公布，自 2020 年 12 月 1 日起施行"
@@ -1619,7 +1619,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -1667,7 +1667,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《系统可靠性分析技术 失效模式和影响分析（FMEA）程序》"
         ],
@@ -1718,7 +1718,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "电力市场考核办法与并网调度协议（无国家标准）",
           "《表示货币的代码》",
@@ -1769,7 +1769,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -1815,7 +1815,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《党政机关公文处理工作条例》",
           "中办发〔2012〕14号"
@@ -1866,7 +1866,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《党政机关公文格式》",
           "《党政机关公文处理工作条例》",
@@ -1920,7 +1920,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《个体防护装备配备规范》"
         ],
@@ -1974,7 +1974,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《危险化学品安全管理条例》",
           "《危险化学品重大危险源辨识》",
@@ -2031,7 +2031,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《危险与可操作性分析（HAZOP分析）应用指南》",
           "GB/T 35320-2017",
@@ -2086,7 +2086,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《工贸企业重大事故隐患判定标准》",
           "应急管理部令第10号"
@@ -2140,7 +2140,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国进出口税则》",
           "《商品名称及编码协调制度》",
@@ -2199,7 +2199,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《住院病案首页数据填写质量规范（暂行）》",
           "《疾病和有关健康问题的国际统计分类》第十次修订本 第二卷 指导手册",
@@ -2256,7 +2256,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -2306,7 +2306,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "本机构法律文书审查口径（本机构配置）—— 原挂《中华人民共和国立法法》，已核实其第六十五条为立法技术条款",
           "本机构法律文书审查口径（本机构配置）—— 原挂《党政机关公文格式》GB/T 9704—2012，已核实为版式标准",
@@ -2362,7 +2362,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -2410,7 +2410,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《跟单信用证统一惯例》（UCP600）",
           "《表示货币的代码》"
@@ -2465,7 +2465,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《质量管理 能力管理和人员发展指南》",
           "本机构培训与发展管理口径（本机构配置）",
@@ -2519,7 +2519,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -2566,7 +2566,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -2612,7 +2612,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -2658,7 +2658,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -2704,7 +2704,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -2755,7 +2755,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《住院病案首页数据质量管理与控制指标（2016版）》",
           "《住院病案首页数据填写质量规范（暂行）》",
@@ -2808,7 +2808,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -2859,7 +2859,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《国家自然科学基金条例》",
           "《2026 年度国家自然科学基金项目指南·申请规定》",
@@ -2918,7 +2918,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《电子病历应用管理规范（试行）》",
           "《病历书写基本规范》",
@@ -2972,7 +2972,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -3019,7 +3019,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "各自由贸易协定原产地规则（协定文本，本次未取得）"
         ],
@@ -3075,7 +3075,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国电子商务法》与平台服务规则",
           "《中华人民共和国电子商务法》",
@@ -3126,7 +3126,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -3178,7 +3178,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《试题元数据规范》",
           "本机构题库与命题口径（本机构配置）",
@@ -3229,7 +3229,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -3282,7 +3282,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国行政许可法》",
           "各事项办事指南与承诺时限（本机构配置）",
@@ -3331,7 +3331,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -3377,7 +3377,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -3424,7 +3424,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -3473,7 +3473,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "本机构项目管理办法与投资管理制度（无国家标准）",
           "无统一标准"
@@ -3524,7 +3524,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国民事诉讼法》",
           "1991年通过，经 2007、2012、2017、2021、2023 年五次修正"
@@ -3571,7 +3571,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -3617,7 +3617,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -3662,7 +3662,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《党政机关公文处理工作条例》"
         ],
@@ -3712,7 +3712,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《电力网电能损耗计算导则》",
           "DL/T 686-2018",
@@ -3766,7 +3766,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《电力安全工作规程 发电厂和变电站电气部分》",
           "GB 26860—2011"
@@ -3818,7 +3818,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《生产件批准程序（PPAP）手册》"
         ],
@@ -3868,7 +3868,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《政府采购质疑和投诉办法》",
           "财政部令第94号"
@@ -3920,7 +3920,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《铁路营业线施工安全管理办法》",
           "各铁路局集团公司施工天窗管理办法（本机构配置）",
@@ -3971,7 +3971,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4020,7 +4020,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《机动车维修管理规定》",
           "交通运输部令2021年第18号"
@@ -4071,7 +4071,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4121,7 +4121,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中国高校科技期刊编排规范》",
           "本期刊同行评议与返修规定（本机构配置）",
@@ -4174,7 +4174,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "本插件家族的条款引用纪律（自定纪律，非国家标准）",
           "本插件家族的检查引擎契约（自定纪律，非国家标准）",
@@ -4235,7 +4235,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《建筑施工安全技术统一规范》",
           "《建设工程安全生产管理条例》",
@@ -4289,7 +4289,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4332,7 +4332,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4375,7 +4375,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4425,7 +4425,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《建设工程监理规范》",
           "《房屋建筑工程施工旁站监理管理办法（试行）》",
@@ -4483,7 +4483,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《关于进一步推进国有企业贯彻落实\"三重一大\"决策制度的意见》",
           "中办发〔2010〕17号"
@@ -4536,7 +4536,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《建设用地土壤污染状况调查技术导则》",
           "《地下水环境监测技术规范》",
@@ -4592,7 +4592,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "IATF 16949／汽车行业核心工具手册"
         ],
@@ -4645,7 +4645,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《常规控制图》"
         ],
@@ -4692,7 +4692,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4735,7 +4735,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4781,7 +4781,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国招标投标法》",
           "1999年8月30日通过，2017年12月27日修正"
@@ -4831,7 +4831,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国招标投标法》",
           "1999年8月30日通过，2017年12月27日修正"
@@ -4885,7 +4885,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4932,7 +4932,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -4980,7 +4980,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5032,7 +5032,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《家用汽车产品修理更换退货责任规定》",
           "各厂商质保政策与三包规定（本机构配置）",
@@ -5088,7 +5088,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5134,7 +5134,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5180,7 +5180,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5226,7 +5226,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5270,7 +5270,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5313,7 +5313,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5358,7 +5358,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5407,7 +5407,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5453,7 +5453,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5496,7 +5496,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5543,7 +5543,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5591,7 +5591,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5637,7 +5637,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5680,7 +5680,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5726,7 +5726,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5769,7 +5769,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5812,7 +5812,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5855,7 +5855,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5901,7 +5901,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5944,7 +5944,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -5994,7 +5994,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6039,7 +6039,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6083,7 +6083,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6128,7 +6128,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6182,7 +6182,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6225,7 +6225,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6268,7 +6268,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6311,7 +6311,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6354,7 +6354,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6402,7 +6402,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6450,7 +6450,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6493,7 +6493,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6539,7 +6539,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6582,7 +6582,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6625,7 +6625,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6668,7 +6668,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6711,7 +6711,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6754,7 +6754,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6797,7 +6797,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6840,7 +6840,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6883,7 +6883,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6926,7 +6926,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -6969,7 +6969,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -7014,7 +7014,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -7057,7 +7057,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -7100,7 +7100,7 @@
         "jurisdiction.CN"
       ],
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
@@ -7115,6 +7115,53 @@
         "roster": null
       },
       "statusAgreement": "catalog-only"
+    },
+    {
+      "name": "dsh-sherlock",
+      "maintenance": "active",
+      "maturity": "beta",
+      "facets": {
+        "domains": [
+          "security"
+        ],
+        "subdomains": [
+          "osint"
+        ],
+        "tasks": [
+          "tool"
+        ],
+        "artifacts": [],
+        "jurisdictions": [
+          "CN"
+        ],
+        "standards": [],
+        "legacyCategories": [
+          "security"
+        ]
+      },
+      "facetCategories": [
+        "domain.security",
+        "subdomain.osint",
+        "task.tool",
+        "jurisdiction.CN"
+      ],
+      "coverage": {
+        "lastReviewed": "2026-11-09",
+        "jurisdictions": [
+          "CN"
+        ],
+        "limitations": [
+          "结果是线索，不是身份证明；blocked/unknown 不等于不存在。",
+          "只发公开 HTTP 请求；不绕过认证、付费墙、CAPTCHA 或 WAF；生产模式拒绝私有/元数据地址。"
+        ]
+      },
+      "replacement": null,
+      "frozenAtBirth": false,
+      "statusSources": {
+        "catalog": "active",
+        "roster": "active"
+      },
+      "statusAgreement": "both"
     }
   ]
 }

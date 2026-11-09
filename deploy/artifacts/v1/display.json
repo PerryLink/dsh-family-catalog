@@ -1576,6 +1576,18 @@
       "status": "active",
       "group": "研究",
       "difficulty": "advanced"
+    },
+    {
+      "name": "dsh-sherlock",
+      "displayNameZh": "公开用户名检查",
+      "summaryZh": "基于固定 Sherlock 清单检查公开用户名：六态结果（claimed/available/unknown/blocked/illegal/unreliable），对 claimed 做随机负样本校验；默认 core 41，all 单次最多 120，NSFW 默认关闭。结果是线索，不是身份证明。",
+      "status": "active",
+      "group": "安全",
+      "requires": {
+        "dsh": ">=0.2.1-rc.3 <0.4.0",
+        "node": ">=24.9.0 <25"
+      },
+      "difficulty": "intermediate"
     }
   ]
 }

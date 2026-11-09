@@ -101,6 +101,7 @@
     "dsh-spc-gbt-adapter": "active",
     "dsh-tender-extract": "active",
     "dsh-tender-matrix": "active",
-    "dsh-warranty-calc": "active"
+    "dsh-warranty-calc": "active",
+    "dsh-sherlock": "active"
   }
 }

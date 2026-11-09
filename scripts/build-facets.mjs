@@ -75,6 +75,7 @@ const DOMAIN_OVERRIDES = {
   'dsh-defend': ['security'],
   'dsh-security-pack': ['security'],
   'dsh-auto-review': ['security'],
+  'dsh-sherlock': ['security'],
   'dsh-ifc-qto': ['construction'],
   'dsh-excel-reconcile': ['finance'],
   'dsh-pipeline-check': ['investment_project'],
@@ -120,6 +121,7 @@ const DOMAIN_OVERRIDES = {
 const SUBDOMAIN_OVERRIDES = {
   'dsh-mask': ['ai-security'], 'dsh-permission-rules': ['ai-security'], 'dsh-defend': ['ai-security'],
   'dsh-security-pack': ['ai-security'], 'dsh-auto-review': ['ai-security'],
+  'dsh-sherlock': ['osint'],
   'dsh-emergency-plan': ['ehs'], 'dsh-hazchem-check': ['ehs'], 'dsh-hazplan-check': ['ehs'],
   'dsh-hidden-risk-map': ['ehs'], 'dsh-power-ticket-check': ['ehs'], 'dsh-safety-brief-check': ['ehs'],
   'dsh-drill-script-check': ['ehs'], 'dsh-guard-plan-qc': ['ehs'], 'dsh-permit-report-check': ['ehs'],
@@ -238,7 +240,7 @@ const plugins = packages.map((/** @type {any} */ pkg) => {
       'jurisdiction.CN',
     ])],
     coverage: {
-      lastReviewed: '2026-11-08',
+      lastReviewed: '2026-11-09',
       ...(standards.length ? { standards } : {}),
       jurisdictions: ['CN'],
       limitations,
@@ -260,7 +262,7 @@ const count = (/** @type {string} */ value) => plugins.filter((/** @type {any} *
 const counts = { plugins: plugins.length, active: count('active'), frozen: count('frozen'), retired: count('retired'), unknown: count('unknown') }
 const out = {
   schemaVersion: 1,
-  lastReviewed: '2026-11-08',
+  lastReviewed: '2026-11-09',
   sources: { packages: 'data/packages.json', discovery: 'data/discovery.json', roster: roster.source },
   counts,
   plugins,

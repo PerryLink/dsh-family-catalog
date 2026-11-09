@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "generatedBy": "scripts/build-discovery.mjs",
   "source": {
-    "discovery": 146,
-    "packages": 146
+    "discovery": 147,
+    "packages": 147
   },
-  "count": 146,
+  "count": 147,
   "items": [
     {
       "name": "dsh-github-bot",
@@ -11889,6 +11889,84 @@
       "updatedAt": "2026-11-08T11:39:09.480Z",
       "source": "discovery",
       "searchText": "@perrylink/dsh-research-core\nResearch Core (REP v1)\n科研证据协议（REP v1）\n给科研插件作者：REP v1 共享证据协议、存储与校验器，让每个插件说同一种证据语言。 REP v1 shared evidence protocol, store and validator for the research plugin family.\nREP v1——DSH 科研插件家族的共享证据协议。一套协议、一个存储、一个校验器：每个科研插件说同一种证据语言，任何人 30 秒内可复算它声称的结论。\n科研证据协议（REP v1）\nResearch Core (REP v1)\n@perrylink/dsh-research-core\nREP\n证据协议\nresearch-core\n科研插件\n证据存储\n校验器\nevidence-protocol\n科研基础设施\n插件作者\nREP\n证据协议\nresearch-core\n科研插件\n证据存储\n校验器\nevidence-protocol\n科研基础设施\n插件作者\n科研证据协议（REP v1）\nREP 是标准吗？\n其他插件必须用吗？\n科研证据协议（REP v1）怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
+    },
+    {
+      "name": "dsh-sherlock",
+      "displayName": "Sherlock username check",
+      "displayNameZh": "公开用户名检查",
+      "summary": "Check public usernames against a pinned 481-site Sherlock manifest: six states (claimed/available/unknown/blocked/illegal/unreliable), random negative-sample verification for claimed results, default core 41, all capped at 120, NSFW off by default. Results are leads, not identity proof.",
+      "summaryZh": "基于固定 Sherlock 清单检查公开用户名：六态结果（claimed/available/unknown/blocked/illegal/unreliable），对 claimed 做随机负样本校验；默认 core 41，all 单次最多 120，NSFW 默认关闭。结果是线索，不是身份证明。",
+      "aliases": [
+        "公开用户名检查",
+        "用户名检查",
+        "用户名枚举",
+        "公开账号",
+        "OSINT",
+        "Sherlock",
+        "sherlock",
+        "dsh-sherlock"
+      ],
+      "keywordsZh": [
+        "公开账号",
+        "用户名",
+        "六态"
+      ],
+      "keywordsEn": [
+        "osint",
+        "username",
+        "sherlock",
+        "recon",
+        "username enumeration"
+      ],
+      "searchPhrases": [
+        "这个用户名在哪些网站存在",
+        "公开用户名怎么查",
+        "Sherlock 用户名检查",
+        "用户名被占用了么"
+      ],
+      "audience": [
+        "安全研究员",
+        "OSINT 分析师",
+        "开发者"
+      ],
+      "facets": {
+        "domains": [
+          "security"
+        ],
+        "subdomains": [
+          "osint"
+        ],
+        "tasks": [
+          "checker",
+          "scanner"
+        ],
+        "artifacts": [],
+        "jurisdictions": [],
+        "standards": []
+      },
+      "maturity": "beta",
+      "maintenance": "active",
+      "coverage": {
+        "lastReviewed": "2026-11-09",
+        "jurisdictions": [],
+        "limitations": [
+          "结果是线索，不是身份证明；blocked/unknown 不等于不存在。",
+          "只发公开 HTTP 请求；不绕过认证、付费墙、CAPTCHA 或 WAF；生产模式拒绝私有/元数据地址。"
+        ]
+      },
+      "related": [
+        "dsh-mask",
+        "dsh-security-pack",
+        "dsh-permission-rules"
+      ],
+      "demoPrompt": "用默认 core 检查一个公开用户名。",
+      "lang": [
+        "zh",
+        "en"
+      ],
+      "updatedAt": "2026-11-09T05:10:15.813Z",
+      "source": "discovery",
+      "searchText": "dsh-sherlock\nSherlock username check\n公开用户名检查\nCheck public usernames against a pinned 481-site Sherlock manifest: six states (claimed/available/unknown/blocked/illegal/unreliable), random negative-sample verification for claimed results, default core 41, all capped at 120, NSFW off by default. Results are leads, not identity proof.\n基于固定 Sherlock 清单检查公开用户名：六态结果（claimed/available/unknown/blocked/illegal/unreliable），对 claimed 做随机负样本校验；默认 core 41，all 单次最多 120，NSFW 默认关闭。结果是线索，不是身份证明。\n公开用户名检查\n用户名检查\n用户名枚举\n公开账号\nOSINT\nSherlock\nsherlock\ndsh-sherlock\nosint\nusername\nsherlock\nrecon\nusername enumeration\n公开账号\n用户名\n六态\n这个用户名在哪些网站存在\n公开用户名怎么查\nSherlock 用户名检查\n用户名被占用了么\n安全研究员\nOSINT 分析师\n开发者\nsecurity\nchecker\nscanner"
     }
   ]
 }
