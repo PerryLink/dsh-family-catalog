@@ -19,8 +19,8 @@ lib/search-core.mjs (no fs) ─> scripts/search.mjs (Node + CLI)
 
 The 146 rows in `data/discovery.json` are schema-valid discovery manifests
 (aliases, searchPhrases, audience, facets, maturity, coverage, related,
-demoPrompt): 61 authored and 85 generated from catalog fields, each generated
-row flagged in `coverage.limitations` as pending human review. The index is a sidecar: none of these fields enter the
+demoPrompt): 146 reviewed on 2026-11-09; the 85 catalog-derived rows had their
+limitations normalized, and the pending-review flag was cleared. The index is a sidecar: none of these fields enter the
 1.0.0 item schema.
 
 ## HTTP endpoints
@@ -123,13 +123,12 @@ top1 17/20, top3 19/20 (95%), zero-result 0/20, MRR@5 0.900. The single top3 mis
 
 1. **The 1.0.0 page is now strict.** Extra fields moved to `display.json`; the
    Chinese name is embedded in `displayName` and the Chinese line in `summary`.
-   The page is served as 100 + 26 cursor pages (`supported=[cursor,limit]`,
+   The page is served as 100 + 46 cursor pages (`supported=[cursor,limit]`,
    `defaultLimit=maxLimit=100`), and the full page passes Ajv strict against the
    upstream schema. The Vercel static mirror is not paginated; register the
    workers.dev manifest, not the Vercel one.
-2. 61/146 rows have authored discovery metadata; the other 85 are generated
-   baselines (flagged in `coverage.limitations`). Authoring them properly is
-   ongoing P4 work.
+2. 146/146 rows have reviewed discovery metadata; the 85 catalog-derived rows
+   were reviewed on 2026-11-09 and their limitations normalized.
 3. Scores are deliberately simple (field weights + IDF-weighted CJK n-grams),
    not a learned ranker. `matched_on`/`why` are there so a wrong hit can be
    attributed.

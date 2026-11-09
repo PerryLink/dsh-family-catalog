@@ -70,13 +70,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -155,13 +154,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -239,13 +237,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -325,13 +322,12 @@
       "maturity": "stable",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -411,13 +407,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -482,7 +477,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《水产养殖质量安全管理规定》",
           "《绿色食品 渔药使用准则》",
@@ -493,8 +488,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -560,7 +554,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《归档文件整理规则》",
           "《机关文件材料归档范围和文书档案保管期限规定》",
@@ -575,8 +569,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -637,13 +630,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -705,13 +697,12 @@
       "maturity": "preview",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -770,13 +761,12 @@
       "maturity": "retired",
       "maintenance": "retired",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1052,13 +1042,12 @@
       "maturity": "preview",
       "maintenance": "frozen",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1119,13 +1108,12 @@
       "maturity": "preview",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1184,13 +1172,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1251,13 +1238,12 @@
       "maturity": "preview",
       "maintenance": "frozen",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1316,13 +1302,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [],
@@ -1380,13 +1365,12 @@
       "maturity": "preview",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1447,13 +1431,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1514,7 +1497,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国民法典》"
         ],
@@ -1522,8 +1505,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1694,13 +1676,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1761,13 +1742,12 @@
       "maturity": "preview",
       "maintenance": "frozen",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -1933,13 +1913,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [],
@@ -1996,13 +1975,12 @@
       "maturity": "preview",
       "maintenance": "frozen",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [],
@@ -2063,7 +2041,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《生产安全事故应急演练基本规范》",
           "本单位应急预案体系（本机构配置）",
@@ -2073,8 +2051,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -2357,7 +2334,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《普通高中语文课程标准》",
           "《普通高等学校招生全国统一考试评卷工作规定》"
@@ -2366,8 +2343,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -2633,13 +2609,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -2803,7 +2778,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "电力市场考核办法与并网调度协议（无国家标准）",
           "《表示货币的代码》",
@@ -2813,8 +2788,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -2873,13 +2847,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -2941,7 +2914,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《党政机关公文处理工作条例》",
           "中办发〔2012〕14号"
@@ -2950,8 +2923,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -3119,7 +3091,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《个体防护装备配备规范》"
         ],
@@ -3127,8 +3099,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -3407,7 +3378,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《工贸企业重大事故隐患判定标准》",
           "应急管理部令第10号"
@@ -3416,8 +3387,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -3706,13 +3676,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -3883,13 +3852,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -4061,7 +4029,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《质量管理 能力管理和人员发展指南》",
           "本机构培训与发展管理口径（本机构配置）",
@@ -4071,8 +4039,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -4230,13 +4197,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -4297,13 +4263,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -4364,13 +4329,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -4431,13 +4395,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -4610,13 +4573,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [],
@@ -4893,13 +4855,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -5169,13 +5130,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -5240,7 +5200,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《试题元数据规范》",
           "本机构题库与命题口径（本机构配置）",
@@ -5250,8 +5210,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -5311,13 +5270,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -5385,7 +5343,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国行政许可法》",
           "各事项办事指南与承诺时限（本机构配置）",
@@ -5396,8 +5354,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -5456,13 +5413,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -5521,13 +5477,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -5589,13 +5544,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -5761,7 +5715,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国民事诉讼法》",
           "1991年通过，经 2007、2012、2017、2021、2023 年五次修正"
@@ -5770,8 +5724,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -5849,13 +5802,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -5935,13 +5887,12 @@
       "maturity": "stable",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -6002,7 +5953,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《党政机关公文处理工作条例》"
         ],
@@ -6010,8 +5961,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -6074,7 +6024,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《电力网电能损耗计算导则》",
           "DL/T 686-2018",
@@ -6084,8 +6034,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -6149,7 +6098,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《电力安全工作规程 发电厂和变电站电气部分》",
           "GB 26860—2011"
@@ -6158,8 +6107,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -6428,7 +6376,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《铁路营业线施工安全管理办法》",
           "各铁路局集团公司施工天窗管理办法（本机构配置）",
@@ -6438,8 +6386,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [],
@@ -6496,13 +6443,12 @@
       "maturity": "preview",
       "maintenance": "frozen",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -6665,13 +6611,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -6736,7 +6681,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中国高校科技期刊编排规范》",
           "本期刊同行评议与返修规定（本机构配置）",
@@ -6746,8 +6691,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -6811,7 +6755,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "本插件家族的条款引用纪律（自定纪律，非国家标准）",
           "本插件家族的检查引擎契约（自定纪律，非国家标准）",
@@ -6822,8 +6766,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -6893,7 +6836,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《建筑施工安全技术统一规范》",
           "《建设工程安全生产管理条例》",
@@ -6906,8 +6849,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -6968,13 +6910,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -7033,13 +6974,12 @@
       "maturity": "retired",
       "maintenance": "retired",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -7098,13 +7038,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -7280,7 +7219,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《关于进一步推进国有企业贯彻落实\"三重一大\"决策制度的意见》",
           "中办发〔2010〕17号"
@@ -7289,8 +7228,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [],
@@ -7459,7 +7397,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "IATF 16949／汽车行业核心工具手册"
         ],
@@ -7467,8 +7405,7 @@
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -7632,13 +7569,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [],
@@ -7693,13 +7629,12 @@
       "maturity": "retired",
       "maintenance": "retired",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -7760,7 +7695,7 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "standards": [
           "《中华人民共和国招标投标法》",
           "1999年8月30日通过，2017年12月27日修正"
@@ -7769,8 +7704,7 @@
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -7939,13 +7873,12 @@
       "maturity": "beta",
       "maintenance": "unknown",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -8673,13 +8606,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -8738,13 +8670,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -9003,13 +8934,12 @@
       "maturity": "preview",
       "maintenance": "frozen",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -9169,13 +9099,12 @@
       "maturity": "preview",
       "maintenance": "frozen",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [],
@@ -9328,13 +9257,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -9393,13 +9321,12 @@
       "maturity": "preview",
       "maintenance": "frozen",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -9459,13 +9386,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -9524,13 +9450,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -9589,13 +9514,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -9654,13 +9578,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -9721,13 +9644,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -9784,13 +9706,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -9853,13 +9774,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -10017,13 +9937,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -10084,13 +10003,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "只核对用户导入材料内部的差异，不判断材料真实性；标准文本以用户导入版本为准。"
         ]
       },
       "related": [
@@ -10155,13 +10073,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -10219,13 +10136,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [
@@ -10308,13 +10224,12 @@
       "maturity": "beta",
       "maintenance": "active",
       "coverage": {
-        "lastReviewed": "2026-11-08",
+        "lastReviewed": "2026-11-09",
         "jurisdictions": [
           "CN"
         ],
         "limitations": [
-          "只处理用户导入的数据；不替代人工复核。",
-          "自动补全的发现元数据，待人工复核（2026-11-08）。"
+          "不替代人工复核；具体边界以插件 README 为准。"
         ]
       },
       "related": [

@@ -36,7 +36,7 @@ Every per-plugin README carries the same collapsed roster.
 ## Compliance notes
 
 - Contract: [catalog-provider-contract.md](https://github.com/anywhere-labs/dsh-desktop/blob/main/dsh-community-market/docs/catalog-provider-contract.md) (v1, `manifestVersion`/`schemaVersion` `1.0.0`). The schemas are vendored nowhere in this repo; `scripts/validate.mjs` mirrors the structural rules of `catalog-source.schema.json` and `catalog-provider-page.schema.json` and the cross-field rules (unique item ids, npm name pattern, no install commands in items, HTTPS repository URLs, page shape).
-- The provider advertises `query.supported = ["cursor","limit"]`, `defaultLimit = maxLimit = 100`, `sorts = []`. The endpoint serves the complete 146-item catalog in cursor pages of up to 100 items (two requests), so DSH Desktop scans the whole catalog without exceeding the runtime's per-page limit. The Vercel static mirror serves the unpaginated 146-item JSON for browsing; use the workers.dev manifest for Desktop.
+- The provider advertises `query.supported = ["cursor","limit"]`, `defaultLimit = maxLimit = 100`, `sorts = []`. The endpoint serves the complete 146-item catalog in cursor pages of up to 100 items (two requests), so DSH Desktop scans the whole catalog without exceeding the runtime's per-page limit. The Vercel static mirror serves the unpaginated 145-item JSON for browsing; use the workers.dev manifest for Desktop.
 - Every item carries `package.registry = "npm"` + `package.name` and a canonical `repository.url`; no install commands, shell fragments or executable data are ever emitted.
 - Every item also carries a same-origin `media.icon` (`/icons/<slug>.png`, generated deterministically by `scripts/build-icons.mjs`); the Worker serves the PNGs itself, so the icons stay on the catalog origin as the market media rule requires.
 - The manifest endpoint and the manifest itself must share one HTTPS origin (market rule). The generated placeholder endpoint `https://replace-with-deploy-origin.invalid/...` is replaced by the real deploy origin at deploy time — do not register the placeholder URL in DSH Desktop.
@@ -119,7 +119,7 @@ A listing in this catalog is metadata, not a security review. The same plugins a
 
 The 1.0.0 provider page is what DSH Desktop reads, and its search is one whole-string `includes` over `id/name/displayName/summary/description/publisher/keywords`. That misses Chinese domain words that only live in `summaryZh`. The sidecar fixes that without changing the 1.0.0 item schema:
 
-- `data/discovery.json` — 146 schema-valid discovery manifests (61 authored, 85 generated from catalog fields and flagged for review) with aliases, searchPhrases, audience, facets, maturity and coverage.
+- `data/discovery.json` — 146 schema-valid discovery manifests (the 85 catalog-derived rows were reviewed on 2026-11-09 and their limitations normalized) with aliases, searchPhrases, audience, facets, maturity and coverage.
 - `data/facets.json` — 146/146 facet/status sidecar (domains, subdomains, tasks, artifacts, standards, maintenance, maturity, coverage, replacement).
 - `data/hubs.json` — 10 domain hubs (customs, tender, construction-ehs, medical, legal, finance, government, research, quality, data).
 - `GET /v1/search?q=&domain=&task=&audience=&limit=` and `GET /v1/plugin?name=` on both workers.
@@ -253,8 +253,3 @@ This project is part of the DeepSeek Harness plugin family from [PerryLink](http
 | **[dsh-team-rooms](https://github.com/PerryLink/dsh-team-rooms)** | 🚫 RETIRED — see the repo README |
 
 </details>
-
-## Toolchain and upstream (facts, 2026-11)
-
-- This repository is the catalog source for the PerryLink family in the DSH Desktop Market.
-- Upstream: `dsh-plugin-hub` main includes a version-aware npm metadata check ([`4f3a560`](https://github.com/dshplugin/dsh-plugin-hub/commit/4f3a560), 2026-11-09); scope is install-time npm metadata only; it does not run ENTRY and is not an endorsement.
