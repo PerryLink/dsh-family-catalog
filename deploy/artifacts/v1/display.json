@@ -1588,6 +1588,62 @@
         "node": ">=24.9.0 <25"
       },
       "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-lit-harvest",
+      "displayNameZh": "文献收割",
+      "summaryZh": "多源文献收割：OpenAlex / Crossref / arXiv / Europe PMC 一次检索，Unpaywall 解析开放获取，报告充分性缺口，并把本轮运行写成 REP 证据记录。",
+      "status": "active",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+        "node": "^22.19.0 || >=24.9.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-zotero-bridge",
+      "displayNameZh": "Zotero 桥",
+      "summaryZh": "只读 Zotero 桥：通过 Local API 或 sqlite 库副本检索 Zotero 条目，把选中条目转成 REP 记录；从不写 Zotero。",
+      "status": "active",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+        "node": "^22.19.0 || >=24.9.0"
+      },
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-rep-mcp",
+      "displayNameZh": "REP MCP 服务",
+      "summaryZh": "REP v1 记录的 stdio MCP 服务：校验封印、检查断言、列出已封存报告；只读、无网络、不依赖 DSH 运行时。",
+      "status": "active",
+      "group": "研究",
+      "difficulty": "intermediate"
+    },
+    {
+      "name": "dsh-research-skills",
+      "displayNameZh": "科研 SOP 技能",
+      "summaryZh": "七个科研 SOP 技能：文献综述、引文审计、断言/证据审计、投稿前检查、审稿回复、可复现性审计与数据管理计划；每个技能都以记录或明确结论收尾。",
+      "status": "active",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+        "node": "^22.19.0 || >=24.9.0"
+      },
+      "difficulty": "beginner"
+    },
+    {
+      "name": "@perrylink/dsh-research-suite",
+      "displayNameZh": "科研套件",
+      "summaryZh": "一条命令装齐 12 个科研插件，并挂载 research_doctor：只读检查 REP 根目录、已挂载服务、日志与最新封印记录。",
+      "status": "active",
+      "group": "研究",
+      "requires": {
+        "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+        "node": "^22.19.0 || >=24.9.0"
+      },
+      "difficulty": "intermediate"
     }
   ]
 }

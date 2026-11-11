@@ -7,7 +7,7 @@ it: a search index, a search core, two worker endpoints and a stdio MCP server.
 ## Data flow
 
 ```
-data/packages.json (147)  ─┐
+data/packages.json (152)  ─┐
 data/discovery.json (40)  ─┼─> scripts/build-discovery.mjs ─> artifacts/v1/search-index.json
 data/npm-snapshot.json    ─┘                                   deploy/artifacts/v1/search-index.json
 
@@ -17,10 +17,11 @@ lib/search-core.mjs (no fs) ─> scripts/search.mjs (Node + CLI)
                             └─> mcp/plugin-search-server.mjs  plugin_search, plugin_get
 ```
 
-The 147 rows in `data/discovery.json` are schema-valid discovery manifests
+The 152 rows in `data/discovery.json` are schema-valid discovery manifests
 (aliases, searchPhrases, audience, facets, maturity, coverage, related,
-demoPrompt): 146 reviewed on 2026-11-09; the 85 catalog-derived rows had their
-limitations normalized, and the pending-review flag was cleared. The index is a sidecar: none of these fields enter the
+demoPrompt): all 152 are reviewed — the five research packages added on 2026-11-11
+are the most recent — the 85 catalog-derived rows had their limitations
+normalized, and the pending-review flag was cleared. The index is a sidecar: none of these fields enter the
 1.0.0 item schema.
 
 ## HTTP endpoints
@@ -105,7 +106,7 @@ agent has concrete query shapes before it calls the tool.
 ```sh
 node scripts/build-discovery.mjs          # index + deploy/search-core.mjs
 node scripts/build-facets.mjs             # P2 facet/status sidecar
-node scripts/check-facets.mjs             # 147/147 coverage, hubs, status counts
+node scripts/check-facets.mjs             # 152/152 coverage, hubs, status counts
 node scripts/discovery-bench.mjs --source=index --fail-under=85
 node scripts/worker-smoke.mjs             # 11/11 routes
 node scripts/mcp-smoke.mjs                # 9/9 MCP calls
@@ -127,7 +128,7 @@ top1 17/20, top3 19/20 (95%), zero-result 0/20, MRR@5 0.900. The single top3 mis
    `defaultLimit=maxLimit=100`), and the full page passes Ajv strict against the
    upstream schema. The Vercel static mirror is not paginated; register the
    workers.dev manifest, not the Vercel one.
-2. 147/147 rows have reviewed discovery metadata; the 85 catalog-derived rows
+2. 152/152 rows have reviewed discovery metadata; the 85 catalog-derived rows
    were reviewed on 2026-11-09 and their limitations normalized.
 3. Scores are deliberately simple (field weights + IDF-weighted CJK n-grams),
    not a learned ranker. `matched_on`/`why` are there so a wrong hit can be

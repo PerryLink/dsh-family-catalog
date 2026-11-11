@@ -9653,5 +9653,319 @@
       "不作身份认定",
       "不绕过认证或付费墙"
     ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-lit-harvest",
+    "displayNameZh": "文献收割",
+    "displayNameEn": "Literature Harvest",
+    "aliases": [
+      "文献收割",
+      "多源文献检索",
+      "Literature Harvest",
+      "literature harvest",
+      "dsh-lit-harvest",
+      "lit-harvest",
+      "OpenAlex",
+      "Crossref",
+      "arXiv",
+      "Europe PMC",
+      "Unpaywall",
+      "开放获取"
+    ],
+    "searchPhrases": [
+      "一次从多个数据源找文献",
+      "这个主题的文献够不够",
+      "OpenAlex/Crossref/arXiv 一起搜",
+      "怎么找到论文的开放获取版本",
+      "文献检索能不能复核"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生",
+      "科研秘书"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-lit-watch",
+      "dsh-library",
+      "dsh-cite-verify",
+      "dsh-research-report"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-11",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只读取公开书目元数据与开放获取链接，不下载 PDF、不绕过访问控制。",
+        "检索完整性受四个数据源各自的收录范围限制；缺口会被报告，但不会被自动补齐。"
+      ]
+    },
+    "demoPrompt": "用 dsh-lit-harvest 检索一个主题，并告诉我证据够不够。",
+    "notFor": [
+      "不替代系统性综述的筛选与评价",
+      "不绕过付费墙下载全文"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-zotero-bridge",
+    "displayNameZh": "Zotero 桥",
+    "displayNameEn": "Zotero Bridge",
+    "aliases": [
+      "Zotero 桥",
+      "Zotero",
+      "Zotero 只读",
+      "Zotero Bridge",
+      "zotero bridge",
+      "dsh-zotero-bridge",
+      "zotero-bridge",
+      "文献库",
+      "Local API",
+      "sqlite"
+    ],
+    "searchPhrases": [
+      "怎么让 agent 读我的 Zotero 文库",
+      "Zotero 里的条目怎么变成证据",
+      "不打开 Zotero 也能查文献库吗",
+      "Zotero 会不会被改动"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生",
+      "文献管理员"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "bridge"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-library",
+      "dsh-cite-verify",
+      "dsh-research-core",
+      "dsh-lit-harvest"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-11",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "严格只读：不写 Zotero、不改库文件；sqlite 走副本读取。",
+        "需要本机有 Zotero（Local API 或库文件副本），本包不提供 Zotero 本体。"
+      ]
+    },
+    "demoPrompt": "通过 dsh-zotero-bridge 查一下我 Zotero 里某主题的条目。",
+    "notFor": [
+      "不修改或整理 Zotero 文库",
+      "不替代 Zotero 自身的同步与去重"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-rep-mcp",
+    "displayNameZh": "REP MCP 服务",
+    "displayNameEn": "REP MCP Server",
+    "aliases": [
+      "REP MCP",
+      "REP MCP 服务",
+      "REP server",
+      "rep-mcp",
+      "dsh-rep-mcp",
+      "MCP 证据校验",
+      "stdio MCP",
+      "模型上下文协议"
+    ],
+    "searchPhrases": [
+      "用 MCP 校验一个 rep.json",
+      "不装 DSH 也能验证 REP 记录吗",
+      "给 Claude/Cursor 一个 REP 校验工具",
+      "怎么列出目录里的封印报告"
+    ],
+    "audience": [
+      "MCP 用户",
+      "开发者",
+      "研究人员"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": []
+    },
+    "related": [
+      "dsh-research-core",
+      "dsh-research-report",
+      "dsh-research-suite"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-11",
+      "jurisdictions": [],
+      "limitations": [
+        "只读三个工具；没有网络访问、没有写入路径。",
+        "不做证据采集或报告生成，只消费已有的 REP 记录。"
+      ]
+    },
+    "demoPrompt": "用 dsh-rep-mcp 校验工作区里的一个 .rep.json 记录。",
+    "notFor": [
+      "不生成或修改 REP 记录",
+      "不替代完整的 REP 工具链"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "dsh-research-skills",
+    "displayNameZh": "科研 SOP 技能",
+    "displayNameEn": "Research Skills",
+    "aliases": [
+      "科研技能",
+      "科研 SOP",
+      "Research Skills",
+      "research skills",
+      "dsh-research-skills",
+      "research-skills",
+      "文献综述流程",
+      "投稿前检查流程",
+      "数据管理计划流程"
+    ],
+    "searchPhrases": [
+      "做文献综述该按什么流程",
+      "投稿前要检查什么",
+      "审稿回复怎么写才不漏",
+      "数据管理计划怎么写",
+      "可复现性审计怎么做"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生",
+      "科研秘书"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "tool"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-cite-verify",
+      "dsh-claim-check",
+      "dsh-manuscript-check",
+      "dsh-research-report"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-11",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只提供 SOP 文本，不包含工具实现；工具在各自包里。",
+        "技能给出的是检查顺序与结论要求，不能替代同行评议或伦理审查。"
+      ]
+    },
+    "demoPrompt": "按 dsh-research-skills 的文献综述流程带我走一遍。",
+    "notFor": [
+      "不替代同行评议、伦理审查或学术判断",
+      "不自动改写论文内容"
+    ]
+  },
+  {
+    "schemaVersion": 1,
+    "name": "@perrylink/dsh-research-suite",
+    "displayNameZh": "科研套件",
+    "displayNameEn": "Research Suite",
+    "aliases": [
+      "科研套件",
+      "科研全家桶",
+      "Research Suite",
+      "research suite",
+      "research-suite",
+      "dsh-research-suite",
+      "research_doctor",
+      "一键装科研插件"
+    ],
+    "searchPhrases": [
+      "一条命令装齐科研插件",
+      "科研证据链插件怎么装",
+      "怎么检查 REP 证据库是否健康",
+      "科研插件装完有没有挂上"
+    ],
+    "audience": [
+      "研究人员",
+      "研究生",
+      "科研团队"
+    ],
+    "facets": {
+      "domains": [
+        "research"
+      ],
+      "subdomains": [],
+      "tasks": [
+        "workflow"
+      ],
+      "artifacts": [],
+      "jurisdictions": [
+        "CN"
+      ]
+    },
+    "related": [
+      "dsh-research-core",
+      "dsh-research-report",
+      "dsh-cite-verify",
+      "dsh-library"
+    ],
+    "maturity": "beta",
+    "coverage": {
+      "lastReviewed": "2026-11-11",
+      "jurisdictions": [
+        "CN"
+      ],
+      "limitations": [
+        "只做 bundle 与只读诊断，不重新实现任何工具。",
+        "research_doctor 只检查本地证据存储与挂载状态，不做内容判断。"
+      ]
+    },
+    "demoPrompt": "安装科研套件并运行 research_doctor。",
+    "notFor": [
+      "不替代各插件自身的能力",
+      "不修改证据库内容"
+    ]
   }
 ]

@@ -4180,5 +4180,148 @@
     },
     "difficulty": "intermediate",
     "status": "active"
+  },
+  {
+    "npm": "dsh-lit-harvest",
+    "repo": "PerryLink/dsh-lit-harvest",
+    "displayName": "Literature Harvest",
+    "displayNameZh": "文献收割",
+    "categories": [
+      "research"
+    ],
+    "summary": "Deterministic multi-source literature harvesting for DeepSeek Harness: OpenAlex, Crossref, arXiv and Europe PMC in one search, Unpaywall open-access resolution, sufficiency gaps, and a REP run record.",
+    "summaryZh": "多源文献收割：OpenAlex / Crossref / arXiv / Europe PMC 一次检索，Unpaywall 解析开放获取，报告充分性缺口，并把本轮运行写成 REP 证据记录。",
+    "description": "Queries four public bibliographic APIs over HTTPS (plus Unpaywall for OA links), refuses redirects and any other host, deduplicates by DOI/identifier, scores coverage against a sufficiency rule, and writes a content-addressed REP run record so every hit and every gap can be recomputed.",
+    "keywords": [
+      "文献检索",
+      "多源检索",
+      "OpenAlex",
+      "Crossref",
+      "arXiv",
+      "Europe PMC",
+      "Unpaywall",
+      "开放获取",
+      "lit-harvest",
+      "literature review"
+    ],
+    "group": "研究",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+      "node": "^22.19.0 || >=24.9.0"
+    },
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-zotero-bridge",
+    "repo": "PerryLink/dsh-zotero-bridge",
+    "displayName": "Zotero Bridge",
+    "displayNameZh": "Zotero 桥",
+    "categories": [
+      "research"
+    ],
+    "summary": "Read-only Zotero bridge for DeepSeek Harness: query a running Zotero through the Local API or a copied sqlite library, and turn selected items into REP records — it never writes to Zotero.",
+    "summaryZh": "只读 Zotero 桥：通过 Local API 或 sqlite 库副本检索 Zotero 条目，把选中条目转成 REP 记录；从不写 Zotero。",
+    "description": "Uses the Zotero Local API when it is reachable and falls back to a copied sqlite database otherwise; every path is read-only, the copy is never modified, and item metadata is bound into a REP record so a citation can be traced back to the library row.",
+    "keywords": [
+      "Zotero",
+      "文献管理",
+      "Local API",
+      "sqlite",
+      "只读",
+      "参考文献",
+      "zotero-bridge",
+      "REP"
+    ],
+    "group": "研究",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+      "node": "^22.19.0 || >=24.9.0"
+    },
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-rep-mcp",
+    "repo": "PerryLink/dsh-rep-mcp",
+    "displayName": "REP MCP Server",
+    "displayNameZh": "REP MCP 服务",
+    "categories": [
+      "research"
+    ],
+    "summary": "A stdio MCP server for REP v1 records: verify the seal, inspect claims and list sealed reports — read-only, no network, no DSH runtime required.",
+    "summaryZh": "REP v1 记录的 stdio MCP 服务：校验封印、检查断言、列出已封存报告；只读、无网络、不依赖 DSH 运行时。",
+    "description": "Any MCP client can check a .rep.json file with the same verifier the dsh-rep-verify CLI uses. Three tools (rep_verify, rep_inspect, rep_list) over newline-delimited JSON-RPC; the process opens no sockets and has no write path.",
+    "keywords": [
+      "MCP",
+      "model context protocol",
+      "REP",
+      "证据记录",
+      "校验器",
+      "research",
+      "stdio",
+      "rep-mcp"
+    ],
+    "group": "研究",
+    "difficulty": "intermediate",
+    "status": "active"
+  },
+  {
+    "npm": "dsh-research-skills",
+    "repo": "PerryLink/dsh-research-skills",
+    "displayName": "Research Skills",
+    "displayNameZh": "科研 SOP 技能",
+    "categories": [
+      "research"
+    ],
+    "summary": "Seven research SOP skills for DeepSeek Harness: literature review, citation audit, claim/evidence audit, manuscript preflight, reviewer response, reproducibility audit and data-management plan.",
+    "summaryZh": "七个科研 SOP 技能：文献综述、引文审计、断言/证据审计、投稿前检查、审稿回复、可复现性审计与数据管理计划；每个技能都以记录或明确结论收尾。",
+    "description": "Each SKILL.md names the concrete tools to call, the order to call them, and what must never be claimed. The plugin registers the skill bodies and carries no tools, storage or network access.",
+    "keywords": [
+      "科研技能",
+      "SOP",
+      "技能包",
+      "文献综述",
+      "引文审计",
+      "数据管理计划",
+      "研究可复现",
+      "research-skills"
+    ],
+    "group": "研究",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+      "node": "^22.19.0 || >=24.9.0"
+    },
+    "difficulty": "beginner",
+    "status": "active"
+  },
+  {
+    "npm": "@perrylink/dsh-research-suite",
+    "repo": "PerryLink/dsh-research-suite",
+    "displayName": "Research Suite",
+    "displayNameZh": "科研套件",
+    "categories": [
+      "research"
+    ],
+    "summary": "One-command bundle for the twelve research plugins, plus research_doctor: a read-only check of the REP root, the mounted services, the journals and the latest sealed record.",
+    "summaryZh": "一条命令装齐 12 个科研插件，并挂载 research_doctor：只读检查 REP 根目录、已挂载服务、日志与最新封印记录。",
+    "description": "The research family is twelve packages by design; this bundle gives a new profile one dependency tree and one cordis patch, and research_doctor reports whether the rows actually mounted and whether the evidence store is healthy. It re-implements no tool.",
+    "keywords": [
+      "科研套件",
+      "research suite",
+      "bundle",
+      "research_doctor",
+      "REP",
+      "诊断",
+      "一键安装",
+      "research"
+    ],
+    "group": "研究",
+    "requires": {
+      "dsh": ">=0.2.1-0 <0.3.0 || >=0.2.2-0 <0.3.0",
+      "node": "^22.19.0 || >=24.9.0"
+    },
+    "difficulty": "intermediate",
+    "status": "active"
   }
 ]
