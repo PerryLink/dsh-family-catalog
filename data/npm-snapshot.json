@@ -68,8 +68,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
     "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
-    "latest": "0.15.0",
-    "updatedAt": "2026-10-28T12:08:56.359Z"
+    "latest": "0.15.1",
+    "updatedAt": "2026-11-13T04:48:06.703Z"
   },
   {
     "name": "dsh-autotier",
@@ -149,8 +149,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-click#readme",
     "repository": "git+https://github.com/PerryLink/dsh-click.git",
-    "latest": "0.3.27",
-    "updatedAt": "2026-11-05T05:08:22.245Z"
+    "latest": "0.3.29",
+    "updatedAt": "2026-11-13T04:50:38.663Z"
   },
   {
     "name": "dsh-community-bench",
@@ -221,8 +221,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
     "repository": "git+https://github.com/PerryLink/dsh-doublecheck.git",
-    "latest": "0.9.30",
-    "updatedAt": "2026-11-05T05:24:30.272Z"
+    "latest": "0.9.31",
+    "updatedAt": "2026-11-13T00:47:56.976Z"
   },
   {
     "name": "dsh-draw",
@@ -455,8 +455,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
     "repository": "git+https://github.com/PerryLink/dsh-local-ai.git",
-    "latest": "0.2.25",
-    "updatedAt": "2026-11-05T05:35:01.357Z"
+    "latest": "0.2.26",
+    "updatedAt": "2026-11-13T00:36:41.705Z"
   },
   {
     "name": "dsh-lsp-actions",
@@ -464,8 +464,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
     "repository": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
-    "latest": "0.5.19",
-    "updatedAt": "2026-11-05T05:21:00.857Z"
+    "latest": "0.5.20",
+    "updatedAt": "2026-11-13T04:39:48.918Z"
   },
   {
     "name": "dsh-mask",
@@ -572,8 +572,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
     "repository": "git+https://github.com/PerryLink/dsh-permission-rules.git",
-    "latest": "0.7.21",
-    "updatedAt": "2026-11-05T05:55:25.212Z"
+    "latest": "0.8.0",
+    "updatedAt": "2026-11-13T04:55:41.571Z"
   },
   {
     "name": "dsh-permit-report-check",
@@ -662,8 +662,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-power-loss-split#readme",
     "repository": "git+https://github.com/PerryLink/dsh-power-loss-split.git",
-    "latest": "0.2.11",
-    "updatedAt": "2026-11-10T02:44:47.675Z"
+    "latest": "0.2.12",
+    "updatedAt": "2026-11-13T04:43:30.707Z"
   },
   {
     "name": "dsh-power-ticket-check",
@@ -725,8 +725,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
     "repository": "git+https://github.com/PerryLink/dsh-research-report.git",
-    "latest": "0.4.0",
-    "updatedAt": "2026-11-10T12:40:43.428Z"
+    "latest": "0.4.1",
+    "updatedAt": "2026-11-13T00:44:47.413Z"
   },
   {
     "name": "dsh-review-reply-check",
@@ -779,8 +779,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
     "repository": "git+https://github.com/PerryLink/dsh-session-sync.git",
-    "latest": "0.2.32",
-    "updatedAt": "2026-11-05T05:33:49.560Z"
+    "latest": "0.3.0",
+    "updatedAt": "2026-11-13T04:56:26.657Z"
   },
   {
     "name": "dsh-site-log-check",
@@ -914,8 +914,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-bankrec.html",
     "repository": "git+https://github.com/PerryLink/dsh-bankrec.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-04T12:09:16.117Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-13T00:32:43.165Z"
   },
   {
     "name": "dsh-ap-three-way",
@@ -950,8 +950,8 @@
     "license": "Apache-2.0",
     "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-clause.html",
     "repository": "git+https://github.com/PerryLink/dsh-legal-clause.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-04T12:11:17.175Z"
+    "latest": "0.2.1",
+    "updatedAt": "2026-11-13T04:42:36.287Z"
   },
   {
     "name": "dsh-ghg",

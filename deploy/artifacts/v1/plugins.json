@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-11T04:09:27.768Z",
-  "revision": "perrylink-dsh-catalog-2026-11-11",
+  "generatedAt": "2026-11-13T05:06:24.451Z",
+  "revision": "perrylink-dsh-catalog-2026-11-13",
   "items": [
     {
       "id": "dsh-github-bot",
@@ -280,7 +280,7 @@
       "displayName": "Auto Review — 自动复核",
       "summary": "审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。 Second-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.",
       "homepage": "https://github.com/PerryLink/dsh-auto-review",
-      "latestVersion": "0.15.0",
+      "latestVersion": "0.15.1",
       "license": "Apache-2.0",
       "categories": [
         "workflow"
@@ -302,7 +302,7 @@
           "alt": "自动复核"
         }
       },
-      "updatedAt": "2026-10-28T12:08:56.359Z"
+      "updatedAt": "2026-11-13T04:48:06.703Z"
     },
     {
       "id": "dsh-autotier",
@@ -587,7 +587,7 @@
       "displayName": "Click — 桌面控制",
       "summary": "跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。 Cross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.",
       "homepage": "https://github.com/PerryLink/dsh-click",
-      "latestVersion": "0.3.27",
+      "latestVersion": "0.3.29",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -609,7 +609,7 @@
           "alt": "桌面控制"
         }
       },
-      "updatedAt": "2026-11-05T05:08:22.245Z"
+      "updatedAt": "2026-11-13T04:50:38.663Z"
     },
     {
       "id": "dsh-community-bench",
@@ -865,7 +865,7 @@
       "displayName": "DoubleCheck — 交付质检",
       "summary": "交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。 Delivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.",
       "homepage": "https://github.com/PerryLink/dsh-doublecheck",
-      "latestVersion": "0.9.30",
+      "latestVersion": "0.9.31",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -887,7 +887,7 @@
           "alt": "交付质检"
         }
       },
-      "updatedAt": "2026-11-05T05:24:30.272Z"
+      "updatedAt": "2026-11-13T00:47:56.976Z"
     },
     {
       "id": "dsh-draw",
@@ -1887,7 +1887,7 @@
       "displayName": "Local AI — 本地模型",
       "summary": "在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。 Run local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.",
       "homepage": "https://github.com/PerryLink/dsh-local-ai",
-      "latestVersion": "0.2.25",
+      "latestVersion": "0.2.26",
       "license": "Apache-2.0",
       "categories": [
         "model"
@@ -1909,7 +1909,7 @@
           "alt": "本地模型"
         }
       },
-      "updatedAt": "2026-11-05T05:35:01.357Z"
+      "updatedAt": "2026-11-13T00:36:41.705Z"
     },
     {
       "id": "dsh-lsp-actions",
@@ -1917,7 +1917,7 @@
       "displayName": "LSP Actions — LSP 动作",
       "summary": "把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。 LSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.",
       "homepage": "https://github.com/PerryLink/dsh-lsp-actions",
-      "latestVersion": "0.5.19",
+      "latestVersion": "0.5.20",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -1939,7 +1939,7 @@
           "alt": "LSP 动作"
         }
       },
-      "updatedAt": "2026-11-05T05:21:00.857Z"
+      "updatedAt": "2026-11-13T04:39:48.918Z"
     },
     {
       "id": "dsh-mask",
@@ -2369,7 +2369,7 @@
       "displayName": "Permission Rules — 权限规则",
       "summary": "声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。 Declarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.",
       "homepage": "https://github.com/PerryLink/dsh-permission-rules",
-      "latestVersion": "0.7.21",
+      "latestVersion": "0.8.0",
       "license": "Apache-2.0",
       "categories": [
         "workflow"
@@ -2391,7 +2391,7 @@
           "alt": "权限规则"
         }
       },
-      "updatedAt": "2026-11-05T05:55:25.212Z"
+      "updatedAt": "2026-11-13T04:55:41.571Z"
     },
     {
       "id": "dsh-permit-report-check",
@@ -2713,7 +2713,7 @@
       "displayName": "Power Loss Split Check — 线损电量拆分核对",
       "summary": "线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-power-loss-split",
-      "latestVersion": "0.2.11",
+      "latestVersion": "0.2.12",
       "license": "Apache-2.0",
       "categories": [
         "safety"
@@ -2735,7 +2735,7 @@
           "alt": "线损电量拆分核对"
         }
       },
-      "updatedAt": "2026-11-10T02:44:47.675Z"
+      "updatedAt": "2026-11-13T04:43:30.707Z"
     },
     {
       "id": "dsh-power-ticket-check",
@@ -2978,7 +2978,7 @@
       "displayName": "Research Report — 研究报告",
       "summary": "带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。 Research reports with integrity: evidence-linked reports whose content hash seals the directory of sources.",
       "homepage": "https://github.com/PerryLink/dsh-research-report",
-      "latestVersion": "0.4.0",
+      "latestVersion": "0.4.1",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -3000,7 +3000,7 @@
           "alt": "研究报告"
         }
       },
-      "updatedAt": "2026-11-10T12:40:43.428Z"
+      "updatedAt": "2026-11-13T00:44:47.413Z"
     },
     {
       "id": "dsh-review-reply-check",
@@ -3158,7 +3158,7 @@
       "displayName": "Session Sync — 会话同步",
       "summary": "会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。 Session synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.",
       "homepage": "https://github.com/PerryLink/dsh-session-sync",
-      "latestVersion": "0.2.32",
+      "latestVersion": "0.3.0",
       "license": "Apache-2.0",
       "categories": [
         "session"
@@ -3180,7 +3180,7 @@
           "alt": "会话同步"
         }
       },
-      "updatedAt": "2026-11-05T05:33:49.560Z"
+      "updatedAt": "2026-11-13T04:56:26.657Z"
     },
     {
       "id": "dsh-site-log-check",
@@ -3764,7 +3764,7 @@
         "未达账"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-bankrec.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.1.2",
       "license": "Apache-2.0",
       "categories": [
         "finance"
@@ -3786,7 +3786,7 @@
           "alt": "银行流水对账"
         }
       },
-      "updatedAt": "2026-11-04T12:09:16.117Z"
+      "updatedAt": "2026-11-13T00:32:43.165Z"
     },
     {
       "id": "dsh-ap-three-way",
@@ -3921,7 +3921,7 @@
       "displayName": "Contract clause & playbook review — 合同条款与 playbook 审查",
       "summary": "合同条款树、playbook 映射与未解决报告。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-clause.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.1",
       "license": "Apache-2.0",
       "categories": [
         "legal"
@@ -3943,7 +3943,7 @@
           "alt": "合同条款与 playbook 审查"
         }
       },
-      "updatedAt": "2026-11-04T12:11:17.175Z"
+      "updatedAt": "2026-11-13T04:42:36.287Z"
     },
     {
       "id": "dsh-ghg",
