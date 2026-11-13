@@ -40,9 +40,12 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Rebuild deploy artifacts with the placeholder origin
+      - name: Rebuild the derived artifacts with the placeholder origin
         if: steps.changed.outputs.changed == 'true'
-        run: node scripts/build-catalog.mjs
+        run: |
+          node scripts/build-catalog.mjs
+          node scripts/build-discovery.mjs
+          node scripts/build-facets.mjs
 
       - name: Run the CI data and artifact gates
         if: steps.changed.outputs.changed == 'true'
@@ -68,7 +71,8 @@ jobs:
           title: 'data: refresh npm snapshot'
           body: |
             Automated refresh of `data/npm-snapshot.json` and the rebuilt
-            `deploy/` artifacts.
+            `deploy/` artifacts, including the discovery search index and
+            facets that embed each package's `latest`/`updatedAt`.
 
             The scheduled workflow ran `check-data`, `check-counts`,
             `validate`, the fresh-build diff and `typecheck:ci` before opening
@@ -78,5 +82,9 @@ jobs:
           delete-branch: true
           add-paths: |
             data/npm-snapshot.json
+            data/facets.json
             deploy/artifacts/v1/plugins.json
+            deploy/artifacts/v1/search-index.json
+            deploy/search-core.mjs
+            deploy/artifacts/v1/hubs.json
             deploy/catalog-source.json
