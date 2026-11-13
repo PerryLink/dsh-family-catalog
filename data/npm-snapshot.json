@@ -635,8 +635,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-primer#readme",
     "repository": "git+https://github.com/PerryLink/dsh-primer.git",
-    "latest": "0.4.4",
-    "updatedAt": "2026-11-05T01:56:50.479Z"
+    "latest": "0.4.5",
+    "updatedAt": "2026-11-13T05:17:25.087Z"
   },
   {
     "name": "dsh-codemod",
