@@ -648,7 +648,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-10-28T12:08:56.359Z",
+      "updatedAt": "2026-11-13T04:48:06.703Z",
       "source": "discovery",
       "searchText": "dsh-auto-review\nAuto Review\n自动复核\nSecond-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.\n审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。\n自动复核\nAuto Review\ndsh-auto-review\nworkflow\n安全\n自动复核\n自动复核 怎么用\n自动复核 插件\ndsh 自动复核\n安全工程师\n平台工程\nsecurity\ntool"
     },
@@ -1316,7 +1316,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:08:22.245Z",
+      "updatedAt": "2026-11-13T04:50:38.663Z",
       "source": "discovery",
       "searchText": "dsh-click\nClick\n桌面控制\nCross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.\n跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。\n桌面控制\nClick\ndsh-click\ntools\n桌面\n桌面控制\n桌面控制 怎么用\n桌面控制 插件\ndsh 桌面控制\n桌面用户\n开发者\ndesktop\ntool"
     },
@@ -1927,7 +1927,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:24:30.272Z",
+      "updatedAt": "2026-11-13T00:47:56.976Z",
       "source": "discovery",
       "searchText": "dsh-doublecheck\nDoubleCheck\n交付质检\nDelivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.\n交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。\n交付质检\nDoubleCheck\ndsh-doublecheck\ntools\n质量\n交付质检\n交付质检 怎么用\n交付质检 插件\ndsh 交付质检\nDSH 用户\n开发者\ntools\nchecker"
     },
@@ -4215,7 +4215,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:35:01.357Z",
+      "updatedAt": "2026-11-13T00:36:41.705Z",
       "source": "discovery",
       "searchText": "dsh-local-ai\nLocal AI\n本地模型\nRun local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.\n在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。\n本地模型\nLocal AI\ndsh-local-ai\nmodel\n集成\n本地模型\n本地模型 怎么用\n本地模型 插件\ndsh 本地模型\nAI 工程师\n平台工程\nmodel_routing\ntool"
     },
@@ -4281,7 +4281,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:21:00.857Z",
+      "updatedAt": "2026-11-13T04:39:48.918Z",
       "source": "discovery",
       "searchText": "dsh-lsp-actions\nLSP Actions\nLSP 动作\nLSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.\n把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。\nLSP 动作\nLSP Actions\ndsh-lsp-actions\ntools\n集成\nLSP 动作\nLSP 动作 怎么用\nLSP 动作 插件\ndsh LSP 动作\n开发者\n平台工程\ndev_connectors\ntool"
     },
@@ -5288,7 +5288,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:55:25.212Z",
+      "updatedAt": "2026-11-13T04:55:41.571Z",
       "source": "discovery",
       "searchText": "dsh-permission-rules\nPermission Rules\n权限规则\nDeclarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.\n声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。\n权限规则\nPermission Rules\ndsh-permission-rules\nworkflow\n安全\n权限规则\n权限规则 怎么用\n权限规则 插件\ndsh 权限规则\n安全工程师\n平台工程\nsecurity\ntool"
     },
@@ -6047,7 +6047,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-10T02:44:47.675Z",
+      "updatedAt": "2026-11-13T04:43:30.707Z",
       "source": "discovery",
       "searchText": "dsh-power-loss-split\nPower Loss Split Check\n线损电量拆分核对\n线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）\n线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）\n线损电量拆分核对\nPower Loss Split Check\ndsh-power-loss-split\nsafety\n安全\n线损电量拆分核对\n线损电量拆分核对 怎么用\n线损电量拆分核对 插件\ndsh 线损电量拆分核对\n安全员\nEHS\n《电力网电能损耗计算导则》\nDL/T 686-2018\nGB/T 8170-2008\nehs\ntool"
     },
@@ -6629,7 +6629,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-10T12:40:43.428Z",
+      "updatedAt": "2026-11-13T00:44:47.413Z",
       "source": "discovery",
       "searchText": "dsh-research-report\nResearch Report\n研究报告\nResearch reports with integrity: evidence-linked reports whose content hash seals the directory of sources.\n带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。\n研究报告\nResearch Report\ndsh-research-report\nknowledge\n研究\n研究报告\n研究报告 怎么用\n研究报告 插件\ndsh 研究报告\n研究人员\n研究生\nresearch\ndrafting"
     },
@@ -7056,7 +7056,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:33:49.560Z",
+      "updatedAt": "2026-11-13T04:56:26.657Z",
       "source": "discovery",
       "searchText": "dsh-session-sync\nSession Sync\n会话同步\nSession synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.\n会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。\n会话同步\nSession Sync\ndsh-session-sync\nsession\n会话\n会话同步\n会话同步 怎么用\n会话同步 插件\ndsh 会话同步\nDSH 用户\n开发者\nsession\ntool"
     },
@@ -8364,7 +8364,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:09:16.117Z",
+      "updatedAt": "2026-11-13T00:32:43.165Z",
       "source": "discovery",
       "searchText": "dsh-bankrec\nBank statement reconciliation\n银行流水对账\n给会计/审计：导入银行流水、GL、CAMT.053/MT940，做银行对账与未达账项、余额调节表。 Bank reconciliation with CAMT.053/MT940.\n银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。\n银行对账\n未达账项\n余额调节表\n流水\nbank-reconciliation\nCAMT.053\nMT940\nGL\n对账\n银行流水\n差异\n银行存款\n银行对账\n未达账项\n余额调节表\n流水\n会计\n出纳\n审计\nbank-reconciliation\nCAMT.053\nMT940\nGL\n对账\n银行流水\n差异\n银行存款\n未达账\n银行流水对账\n银行对账差异\n未达账项怎么找\n余额调节表对不平\n银行对账差异怎么找？\n未达账项怎么核？\n会计\n出纳\n审计\nfinance\nreconciliation"
     },
@@ -8688,7 +8688,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:11:17.175Z",
+      "updatedAt": "2026-11-13T04:42:36.287Z",
       "source": "discovery",
       "searchText": "dsh-legal-clause\nContract clause & playbook review\n合同条款与 playbook 审查\n合同条款树、playbook 映射与未解决报告。\n合同条款树、playbook 映射与未解决报告。\n合同条款与 playbook 审查\nContract clause & playbook review\ndsh-legal-clause\nlegal\n法务运营\n合同条款与 playbook 审查\n合同条款与 playbook 审查 怎么用\n合同条款与 playbook 审查 插件\ndsh 合同条款与 playbook 审查\n律师\n法务\nlegal\ntool"
     },
