@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-04",
+  "updatedAt": "2026-11-14",
   "source": "dsh-kit/data/repos.json",
-  "note": "snapshot for catalog-side reconciliation; regenerate when the roster changes",
+  "note": "snapshot for catalog-side reconciliation; re-checked against dsh-kit/data/repos.json (99 entries) on 2026-11-14",
   "repos": {
     "dsh-scaffold": "active",
     "dsh-check-pack": "active",

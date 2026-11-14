@@ -15,7 +15,7 @@ body:
     attributes:
       label: Harness runtime version
       description: The DeepSeek Harness runtime it runs on (e.g. `@deepseek-ai/dsh` version, or `dsh --version` output).
-      placeholder: '0.2.1-rc.2'
+      placeholder: '0.2.2-rc.3'
     validations:
       required: true
   - type: input
@@ -23,7 +23,7 @@ body:
     attributes:
       label: OS / Node version
       description: Operating system and Node.js version.
-      placeholder: 'Windows 11 / Node 22.19.0'
+      placeholder: 'Windows 11 / Node 24.9.0'
     validations:
       required: true
   - type: textarea
