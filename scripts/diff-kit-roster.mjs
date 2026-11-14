@@ -20,7 +20,7 @@ const kit = JSON.parse(await readFile(kitPath, 'utf8'))
 const rows = /** @type {Array<{ name: string }>} */ (Array.isArray(kit) ? kit : kit.repos)
 
 /** Repository name: the last path segment of a GitHub URL or of `owner/name`. */
-const ofRepo = (value) =>
+const ofRepo = (/** @type {string} */ value) =>
   String(value)
     .replace(/^.*github\.com\//u, '')
     .replace(/\.git$/u, '')

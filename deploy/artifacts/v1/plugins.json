@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-11-14T05:00:52.990Z",
+  "generatedAt": "2026-11-14T06:50:23.103Z",
   "revision": "perrylink-dsh-catalog-2026-11-14",
   "items": [
     {
@@ -467,7 +467,7 @@
       "displayName": "Budget — 成本治理",
       "summary": "成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。 Cost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.",
       "homepage": "https://github.com/PerryLink/dsh-budget",
-      "latestVersion": "0.4.22",
+      "latestVersion": "0.4.25",
       "license": "Apache-2.0",
       "categories": [
         "tools"
@@ -489,7 +489,7 @@
           "alt": "成本治理"
         }
       },
-      "updatedAt": "2026-11-05T05:26:58.313Z"
+      "updatedAt": "2026-11-14T01:36:40.993Z"
     },
     {
       "id": "dsh-cert-mcp",
@@ -2610,7 +2610,7 @@
         "契约检查"
       ],
       "homepage": "https://github.com/PerryLink/dsh-primer",
-      "latestVersion": "0.4.5",
+      "latestVersion": "0.4.7",
       "license": "Apache-2.0",
       "categories": [
         "knowledge"
@@ -2632,7 +2632,7 @@
           "alt": "插件开发指南"
         }
       },
-      "updatedAt": "2026-11-13T05:17:25.087Z"
+      "updatedAt": "2026-11-14T06:43:00.536Z"
     },
     {
       "id": "dsh-codemod",
@@ -2713,7 +2713,7 @@
       "displayName": "Power Loss Split Check — 线损电量拆分核对",
       "summary": "线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）",
       "homepage": "https://github.com/PerryLink/dsh-power-loss-split",
-      "latestVersion": "0.2.12",
+      "latestVersion": "0.3.0",
       "license": "Apache-2.0",
       "categories": [
         "safety"
@@ -2735,7 +2735,7 @@
           "alt": "线损电量拆分核对"
         }
       },
-      "updatedAt": "2026-11-13T04:43:30.707Z"
+      "updatedAt": "2026-11-13T11:19:03.387Z"
     },
     {
       "id": "dsh-power-ticket-check",
@@ -3715,7 +3715,7 @@
         "ofd"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-einvoice.html",
-      "latestVersion": "0.2.1",
+      "latestVersion": "0.3.0",
       "license": "Apache-2.0",
       "categories": [
         "finance"
@@ -3737,7 +3737,7 @@
           "alt": "中国电子发票（文件级）"
         }
       },
-      "updatedAt": "2026-11-04T12:16:36.387Z"
+      "updatedAt": "2026-11-13T11:47:19.114Z"
     },
     {
       "id": "dsh-bankrec",
@@ -3764,7 +3764,7 @@
         "未达账"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-bankrec.html",
-      "latestVersion": "0.1.2",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "finance"
@@ -3786,7 +3786,7 @@
           "alt": "银行流水对账"
         }
       },
-      "updatedAt": "2026-11-13T00:32:43.165Z"
+      "updatedAt": "2026-11-13T11:18:43.338Z"
     },
     {
       "id": "dsh-ap-three-way",
@@ -3813,7 +3813,7 @@
         "采购入库"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ap-three-way.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "finance"
@@ -3835,7 +3835,7 @@
           "alt": "AP 三单匹配"
         }
       },
-      "updatedAt": "2026-11-04T12:09:04.439Z"
+      "updatedAt": "2026-11-13T11:58:28.055Z"
     },
     {
       "id": "dsh-travel-recon",
@@ -3861,7 +3861,7 @@
         "行程对账"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-travel-recon.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "finance"
@@ -3883,7 +3883,7 @@
           "alt": "差旅对账与政策检查"
         }
       },
-      "updatedAt": "2026-11-04T12:09:19.170Z"
+      "updatedAt": "2026-11-13T12:44:08.244Z"
     },
     {
       "id": "dsh-legal-intake",
@@ -3891,7 +3891,7 @@
       "displayName": "Legal request intake — 法务需求收件",
       "summary": "法务需求 EML 收件、线程去重与台账导出。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-legal-intake.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "legal"
@@ -3913,7 +3913,7 @@
           "alt": "法务需求收件"
         }
       },
-      "updatedAt": "2026-11-04T12:08:31.343Z"
+      "updatedAt": "2026-11-13T12:05:25.633Z"
     },
     {
       "id": "dsh-legal-clause",
@@ -3969,7 +3969,7 @@
         "碳盘查"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ghg.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "esg"
@@ -3991,7 +3991,7 @@
           "alt": "用电碳排放（范围二）"
         }
       },
-      "updatedAt": "2026-11-04T12:10:29.847Z"
+      "updatedAt": "2026-11-13T12:14:16.788Z"
     },
     {
       "id": "dsh-qms-capa",
@@ -4018,7 +4018,7 @@
         "CAPA报告"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-qms-capa.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "quality"
@@ -4040,7 +4040,7 @@
           "alt": "QMS NCR、CAPA 与 8D"
         }
       },
-      "updatedAt": "2026-11-04T12:15:57.111Z"
+      "updatedAt": "2026-11-13T12:23:07.232Z"
     },
     {
       "id": "dsh-hs-candidate",
@@ -4048,7 +4048,7 @@
       "displayName": "HS candidate precheck — HS 候选预检",
       "summary": "HS Top3 候选、12 要素完整性、RVC 与税则版本门。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-hs-candidate.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "trade"
@@ -4070,7 +4070,7 @@
           "alt": "HS 候选预检"
         }
       },
-      "updatedAt": "2026-11-04T12:09:40.240Z"
+      "updatedAt": "2026-11-13T12:11:29.880Z"
     },
     {
       "id": "dsh-freight-audit",
@@ -4097,7 +4097,7 @@
         "物流账单"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-freight-audit.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "logistics"
@@ -4119,7 +4119,7 @@
           "alt": "运费账单审计"
         }
       },
-      "updatedAt": "2026-11-04T12:10:29.655Z"
+      "updatedAt": "2026-11-13T12:05:32.596Z"
     },
     {
       "id": "dsh-docx-redline",
@@ -4127,7 +4127,7 @@
       "displayName": "DOCX inspect & text diff — DOCX 检查与文本差异",
       "summary": "DOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-docx-redline.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "documents"
@@ -4149,7 +4149,7 @@
           "alt": "DOCX 检查与文本差异"
         }
       },
-      "updatedAt": "2026-11-04T12:17:57.891Z"
+      "updatedAt": "2026-11-13T11:39:26.551Z"
     },
     {
       "id": "dsh-ifc-qto",
@@ -4175,7 +4175,7 @@
         "算量核对"
       ],
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-ifc-qto.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "construction"
@@ -4197,7 +4197,7 @@
           "alt": "IFC 工程量清单"
         }
       },
-      "updatedAt": "2026-11-04T12:09:08.753Z"
+      "updatedAt": "2026-11-13T12:06:17.512Z"
     },
     {
       "id": "dsh-policy-ledger",
@@ -4205,7 +4205,7 @@
       "displayName": "Install doctor — 安装诊断",
       "summary": "只读安装诊断：能力快照、tarball 断言与安装日志分类。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-policy-ledger.html",
-      "latestVersion": "0.2.1",
+      "latestVersion": "0.3.0",
       "license": "Apache-2.0",
       "categories": [
         "developer-tools"
@@ -4227,7 +4227,7 @@
           "alt": "安装诊断"
         }
       },
-      "updatedAt": "2026-11-04T12:16:31.028Z"
+      "updatedAt": "2026-11-13T12:23:21.342Z"
     },
     {
       "id": "dsh-pim-lint",
@@ -4235,7 +4235,7 @@
       "displayName": "PIM catalog lint — PIM 目录 lint",
       "summary": "PIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-pim-lint.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "data"
@@ -4257,7 +4257,7 @@
           "alt": "PIM 目录 lint"
         }
       },
-      "updatedAt": "2026-11-04T12:08:35.216Z"
+      "updatedAt": "2026-11-13T12:23:41.379Z"
     },
     {
       "id": "dsh-eval-pack",
@@ -4265,7 +4265,7 @@
       "displayName": "Eval pack lint & grader — Eval pack 校验与评分",
       "summary": "公开/合成 eval-pack lint 与确定性 JSON 评分。",
       "homepage": "https://perrylink.github.io/dsh-plugins/packages/dsh-eval-pack.html",
-      "latestVersion": "0.1.1",
+      "latestVersion": "0.2.0",
       "license": "Apache-2.0",
       "categories": [
         "developer-tools"
@@ -4287,7 +4287,7 @@
           "alt": "Eval pack 校验与评分"
         }
       },
-      "updatedAt": "2026-11-04T12:09:29.693Z"
+      "updatedAt": "2026-11-13T11:39:18.382Z"
     },
     {
       "id": "dsh-finops-suite",

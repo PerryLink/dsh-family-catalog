@@ -262,7 +262,7 @@ const count = (/** @type {string} */ value) => plugins.filter((/** @type {any} *
 const counts = { plugins: plugins.length, active: count('active'), frozen: count('frozen'), retired: count('retired'), unknown: count('unknown') }
 const out = {
   schemaVersion: 1,
-  lastReviewed: '2026-11-11',
+  lastReviewed: '2026-11-14',
   sources: { packages: 'data/packages.json', discovery: 'data/discovery.json', roster: roster.source },
   counts,
   plugins,

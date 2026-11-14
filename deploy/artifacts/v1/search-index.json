@@ -1060,7 +1060,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:26:58.313Z",
+      "updatedAt": "2026-11-14T01:36:40.993Z",
       "source": "discovery",
       "searchText": "dsh-budget\nBudget\n成本治理\nCost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.\n成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。\n成本治理\nBudget\ndsh-budget\ntools\n观测\n成本治理\n成本治理 怎么用\n成本治理 插件\ndsh 成本治理\n会计\n财务\nfinance\ncalculator"
     },
@@ -5820,7 +5820,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T05:17:25.087Z",
+      "updatedAt": "2026-11-14T06:43:00.536Z",
       "source": "discovery",
       "searchText": "dsh-primer\nPrimer\n插件开发指南\nThe DSH plugin development guide as an installable skill: packaging, contracts, checks, and a pack verifier for builds.\n把 DSH 插件开发指南做成可安装技能：打包、契约、检查，以及构建用的包校验器。\n插件开发指南\nPrimer\ndsh-primer\ndsh-plugin-guide\nplugin-guide\n开发指南\nprimer\nguide\n插件技能\n打包\n契约检查\nknowledge\ndsh-primer\ndsh-plugin-guide\nplugin-guide\n插件开发指南\n开发指南\nprimer\nguide\n插件技能\n打包\n契约检查\n插件开发指南\n插件开发指南 怎么用\n插件开发指南 插件\ndsh 插件开发指南\n研究人员\n研究生\nresearch\ntool"
     },
@@ -6047,7 +6047,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T04:43:30.707Z",
+      "updatedAt": "2026-11-13T11:19:03.387Z",
       "source": "discovery",
       "searchText": "dsh-power-loss-split\nPower Loss Split Check\n线损电量拆分核对\n线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）\n线损电量拆分与考核表核对（依据公开的线损计算口径，仅提示差异，不作出定性结论）\n线损电量拆分核对\nPower Loss Split Check\ndsh-power-loss-split\nsafety\n安全\n线损电量拆分核对\n线损电量拆分核对 怎么用\n线损电量拆分核对 插件\ndsh 线损电量拆分核对\n安全员\nEHS\n《电力网电能损耗计算导则》\nDL/T 686-2018\nGB/T 8170-2008\nehs\ntool"
     },
@@ -8265,7 +8265,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:16:36.387Z",
+      "updatedAt": "2026-11-13T11:47:19.114Z",
       "source": "discovery",
       "searchText": "dsh-einvoice\nChina e-invoice (file-level)\n中国电子发票（文件级）\n给会计/出纳：把电子发票（数电票/OFD/XML）入库、解析、去重并本地归档，核对发票要素与重复报销。 E-invoice (OFD/XML) ingest, dedupe and archive.\n文件级中国电子发票（OFD/XML）入库、解析、去重与本地归档。\n电子发票\n数电票\nOFD\nXML\n发票查重\n发票归档\n发票验真\n发票\ne-invoice\ninvoice\n发票台账\n重复报销\n电子发票\n数电票\nOFD\nXML\n发票查重\n发票归档\n发票验真\n发票\n会计\n出纳\n财务共享\ne-invoice\ninvoice\n发票台账\n重复报销\nofd\n电子发票OFD\nOFD发票怎么入库\n数电票重复报销怎么查\n电子发票XML和OFD有什么区别\nOFD 发票怎么入库？\n电子发票和数电票是一回事吗？\n会计\n出纳\n财务共享\nfinance\nparser\ndedupe\narchive"
     },
@@ -8364,7 +8364,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T00:32:43.165Z",
+      "updatedAt": "2026-11-13T11:18:43.338Z",
       "source": "discovery",
       "searchText": "dsh-bankrec\nBank statement reconciliation\n银行流水对账\n给会计/审计：导入银行流水、GL、CAMT.053/MT940，做银行对账与未达账项、余额调节表。 Bank reconciliation with CAMT.053/MT940.\n银行流水/GL/CAMT.053/MT940 入库、对账与三表底稿。\n银行对账\n未达账项\n余额调节表\n流水\nbank-reconciliation\nCAMT.053\nMT940\nGL\n对账\n银行流水\n差异\n银行存款\n银行对账\n未达账项\n余额调节表\n流水\n会计\n出纳\n审计\nbank-reconciliation\nCAMT.053\nMT940\nGL\n对账\n银行流水\n差异\n银行存款\n未达账\n银行流水对账\n银行对账差异\n未达账项怎么找\n余额调节表对不平\n银行对账差异怎么找？\n未达账项怎么核？\n会计\n出纳\n审计\nfinance\nreconciliation"
     },
@@ -8463,7 +8463,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:09:04.439Z",
+      "updatedAt": "2026-11-13T11:58:28.055Z",
       "source": "discovery",
       "searchText": "dsh-ap-three-way\nAP three-way match\nAP 三单匹配\n给应付会计/采购：做发票、采购订单（PO）、入库单（GRN）三单匹配，按容差输出例外。 AP three-way match (invoice/PO/GRN).\n发票/PO/GRN 三单匹配、容差与例外底稿。\n应付\n三单匹配\n采购订单\n入库单\n发票\nap\nthree-way-match\nPO\nGRN\n容差\n例外\n三单匹配差异\n应付\n三单匹配\n采购订单\n入库单\n发票\n应付会计\n采购\n内审\nap\nthree-way-match\nPO\nGRN\n容差\n例外\n三单匹配差异\n采购入库\n三单匹配\n三单匹配对不上\n发票数量超过入库数量\n容差范围内还要不要审批\n三单匹配对不上怎么办？\n发票数量超过入库数量怎么处理？\n应付会计\n采购\n内审\nfinance\nprocurement\nreconciliation"
     },
@@ -8560,7 +8560,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:09:19.170Z",
+      "updatedAt": "2026-11-13T12:44:08.244Z",
       "source": "discovery",
       "searchText": "dsh-travel-recon\nTravel reconciliation & policy check\n差旅对账与政策检查\n给差旅报销/财务：把差旅订单、发票、卡流水三方对账、去重，并按差旅政策做只读检查。 Travel expense reconciliation and policy check.\n差旅订单/发票/卡流水对账、去重与只读政策检查。\n差旅对账\n报销\n卡流水\n差旅政策\ntravel-recon\n差旅订单\n发票\n去重\n超标\n行程单\n差旅发票\n行程对账\n差旅报销\n差旅对账\n报销\n卡流水\n差旅政策\n财务\n行政\ntravel-recon\n差旅订单\n发票\n去重\n超标\n行程单\n差旅发票\n行程对账\n差旅订单发票卡流水对不上\n差旅订单发票卡流水对不上怎么办\n差旅报销超标怎么查\n同一行程重复报销\n差旅订单、发票、卡流水对不上怎么办？\n差旅报销超标怎么查？\n差旅报销\n财务\n行政\nfinance\nreconciliation"
     },
@@ -8624,7 +8624,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:08:31.343Z",
+      "updatedAt": "2026-11-13T12:05:25.633Z",
       "source": "discovery",
       "searchText": "dsh-legal-intake\nLegal request intake\n法务需求收件\n法务需求 EML 收件、线程去重与台账导出。\n法务需求 EML 收件、线程去重与台账导出。\n法务需求收件\nLegal request intake\ndsh-legal-intake\nlegal\n法务运营\n法务需求收件\n法务需求收件 怎么用\n法务需求收件 插件\ndsh 法务需求收件\n律师\n法务\nlegal\ntool"
     },
@@ -8786,7 +8786,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:10:29.847Z",
+      "updatedAt": "2026-11-13T12:14:16.788Z",
       "source": "discovery",
       "searchText": "dsh-ghg\nElectricity GHG (Scope 2)\n用电碳排放（范围二）\n给碳管理/ESG：按用电活动数据核算范围二（Scope 2）温室气体排放，逐行复算并留底稿。 Scope 2 electricity emissions accounting.\n用电活动入库、GHG 计算、逐行复算、底稿与部分 ESRS 包。\n碳排放\n范围二\n温室气体\n用电排放\n碳核算\n排放因子\nGHG\nScope 2\nghg\nscope-2\nemission-factor\n用电量\n碳排放\n范围二\n温室气体\n用电排放\n碳核算\n排放因子\nGHG\nScope 2\n碳管理\nESG\nghg\nscope-2\nemission-factor\n用电量\n碳盘查\n范围二用电排放核算\n范围二用电排放怎么算\n排放因子选错版本\n用电量和账单对不上\n范围二用电排放怎么算？\n排放因子选错版本怎么办？\n碳管理\nESG\n能源管理\nenergy\nesg\ncalculator\nledger"
     },
@@ -8886,7 +8886,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:15:57.111Z",
+      "updatedAt": "2026-11-13T12:23:07.232Z",
       "source": "discovery",
       "searchText": "dsh-qms-capa\nQMS NCR, CAPA & 8D\nQMS NCR、CAPA 与 8D\n给质量经理/体系工程师：登记 QMS 不合格品（NCR）、批次与影响评估，跟踪 CAPA/8D 闭环。 QMS NCR / CAPA / 8D tracking.\nQMS NCR 入库、批次别名、影响评估、CAPA 与 8D。\nQMS\nCAPA\n纠正措施\n预防措施\n8D\n不合格\nNCR\n不合格品\n质量体系\n闭环\n根本原因\n纠正预防措施\nQMS\nCAPA\n纠正措施\n预防措施\n8D\n不合格\n质量经理\n体系工程师\nSQE\nNCR\n不合格品\n质量体系\n闭环\n根本原因\n纠正预防措施\nCAPA报告\nCAPA闭环\nCAPA闭环怎么审\n8D根本原因分析不到位\nNCR和CAPA编号对不上\nCAPA 闭环怎么审？\n8D 根本原因分析不到位怎么办？\n质量经理\n体系工程师\nSQE\nquality\nmanufacturing\nledger\nchecker"
     },
@@ -8952,7 +8952,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:09:40.240Z",
+      "updatedAt": "2026-11-13T12:11:29.880Z",
       "source": "discovery",
       "searchText": "dsh-hs-candidate\nHS candidate precheck\nHS 候选预检\nHS Top3 候选、12 要素完整性、RVC 与税则版本门。\nHS Top3 候选、12 要素完整性、RVC 与税则版本门。\nHS 候选预检\nHS candidate precheck\ndsh-hs-candidate\ntrade\n关务与物流\nHS 候选预检\nHS 候选预检 怎么用\nHS 候选预检 插件\ndsh HS 候选预检\n报关员\n关务\n外贸单证员\ncustoms\ntrade\ntool"
     },
@@ -9051,7 +9051,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:10:29.655Z",
+      "updatedAt": "2026-11-13T12:05:32.596Z",
       "source": "discovery",
       "searchText": "dsh-freight-audit\nFreight bill audit\n运费账单审计\n给物流结算/财务：按 ratecard 版本审计运费账单，核对计费重、费率与附加费，汇总 recovery 差异。 Freight bill audit and ratecard check.\n运费 ratecard 版本、账单审计、recovery 汇总与差异导出。\n运费\n审计\n计费\n账单\n物流\nfreight-audit\nratecard\n计费重\n附加费\nrecovery\n运费账单\n运费差异\n运费\n审计\n计费\n账单\n物流\n物流结算\n财务\n供应链\nfreight-audit\nratecard\n计费重\n附加费\nrecovery\n运费账单\n运费差异\n物流账单\n运费账单核对\n运费账单多收了\n计费重和实际重量不符\nratecard版本用错\n运费账单多收了怎么查？\n计费重和实际重量不符怎么办？\n物流结算\n财务\n供应链\nlogistics\nfinance\naudit"
     },
@@ -9113,7 +9113,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:17:57.891Z",
+      "updatedAt": "2026-11-13T11:39:26.551Z",
       "source": "discovery",
       "searchText": "dsh-docx-redline\nDOCX inspect & text diff\nDOCX 检查与文本差异\nDOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。\nDOCX 结构检查、逐字节 roundtrip 与单 run 文本替换。\nDOCX 检查与文本差异\nDOCX inspect & text diff\ndsh-docx-redline\ndocuments\n文档与模型\nDOCX 检查与文本差异\nDOCX 检查与文本差异 怎么用\nDOCX 检查与文本差异 插件\ndsh DOCX 检查与文本差异\n文档处理\n开发者\ndocuments\ntool"
     },
@@ -9210,7 +9210,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:09:08.753Z",
+      "updatedAt": "2026-11-13T12:06:17.512Z",
       "source": "discovery",
       "searchText": "dsh-ifc-qto\nIFC quantity takeoff\nIFC 工程量清单\n给 BIM 工程师/造价员：从 IFC 模型提取构件与工程量（算量/QTO），导出 CSV 供核对。 IFC model quantity take-off (QTO) exporter.\nIFC 构件/工程量清单与 CSV 导出。\nIFC\nBIM\n工程量\nQTO\n构件\nBIM工程师\nifc\nquantity-takeoff\n模型\n构件清单\nCSV\nRevit\nIFC\nBIM\n工程量\n算量\nQTO\n构件\nBIM工程师\n造价员\nifc\nquantity-takeoff\n模型\n构件清单\nCSV\nRevit\n算量核对\nIFC工程量核对\nIFC工程量怎么提取\n构件量和图纸对不上\nIFC导出CSV缺构件\nIFC 工程量怎么提取？\n构件量和图纸对不上怎么办？\nBIM 工程师\n造价员\n算量\nconstruction\nextractor\ncalculator"
     },
@@ -9275,7 +9275,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:16:31.028Z",
+      "updatedAt": "2026-11-13T12:23:21.342Z",
       "source": "discovery",
       "searchText": "dsh-policy-ledger\nInstall doctor\n安装诊断\n只读安装诊断：能力快照、tarball 断言与安装日志分类。\n只读安装诊断：能力快照、tarball 断言与安装日志分类。\n安装诊断\nInstall doctor\ndsh-policy-ledger\ndeveloper-tools\n校验工具\n安装诊断\n安装诊断 怎么用\n安装诊断 插件\ndsh 安装诊断\n开发者\n插件作者\ndev\nreconciliation\nledger"
     },
@@ -9338,7 +9338,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:08:35.216Z",
+      "updatedAt": "2026-11-13T12:23:41.379Z",
       "source": "discovery",
       "searchText": "dsh-pim-lint\nPIM catalog lint\nPIM 目录 lint\nPIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。\nPIM 目录 lint：必填、重复 SKU、GTIN 校验位与价格。\nPIM 目录 lint\nPIM catalog lint\ndsh-pim-lint\ndata\n校验工具\nPIM 目录 lint\nPIM 目录 lint 怎么用\nPIM 目录 lint 插件\ndsh PIM 目录 lint\n数据分析\n开发者\ndata\nchecker"
     },
@@ -9404,7 +9404,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T12:09:29.693Z",
+      "updatedAt": "2026-11-13T11:39:18.382Z",
       "source": "discovery",
       "searchText": "dsh-eval-pack\nEval pack lint & grader\nEval pack 校验与评分\n公开/合成 eval-pack lint 与确定性 JSON 评分。\n公开/合成 eval-pack lint 与确定性 JSON 评分。\nEval pack 校验与评分\nEval pack lint & grader\ndsh-eval-pack\ndeveloper-tools\n校验工具\nEval pack 校验与评分\nEval pack 校验与评分 怎么用\nEval pack 校验与评分 插件\ndsh Eval pack 校验与评分\n开发者\n插件作者\ndev\ntool"
     },
