@@ -88,7 +88,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T15:33:46.317Z",
+      "updatedAt": "2026-11-21T03:41:21.029Z",
       "source": "discovery",
       "searchText": "dsh-github-bot\nGitHub Bot\nGitHub 集成\nGitHub for DeepSeek Harness: PR/issue/repo/file tools, reviews, and CI checks — every write gated by human approval, token never logged.\nGitHub 集成：PR/issue/仓库/文件工具、评审与 CI 检查，每次写入都需人工审批，token 从不进日志。\nGitHub 集成\nGitHub Bot\ndsh-github-bot\ndsh-github\ngithub-bot\nGitHub\nPR 评审\nCI 检查\n代码评审\nreview bot\nstatus check\nintegration\ndsh-github-bot\ndsh-github\ngithub-bot\nGitHub 集成\nGitHub\nPR 评审\nCI 检查\n代码评审\nreview bot\nstatus check\nGitHub 集成\nGitHub 集成 怎么用\nGitHub 集成 插件\ndsh GitHub 集成\n开发者\n平台工程\ndev_connectors\ntool"
     },
@@ -648,7 +648,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T04:48:06.703Z",
+      "updatedAt": "2026-11-15T13:30:46.240Z",
       "source": "discovery",
       "searchText": "dsh-auto-review\nAuto Review\n自动复核\nSecond-model AI auto-review for DeepSeek Harness approval requests: a read-only reviewer subagent decides allow/deny on the approval answerer chain, with fail-closed fallback and full session-log audit.\n审批链上的第二模型自动复核：只读复核子代理在审批应答链上给出允许/拒绝，失败即拒，全过程留痕在会话日志里。\n自动复核\nAuto Review\ndsh-auto-review\nworkflow\n安全\n自动复核\n自动复核 怎么用\n自动复核 插件\ndsh 自动复核\n安全工程师\n平台工程\nsecurity\ntool"
     },
@@ -715,7 +715,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:26:04.950Z",
+      "updatedAt": "2026-11-18T15:12:14.294Z",
       "source": "discovery",
       "searchText": "dsh-autotier\nAutotier\n模型分层路由\nAutomatic strong/cheap model-tier routing for DeepSeek Harness: intent-gated tier landing on the agent/request waterfall, plan-mode handoff (strong plans, cheap implements), deterministic high-risk guards on tools/pre-execute, and failure escalation with TTL fallback.\n强/廉价模型档位的自动路由：在 agent/request 瀑布上按意图落档，plan 模式交棒（强模型规划、廉价模型实现），在 tools/pre-execute 上做确定性高风险守卫，失败升级并带 TTL 回退。\n模型分层路由\nAutotier\ndsh-autotier\nmodel\nagent\n集成\n模型分层路由\n模型分层路由 怎么用\n模型分层路由 插件\ndsh 模型分层路由\nAI 工程师\n平台工程\nmodel_routing\ntool"
     },
@@ -1060,7 +1060,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-14T01:36:40.993Z",
+      "updatedAt": "2026-11-18T15:20:03.059Z",
       "source": "discovery",
       "searchText": "dsh-budget\nBudget\n成本治理\nCost governance for DeepSeek Harness: aggregated token/cost metering per model, session and day, budget caps with threshold alerts and over-limit policies, carbon footprint estimation, per-model latency benchmarks, and the /budget command.\n成本治理：按模型/会话/天汇总 token 与费用，预算上限配阈值告警与超限策略，估算碳足迹，做按模型的延迟基准，并提供 /budget 命令。\n成本治理\nBudget\ndsh-budget\ntools\n观测\n成本治理\n成本治理 怎么用\n成本治理 插件\ndsh 成本治理\n会计\n财务\nfinance\ncalculator"
     },
@@ -1126,7 +1126,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:36:13.120Z",
+      "updatedAt": "2026-11-18T15:19:49.500Z",
       "source": "discovery",
       "searchText": "dsh-cert-mcp\nCertification MCP\n认证 MCP\nRead-only MCP server exposing the dsh-plugin-certification registry: certification grades, snapshots and five-dimension evidence for DeepSeek Harness plugins.\n只读 MCP 服务器，对外提供 dsh-plugin-certification 注册表：DSH 插件的认证等级、快照与五维证据。\n认证 MCP\nCertification MCP\ndsh-cert-mcp\nintegration\n生态\n认证 MCP\n认证 MCP 怎么用\n认证 MCP 插件\ndsh 认证 MCP\n开发者\n平台工程\ndev_connectors\ntool"
     },
@@ -1190,7 +1190,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-10-24T12:34:43.051Z",
+      "updatedAt": "2026-11-18T13:25:46.532Z",
       "source": "discovery",
       "searchText": "dsh-checkpoint-rewind\nCheckpoint Rewind\n检查点回滚\nUnified DSH checkpoints: session, workspace, and config three-state snapshots with one-shot /checkpoint and /rewind rollback, a checkpoint tool, automatic interval snapshots, a Settings-page timeline with pairwise diffs, and seed-replay session recovery.\n统一的 DSH 检查点：会话/工作区/配置三态快照，一条命令 /checkpoint 与 /rewind 回滚，附 checkpoint 工具、定时自动快照、带两两差异的设置页时间线与种子重放式会话恢复。\n检查点回滚\nCheckpoint Rewind\ndsh-checkpoint-rewind\nsession\n会话\n检查点回滚\n检查点回滚 怎么用\n检查点回滚 插件\ndsh 检查点回滚\nDSH 用户\n开发者\nsession\ntool"
     },
@@ -1256,7 +1256,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:54:34.076Z",
+      "updatedAt": "2026-11-19T04:30:27.879Z",
       "source": "discovery",
       "searchText": "dsh-claude-move\nClaude Move\n配置迁移\nClaude Code to DeepSeek Harness migration: import CLAUDE.md/AGENTS.md, slash commands, and session history — approval-gated and idempotent.\n从 Claude Code 迁到 DeepSeek Harness：导入 CLAUDE.md/AGENTS.md、斜杠命令与会话历史，全程审批门控且可重复执行。\n配置迁移\nClaude Move\ndsh-claude-move\nintegration\n集成\n配置迁移\n配置迁移 怎么用\n配置迁移 插件\ndsh 配置迁移\n开发者\n平台工程\ndev_connectors\ntool"
     },
@@ -1316,7 +1316,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T04:50:38.663Z",
+      "updatedAt": "2026-11-20T15:53:16.527Z",
       "source": "discovery",
       "searchText": "dsh-click\nClick\n桌面控制\nCross-platform native desktop control for DeepSeek Harness (Windows first): screen_shot, screen_read, click/type/scroll/key, and app_list/app_launch — approval-gated, never stealing foreground focus.\n跨平台原生桌面控制（Windows 优先）：screen_shot、screen_read、点击/输入/滚动/按键与 app_list/app_launch，审批门控且不抢占前台焦点。\n桌面控制\nClick\ndsh-click\ntools\n桌面\n桌面控制\n桌面控制 怎么用\n桌面控制 插件\ndsh 桌面控制\n桌面用户\n开发者\ndesktop\ntool"
     },
@@ -1449,7 +1449,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:27:02.372Z",
+      "updatedAt": "2026-11-18T15:24:37.395Z",
       "source": "discovery",
       "searchText": "dsh-composer-history\nComposer History\n输入历史\nTerminal-style input history for the DeepSeek Harness web composer: edge-first arrows with exact draft/caret restore, browser-local persisted history, Ctrl+R reverse search, workspace recall, and sliding-context awareness.\nWeb 输入框的终端式历史：边缘优先的方向键与草稿/光标精确还原、浏览器本地持久化、Ctrl+R 反向搜索、工作区召回与滑动上下文感知。\n输入历史\nComposer History\ndsh-composer-history\nsession\n会话\n输入历史\n输入历史 怎么用\n输入历史 插件\ndsh 输入历史\nDSH 用户\n设计师\n开发者\nux\nsession\ntool"
     },
@@ -1694,7 +1694,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T04:53:47.572Z",
+      "updatedAt": "2026-11-18T15:24:21.564Z",
       "source": "discovery",
       "searchText": "dsh-data-quality\nData Quality\n数据质量\nDeterministic data profiling, cleaning, and verification for DeepSeek Harness: DAMA scorecard, content-hash dedupe, metric expectations, and drift checks.\n确定性的数据画像、清洗与校验：DAMA 记分卡、内容哈希去重、指标期望与漂移检查。\n数据质量\nData Quality\ndsh-data-quality\ntools\n质量\n数据质量\n数据质量 怎么用\n数据质量 插件\ndsh 数据质量\n数据分析\n开发者\n质量工程师\ndata\nquality\ntool"
     },
@@ -1760,7 +1760,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:30:23.250Z",
+      "updatedAt": "2026-11-18T15:25:47.456Z",
       "source": "discovery",
       "searchText": "dsh-defend\nDefend\n注入防御\nPrompt-injection, jailbreak, and secret-leak defense for DeepSeek Harness: Aho-Corasick detection with allow/ask/block interception, sanitized audit events, and a recursive-delete pre-execution gate.\n面向 DeepSeek Harness 的提示注入、越狱与密钥泄漏防御：Aho-Corasick 检测配允许/询问/阻断拦截、脱敏审计事件，以及递归删除的执行前闸门。\n注入防御\nDefend\ndsh-defend\ndev\n安全\n注入防御\n注入防御 怎么用\n注入防御 插件\ndsh 注入防御\n安全工程师\n平台工程\nsecurity\ntool"
     },
@@ -1927,7 +1927,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T00:47:56.976Z",
+      "updatedAt": "2026-11-18T15:35:12.370Z",
       "source": "discovery",
       "searchText": "dsh-doublecheck\nDoubleCheck\n交付质检\nDelivery quality gate for DeepSeek Harness: grill the requirements, test the implementation, prove the delivery, and gate the handoff with a deliverable/rework decision.\n交付质量闸门：先盘问需求，再测实现，再举证交付，最后按可交付/返工给出交接裁决。\n交付质检\nDoubleCheck\ndsh-doublecheck\ntools\n质量\n交付质检\n交付质检 怎么用\n交付质检 插件\ndsh 交付质检\nDSH 用户\n开发者\ntools\nchecker"
     },
@@ -1989,7 +1989,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:31:07.743Z",
+      "updatedAt": "2026-11-18T15:29:45.626Z",
       "source": "discovery",
       "searchText": "dsh-draw\nDraw\n图像生成路由\nUnified static-image generation router for DeepSeek Harness: one image_generate tool with standard parameters, config-driven engine routing (OpenAI Images, Zhipu CogView, and any compatible endpoint), health-aware fallback, durable workspace attachments, and per-session quota accounting.\n统一的静态图像生成路由：一个 image_generate 工具配标准参数，按配置路由引擎（OpenAI Images、智谱 CogView 及任何兼容端点），带健康感知回退、工作区持久附件与按会话配额记账。\n图像生成路由\nDraw\ndsh-draw\ntools\n桌面\n图像生成路由\n图像生成路由 怎么用\n图像生成路由 插件\ndsh 图像生成路由\n设计师\n开发者\ndesign\ntool"
     },
@@ -2625,7 +2625,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T15:21:48.580Z",
+      "updatedAt": "2026-11-18T13:08:36.324Z",
       "source": "discovery",
       "searchText": "dsh-fast\nFast\n性能诊断\nRead-only performance diagnostics for DeepSeek Harness: session load/restore timing, spill-hit counts, compaction count and trigger, context-injection volume (AGENTS.md/skills/tool-schema token share), and LLM cache hit rate — surfaced via /fast.\n只读性能诊断：会话加载/恢复耗时、落盘命中次数、压缩次数与触发原因、上下文注入量（AGENTS.md/技能/工具 schema 的 token 占比）与 LLM 缓存命中率，经 /fast 呈现。\n性能诊断\nFast\ndsh-fast\ntools\n观测\n性能诊断\n性能诊断 怎么用\n性能诊断 插件\ndsh 性能诊断\n运维\n开发者\nobservability\ntool"
     },
@@ -2865,7 +2865,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T04:54:39.190Z",
+      "updatedAt": "2026-11-18T15:31:39.862Z",
       "source": "discovery",
       "searchText": "dsh-fund-research\nFund Research\n基金研究\nFund research: analyze funds with returns, holdings, and performance decomposition.\n基金研究：分析基金的收益、持仓与业绩归因。\n基金研究\nFund Research\ndsh-fund-research\nknowledge\n研究\n基金研究\n基金研究 怎么用\n基金研究 插件\ndsh 基金研究\n研究人员\n研究生\nresearch\nsearch"
     },
@@ -3694,7 +3694,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:10:36.052Z",
+      "updatedAt": "2026-11-19T04:38:22.584Z",
       "source": "discovery",
       "searchText": "dsh-industry-research\nIndustry Research\n行业研究\nIndustry research toolkit: structured company/industry dives with source capture and auditable research trails.\n行业研究工具箱：结构化的公司与行业专题，附来源留档与可审计的研究轨迹。\n行业研究\nIndustry Research\ndsh-industry-research\nknowledge\n研究\n行业研究\n行业研究 怎么用\n行业研究 插件\ndsh 行业研究\n研究人员\n研究生\nresearch\nsearch"
     },
@@ -4149,7 +4149,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-10T12:40:35.224Z",
+      "updatedAt": "2026-11-18T15:37:35.810Z",
       "source": "discovery",
       "searchText": "dsh-library\nLibrary\n本地知识库\n给研究人员/研究生：本地文献库的入库、检索与论文引用（引文）核验，支持引用感知注入。 Local literature library and citation check.\n本地文档知识库：library_add/remove/list，语义加关键词的混合检索 library_search（带多样性重排与防\"中间遗忘\"）、引用感知注入、library_cite_check 与 library_diagnose，SQLite 索引与本地嵌入，不下载模型。\n论文引用\n引文核验\n参考文献\n文献检索\ncitation check\nlibrary\n文献库\n引文\n本地知识库\nsemantic-search\ncitation\n文献管理\n论文引用\n引文核验\n参考文献\n文献检索\ncitation check\n研究人员\n研究生\n编辑\nlibrary\n文献库\n引文\n本地知识库\nsemantic-search\ncitation\n文献管理\n论文引文和原文对不上\n论文引用和原文对不上怎么办\n参考文献格式核对\n本地文献库怎么检索\n论文引文和原文对不上怎么办？\n参考文献格式怎么核？\n研究人员\n研究生\n编辑\nresearch\nsearch\nchecker"
     },
@@ -4215,7 +4215,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T00:36:41.705Z",
+      "updatedAt": "2026-11-20T15:51:06.471Z",
       "source": "discovery",
       "searchText": "dsh-local-ai\nLocal AI\n本地模型\nRun local AI models inside DeepSeek Harness: Ollama/LM Studio/local endpoints as drop-in model routes.\n在 DeepSeek Harness 内运行本地模型：把 Ollama / LM Studio / 本地端点接成可直接替换的模型路由。\n本地模型\nLocal AI\ndsh-local-ai\nmodel\n集成\n本地模型\n本地模型 怎么用\n本地模型 插件\ndsh 本地模型\nAI 工程师\n平台工程\nmodel_routing\ntool"
     },
@@ -4281,7 +4281,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T04:39:48.918Z",
+      "updatedAt": "2026-11-18T15:36:57.124Z",
       "source": "discovery",
       "searchText": "dsh-lsp-actions\nLSP Actions\nLSP 动作\nLSP actions for DeepSeek Harness: the IDE-integration plugin that exposes language-server diagnostics, definitions, references, and fixes to the agent.\n把语言服务器的诊断、定义跳转、引用查找与修复暴露给 agent 的 IDE 集成插件。\nLSP 动作\nLSP Actions\ndsh-lsp-actions\ntools\n集成\nLSP 动作\nLSP 动作 怎么用\nLSP 动作 插件\ndsh LSP 动作\n开发者\n平台工程\ndev_connectors\ntool"
     },
@@ -4347,7 +4347,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:21:53.467Z",
+      "updatedAt": "2026-11-18T15:40:27.131Z",
       "source": "discovery",
       "searchText": "dsh-mask\nMask\n隐私脱敏\nPII masking middleware for DeepSeek Harness: phones, emails, ID cards, bank cards and keys become placeholders before they reach the model, and a host-side restore table keeps them reversible. The plaintext never enters the session log.\nPII 脱敏中间件：手机号、邮箱、身份证、银行卡与密钥在到达模型前变成占位符，宿主侧还原表保证可逆，明文不进会话日志。\n隐私脱敏\nMask\ndsh-mask\ntools\n安全\n隐私脱敏\n隐私脱敏 怎么用\n隐私脱敏 插件\ndsh 隐私脱敏\n安全工程师\n平台工程\nsecurity\ntool"
     },
@@ -4413,7 +4413,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:55:33.834Z",
+      "updatedAt": "2026-11-19T04:51:06.707Z",
       "source": "discovery",
       "searchText": "dsh-mcp-panel\nMCP Panel\nMCP 面板\nRead-only MCP console for DeepSeek Harness: a /mcp command with health diagnostics and pipeline trial calls, a Settings MCP tab with server CRUD (approval-gated writes, automatic backups) and a tool trial console over the official tool pipeline.\n只读 MCP 控制台：/mcp 命令带健康诊断与管道试调，设置页 MCP 标签管理服务器（写入需审批、自动备份），并可在官方工具管道上试调工具。\nMCP 面板\nMCP Panel\ndsh-mcp-panel\nintegration\n集成\nMCP 面板\nMCP 面板 怎么用\nMCP 面板 插件\ndsh MCP 面板\n开发者\n平台工程\ndev_connectors\ntool"
     },
@@ -4587,7 +4587,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:23:59.845Z",
+      "updatedAt": "2026-11-18T15:56:28.183Z",
       "source": "discovery",
       "searchText": "dsh-memento\nMemento\n跨会话记忆\nBounded, layered, approval-gated, auditable cross-session memory for DeepSeek Harness — a capability seam (ctx.memory service + local SQLite provider + memory tool + frozen snapshot injection), not another memory warehouse.\n有界、分层、审批门控、可审计的跨会话记忆：一条能力接缝（ctx.memory 服务 + 本地 SQLite provider + memory 工具 + 冻结快照注入），不是又一个记忆仓库。\n跨会话记忆\nMemento\ndsh-memento\nmemory\n会话\n跨会话记忆\n跨会话记忆 怎么用\n跨会话记忆 插件\ndsh 跨会话记忆\nDSH 用户\n开发者\nmemory\ntool"
     },
@@ -4871,7 +4871,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:22:18.937Z",
+      "updatedAt": "2026-11-18T15:42:42.057Z",
       "source": "discovery",
       "searchText": "dsh-observe\nObserve\n可观测性\nObservability for DeepSeek Harness: request tracing, telemetry, log buffering, and retry visibility.\n可观测性：请求追踪、遥测上报、日志缓冲与重试可见性。\n可观测性\nObserve\ndsh-observe\ndev\n观测\n可观测性\n可观测性 怎么用\n可观测性 插件\ndsh 可观测性\n运维\n开发者\nobservability\ntool"
     },
@@ -5288,7 +5288,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T04:55:41.571Z",
+      "updatedAt": "2026-11-19T04:40:27.058Z",
       "source": "discovery",
       "searchText": "dsh-permission-rules\nPermission Rules\n权限规则\nDeclarative, ordered allow/deny/ask permission rules for DeepSeek Harness: match tool names, arguments (glob/regex), workspace paths, and network targets (domain/IP/port/scheme), plus a Codex-style process-level network policy.\n声明式、有序的允许/拒绝/询问权限规则：匹配工具名、参数（glob/正则）、工作区路径与网络目标（域名/IP/端口/协议），并带进程级网络策略。\n权限规则\nPermission Rules\ndsh-permission-rules\nworkflow\n安全\n权限规则\n权限规则 怎么用\n权限规则 插件\ndsh 权限规则\n安全工程师\n平台工程\nsecurity\ntool"
     },
@@ -5429,7 +5429,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:54:21.930Z",
+      "updatedAt": "2026-11-20T08:50:27.976Z",
       "source": "discovery",
       "searchText": "dsh-personal-directive\nPersonal Directive\n个人指令\nRepository prompt plugin with a live top-bar enable/disable switch; the framework edition ships a neutral placeholder directive.\n仓库提示词插件，带顶栏实时开关；框架版附带中性占位指令。\n个人指令\nPersonal Directive\ndsh-personal-directive\nworkflow\n会话\n个人指令\n个人指令 怎么用\n个人指令 插件\ndsh 个人指令\n开发者\n自动化\nworkflow\ntool"
     },
@@ -5561,7 +5561,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-04T06:35:16.703Z",
+      "updatedAt": "2026-11-18T15:10:13.015Z",
       "source": "discovery",
       "searchText": "dsh-phone-inbox\nPhone Inbox\n手机收件箱\nThe session's inbound phone (WeChat bridge) attachment inbox: list the attachments this conversation actually received and adopt one into the workspace on demand.\n会话的手机（微信桥）入站附件收件箱：列出本会话实际收到的附件，并按需采纳到工作区。\n手机收件箱\nPhone Inbox\ndsh-phone-inbox\ninterface\nintegration\n集成\n手机收件箱\n手机收件箱 怎么用\n手机收件箱 插件\ndsh 手机收件箱\n自动化\n运维\nremote_comms\nbridge"
     },
@@ -6460,7 +6460,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-10-31T14:54:04.666Z",
+      "updatedAt": "2026-11-18T13:26:16.174Z",
       "source": "discovery",
       "searchText": "dsh-reach\nReach\n多渠道审批桥\nMulti-channel decision and remote-control bridge for DeepSeek Harness: approval/question cards from any workspace mirrored to IM chat (WeChat iLink, Telegram, Feishu) with stable #token ids and P{n} numbering, answered from chat through the native pending waterfall — fail-closed sender ownership, session console, and proactive reach_send.\n多渠道决策与远程控制桥：任何工作区的审批卡与提问卡镜像到 IM（微信 iLink、Telegram、飞书），用稳定的 #token 标识与 P{n} 编号，在聊天里经原生 pending 瀑布作答；发送者归属失败即拒，另带会话控制台与主动 reach_send。\n多渠道审批桥\nReach\ndsh-reach\nintegration\n集成\n多渠道审批桥\n多渠道审批桥 怎么用\n多渠道审批桥 插件\ndsh 多渠道审批桥\n自动化\n运维\nremote_comms\nbridge"
     },
@@ -6629,7 +6629,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T00:44:47.413Z",
+      "updatedAt": "2026-11-19T04:39:26.438Z",
       "source": "discovery",
       "searchText": "dsh-research-report\nResearch Report\n研究报告\nResearch reports with integrity: evidence-linked reports whose content hash seals the directory of sources.\n带完整性的研究报告：报告与证据一一关联，内容哈希封住来源目录。\n研究报告\nResearch Report\ndsh-research-report\nknowledge\n研究\n研究报告\n研究报告 怎么用\n研究报告 插件\ndsh 研究报告\n研究人员\n研究生\nresearch\ndrafting"
     },
@@ -6928,7 +6928,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:32:09.589Z",
+      "updatedAt": "2026-11-18T15:48:41.545Z",
       "source": "discovery",
       "searchText": "dsh-score\nScore\n插件评分\nPlugin quality scoring for the DSH ecosystem: evaluate plugins against checks and produce evidence-backed compliance reports.\nDSH 生态的插件质量评分：按检查项评估插件并产出有证据支撑的合规报告。\n插件评分\nScore\ndsh-score\ndev\n质量\n插件评分\n插件评分 怎么用\n插件评分 插件\ndsh 插件评分\n开发者\n插件作者\ndev\ntool"
     },
@@ -7056,7 +7056,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-13T04:56:26.657Z",
+      "updatedAt": "2026-11-20T15:46:20.537Z",
       "source": "discovery",
       "searchText": "dsh-session-sync\nSession Sync\n会话同步\nSession synchronization for DeepSeek Harness: push/pull session logs to remote storage with configurable auto push/pull.\n会话日志同步：把会话记录推/拉到远端存储，自动推拉可配置。\n会话同步\nSession Sync\ndsh-session-sync\nsession\n会话\n会话同步\n会话同步 怎么用\n会话同步 插件\ndsh 会话同步\nDSH 用户\n开发者\nsession\ntool"
     },
@@ -7583,7 +7583,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:06:31.749Z",
+      "updatedAt": "2026-11-18T15:44:37.860Z",
       "source": "discovery",
       "searchText": "dsh-talk\nTalk\n语音对话\nVoice for DeepSeek Harness: text-to-speech and speech-to-text with mute and speak-to-chat controls.\n给 DeepSeek Harness 加语音：文字转语音与语音转文字，含静音与\"说完即发\"开关。\n语音对话\nTalk\ndsh-talk\ntools\n桌面\n语音对话\n语音对话 怎么用\n语音对话 插件\ndsh 语音对话\n桌面用户\n开发者\nvoice\nbridge"
     },
@@ -7891,7 +7891,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-05T05:30:48.530Z",
+      "updatedAt": "2026-11-18T15:49:28.826Z",
       "source": "discovery",
       "searchText": "dsh-test-drive\nTest Drive\n装机试驾\nTest Drive: run plugins in a disposable sandbox environment (temporary DSH_HOME) and score the results as JSON/Markdown.\n在一次性沙箱环境（临时 DSH_HOME）里跑插件，并以 JSON/Markdown 给出结果。\n装机试驾\nTest Drive\ndsh-test-drive\ndev\n质量\n装机试驾\n装机试驾 怎么用\n装机试驾 插件\ndsh 装机试驾\n开发者\n插件作者\ndev\ntool"
     },
@@ -7971,7 +7971,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-09T07:35:01.652Z",
+      "updatedAt": "2026-11-18T15:47:10.385Z",
       "source": "discovery",
       "searchText": "dsh-translate\nFull-page translation\n整页翻译\nTranslate the rendered web GUI into your language with your own DSH model route. Code, paths, commands, identifiers, numbers and product names stay verbatim; display-only, the session log is never touched.\n用你自己的 DSH 模型路由把整个 Web GUI 翻成你的语言；代码、路径、命令、标识符、数字与专名原样保留，只改显示层，不写会话日志。\n整页翻译\nFull-page translation\ndsh-translate\n页面翻译\n翻译\ni18n\ntranslation\ni18n\nlocalization\nui\ndom\npage translation\n翻译\n整页翻译\n双语\n整页翻译\n整页翻译 怎么用\n整页翻译 插件\ndsh 整页翻译\n页面翻译\n界面翻译\nDSH 用户\n中文读者\n译者\nux\ntool"
     },
@@ -8055,7 +8055,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-09T11:19:41.941Z",
+      "updatedAt": "2026-11-18T15:40:27.798Z",
       "source": "discovery",
       "searchText": "dsh-param-repair\nVendor parameter mapping & JSON repair\n厂商参数映射与报文修复\nMap request parameters across 11 vendor dialects and repair malformed JSON tool output with deterministic, auditable rules. No network, no model call, no invented data.\n在 11 家厂商之间映射请求参数，并按固定、可审计的规则修复坏掉的 JSON 工具输出；不联网、不调模型、不编造数据。\n厂商参数映射\n参数映射\nJSON修复\n报文修复\n坏掉的JSON\nschema校验\nparameter mapping\nvendor params\njson repair\nschema validation\ntool output\n开发者\n插件作者\nparameter mapping\nvendor params\njson repair\nschema validation\ntool output\n参数映射\nJSON修复\n厂商参数\n厂商参数映射\n坏掉的JSON工具输出怎么修\n参数映射怎么用\nJSON修复会编造值吗\n开发者\n插件作者\ndev\ntool"
     },
@@ -10334,7 +10334,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-10T12:39:57.157Z",
+      "updatedAt": "2026-11-20T08:49:16.532Z",
       "source": "discovery",
       "searchText": "dsh-cite-verify\nCitation Verify\n引用核验\n给研究人员/编辑：核验 DOI/PMID/arXiv/BibTeX 引用是否存在、元数据是否逐字段正确。 Citation existence and metadata verification against DOI/PMID/arXiv/BibTeX.\n核验一条引用确实存在——并核验它的元数据是否正确。DOI / PMID / arXiv / BibTeX → 数据源自己的回答、逐字段核对、内容寻址的快照与 REP 证据记录。\n引用核验\nCitation Verify\ndsh-cite-verify\n引文\nDOI\nPMID\narXiv\nBibTeX\n参考文献\n元数据\ncitation\ndoi\nbibtex\n研究人员\n编辑\n科研诚信\n引用核验\n引文\nDOI\nPMID\narXiv\nBibTeX\n参考文献\n元数据\ncitation\ndoi\nbibtex\n研究人员\n编辑\n科研诚信\n引用核验\nDOI 查不到就算引用造假吗？\n元数据和原文对不上怎么办？\n引用核验怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -10515,7 +10515,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:20:02.169Z",
+      "updatedAt": "2026-11-20T08:49:52.855Z",
       "source": "discovery",
       "searchText": "dsh-dataset-card\nDataset Card\n数据集 Datasheet\n给数据发布者：对 CSV/TSV/JSON/JSONL 做画像、标记疑似 PII，并生成 Datasheet 卡片。 Dataset profiling, PII hints and a Datasheet-style card.\n发布数据集时附上一份 Datasheet——并在发布前搞清楚个人数据在哪里。对 CSV/TSV/JSON/JSONL 做画像，按列名与脱敏值模式标记疑似 PII，拒绝把原始行存为证据。\n数据集 Datasheet\nDataset Card\ndsh-dataset-card\n数据集\nDatasheet\n数据画像\nPII\n个人数据\nCSV\nTSV\nJSONL\ndataset-card\ndata-profile\n数据分析\n数据发布\n数据集\nDatasheet\n数据画像\nPII\n个人数据\nCSV\nTSV\nJSONL\ndataset-card\ndata-profile\n数据分析\n数据发布\n数据集 Datasheet\n怎样判断一列是 PII？\nDatasheet 缺章节怎么办？\n数据集 Datasheet怎么用\n数据分析\n研究人员\n开发者\ndata\ntool"
     },
@@ -10692,7 +10692,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:21:02.211Z",
+      "updatedAt": "2026-11-20T08:49:40.990Z",
       "source": "discovery",
       "searchText": "dsh-dmp\nDMP\n数据管理计划\n给申请人/科研管理：用十节脚手架写数据管理计划，并检查个人数据、保存期、备份与仓库许可。 Ten-section data-management-plan scaffold and consistency check.\n一份说得清数据放在哪里、谁能动、资助结束后如何处置的数据管理计划。十节脚手架，每节带提示语；检查个人数据与开放共享、最短保存期、备份、仓库/许可证/DOI。\n数据管理计划\nDMP\ndsh-dmp\n数据共享\n保存期\n备份\n仓库\n许可证\nDOI\ndata-management\nFAIR\n科研管理\n申请人\n数据管理计划\nDMP\n数据共享\n保存期\n备份\n仓库\n许可证\nDOI\ndata-management\nFAIR\n科研管理\n申请人\n数据管理计划\n个人数据和开放共享冲突怎么办？\n保存期写多长？\n数据管理计划怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -10781,7 +10781,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:40:18.911Z",
+      "updatedAt": "2026-11-20T08:50:30.042Z",
       "source": "discovery",
       "searchText": "dsh-image-integrity\nImage Integrity\n图像完整性核对\n给期刊编辑/科研诚信：用零依赖 PNG 指纹找重复或镜像复用的子图。 Duplicate or mirrored figure-panel detection with zero-dependency PNG fingerprints.\n这张子图是不是被复用了——原地重复，还是从另一张图镜像粘贴过来？零依赖 PNG 解码、带 NCC 确认的均值阈值块指纹、重复/镜像区域报告与 SARIF。\n图像完整性核对\nImage Integrity\ndsh-image-integrity\n图像完整性\n子图复用\n图片查重\n镜像粘贴\nPNG\nNCC\nSARIF\nimage-integrity\nfigure\n期刊编辑\n科研诚信\n图像完整性\n子图复用\n图片查重\n镜像粘贴\nPNG\nNCC\nSARIF\nimage-integrity\nfigure\n期刊编辑\n科研诚信\n图像完整性核对\n镜像粘贴能查出来吗？\n查重结果能当造假证据吗？\n图像完整性核对怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -10866,7 +10866,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:20:22.959Z",
+      "updatedAt": "2026-11-20T08:52:29.298Z",
       "source": "discovery",
       "searchText": "dsh-irb\nIRB Checklist\n伦理申请清单\n给申请人/伦理秘书：按 18 项清单检查伦理申请材料，给出建议风险等级与保障措施。 Ethics-application checklist with a suggested risk level and safeguards.\n赶在伦理委员会之前把申请材料准备好——并知道哪些核心陈述还缺着。18 项关键词清单、建议性风险等级与对应保障措施，可导出 Markdown + SARIF。\n伦理申请清单\nIRB Checklist\ndsh-irb\n伦理申请\nIRB\n伦理委员会\n知情同意\n风险等级\n保障措施\nirb\nethics\n申请人\n伦理秘书\n伦理申请\nIRB\n伦理委员会\n知情同意\n风险等级\n保障措施\nirb\nethics\n申请人\n伦理秘书\n伦理申请清单\n风险等级是伦理委员会结论吗？\n知情同意书缺项怎么办？\n伦理申请清单怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -10948,7 +10948,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:19:40.569Z",
+      "updatedAt": "2026-11-20T08:49:30.709Z",
       "source": "discovery",
       "searchText": "dsh-lit-watch\nLiterature Watch\n文献监测\n给研究人员：保存 Crossref 检索式，只报告自上次以来真正新增的文献。 Saved Crossref queries that report only genuinely new literature since the last run.\n这次检索相比上次新增了什么——而且只报新增。保存带时间窗口的 Crossref 检索；用已见 DOI 库保证重复运行只返回真正新增的条目。\n文献监测\nLiterature Watch\ndsh-lit-watch\nCrossref\n新增文献\nDOI\n检索式\nlit-watch\nliterature-watch\n研究人员\n文献综述\n文献监测\nCrossref\n新增文献\nDOI\n检索式\nlit-watch\nliterature-watch\n研究人员\n文献综述\n文献监测\n重复运行会不会报旧文献？\nCrossref 查不到怎么办？\n文献监测怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -11035,7 +11035,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:58:52.739Z",
+      "updatedAt": "2026-11-20T08:48:36.943Z",
       "source": "discovery",
       "searchText": "dsh-grant-cn\nCN Grant Check\n中文基金申请书检查\n给申请人/科研秘书：检查中文基金申请书的 19 项结构、预算算术与材料包。 Chinese grant application checklist: structure, budget arithmetic and submission package.\n投稿/申报前：本子的检查清单是否齐、预算算术是否对、材料包是否真的打包了？面向中文基金申请书的 19 项结构/属性/声明检查、预算算术与材料包扫描。\n中文基金申请书检查\nCN Grant Check\ndsh-grant-cn\n基金申请书\n国自然\n中文基金\n预算\n算术\n材料包\n形式审查\ngrant\nnsfc\n申请人\n科研秘书\n基金申请书\n国自然\n中文基金\n预算\n算术\n材料包\n形式审查\ngrant\nnsfc\n申请人\n科研秘书\n中文基金申请书检查\n预算算术怎么核？\n19 项清单是评审结论吗？\n中文基金申请书检查怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -11120,7 +11120,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:58:12.370Z",
+      "updatedAt": "2026-11-20T08:49:49.171Z",
       "source": "discovery",
       "searchText": "dsh-manuscript-check\nManuscript Check\n投稿前稿件检查\n给作者/编辑：投稿前检查稿件结构、声明与 CONSORT/STROBE/PRISMA 条目覆盖。 Pre-submission manuscript structure, declarations and reporting-checklist coverage.\n投稿前：稿件是否完整、指南要求报告的内容是否都报告了、投稿包是否真的打齐了？关键词检查清单 + CONSORT/STROBE/PRISMA 起步条目覆盖 + 投稿目录扫描。\n投稿前稿件检查\nManuscript Check\ndsh-manuscript-check\n投稿\n稿件检查\nCONSORT\nSTROBE\nPRISMA\n声明\n投稿包\nmanuscript\n作者\n编辑\n投稿\n稿件检查\nCONSORT\nSTROBE\nPRISMA\n声明\n投稿包\nmanuscript\n作者\n编辑\n投稿前稿件检查\nCONSORT 条目必须全有吗？\n投稿包缺文件怎么报？\n投稿前稿件检查怎么用\n作者\n编辑\n研究人员\ndocuments\nchecker"
     },
@@ -11205,7 +11205,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:21:13.735Z",
+      "updatedAt": "2026-11-20T08:48:46.231Z",
       "source": "discovery",
       "searchText": "dsh-notebook-capture\nNotebook Capture\nNotebook 复现采集\n给研究人员：不执行 notebook，只读取 .ipynb，记录内核、顺序、种子、路径与哈希。 Notebook reproducibility capture from .ipynb without executing it.\n能在你机器上跑通的 notebook，还不等于可复现。不执行、只读取 .ipynb：内核、执行顺序、import、运行时安装、随机种子、绝对路径、输出状态与哈希。\nNotebook 复现采集\nNotebook Capture\ndsh-notebook-capture\nNotebook\nipynb\n可复现\n随机种子\n内核\n环境\n哈希\nnotebook-capture\nreproducibility\n研究人员\nNotebook\nipynb\n可复现\n随机种子\n内核\n环境\n哈希\nnotebook-capture\nreproducibility\n研究人员\nNotebook 复现采集\n会执行 notebook 吗？\n没有 lockfile 怎么记录？\nNotebook 复现采集怎么用\n数据分析\n研究人员\n开发者\ndata\ntool"
     },
@@ -11294,7 +11294,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:41:49.907Z",
+      "updatedAt": "2026-11-20T08:50:03.876Z",
       "source": "discovery",
       "searchText": "dsh-meta-analysis\nMeta-analysis\n元分析算术\n给研究人员：做效应量换算、固定/随机效应合并、Q/I²/τ² 与森林图数据，每步可复算。 Meta-analysis arithmetic: effect sizes, fixed/random pooling, Q/I²/τ² and forest-plot data.\n把效应量合并起来——每一步算术都能逐行核对。效应量换算、固定效应与 DerSimonian–Laird 随机效应合并、Q / I² / τ²、森林图数据与轻量 Egger 检验。\n元分析算术\nMeta-analysis\ndsh-meta-analysis\n元分析\nmeta-analysis\n效应量\nOR\nRR\nSMD\nI2\nEgger\n森林图\n固定效应\n随机效应\n研究人员\n元分析\nmeta-analysis\n效应量\nOR\nRR\nSMD\nI2\nEgger\n森林图\n固定效应\n随机效应\n研究人员\n元分析算术\n少于十项研究为什么拒绝 Egger？\nOR 和 RR 怎么换算？\n元分析算术怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -11377,7 +11377,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:19:17.964Z",
+      "updatedAt": "2026-11-20T08:50:14.223Z",
       "source": "discovery",
       "searchText": "dsh-response-letter\nResponse Letter\n审稿回复信\n给作者/编辑：解析审稿意见，逐条核对回复信是否覆盖、缺失、重复或过短。 Reviewer-comment parsing and clause-by-clause response-letter coverage check.\n每一条审稿意见都有回复——而且可以按编号核实。解析审稿意见（Reviewer/Referee/审稿人 标题行），检查回复信的缺失、过短、多余、重复，并导出覆盖表。\n审稿回复信\nResponse Letter\ndsh-response-letter\n审稿意见\n回复信\nresponse-letter\n审稿人\n逐条回复\n覆盖表\n作者\n编辑\n同行评议\n审稿意见\n回复信\nresponse-letter\n审稿人\n逐条回复\n覆盖表\n作者\n编辑\n同行评议\n审稿回复信\n审稿意见编号不连续怎么办？\n回复太短怎么判？\n审稿回复信怎么用\n作者\n编辑\n研究人员\ndocuments\ntool"
     },
@@ -11465,7 +11465,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:19:26.036Z",
+      "updatedAt": "2026-11-20T08:48:54.421Z",
       "source": "discovery",
       "searchText": "dsh-retraction-watch\nRetraction Watch\n撤稿与更正监测\n给研究人员/编辑：按 DOI 检查论文是否被撤稿或更正，并保留可复读的时间线。 Retraction and correction monitoring per DOI with an append-only timeline.\n你引用的论文，后来有没有被撤稿或更正？Crossref 工作记录 + 已实测的 filter=updates:<doi> 查询、逐 DOI 状态、追加式时间线与 REP 证据。\n撤稿与更正监测\nRetraction Watch\ndsh-retraction-watch\n撤稿\n更正\nretraction\nCrossref\nDOI\n科研诚信\n文献\nretraction-watch\n研究人员\n编辑\n撤稿监测\n更正监测\nretraction watch\n撤稿\n更正\nretraction\nCrossref\nDOI\n科研诚信\n文献\nretraction-watch\n研究人员\n编辑\n撤稿与更正监测\nclear 是不是等于没问题？\n更正和撤稿怎么区分？\n撤稿与更正监测怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -11550,7 +11550,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:59:50.701Z",
+      "updatedAt": "2026-11-20T08:49:12.905Z",
       "source": "discovery",
       "searchText": "dsh-repro-audit\nRepro Audit\n复现审计\n给研究人员/评审：记录 commit、lockfile、环境、数据哈希、seed 与运行命令，并做漂移检查。 Reproducibility evidence capture and drift check for a recorded analysis.\n别人能复现这项分析吗——以及从你记录至今，有没有东西发生漂移？有界只读扫描记录 commit、lockfile、环境、数据哈希、图表、seed 与运行命令。\n复现审计\nRepro Audit\ndsh-repro-audit\n复现\nreproducibility\nlockfile\n数据哈希\nseed\n环境\n漂移\nrepro-audit\n研究人员\n评审\n复现\nreproducibility\nlockfile\n数据哈希\nseed\n环境\n漂移\nrepro-audit\n研究人员\n评审\n复现审计\n扫描会改仓库吗？\n数据哈希对不上说明什么？\n复现审计怎么用\n研究人员\n研究生\n科研秘书\nresearch\nchecker"
     },
@@ -11635,7 +11635,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:19:29.790Z",
+      "updatedAt": "2026-11-20T08:52:57.712Z",
       "source": "discovery",
       "searchText": "dsh-source-cnki\nCNKI Source\n中文文献来源\n给研究人员：导入 RIS/EndNote 导出，按 GB/T 7714-2015 或 APA 7 排版并校验元数据。 Chinese-literature import, GB/T 7714 / APA 7 formatting and metadata validation without scraping.\n中文文献记录：导入你自己的导出文件，按 GB/T 7714 引用，检查元数据——全程不抓取 CNKI。读取 RIS/EndNote 风格或带标签的文本导出，分配稳定记录 id。\n中文文献来源\nCNKI Source\ndsh-source-cnki\n中文文献\nCNKI\nRIS\nEndNote\nGB/T 7714\nAPA\n参考文献\nsource-cnki\n研究人员\n文献管理\n中文文献\nCNKI\nRIS\nEndNote\nGB/T 7714\nAPA\n参考文献\nsource-cnki\n研究人员\n文献管理\n中文文献来源\n会抓取 CNKI 吗？\nGB/T 7714 和 APA 能同时输出吗？\n中文文献来源怎么用\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -11721,7 +11721,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-10T12:44:32.226Z",
+      "updatedAt": "2026-11-20T08:50:17.398Z",
       "source": "discovery",
       "searchText": "dsh-sr-ledger\nSR Ledger\n系统综述账本\n给系统综述团队：记录方案、双人筛选、冲突裁决与 RoB/GRADE，并推导 PRISMA 2020 流程。 Systematic-review ledger: protocol, dual screening, adjudication, RoB/GRADE and PRISMA 2020.\n经得起复核的系统综述账本：只追加、双人筛选、PRISMA 2020、审计可验。记录方案、每条筛选决策、冲突裁决与 RoB/GRADE 评估，再推导 PRISMA 流程。\n系统综述账本\nSR Ledger\ndsh-sr-ledger\n系统综述\nPRISMA\n双人筛选\nRoB\nGRADE\nsr-ledger\nsystematic-review\nMeta分析\n研究人员\n循证医学\n系统综述\nPRISMA\n双人筛选\nRoB\nGRADE\nsr-ledger\nsystematic-review\nMeta分析\n研究人员\n循证医学\n系统综述账本\n双人筛选冲突怎么记？\nPRISMA 流程是自动推导的吗？\n系统综述账本怎么用\n研究人员\n研究生\n科研秘书\nresearch\nreconciliation\nledger"
     },
@@ -11803,7 +11803,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-08T13:17:41.591Z",
+      "updatedAt": "2026-11-20T08:50:29.623Z",
       "source": "discovery",
       "searchText": "dsh-statcheck\nStat Check\n统计复算\n给作者/审稿人：重算稿件报告的统计量，标出 p 值与统计量对不上的位置。 Recompute reported statistics and flag self-inconsistent p values with exact locations.\n重算稿件报告的统计数据——并把对不上的那些标出来。这是算术，不是指控：每条 finding 都给出报告的统计量、它实际蕴含的 p 值，以及精确字符位置。\n统计复算\nStat Check\ndsh-statcheck\np值\nstatcheck\nAPA\n统计量\n一致性\n作者\n审稿人\n科研诚信\n统计复算\np值\nstatcheck\nAPA\n统计量\n一致性\n作者\n审稿人\n科研诚信\n统计复算\np 值对不上就是学术不端吗？\n只支持 APA 格式吗？\n统计复算怎么用\n研究人员\n研究生\n科研秘书\nresearch\nchecker"
     },
@@ -12051,7 +12051,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-10T12:42:14.366Z",
+      "updatedAt": "2026-11-20T08:49:02.908Z",
       "source": "discovery",
       "searchText": "dsh-lit-harvest\nLiterature Harvest\n文献收割\nDeterministic multi-source literature harvesting for DeepSeek Harness: OpenAlex, Crossref, arXiv and Europe PMC in one search, Unpaywall open-access resolution, sufficiency gaps, and a REP run record.\n多源文献收割：OpenAlex / Crossref / arXiv / Europe PMC 一次检索，Unpaywall 解析开放获取，报告充分性缺口，并把本轮运行写成 REP 证据记录。\n文献收割\n多源文献检索\nLiterature Harvest\nliterature harvest\ndsh-lit-harvest\nlit-harvest\nOpenAlex\nCrossref\narXiv\nEurope PMC\nUnpaywall\n开放获取\n文献检索\n多源检索\nOpenAlex\nCrossref\narXiv\nEurope PMC\nUnpaywall\n开放获取\nlit-harvest\nliterature review\n一次从多个数据源找文献\n这个主题的文献够不够\nOpenAlex/Crossref/arXiv 一起搜\n怎么找到论文的开放获取版本\n文献检索能不能复核\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
@@ -12133,7 +12133,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-10T12:43:52.204Z",
+      "updatedAt": "2026-11-20T08:49:07.738Z",
       "source": "discovery",
       "searchText": "dsh-zotero-bridge\nZotero Bridge\nZotero 桥\nRead-only Zotero bridge for DeepSeek Harness: query a running Zotero through the Local API or a copied sqlite library, and turn selected items into REP records — it never writes to Zotero.\n只读 Zotero 桥：通过 Local API 或 sqlite 库副本检索 Zotero 条目，把选中条目转成 REP 记录；从不写 Zotero。\nZotero 桥\nZotero\nZotero 只读\nZotero Bridge\nzotero bridge\ndsh-zotero-bridge\nzotero-bridge\n文献库\nLocal API\nsqlite\nZotero\n文献管理\nLocal API\nsqlite\n只读\n参考文献\nzotero-bridge\nREP\n怎么让 agent 读我的 Zotero 文库\nZotero 里的条目怎么变成证据\n不打开 Zotero 也能查文献库吗\nZotero 会不会被改动\n研究人员\n研究生\n文献管理员\nresearch\nbridge"
     },
@@ -12290,7 +12290,7 @@
         "zh",
         "en"
       ],
-      "updatedAt": "2026-11-10T12:44:05.265Z",
+      "updatedAt": "2026-11-20T08:50:22.942Z",
       "source": "discovery",
       "searchText": "dsh-research-skills\nResearch Skills\n科研 SOP 技能\nSeven research SOP skills for DeepSeek Harness: literature review, citation audit, claim/evidence audit, manuscript preflight, reviewer response, reproducibility audit and data-management plan.\n七个科研 SOP 技能：文献综述、引文审计、断言/证据审计、投稿前检查、审稿回复、可复现性审计与数据管理计划；每个技能都以记录或明确结论收尾。\n科研技能\n科研 SOP\nResearch Skills\nresearch skills\ndsh-research-skills\nresearch-skills\n文献综述流程\n投稿前检查流程\n数据管理计划流程\n科研技能\nSOP\n技能包\n文献综述\n引文审计\n数据管理计划\n研究可复现\nresearch-skills\n做文献综述该按什么流程\n投稿前要检查什么\n审稿回复怎么写才不漏\n数据管理计划怎么写\n可复现性审计怎么做\n研究人员\n研究生\n科研秘书\nresearch\ntool"
     },
