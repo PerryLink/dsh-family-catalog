@@ -1,9 +1,20 @@
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-family-catalog-hero-en-dark.webp">
+  <img src="docs/assets/dsh-family-catalog-hero-en-light.webp" width="100%" alt="dsh-family-catalog: one v1 manifest for the 152-package family — data/packages.json holds 152 rows (151 PerryLink repositories + 1 third-party package), deploy/artifacts/v1/plugins.json ships 152 strict items with page.total 152, and data/facets.json covers 152/152 plugins across 10 domain hubs">
+</picture>
+
 # dsh-family-catalog
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![DSH plugin](https://img.shields.io/badge/dsh--plugin-✅-green)](https://github.com/topics/dsh-plugin)
 [![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?logo=gitee)](https://gitee.com/perrylink/dsh-family-catalog)
 [![dshfind](https://dshfind.com/api/badge/PerryLink/dsh-family-catalog?metric=downloads)](https://dshfind.com/plugins/PerryLink/dsh-family-catalog?ref=badge)
+
+[English](README.md) · [简体中文](README-zh.md) · [Español](README-es.md) · [Português](README-pt.md) · [हिन्दी](README-hi.md)
+
+</div>
 
 A [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/dsh-community-market) **standard catalog source** for the PerryLink DeepSeek Harness plugin family, generated from the npm registry, validated against the public v1 contract schemas. Every item's `displayName` is bilingual (English — 中文) and its `summary` carries the Chinese line, so Chinese stays visible and searchable inside the strict 1.0.0 fields. The pure Chinese pair and the display/status metadata the public schema does not allow live in `display.json`.
 
@@ -13,16 +24,18 @@ A [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/
 - Generator / validator: `scripts/build-catalog.mjs`, `scripts/validate.mjs`, `scripts/check-counts.mjs`
 - Deploy: live at `https://perrylink-dsh-catalog.perrylink.workers.dev` (Cloudflare Workers, automated via `deploy.yml`; Vercel static alternative in `vercel.json`; Deno unit `deploy/deno-worker.js` as manual alternative)
 
-![Workflow diagram for dsh-catalog](docs/assets/dsh-catalog-flow.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/dsh-family-catalog-flow-v5-dark.svg">
+  <img src="docs/assets/dsh-family-catalog-flow-v5-light.svg" width="100%" alt="Structure diagram for dsh-family-catalog: the npm registry snapshot (152 rows) feeds data/packages.json and scripts/build-catalog.mjs writes deploy/catalog-source.json plus deploy/artifacts/v1/plugins.json (152 strict items); check-data, check-counts and check-facets gate the result; the sidecar adds GET /v1/search, GET /v1/plugin and the plugin_search and plugin_get MCP tools; deployment runs on Cloudflare Workers, Vercel or Deno on one HTTPS origin">
+</picture>
 
-*Workflow overview: install → open panel → act. The catalog is the discovery surface.*
-
+*Structure: npm registry → data/packages.json → deploy artifacts → gates → search sidecar. Labels inside the diagram are real script names, paths and endpoints, so one picture serves all five languages.*
 
 ## Maintenance status: family-internal tool
 
-![dsh-family-catalog: real terminal run](docs/assets/dsh-catalog-demo.gif)
+![dsh-family-catalog: a real terminal run — check-counts reports 152 packages derived from data/packages.json, check-facets reports 152/152 facet coverage with 133 active / 15 frozen / 3 retired / 1 unknown across 10 hubs, and search.mjs resolves the standard number IATF 16949 to dsh-ppap-check then dsh-sop-sync-check](docs/assets/dsh-family-catalog-demo.gif)
 
-*Animated replay of a real run recorded in this repository.*
+*Animated: the repository's own read-only gates and search CLI re-run on 2026-11-21 — node scripts/check-counts.mjs, node scripts/check-facets.mjs, node scripts/search.mjs "IATF 16949" --limit=3. Real stdout, no network calls.*
 
 > **Reclassified on 2026-10-05 — deliberately NOT retired.** A review of the whole
 > plugin family against the official harness and the wider ecosystem classified this
