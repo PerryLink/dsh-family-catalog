@@ -20,6 +20,10 @@ A [DSH Community Market](https://github.com/anywhere-labs/dsh-desktop/tree/main/
 
 ## Maintenance status: family-internal tool
 
+![dsh-family-catalog: real terminal run](docs/assets/dsh-catalog-demo.gif)
+
+*Animated replay of a real run recorded in this repository.*
+
 > **Reclassified on 2026-10-05 — deliberately NOT retired.** A review of the whole
 > plugin family against the official harness and the wider ecosystem classified this
 > repository as **family-internal tooling** rather than a product. Its job is to

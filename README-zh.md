@@ -8,6 +8,10 @@
 
 ## Docs
 
+![dsh-family-catalog 真实终端运行](docs/assets/dsh-catalog-demo.gif)
+
+*本仓库一次真实运行的动图回放。*
+
 [Privacy](PRIVACY.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
 ## 工具链与上游（事实，2026-11）

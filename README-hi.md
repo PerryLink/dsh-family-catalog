@@ -8,6 +8,10 @@
 
 ## Docs
 
+![dsh-family-catalog का असली टर्मिनल रन](docs/assets/dsh-catalog-demo.gif)
+
+*इस रिपॉज़िटरी में दर्ज असली रन का एनिमेटेड रीप्ले।*
+
 [Privacy](PRIVACY.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
 
