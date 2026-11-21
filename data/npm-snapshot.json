@@ -5,8 +5,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-github-bot#readme",
     "repository": "git+https://github.com/PerryLink/dsh-github-bot.git",
-    "latest": "0.8.2",
-    "updatedAt": "2026-11-04T15:33:46.317Z"
+    "latest": "0.9.1",
+    "updatedAt": "2026-11-21T03:41:21.029Z"
   },
   {
     "name": "dsh-clinic",
@@ -68,8 +68,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-auto-review#readme",
     "repository": "git+https://github.com/PerryLink/dsh-auto-review.git",
-    "latest": "0.15.1",
-    "updatedAt": "2026-11-13T04:48:06.703Z"
+    "latest": "0.15.3",
+    "updatedAt": "2026-11-15T13:30:46.240Z"
   },
   {
     "name": "dsh-autotier",
@@ -77,8 +77,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-autotier#readme",
     "repository": "git+https://github.com/PerryLink/dsh-autotier.git",
-    "latest": "0.2.21",
-    "updatedAt": "2026-11-05T05:26:04.950Z"
+    "latest": "0.2.22",
+    "updatedAt": "2026-11-18T15:12:14.294Z"
   },
   {
     "name": "dsh-background-agents",
@@ -113,8 +113,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-budget#readme",
     "repository": "git+https://github.com/PerryLink/dsh-budget.git",
-    "latest": "0.4.25",
-    "updatedAt": "2026-11-14T01:36:40.993Z"
+    "latest": "0.4.27",
+    "updatedAt": "2026-11-18T15:20:03.059Z"
   },
   {
     "name": "dsh-cert-mcp",
@@ -122,8 +122,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-cert-mcp#readme",
     "repository": "git+https://github.com/PerryLink/dsh-cert-mcp.git",
-    "latest": "0.2.13",
-    "updatedAt": "2026-11-05T05:36:13.120Z"
+    "latest": "0.2.14",
+    "updatedAt": "2026-11-18T15:19:49.500Z"
   },
   {
     "name": "dsh-checkpoint-rewind",
@@ -131,8 +131,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-checkpoint-rewind#readme",
     "repository": "git+https://github.com/PerryLink/dsh-checkpoint-rewind.git",
-    "latest": "0.6.34",
-    "updatedAt": "2026-10-24T12:34:43.051Z"
+    "latest": "0.6.36",
+    "updatedAt": "2026-11-18T13:25:46.532Z"
   },
   {
     "name": "dsh-claude-move",
@@ -140,8 +140,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-claude-move#readme",
     "repository": "git+https://github.com/PerryLink/dsh-claude-move.git",
-    "latest": "0.4.19",
-    "updatedAt": "2026-11-05T05:54:34.076Z"
+    "latest": "0.4.21",
+    "updatedAt": "2026-11-19T04:30:27.879Z"
   },
   {
     "name": "dsh-click",
@@ -149,8 +149,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-click#readme",
     "repository": "git+https://github.com/PerryLink/dsh-click.git",
-    "latest": "0.3.29",
-    "updatedAt": "2026-11-13T04:50:38.663Z"
+    "latest": "0.3.32",
+    "updatedAt": "2026-11-20T15:53:16.527Z"
   },
   {
     "name": "dsh-community-bench",
@@ -167,8 +167,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-composer-history#readme",
     "repository": "git+https://github.com/PerryLink/dsh-composer-history.git",
-    "latest": "0.8.16",
-    "updatedAt": "2026-11-05T05:27:02.372Z"
+    "latest": "0.8.17",
+    "updatedAt": "2026-11-18T15:24:37.395Z"
   },
   {
     "name": "dsh-contract-stance",
@@ -194,8 +194,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-data-quality#readme",
     "repository": "git+https://github.com/PerryLink/dsh-data-quality.git",
-    "latest": "0.3.26",
-    "updatedAt": "2026-11-05T04:53:47.572Z"
+    "latest": "0.3.28",
+    "updatedAt": "2026-11-18T15:24:21.564Z"
   },
   {
     "name": "dsh-defend",
@@ -203,8 +203,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-defend#readme",
     "repository": "git+https://github.com/PerryLink/dsh-defend.git",
-    "latest": "0.3.27",
-    "updatedAt": "2026-11-05T05:30:23.250Z"
+    "latest": "0.3.29",
+    "updatedAt": "2026-11-18T15:25:47.456Z"
   },
   {
     "name": "dsh-demurrage-ledger",
@@ -221,8 +221,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-doublecheck#readme",
     "repository": "git+https://github.com/PerryLink/dsh-doublecheck.git",
-    "latest": "0.9.31",
-    "updatedAt": "2026-11-13T00:47:56.976Z"
+    "latest": "0.9.33",
+    "updatedAt": "2026-11-18T15:35:12.370Z"
   },
   {
     "name": "dsh-draw",
@@ -230,8 +230,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-draw#readme",
     "repository": "git+https://github.com/PerryLink/dsh-draw.git",
-    "latest": "0.2.26",
-    "updatedAt": "2026-11-05T05:31:07.743Z"
+    "latest": "0.2.27",
+    "updatedAt": "2026-11-18T15:29:45.626Z"
   },
   {
     "name": "dsh-drill-script-check",
@@ -293,8 +293,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-fast#readme",
     "repository": "git+https://github.com/PerryLink/dsh-fast.git",
-    "latest": "0.2.28",
-    "updatedAt": "2026-11-04T15:21:48.580Z"
+    "latest": "0.2.29",
+    "updatedAt": "2026-11-18T13:08:36.324Z"
   },
   {
     "name": "dsh-fmea-table-check",
@@ -320,8 +320,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-fund-research#readme",
     "repository": "git+https://github.com/PerryLink/dsh-fund-research.git",
-    "latest": "0.5.3",
-    "updatedAt": "2026-11-05T04:54:39.190Z"
+    "latest": "0.5.5",
+    "updatedAt": "2026-11-18T15:31:39.862Z"
   },
   {
     "name": "dsh-gongwen-flow-check",
@@ -401,8 +401,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-industry-research#readme",
     "repository": "git+https://github.com/PerryLink/dsh-industry-research.git",
-    "latest": "0.3.25",
-    "updatedAt": "2026-11-05T05:10:36.052Z"
+    "latest": "0.3.27",
+    "updatedAt": "2026-11-19T04:38:22.584Z"
   },
   {
     "name": "dsh-lawcite-adapter",
@@ -446,8 +446,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-library#readme",
     "repository": "git+https://github.com/PerryLink/dsh-library.git",
-    "latest": "0.3.0",
-    "updatedAt": "2026-11-10T12:40:35.224Z"
+    "latest": "0.3.1",
+    "updatedAt": "2026-11-18T15:37:35.810Z"
   },
   {
     "name": "dsh-local-ai",
@@ -455,8 +455,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-local-ai#readme",
     "repository": "git+https://github.com/PerryLink/dsh-local-ai.git",
-    "latest": "0.2.26",
-    "updatedAt": "2026-11-13T00:36:41.705Z"
+    "latest": "0.2.29",
+    "updatedAt": "2026-11-20T15:51:06.471Z"
   },
   {
     "name": "dsh-lsp-actions",
@@ -464,8 +464,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-lsp-actions#readme",
     "repository": "git+https://github.com/PerryLink/dsh-lsp-actions.git",
-    "latest": "0.5.20",
-    "updatedAt": "2026-11-13T04:39:48.918Z"
+    "latest": "0.5.22",
+    "updatedAt": "2026-11-18T15:36:57.124Z"
   },
   {
     "name": "dsh-mask",
@@ -473,8 +473,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-mask#readme",
     "repository": "git+https://github.com/PerryLink/dsh-mask.git",
-    "latest": "0.2.24",
-    "updatedAt": "2026-11-05T05:21:53.467Z"
+    "latest": "0.2.26",
+    "updatedAt": "2026-11-18T15:40:27.131Z"
   },
   {
     "name": "dsh-mcp-panel",
@@ -482,8 +482,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-mcp-panel#readme",
     "repository": "git+https://github.com/PerryLink/dsh-mcp-panel.git",
-    "latest": "0.6.31",
-    "updatedAt": "2026-11-05T05:55:33.834Z"
+    "latest": "0.6.33",
+    "updatedAt": "2026-11-19T04:51:06.707Z"
   },
   {
     "name": "dsh-medrec-qc",
@@ -500,8 +500,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-memento#readme",
     "repository": "git+https://github.com/PerryLink/dsh-memento.git",
-    "latest": "0.5.30",
-    "updatedAt": "2026-11-05T05:23:59.845Z"
+    "latest": "0.5.32",
+    "updatedAt": "2026-11-18T15:56:28.183Z"
   },
   {
     "name": "dsh-nsfc-form-check",
@@ -527,8 +527,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-observe#readme",
     "repository": "git+https://github.com/PerryLink/dsh-observe.git",
-    "latest": "0.2.27",
-    "updatedAt": "2026-11-05T05:22:18.937Z"
+    "latest": "0.2.29",
+    "updatedAt": "2026-11-18T15:42:42.057Z"
   },
   {
     "name": "dsh-origin-rvc-check",
@@ -572,8 +572,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-permission-rules#readme",
     "repository": "git+https://github.com/PerryLink/dsh-permission-rules.git",
-    "latest": "0.8.0",
-    "updatedAt": "2026-11-13T04:55:41.571Z"
+    "latest": "0.8.3",
+    "updatedAt": "2026-11-19T04:40:27.058Z"
   },
   {
     "name": "dsh-permit-report-check",
@@ -590,8 +590,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-personal-directive#readme",
     "repository": "git+https://github.com/PerryLink/dsh-personal-directive.git",
-    "latest": "0.2.12",
-    "updatedAt": "2026-11-05T05:54:21.930Z"
+    "latest": "0.2.13",
+    "updatedAt": "2026-11-20T08:50:27.976Z"
   },
   {
     "name": "dsh-phocinae",
@@ -608,8 +608,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-phone-inbox#readme",
     "repository": "git+https://github.com/PerryLink/dsh-phone-inbox.git",
-    "latest": "0.1.6",
-    "updatedAt": "2026-11-04T06:35:16.703Z"
+    "latest": "0.1.7",
+    "updatedAt": "2026-11-18T15:10:13.015Z"
   },
   {
     "name": "dsh-pipeline-check",
@@ -707,8 +707,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-reach#readme",
     "repository": "git+https://github.com/PerryLink/dsh-reach.git",
-    "latest": "0.1.24",
-    "updatedAt": "2026-10-31T14:54:04.666Z"
+    "latest": "0.1.25",
+    "updatedAt": "2026-11-18T13:26:16.174Z"
   },
   {
     "name": "dsh-repair-order-qc",
@@ -725,8 +725,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-research-report#readme",
     "repository": "git+https://github.com/PerryLink/dsh-research-report.git",
-    "latest": "0.4.1",
-    "updatedAt": "2026-11-13T00:44:47.413Z"
+    "latest": "0.4.3",
+    "updatedAt": "2026-11-19T04:39:26.438Z"
   },
   {
     "name": "dsh-review-reply-check",
@@ -761,8 +761,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-score#readme",
     "repository": "git+https://github.com/PerryLink/dsh-score.git",
-    "latest": "0.2.28",
-    "updatedAt": "2026-11-05T05:32:09.589Z"
+    "latest": "0.2.29",
+    "updatedAt": "2026-11-18T15:48:41.545Z"
   },
   {
     "name": "dsh-session-pin",
@@ -779,8 +779,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-session-sync#readme",
     "repository": "git+https://github.com/PerryLink/dsh-session-sync.git",
-    "latest": "0.3.0",
-    "updatedAt": "2026-11-13T04:56:26.657Z"
+    "latest": "0.3.4",
+    "updatedAt": "2026-11-20T15:46:20.537Z"
   },
   {
     "name": "dsh-site-log-check",
@@ -833,8 +833,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-talk#readme",
     "repository": "git+https://github.com/PerryLink/dsh-talk.git",
-    "latest": "0.3.29",
-    "updatedAt": "2026-11-05T05:06:31.749Z"
+    "latest": "0.3.30",
+    "updatedAt": "2026-11-18T15:44:37.860Z"
   },
   {
     "name": "dsh-team-rooms",
@@ -869,8 +869,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-test-drive#readme",
     "repository": "git+https://github.com/PerryLink/dsh-test-drive.git",
-    "latest": "0.3.25",
-    "updatedAt": "2026-11-05T05:30:48.530Z"
+    "latest": "0.3.27",
+    "updatedAt": "2026-11-18T15:49:28.826Z"
   },
   {
     "name": "dsh-translate",
@@ -878,8 +878,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-translate#readme",
     "repository": "git+https://github.com/PerryLink/dsh-translate.git",
-    "latest": "0.3.5",
-    "updatedAt": "2026-11-09T07:35:01.652Z"
+    "latest": "0.3.6",
+    "updatedAt": "2026-11-18T15:47:10.385Z"
   },
   {
     "name": "dsh-param-repair",
@@ -887,8 +887,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-param-repair#readme",
     "repository": "git+https://github.com/PerryLink/dsh-param-repair.git",
-    "latest": "1.0.2",
-    "updatedAt": "2026-11-09T11:19:41.941Z"
+    "latest": "1.0.3",
+    "updatedAt": "2026-11-18T15:40:27.798Z"
   },
   {
     "name": "dsh-warranty-calc",
@@ -1148,8 +1148,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-cite-verify#readme",
     "repository": "git+https://github.com/PerryLink/dsh-cite-verify.git",
-    "latest": "0.2.0",
-    "updatedAt": "2026-11-10T12:39:57.157Z"
+    "latest": "0.2.1",
+    "updatedAt": "2026-11-20T08:49:16.532Z"
   },
   {
     "name": "@perrylink/dsh-claim-check",
@@ -1166,8 +1166,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-dataset-card#readme",
     "repository": "git+https://github.com/PerryLink/dsh-dataset-card.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:20:02.169Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:49:52.855Z"
   },
   {
     "name": "dsh-doc-anchor",
@@ -1184,8 +1184,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-dmp#readme",
     "repository": "git+https://github.com/PerryLink/dsh-dmp.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:21:02.211Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:49:40.990Z"
   },
   {
     "name": "dsh-image-integrity",
@@ -1193,8 +1193,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-image-integrity#readme",
     "repository": "git+https://github.com/PerryLink/dsh-image-integrity.git",
-    "latest": "0.1.2",
-    "updatedAt": "2026-11-08T13:40:18.911Z"
+    "latest": "0.1.3",
+    "updatedAt": "2026-11-20T08:50:30.042Z"
   },
   {
     "name": "dsh-irb",
@@ -1202,8 +1202,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-irb#readme",
     "repository": "git+https://github.com/PerryLink/dsh-irb.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:20:22.959Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:52:29.298Z"
   },
   {
     "name": "dsh-lit-watch",
@@ -1211,8 +1211,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-lit-watch#readme",
     "repository": "git+https://github.com/PerryLink/dsh-lit-watch.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:19:40.569Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:49:30.709Z"
   },
   {
     "name": "dsh-grant-cn",
@@ -1220,8 +1220,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-grant-cn#readme",
     "repository": "git+https://github.com/PerryLink/dsh-grant-cn.git",
-    "latest": "0.1.2",
-    "updatedAt": "2026-11-08T13:58:52.739Z"
+    "latest": "0.1.3",
+    "updatedAt": "2026-11-20T08:48:36.943Z"
   },
   {
     "name": "dsh-manuscript-check",
@@ -1229,8 +1229,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-manuscript-check#readme",
     "repository": "git+https://github.com/PerryLink/dsh-manuscript-check.git",
-    "latest": "0.1.2",
-    "updatedAt": "2026-11-08T13:58:12.370Z"
+    "latest": "0.1.3",
+    "updatedAt": "2026-11-20T08:49:49.171Z"
   },
   {
     "name": "dsh-notebook-capture",
@@ -1238,8 +1238,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-notebook-capture#readme",
     "repository": "git+https://github.com/PerryLink/dsh-notebook-capture.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:21:13.735Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:48:46.231Z"
   },
   {
     "name": "dsh-meta-analysis",
@@ -1247,8 +1247,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-meta-analysis#readme",
     "repository": "git+https://github.com/PerryLink/dsh-meta-analysis.git",
-    "latest": "0.1.2",
-    "updatedAt": "2026-11-08T13:41:49.907Z"
+    "latest": "0.1.3",
+    "updatedAt": "2026-11-20T08:50:03.876Z"
   },
   {
     "name": "dsh-response-letter",
@@ -1256,8 +1256,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-response-letter#readme",
     "repository": "git+https://github.com/PerryLink/dsh-response-letter.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:19:17.964Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:50:14.223Z"
   },
   {
     "name": "dsh-retraction-watch",
@@ -1265,8 +1265,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-retraction-watch#readme",
     "repository": "git+https://github.com/PerryLink/dsh-retraction-watch.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:19:26.036Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:48:54.421Z"
   },
   {
     "name": "dsh-repro-audit",
@@ -1274,8 +1274,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-repro-audit#readme",
     "repository": "git+https://github.com/PerryLink/dsh-repro-audit.git",
-    "latest": "0.1.3",
-    "updatedAt": "2026-11-08T13:59:50.701Z"
+    "latest": "0.1.4",
+    "updatedAt": "2026-11-20T08:49:12.905Z"
   },
   {
     "name": "dsh-source-cnki",
@@ -1283,8 +1283,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-source-cnki#readme",
     "repository": "git+https://github.com/PerryLink/dsh-source-cnki.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:19:29.790Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:52:57.712Z"
   },
   {
     "name": "dsh-sr-ledger",
@@ -1292,8 +1292,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-sr-ledger#readme",
     "repository": "git+https://github.com/PerryLink/dsh-sr-ledger.git",
-    "latest": "0.2.0",
-    "updatedAt": "2026-11-10T12:44:32.226Z"
+    "latest": "0.2.1",
+    "updatedAt": "2026-11-20T08:50:17.398Z"
   },
   {
     "name": "dsh-statcheck",
@@ -1301,8 +1301,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-statcheck#readme",
     "repository": "git+https://github.com/PerryLink/dsh-statcheck.git",
-    "latest": "0.1.1",
-    "updatedAt": "2026-11-08T13:17:41.591Z"
+    "latest": "0.1.2",
+    "updatedAt": "2026-11-20T08:50:29.623Z"
   },
   {
     "name": "@perrylink/dsh-research-core",
@@ -1328,8 +1328,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-lit-harvest#readme",
     "repository": "git+https://github.com/PerryLink/dsh-lit-harvest.git",
-    "latest": "0.1.0",
-    "updatedAt": "2026-11-10T12:42:14.366Z"
+    "latest": "0.1.1",
+    "updatedAt": "2026-11-20T08:49:02.908Z"
   },
   {
     "name": "dsh-zotero-bridge",
@@ -1337,8 +1337,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-zotero-bridge#readme",
     "repository": "git+https://github.com/PerryLink/dsh-zotero-bridge.git",
-    "latest": "0.1.0",
-    "updatedAt": "2026-11-10T12:43:52.204Z"
+    "latest": "0.1.1",
+    "updatedAt": "2026-11-20T08:49:07.738Z"
   },
   {
     "name": "dsh-rep-mcp",
@@ -1355,8 +1355,8 @@
     "license": "Apache-2.0",
     "homepage": "https://github.com/PerryLink/dsh-research-skills#readme",
     "repository": "git+https://github.com/PerryLink/dsh-research-skills.git",
-    "latest": "0.1.0",
-    "updatedAt": "2026-11-10T12:44:05.265Z"
+    "latest": "0.1.1",
+    "updatedAt": "2026-11-20T08:50:22.942Z"
   },
   {
     "name": "@perrylink/dsh-research-suite",
